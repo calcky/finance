@@ -1,0 +1,24 @@
+.gdp-interactive { margin: 1rem 0 1.5rem; padding: 16px; border: 1px solid #dce3eb; border-radius: 8px; background: #fff; color: #203047; min-width: 0; }
+.gdp-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.gdp-tools label { margin: 0 8px 0 0; font-weight: 600; }
+.gdp-tools select, .gdp-tools button { color: #203047; background: #fff; font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid #aab9ca; border-radius: 4px; cursor: pointer; }
+.gdp-tools button[aria-pressed="true"] { background: #e9f2ff; border-color: #3675b5; color: #164f87; }
+.gdp-tools :focus-visible, .gdp-row-link:focus-visible { outline: 3px solid #3675b5; outline-offset: 2px; }
+.gdp-canvas { width: 100%; height: 370px; -webkit-tap-highlight-color: transparent; }
+.gdp-interactive .gdp-readout { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 4px 0 8px; padding: 10px 12px; background: #eef5fc; font-size: 16px; font-weight: 600; border-radius: 4px; }
+.gdp-readout span { white-space: nowrap; }
+.gdp-interactive .gdp-help { margin: 12px 0 6px; color: #53657a; font-size: 13px; }
+.gdp-interactive .gdp-source { margin: 0; color: #53657a; font-size: 12px; overflow-wrap: anywhere; }
+.gdp-static-fallback { display: none; }
+.wy-table-responsive table tbody tr.gdp-selected-row td { background: #fff1c7 !important; border-top: 2px solid #c38b16; border-bottom: 2px solid #c38b16; }
+tr[id^="gdp-year-"] { scroll-margin-top: 70px; }
+@media (max-width: 600px) {
+  .gdp-interactive { padding: 10px 6px; }
+  .gdp-canvas { height: 330px; }
+  .gdp-tools label { width: 100%; }
+  .gdp-tools select, .gdp-tools button { min-height: 44px; }
+}
+@media print {
+  .gdp-interactive { display: none; }
+  .gdp-static-fallback { display: block; }
+}

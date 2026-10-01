@@ -104,3 +104,27 @@ git diff --check
 只有观测或来源元数据变化才刷新快照并提交。GitHub 定时任务可能延迟；公开仓库 60 天没有活动可能自动暂停定时任务，需在 Actions 中重新启用。通过 [Actions 运行记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 判断最近一次检查是否成功，页面显示的快照时间不代表最后检查时间。参考 [GitHub schedule 文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
 
 自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
+
+### GDP 交互图
+
+文档站的四张 GDP 图使用本地保存的 Apache ECharts 5.6.0，提供悬停读数、点击固定年份、年份下拉框、时间范围滑块和近 10 / 20 年快捷按钮。选中年份后可跳到高亮的历年表格行；下拉框支持键盘，手机可直接点选。图下读数固定保留，移动鼠标只改变悬停提示。
+
+`docs/conf.py` 仅为 GDP 页面嵌入 `data/gdp.csv` 和元数据的快照，并加载 `docs/_static/gdp-charts.js`、样式和本地图表库。浏览器不调用世界银行 API、不依赖 CDN；Read the Docs 不需安装 Node.js。数据更新后重新构建，交互图、静态图和表格使用同一批数值，空值保持缺失而不是零。
+
+Markdown 中的 SVG 继续供 GitHub 阅读与打印使用。只有交互图初始化成功才隐藏静态图；禁用 JavaScript、图表库加载失败时仍可看静态图和明细表。第三方库的许可、NOTICE 和版本来源保存在 `docs/_static/vendor/`。
+
+浏览器回归测试使用 Node.js 20 或更高版本，在文档构建后执行：
+
+```sh
+npm ci --prefix tests/browser
+# 安装浏览器；Linux 如需系统依赖可增加 --with-deps
+cd tests/browser
+npx playwright install chromium
+cd ../..
+# 一个终端启动本地文档服务
+.venv/bin/python -m http.server 8767 --bind 127.0.0.1 --directory _build/html
+# 另一个终端在仓库根目录运行
+node tests/browser/gdp.cjs
+```
+
+测试覆盖四张图、真实鼠标悬停与点击、固定读数、精确年份、缩放、键盘、缺失值、负增长、表格定位、手机触摸、打印和静态回退。同步工作流在这组测试通过后才提交数据更新。可以用 `GDP_TEST_URL` 指定另一个本地测试页面。

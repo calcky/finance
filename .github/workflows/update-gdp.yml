@@ -12,6 +12,9 @@ on:
       - 'scripts/render_learning_charts.py'
       - 'scripts/requirements-plots.txt'
       - 'tests/test_sync_gdp.py'
+      - 'docs/conf.py'
+      - 'docs/_static/**'
+      - 'tests/browser/**'
 
 permissions:
   contents: read
@@ -50,6 +53,22 @@ jobs:
         run: |
           python -m sphinx -n -W --keep-going -b html docs _build/html
           git diff --check
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: tests/browser/package-lock.json
+      - name: Install browser test dependencies
+        working-directory: tests/browser
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Verify interactive charts
+        run: |
+          python -m http.server 8767 --bind 127.0.0.1 --directory _build/html > "$RUNNER_TEMP/gdp-http.log" 2>&1 &
+          gdp_server_pid=$!
+          trap 'kill "$gdp_server_pid"' EXIT
+          node tests/browser/gdp.cjs
       - name: Publish only validated changes
         run: |
           git add data/gdp.csv data/gdp.metadata.json docs/data/gdp.md docs/images/data/gdp-*.svg

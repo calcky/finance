@@ -12,6 +12,8 @@
 
 [GDP 数据专题](docs/data/gdp.md)提供中国历年经济规模、实际增速、人均 GDP 和中美对照，另配四张真实数据趋势图、年度表格与 CSV 下载。GitHub Actions 每日检查世界银行 WDI 新值及历史修订；各指标按来源发布进度更新，不是实时行情。[查看同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)。
 
+文档站支持悬停读数、点击固定年份、缩放时间范围，并跳转到对应年度的完整指标；GitHub 阅读保留静态图和历年表格。
+
 可从[文档首页](docs/index.md)开始阅读。网站使用 **Sphinx + MyST + Read the Docs 主题**构建，Markdown 同时支持 GitHub 阅读。
 
 ## 阅读路线
