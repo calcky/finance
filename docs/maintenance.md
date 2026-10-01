@@ -11,11 +11,12 @@
 | `docs/foundations/` | 经济地图、收益与风险、个人财务 |
 | `docs/investing/` | 债券、股票、基金与投资组合 |
 | `docs/images/` | 原创图解的 Draw.io 图源、SVG，以及公式计算图 |
-| `scripts/` | 数值图的生成脚本与独立绘图依赖 |
+| `scripts/` | 数值图生成、GDP 数据同步与独立绘图依赖 |
 | `docs/indicators/` | 指标定义、单位、频率与来源 |
 | `docs/data/` | 数据使用说明与更新规范 |
 | `data/` | 可公开再分发的小型数据集及说明 |
 | `.readthedocs.yaml` | Read the Docs 构建环境和入口 |
+| `.github/workflows/update-gdp.yml` | GDP 定时检查、校验和快照提交 |
 | `_build/` | 本地生成的网页，已加入 Git 忽略规则 |
 
 ## 本地预览
@@ -82,4 +83,24 @@ python3 -m venv .venv
 
 修改后先本地构建，再运行 `git diff --check` 并检查变更。GitHub 集成正常时，推送到 `main` 会触发 Read the Docs 重建；具体构建状态以平台日志为准。
 
-目前没有自动采集任务或更新时效承诺。后续选定数据源、授权方式和更新频率后，再增加相应采集脚本及调度，数据校验失败时不发布为新读数。
+### GDP 同步与离线重建
+
+```sh
+# Debian / Ubuntu 安装与 CI 一致的中文字体
+sudo apt-get install fonts-droid-fallback
+.venv/bin/python -m pip install -r scripts/requirements-plots.txt
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python scripts/sync_gdp.py
+.venv/bin/python -m sphinx -n -W --keep-going -b html docs _build/html
+git diff --check
+```
+
+`sync_gdp.py` 每次读取完整年度历史及指标定义，检查数据集、国家、指标、年份、分页完整性、重复键、数值范围与历史覆盖。缺失值保持为空；实际增速使用官方独立序列。全部抓取、校验、渲染成功后才替换本地文件。GitHub 工作流在严格文档构建也通过后才提交，失败时不推送新数据。
+
+运行 `scripts/sync_gdp.py --render-only` 可从已有 CSV 和元数据离线重建页面与四张图，不访问网络。`docs/data/gdp.md` 是自动生成文件，改解读文案时编辑脚本中的页面模板，再离线重建。CSV 原始单位与显示单位分开；生成图使用固定中文字体和浅色背景。
+
+工作流每天 UTC 22:17（次日北京时间 06:17）检查；支持 `workflow_dispatch` 手动运行，同步代码变更推送到 `main` 时也会触发。它使用 GitHub 自带 `GITHUB_TOKEN`，不需世界银行 API key，仅同步 job 获得 `contents: write`。分支保护或组织权限若阻止 bot 提交，任务会失败，不能把工作流文件存在等同于同步成功。
+
+只有观测或来源元数据变化才刷新快照并提交。GitHub 定时任务可能延迟；公开仓库 60 天没有活动可能自动暂停定时任务，需在 Actions 中重新启用。通过 [Actions 运行记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 判断最近一次检查是否成功，页面显示的快照时间不代表最后检查时间。参考 [GitHub schedule 文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
+
+自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。

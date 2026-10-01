@@ -6,7 +6,7 @@
 
 ## 从这里开始
 
-推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。全书 19 张图分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期。
+推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。教学部分 19 张图分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期。
 
 | 阶段 | 学习内容 | 要回答的问题 |
 |---|---|---|
@@ -20,7 +20,8 @@
 
 - [术语速查](glossary.md)：不必先背缩写，遇到再查。
 - [指标目录](indicators/index.md)：定义、单位、频率和数据来源。
-- [数据与更新](data/index.md)：真实数据如何记录与修订。目前尚未接入真实数据集或自动采集。
+- [GDP 数据专题](data/gdp.md)：中国历年 GDP、实际增速、人均 GDP 与中美对照，提供四张趋势图和 CSV 下载。
+- [数据与更新](data/index.md)：每日检查来源新值与历史修订，区分统计期间、来源库更新和快照获取时间。
 - [维护与发布](maintenance.md)：贡献内容、本地构建和 Read the Docs 发布方法。
 
 ## 阅读时先分清
@@ -91,12 +92,19 @@ data/reading-exercise
 
 ```{toctree}
 :hidden:
+:caption: 六、宏观数据专题
+:maxdepth: 2
+
+data/index
+```
+
+```{toctree}
+:hidden:
 :caption: 参考资料
 :maxdepth: 2
 
 glossary
 indicators/index
-data/index
 ```
 
 ```{toctree}
