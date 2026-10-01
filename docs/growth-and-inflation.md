@@ -1,6 +1,6 @@
 # 增长与通胀：GDP、CPI、PPI、PMI
 
-[返回首页](../README.md) · 前一篇：[货币与信用](money-and-credit.md) · 下一篇：[利率](interest-rates.md)
+[返回首页](index.md) · 前一篇：[货币与信用](money-and-credit.md) · 下一篇：[利率](interest-rates.md)
 
 增长关注生产和需求有多强，通胀关注价格如何变化。要判断经济状态，通常需要把二者一起看。
 

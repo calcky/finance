@@ -1,6 +1,16 @@
-# 金融与理财基础
+# finance
 
-用中文理解宏观指标、货币政策、汇率和黄金，学会读财经新闻里的数字及其条件。
+金融知识、金融数据与指标的中文资料库。解释指标背后的原理与口径，逐步积累可追溯的数据，支持持续补充与定期更新。
+
+## 内容定位
+
+- **知识**：货币、信用、经济增长、利率、汇率、黄金等基础原理。
+- **指标**：定义、单位、频率、发布机构、解读方法与可比性限制。
+- **数据**：记录来源、统计期间、发布时间和获取时间，保留修订说明。
+
+目前已提供六篇基础知识、[指标目录](docs/indicators/index.md)和[数据维护规范](docs/data/index.md)。尚未接入真实数据集或自动采集任务；正文中的数字例子均为教学假设。
+
+可从[文档首页](docs/index.md)开始阅读。网站使用 **Sphinx + MyST + Read the Docs 主题**构建，Markdown 同时支持 GitHub 阅读。
 
 ## 阅读路线
 
@@ -38,4 +48,22 @@
 
 资料整理日期：2026-10-01。每篇列出官方或专业机构资料入口；查询历史数据时，应使用发布机构说明的可比口径。涉及制度调整的内容需定期复核。
 
-本项目采用普通 Markdown 和相对链接，可直接在 GitHub 或本地阅读。
+## 本地构建
+
+需要 Python 3.12。在仓库根目录执行：
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r docs/requirements.txt
+.venv/bin/python -m sphinx -n -W --keep-going -b html docs _build/html
+```
+
+打开 `_build/html/index.html`，或运行 `.venv/bin/python -m http.server 8000 --directory _build/html` 后访问 `http://localhost:8000`。
+
+## Read the Docs 发布
+
+仓库提供 `.readthedocs.yaml`。在 [Read the Docs](https://app.readthedocs.org/) 中连接 GitHub 并导入 `calcky/finance`，选择 `main` 分支构建。项目名称和最终网址以平台实际分配为准；仓库配置本身不会创建托管项目。
+
+接通 GitHub 集成后，推送会触发文档重建。数据采集与文档构建是两个独立步骤，Read the Docs 不负责定时采集金融数据。
+
+具体流程见[维护与发布](docs/maintenance.md)。

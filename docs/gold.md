@@ -1,6 +1,6 @@
 # 黄金：价格由什么影响
 
-[返回首页](../README.md) · 前一篇：[汇率](exchange-rates.md) · 下一篇：[综合阅读](reading-macro-data.md)
+[返回首页](index.md) · 前一篇：[汇率](exchange-rates.md) · 下一篇：[综合阅读](reading-macro-data.md)
 
 黄金既是商品，也被用于储备、投资和风险分散。它本身不支付利息或股息，回报主要来自价格变化，并受持有方式和成本影响。
 

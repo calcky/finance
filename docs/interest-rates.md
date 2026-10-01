@@ -1,6 +1,6 @@
 # 利率与货币政策：加息、降息、降准
 
-[返回首页](../README.md) · 前一篇：[增长与通胀](growth-and-inflation.md) · 下一篇：[汇率](exchange-rates.md)
+[返回首页](index.md) · 前一篇：[增长与通胀](growth-and-inflation.md) · 下一篇：[汇率](exchange-rates.md)
 
 利率可以理解为使用资金的价格，但不同期限、币种和信用风险的资金，有不同价格。“央行降息”必须先说明降的是哪一种利率。
 
