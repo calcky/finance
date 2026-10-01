@@ -4,7 +4,7 @@ const assert = require("node:assert/strict");
 const url = process.env.GDP_TEST_URL || "http://127.0.0.1:8767/data/gdp.html";
 
 (async () => {
-  const browser = await chromium.launch({headless: true});
+  const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
   try {
     const page = await browser.newPage({viewport: {width: 1440, height: 1050}});
     const errors = [];

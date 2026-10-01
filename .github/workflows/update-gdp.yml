@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   group: update-gdp
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 
 jobs:
   sync:
@@ -62,8 +62,10 @@ jobs:
         working-directory: tests/browser
         run: |
           npm ci
-          npx playwright install --with-deps chromium
+          google-chrome --version
       - name: Verify interactive charts
+        env:
+          GDP_BROWSER_CHANNEL: chrome
         run: |
           python -m http.server 8767 --bind 127.0.0.1 --directory _build/html > "$RUNNER_TEMP/gdp-http.log" 2>&1 &
           gdp_server_pid=$!
