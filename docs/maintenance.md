@@ -10,7 +10,8 @@
 | `docs/` | 文档首页、学习路线、宏观与跨市场章节、网站配置 |
 | `docs/foundations/` | 经济地图、收益与风险、个人财务 |
 | `docs/investing/` | 债券、股票、基金与投资组合 |
-| `docs/images/` | 原创图解的 Draw.io 图源与 SVG 预览 |
+| `docs/images/` | 原创图解的 Draw.io 图源、SVG，以及公式计算图 |
+| `scripts/` | 数值图的生成脚本与独立绘图依赖 |
 | `docs/indicators/` | 指标定义、单位、频率与来源 |
 | `docs/data/` | 数据使用说明与更新规范 |
 | `data/` | 可公开再分发的小型数据集及说明 |
@@ -63,6 +64,17 @@ python3 -m venv .venv
 图中文字优先使用 Draw.io 普通文本（`html=0;whiteSpace=nowrap`），通过显式换行组织内容，导出为原生 SVG 文本，避免依赖 `foreignObject` 富文本及其可能截断的回退标签。浅色图使用白色画布底板，导出后检查文字与背景，不能仅凭导出命令成功判断兼容性。
 
 修改图源后重新导出 SVG；运行图结构校验并查看 PNG 预览，检查文字、连接和单位。数值曲线使用相应绘图工具生成，注明教学假设或真实数据来源，不把装饰性示意曲线当成历史行情。
+
+### 重建公式计算图
+
+五张教学数值图由 [render_learning_charts.py](https://github.com/calcky/finance/blob/main/scripts/render_learning_charts.py) 根据正文公式生成，不读取网络或真实行情。依赖与文档构建分开维护，Read the Docs 直接使用入库后的 SVG。
+
+```sh
+.venv/bin/python -m pip install -r scripts/requirements-plots.txt
+.venv/bin/python scripts/render_learning_charts.py --preview-dir /tmp/finance-learning-previews
+```
+
+生成图写入 `docs/images/learning/`。本地需要中文字体，脚本会查找常见字体；未找到时可传 `--font /path/to/font.ttf`。SVG 将数值图的字形转成路径以减少阅读端字体依赖，正文的替代文本保留关键结论和数字。重新生成后检查 PNG，核对图与例子的单位、比例和计算结果，再重新构建文档。
 
 ### 内容与数据更新
 

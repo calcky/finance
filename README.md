@@ -8,7 +8,7 @@
 - **指标**：定义、单位、频率、发布机构、解读方法与可比性限制。
 - **数据**：记录来源、统计期间、发布时间和获取时间，保留修订说明。
 
-目前提供 15 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据维护规范](docs/data/index.md)。每章包含具体例子、自测和参考答案；[银行与货币创造](docs/banking-and-money-creation.md)配有五张可编辑图解。尚未接入真实数据集或自动采集任务；正文中的数字例子均为教学假设。
+目前提供 15 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据维护规范](docs/data/index.md)。每章包含图示、具体例子、自测和参考答案，共有 19 张图：14 张可编辑原理图与 5 张公式计算图。[银行与货币创造](docs/banking-and-money-creation.md)用五张图追踪一笔贷款。尚未接入真实数据集或自动采集任务；正文中的数字例子均为教学假设。
 
 可从[文档首页](docs/index.md)开始阅读。网站使用 **Sphinx + MyST + Read the Docs 主题**构建，Markdown 同时支持 GitHub 阅读。
 

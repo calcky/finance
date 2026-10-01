@@ -6,7 +6,7 @@
 
 ## 从这里开始
 
-推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含例子、自测与参考答案。[银行与货币创造](banking-and-money-creation.md)用五张图解释一笔贷款的生命周期。
+推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。全书 19 张图分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期。
 
 | 阶段 | 学习内容 | 要回答的问题 |
 |---|---|---|
