@@ -22,6 +22,10 @@
 | 指数 / 指数基金 / ETF | 一套衡量规则 / 跟踪指数的基金 / 交易所交易基金 | [基金](investing/funds.md) |
 | 分散 / 再平衡 | 降低集中暴露 / 将权重调回目标 | [投资组合](investing/portfolio.md) |
 | 杠杆 | 使用借款等方式放大资产敞口，也可能放大亏损 | [投资组合](investing/portfolio.md) |
+| 贷款创造存款 | 贷款实际入账时，银行贷款资产与客户存款负债同时增加 | [银行与货币创造](banking-and-money-creation.md) |
+| 央行准备金 | 商业银行在央行的账户余额，可用于银行间结算等用途 | [银行与货币创造](banking-and-money-creation.md) |
+| 银行资本 | 吸收损失的资本基础，监管资本有特定计量规则；不等于准备金 | [银行与货币创造](banking-and-money-creation.md) |
+| 货币乘数 | 常用于描述广义货币与基础货币的比值；简化模型不等于现实的机械因果关系 | [银行与货币创造](banking-and-money-creation.md) |
 | M0 / M1 / M2 | 按统计口径划分的不同货币范围，国家和版本需明确 | [货币与信用](money-and-credit.md) |
 | 社融 | 实体经济从金融体系获得资金的统计，含增量与存量 | [货币与信用](money-and-credit.md) |
 | GDP | 一定时期的国内生产最终成果 | [增长与通胀](growth-and-inflation.md) |

@@ -1,4 +1,4 @@
-# 10. 利率与货币政策：加息、降息、降准
+# 11. 利率与货币政策：加息、降息、降准
 
 [学习路线](learning-guide.md) · 前一章：[增长与通胀](growth-and-inflation.md) · 下一章：[汇率](exchange-rates.md)
 

@@ -1,4 +1,4 @@
-# 12. 黄金：价格由什么影响
+# 13. 黄金：价格由什么影响
 
 [学习路线](learning-guide.md) · 前一章：[汇率](exchange-rates.md) · 下一章：[综合阅读](reading-macro-data.md)
 

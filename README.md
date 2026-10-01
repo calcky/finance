@@ -8,7 +8,7 @@
 - **指标**：定义、单位、频率、发布机构、解读方法与可比性限制。
 - **数据**：记录来源、统计期间、发布时间和获取时间，保留修订说明。
 
-目前提供 14 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据维护规范](docs/data/index.md)。每章包含具体例子、自测和参考答案。尚未接入真实数据集或自动采集任务；正文中的数字例子均为教学假设。
+目前提供 15 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据维护规范](docs/data/index.md)。每章包含具体例子、自测和参考答案；[银行与货币创造](docs/banking-and-money-creation.md)配有五张可编辑图解。尚未接入真实数据集或自动采集任务；正文中的数字例子均为教学假设。
 
 可从[文档首页](docs/index.md)开始阅读。网站使用 **Sphinx + MyST + Read the Docs 主题**构建，Markdown 同时支持 GitHub 阅读。
 
@@ -18,7 +18,7 @@
 |---|---|---|
 | 1 | [基本概念与个人财务](docs/foundations/economic-map.md) | 收入不等于财富；收益、购买力与风险怎样衡量？ |
 | 2 | [金融产品与投资](docs/investing/bonds.md) | 存款、债券、股票、基金分别是什么，如何看组合风险？ |
-| 3 | [宏观经济与政策](docs/money-and-credit.md) | M1、M2、社融、GDP、通胀与降息怎样联系？ |
+| 3 | [宏观经济与政策](docs/banking-and-money-creation.md) | 贷款怎样创造存款，M1、M2、社融、GDP 与政策怎样联系？ |
 | 4 | [汇率与黄金](docs/exchange-rates.md) | 美元、人民币和黄金怎样影响计价与收益？ |
 | 5 | [数据阅读实践](docs/reading-macro-data.md) | 如何核对口径、计算变化，区分事实与推测？ |
 

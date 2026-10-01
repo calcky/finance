@@ -6,13 +6,13 @@
 
 ## 从这里开始
 
-推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 14 个学习单元，每章包含例子、自测与参考答案。
+推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含例子、自测与参考答案。[银行与货币创造](banking-and-money-creation.md)用五张图解释一笔贷款的生命周期。
 
 | 阶段 | 学习内容 | 要回答的问题 |
 |---|---|---|
 | 1. 建立基础 | [经济与金融](foundations/economic-map.md)、[收益与风险](foundations/money-time-risk.md)、[个人财务](foundations/household-finance.md) | 钱从哪里来，财富如何衡量，风险如何影响生活？ |
 | 2. 认识产品 | [存款与债券](investing/bonds.md)、[股票](investing/stocks.md)、[基金](investing/funds.md)、[投资组合](investing/portfolio.md) | 买到什么权利，收益从哪里来，可能怎样亏损？ |
-| 3. 看懂宏观 | [货币与信用](money-and-credit.md)、[增长与通胀](growth-and-inflation.md)、[利率](interest-rates.md) | M2、GDP 和降息，分别在描述什么？ |
+| 3. 看懂宏观 | [银行与货币创造](banking-and-money-creation.md)、[货币与信用](money-and-credit.md)、[增长与通胀](growth-and-inflation.md)、[利率](interest-rates.md) | 银行怎样创造存款，M2、GDP 和降息分别描述什么？ |
 | 4. 连接市场 | [汇率](exchange-rates.md)、[黄金](gold.md) | 美元、人民币和黄金有什么联系，又为何经常不同步？ |
 | 5. 读懂数据 | [综合阅读](reading-macro-data.md)、[数据练习](data/reading-exercise.md) | 哪些是事实，哪些只是解释，还有什么证据缺失？ |
 
@@ -65,6 +65,7 @@ investing/portfolio
 :caption: 三、宏观经济与政策
 :maxdepth: 1
 
+banking-and-money-creation
 money-and-credit
 growth-and-inflation
 interest-rates

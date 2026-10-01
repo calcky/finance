@@ -1,4 +1,4 @@
-# 13. 怎样综合阅读宏观数据
+# 14. 怎样综合阅读宏观数据
 
 [学习路线](learning-guide.md) · 前一章：[黄金](gold.md) · 下一章：[数据阅读练习](data/reading-exercise.md)
 

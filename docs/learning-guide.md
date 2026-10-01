@@ -10,11 +10,11 @@
 |---|---|---|
 | 1. 建立基本概念 | [经济与金融的地图](foundations/economic-map.md) → [收益、复利与风险](foundations/money-time-risk.md) → [个人财务底座](foundations/household-finance.md) | 分清收入与财富，算收益，判断钱何时要用 |
 | 2. 认识产品与投资 | [存款与债券](investing/bonds.md) → [股票](investing/stocks.md) → [基金与 ETF](investing/funds.md) → [风险与投资组合](investing/portfolio.md) | 解释收益从哪里来、谁承担损失、产品里实际装了什么 |
-| 3. 看懂宏观经济 | [货币与信用](money-and-credit.md) → [增长与通胀](growth-and-inflation.md) → [利率与政策](interest-rates.md) | 把 M1、M2、社融、GDP 和加息降息放进同一框架 |
+| 3. 看懂宏观经济 | [银行与货币创造](banking-and-money-creation.md) → [货币与信用](money-and-credit.md) → [增长与通胀](growth-and-inflation.md) → [利率与政策](interest-rates.md) | 先用五张图看懂贷款、存款与结算，再把 M1、M2、社融、GDP 和政策放进同一框架 |
 | 4. 理解跨市场联系 | [汇率与美元指数](exchange-rates.md) → [黄金](gold.md) | 区分美元收益与人民币收益，理解黄金的驱动因素 |
 | 5. 用数据检验解释 | [综合阅读宏观数据](reading-macro-data.md) → [一次数据阅读练习](data/reading-exercise.md) | 核对口径、算同比，区分证据、推测与预测 |
 
-一共 14 个学习单元。可以分多次完成，不必按固定天数打卡。[术语速查](glossary.md)用于回查，[指标目录](indicators/index.md)用于找定义和来源。
+一共 15 个学习单元。可以分多次完成，不必按固定天数打卡。[术语速查](glossary.md)用于回查，[指标目录](indicators/index.md)用于找定义和来源。
 
 ## 为什么不从 M2 或选基金开始
 
@@ -25,7 +25,7 @@
 ## 每章怎样读
 
 1. 先看章首的问题，联系一个熟悉的生活场景。
-2. 用纸笔或计算器复算例子，不只记结论。
+2. 先沿图中的箭头或账目变化复述过程，再用纸笔或计算器复算例子。
 3. 阅读误区，尝试找出结论成立的条件。
 4. 先独立回答自测，再看参考答案。
 5. 用一句话记录“我现在能解释什么，还有什么不知道”。

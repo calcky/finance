@@ -1,4 +1,4 @@
-# 11. 汇率、美元指数与人民币
+# 12. 汇率、美元指数与人民币
 
 [学习路线](learning-guide.md) · 前一章：[利率](interest-rates.md) · 下一章：[黄金](gold.md)
 

@@ -1,4 +1,4 @@
-# 9. 增长与通胀：GDP、CPI、PPI、PMI
+# 10. 增长与通胀：GDP、CPI、PPI、PMI
 
 [学习路线](learning-guide.md) · 前一章：[货币与信用](money-and-credit.md) · 下一章：[利率](interest-rates.md)
 

@@ -1,6 +1,6 @@
 # 7. 风险与投资组合：为什么分散，而不是押一个答案
 
-[学习路线](../learning-guide.md) · 前一章：[基金与 ETF](funds.md) · 下一章：[货币与信用](../money-and-credit.md)
+[学习路线](../learning-guide.md) · 前一章：[基金与 ETF](funds.md) · 下一章：[银行与货币创造](../banking-and-money-creation.md)
 
 认识产品之后，需要把它们放回同一个家庭目标中思考。资产配置是决定不同用途和风险资产各占多少，而不是寻找一个永远上涨的产品。
 
