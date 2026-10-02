@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "title": "物价与通胀",
+  "series": {
+    "cpi_yoy": {
+      "label": "CPI 同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "core_cpi_yoy": {
+      "label": "核心 CPI 同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "cpi_mom": {
+      "label": "CPI 环比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "ppi_yoy": {
+      "label": "PPI 同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "food_cpi_yoy": {
+      "label": "食品价格同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "nonfood_cpi_yoy": {
+      "label": "非食品价格同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    },
+    "services_cpi_yoy": {
+      "label": "服务价格同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
+    }
+  },
+  "acquisition": {
+    "cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+        "indicatorIds": [
+          "53180dfb9c14411ba4b762307c85920c",
+          "71be3d43d2fb44188199840272463ae0",
+          "f91a869a255949ccba0cd73cfa871340",
+          "c87191b714554e9eba8c2c062abfabb4"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "53180dfb9c14411ba4b762307c85920c",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "core_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+        "indicatorIds": [
+          "53180dfb9c14411ba4b762307c85920c",
+          "71be3d43d2fb44188199840272463ae0",
+          "f91a869a255949ccba0cd73cfa871340",
+          "c87191b714554e9eba8c2c062abfabb4"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "71be3d43d2fb44188199840272463ae0",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "cpi_mom": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "b4fad2cf9e0e4af7815b7e9e2e95c5c7",
+        "indicatorIds": [
+          "f3904a1f5a384d54a3944ec6e2df3d1c"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "f3904a1f5a384d54a3944ec6e2df3d1c",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "ppi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "60e8b361f11c4a878c652a6487a25561",
+        "indicatorIds": [
+          "150633e52b9a470a9a9fd1b296dd6c5b"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "150633e52b9a470a9a9fd1b296dd6c5b",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "food_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "deccae3d6ecb4967809ab21a3c679c7f",
+        "indicatorIds": [
+          "09373c3f8fdd428fa1b289925da6d590"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "09373c3f8fdd428fa1b289925da6d590",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "nonfood_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+        "indicatorIds": [
+          "53180dfb9c14411ba4b762307c85920c",
+          "71be3d43d2fb44188199840272463ae0",
+          "f91a869a255949ccba0cd73cfa871340",
+          "c87191b714554e9eba8c2c062abfabb4"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "f91a869a255949ccba0cd73cfa871340",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "services_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+        "indicatorIds": [
+          "53180dfb9c14411ba4b762307c85920c",
+          "71be3d43d2fb44188199840272463ae0",
+          "f91a869a255949ccba0cd73cfa871340",
+          "c87191b714554e9eba8c2c062abfabb4"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202601MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "c87191b714554e9eba8c2c062abfabb4",
+      "conversion": "index100",
+      "published_at": "接口未提供逐条发布日期"
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:30+00:00"
+}

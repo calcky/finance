@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "title": "景气、生产、消费与投资",
+  "series": {
+    "pmi_manufacturing": {
+      "label": "制造业 PMI",
+      "unit": "指数点",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "扩散指数，50 为临界点，不是经济增速百分比。"
+    },
+    "pmi_nonmanufacturing": {
+      "label": "非制造业商务活动指数",
+      "unit": "指数点",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "扩散指数，50 为临界点，不是经济增速百分比。"
+    },
+    "industry_yoy": {
+      "label": "工业增加值实际同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "规模以上工业增加值，剔除价格影响；1—2 月合并发布不拆成单月。"
+    },
+    "retail_yoy": {
+      "label": "社零名义同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "社会消费品零售总额，名义增速；1—2 月合并发布不拆成单月。"
+    },
+    "investment_ytd_yoy": {
+      "label": "固定资产投资累计同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "不含农户，年初至当月累计名义同比；不是当月增速。"
+    }
+  },
+  "acquisition": {
+    "pmi_manufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "93ffbb1aa85740d3aa2618371508b606",
+        "indicatorIds": [
+          "a09aa989bdcf4cffa2021795722eb916"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "a09aa989bdcf4cffa2021795722eb916",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "pmi_nonmanufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "7a64a6e25aec4a8e9dde044ecd9e2cce",
+        "indicatorIds": [
+          "88a150208f6e4a1db8babe41ae700f66"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "88a150208f6e4a1db8babe41ae700f66",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "industry_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "3f2e14f0542348ed9fe02476eca3450b",
+        "indicatorIds": [
+          "ef1b1765960d45a29b4d7c4ca91be916"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "ef1b1765960d45a29b4d7c4ca91be916",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "retail_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "d0cb882c7f27443ab6b3ef9421901961",
+        "indicatorIds": [
+          "aaac57d54d2e465d91bc9f3ea1a8618e"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "aaac57d54d2e465d91bc9f3ea1a8618e",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "investment_ytd_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "5129067b149d4ddfbec1ffc478d35bfb",
+        "indicatorIds": [
+          "7e570cf8071c4734a7d78d9f0a70fbe1"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "7e570cf8071c4734a7d78d9f0a70fbe1",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:31+00:00"
+}

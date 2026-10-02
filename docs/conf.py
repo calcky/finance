@@ -45,3 +45,28 @@ def add_gdp_charts(app, pagename, templatename, context, doctree):
 
 def setup(app):
     app.connect("html-page-context", add_gdp_charts)
+    app.connect("html-page-context", add_macro_charts)
+
+
+def add_macro_charts(app, pagename, templatename, context, doctree):
+    import json
+    from pathlib import Path
+    import sys
+
+    root = Path(__file__).resolve().parents[1]
+    scripts = str(root / "scripts")
+    if scripts not in sys.path:
+        sys.path.insert(0, scripts)
+    from macro_catalog import TOPICS
+    from macro_render import load_topic, payload
+
+    slug = pagename.removeprefix("data/")
+    if pagename != "data/" + slug or slug not in TOPICS:
+        return
+    rows, meta = load_topic(slug, root)
+    body = "window.FINANCE_MACRO = " + json.dumps(payload(slug, rows, meta), ensure_ascii=False, allow_nan=False).replace("<", "\\u003c") + ";"
+    app.add_css_file("gdp-charts.css")
+    app.add_css_file("macro-charts.css")
+    app.add_js_file("vendor/echarts-5.6.0.min.js", priority=500, defer="defer")
+    app.add_js_file(None, body=body, priority=501)
+    app.add_js_file("macro-charts.js", priority=502, defer="defer")

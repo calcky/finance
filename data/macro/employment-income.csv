@@ -1,0 +1,63 @@
+series_id,country,period,value,unit,frequency,published_at,source_url,note
+income_nominal_ytd_yoy,CHN,2024-Q1,6.2,%,Q,,https://www.stats.gov.cn/sj/zxfb/202404/t20240416_1948580.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2024-Q2,5.4,%,Q,2024-07-15,https://www.stats.gov.cn/sj/zxfb/202407/t20240715_1955615.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2024-Q3,5.2,%,Q,2024-10-18,https://www.stats.gov.cn/sj/zxfb/202410/t20241018_1957037.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2024-Q4,5.3,%,Q,2025-01-17,https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958325.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2025-Q1,5.5,%,Q,2025-04-16,https://www.stats.gov.cn/sj/zxfb/202504/t20250416_1959322.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2025-Q2,5.3,%,Q,2025-07-15,https://www.stats.gov.cn/sj/zxfb/202507/t20250715_1960406.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2025-Q3,5.1,%,Q,2025-10-20,https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961604.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2025-Q4,5.0,%,Q,2026-01-19,https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962321.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2026-Q1,4.9,%,Q,2026-04-16,https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963323.html,季度末年内累计口径，非独立单季
+income_nominal_ytd_yoy,CHN,2026-Q2,5.2,%,Q,2026-07-15,https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2024-Q1,6.2,%,Q,,https://www.stats.gov.cn/sj/zxfb/202404/t20240416_1948580.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2024-Q2,5.3,%,Q,2024-07-15,https://www.stats.gov.cn/sj/zxfb/202407/t20240715_1955615.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2024-Q3,4.9,%,Q,2024-10-18,https://www.stats.gov.cn/sj/zxfb/202410/t20241018_1957037.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2024-Q4,5.1,%,Q,2025-01-17,https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958325.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2025-Q1,5.6,%,Q,2025-04-16,https://www.stats.gov.cn/sj/zxfb/202504/t20250416_1959322.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2025-Q2,5.4,%,Q,2025-07-15,https://www.stats.gov.cn/sj/zxfb/202507/t20250715_1960406.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2025-Q3,5.2,%,Q,2025-10-20,https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961604.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2025-Q4,5.0,%,Q,2026-01-19,https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962321.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2026-Q1,4.0,%,Q,2026-04-16,https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963323.html,季度末年内累计口径，非独立单季
+income_real_ytd_yoy,CHN,2026-Q2,4.2,%,Q,2026-07-15,https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2024-Q1,11539,元/人,Q,,https://www.stats.gov.cn/sj/zxfb/202404/t20240416_1948580.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2024-Q2,20733,元/人,Q,2024-07-15,https://www.stats.gov.cn/sj/zxfb/202407/t20240715_1955615.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2024-Q3,30941,元/人,Q,2024-10-18,https://www.stats.gov.cn/sj/zxfb/202410/t20241018_1957037.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2024-Q4,41314,元/人,Q,2025-01-17,https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958325.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2025-Q1,12179,元/人,Q,2025-04-16,https://www.stats.gov.cn/sj/zxfb/202504/t20250416_1959322.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2025-Q2,21840,元/人,Q,2025-07-15,https://www.stats.gov.cn/sj/zxfb/202507/t20250715_1960406.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2025-Q3,32509,元/人,Q,2025-10-20,https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961604.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2025-Q4,43377,元/人,Q,2026-01-19,https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962321.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2026-Q1,12782,元/人,Q,2026-04-16,https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963323.html,季度末年内累计口径，非独立单季
+income_ytd,CHN,2026-Q2,22981,元/人,Q,2026-07-15,https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html,季度末年内累计口径，非独立单季
+unemployment,CHN,2024-01,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2024-02,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3
+unemployment,CHN,2024-03,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2024-04,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2024-05,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2024-06,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2024-07,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2024-08,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3
+unemployment,CHN,2024-09,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2024-10,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2024-11,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2024-12,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2025-01,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2025-02,5.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.4
+unemployment,CHN,2025-03,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2025-04,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2025-05,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2025-06,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2025-07,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2025-08,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3
+unemployment,CHN,2025-09,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2025-10,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2025-11,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2025-12,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2026-01,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2026-02,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3
+unemployment,CHN,2026-03,5.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.4
+unemployment,CHN,2026-04,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2026-05,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1
+unemployment,CHN,2026-06,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0
+unemployment,CHN,2026-07,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2
+unemployment,CHN,2026-08,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3

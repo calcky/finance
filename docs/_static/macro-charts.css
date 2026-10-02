@@ -1,0 +1,15 @@
+.macro-table-wrap { overflow-x: auto; max-height: 32rem; }
+.macro-table-wrap table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.macro-table-wrap th, .macro-table-wrap td { padding: 8px; border: 1px solid #dce3eb; white-space: nowrap; }
+.macro-table-wrap th { background: #eef5fc; position: sticky; top: 0; }
+.macro-table-wrap tr.gdp-selected-row td { background: #fff1c7; }
+.macro-details { margin: 1rem 0 2rem; }
+.macro-details summary { cursor: pointer; padding: 12px; background: #f1f5f9; }
+.macro-interactive .gdp-readout span { white-space: normal; }
+.macro-interactive .gdp-canvas { height: 400px; }
+@media (max-width: 600px) {
+  .macro-interactive .gdp-canvas { height: 380px; }
+}
+@media print {
+  .macro-table-wrap { max-height: none; }
+}

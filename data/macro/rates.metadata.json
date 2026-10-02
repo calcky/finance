@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "title": "利率与融资成本",
+  "series": {
+    "repo_7d": {
+      "label": "7 天逆回购操作利率",
+      "unit": "%",
+      "frequency": "D",
+      "source": "中国人民银行",
+      "basis": "公开市场公告中的实际操作利率；无操作不等于零利率，不向空白日期前向填充。"
+    },
+    "lpr_1y": {
+      "label": "1 年期 LPR",
+      "unit": "%",
+      "frequency": "M",
+      "source": "中国货币网",
+      "basis": "月末观察值，不把月末日期冒充 LPR 实际报价发布日期。"
+    },
+    "lpr_5y": {
+      "label": "5 年期以上 LPR",
+      "unit": "%",
+      "frequency": "M",
+      "source": "中国货币网",
+      "basis": "月末观察值，不把月末日期冒充 LPR 实际报价发布日期。"
+    },
+    "yield_1y": {
+      "label": "1 年期国债收益率",
+      "unit": "%",
+      "frequency": "D",
+      "source": "中央国债登记结算有限责任公司",
+      "basis": "中债国债到期收益率曲线对应期限；非票面利率、非某只债券成交价。"
+    },
+    "yield_10y": {
+      "label": "10 年期国债收益率",
+      "unit": "%",
+      "frequency": "D",
+      "source": "中央国债登记结算有限责任公司",
+      "basis": "中债国债到期收益率曲线对应期限；非票面利率、非某只债券成交价。"
+    }
+  },
+  "acquisition": {
+    "repo_7d": {
+      "archive": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/",
+      "coverage": "首次取最近 3 页公告；后续滚动检查并保留已采集历史，不代表完整政策利率历史"
+    },
+    "lpr_1y": {
+      "url": "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2019-01-01",
+      "coverage": "2024 年起月内观察值，非实际发布日"
+    },
+    "lpr_5y": {
+      "url": "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2019-01-01",
+      "coverage": "2024 年起月内观察值，非实际发布日"
+    },
+    "yield_1y": {
+      "curve": "中债国债收益率曲线",
+      "coverage": "首次最近 12 个完整月及当月；滚动更新并保留已采集历史"
+    },
+    "yield_10y": {
+      "curve": "中债国债收益率曲线",
+      "coverage": "首次最近 12 个完整月及当月；滚动更新并保留已采集历史"
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:31+00:00"
+}

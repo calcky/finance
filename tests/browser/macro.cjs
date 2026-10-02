@@ -1,0 +1,104 @@
+// Build and serve docs first. Uses the same browser configuration as GDP tests.
+const {chromium} = require("playwright");
+const assert = require("node:assert/strict");
+const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
+const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
+
+(async () => {
+  const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
+  try {
+    const page = await browser.newPage({viewport: {width: 1440, height: 1100}});
+    const errors = [], remote = [];
+    page.on("pageerror", e => errors.push(e.message));
+    page.on("request", r => {if (!r.url().startsWith(base)) remote.push(r.url());});
+    for (const [slug, count] of Object.entries(topics)) {
+      await page.goto(`${base}/data/${slug}.html`);
+      await page.locator(".macro-interactive").last().waitFor();
+      assert.equal(await page.locator(".macro-interactive").count(), count);
+      const specs = await page.evaluate(() => FINANCE_MACRO.charts);
+      for (const spec of specs) {
+        const widget = page.locator(`#interactive-${spec.id}`);
+        const period = spec.periods[Math.floor(spec.periods.length / 2)];
+        await widget.locator("select").selectOption(period);
+        assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(period));
+        const pinned = await widget.locator(".gdp-readout").innerText();
+        const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 5});
+        for (const key of spec.series) {
+          const value = spec.values[key][period];
+          assert(pinned.includes(value == null ? "缺失" : format.format(value)));
+        }
+        await widget.locator(".gdp-row-link").click();
+        const row = page.locator(`#macro-${spec.id}-${period}`);
+        assert(await row.isVisible());
+        assert.match(await row.getAttribute("class"), /gdp-selected-row/);
+        assert.equal(new URL(page.url()).hash, `#macro-${spec.id}-${period}`);
+        const countWanted = spec.frequency === "M" ? 12 : spec.frequency === "Q" ? 4 : 60;
+        await widget.locator("button").nth(1).click();
+        const zoom = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().dataZoom[0]);
+        assert.equal(zoom.endValue - zoom.startValue, Math.min(countWanted, spec.periods.length) - 1);
+        await widget.getByRole("button", {name: "全部", exact: true}).click();
+        const canvas = widget.locator(".gdp-canvas");
+        await canvas.scrollIntoViewIfNeeded();
+        const hit = await canvas.evaluate((node, spec) => {
+          const chart = echarts.getInstanceByDom(node);
+          const index = Math.max(1, spec.periods.findIndex(p => spec.values[spec.series[0]][p] != null));
+          const x = chart.convertToPixel({xAxisIndex: 0}, index);
+          const y = chart.convertToPixel({yAxisIndex: 0}, spec.values[spec.series[0]][spec.periods[index]] ?? 0);
+          const rect = node.getBoundingClientRect();
+          return {x: rect.x+x, y: rect.y+y, period: spec.periods[index]};
+        }, spec);
+        await page.mouse.click(hit.x, hit.y);
+        assert.equal(await widget.getAttribute("data-selected-period"), hit.period);
+        await page.mouse.move(1, 1);
+        assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(hit.period));
+      }
+      const downloads = page.locator("a.reference.download");
+      assert.equal(await downloads.count(), 2);
+      const csvUrl = await downloads.first().getAttribute("href");
+      const response = await page.request.get(new URL(csvUrl, page.url()).href);
+      assert(response.ok());
+      assert.match(await response.text(), /^series_id,country,period,value,unit,frequency,published_at,source_url,note/);
+      const metaUrl = await downloads.nth(1).getAttribute("href");
+      const metadata = await (await page.request.get(new URL(metaUrl, page.url()).href)).json();
+      assert.equal(metadata.retrieved_at, await page.evaluate(() => FINANCE_MACRO.metadata.retrieved_at));
+      if (slug === "activity") {
+        const widget = page.locator("#interactive-production-retail");
+        await widget.locator("select").selectOption("2025-02");
+        assert.match(await widget.locator(".gdp-readout").innerText(), /缺失/);
+        const nulls = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().series.map(s => [s.connectNulls, s.data.includes(null)]));
+        assert(nulls.every(([connect, missing]) => !connect && missing));
+      }
+      await page.emulateMedia({media: "print"});
+      assert.equal(await page.locator(".macro-interactive:visible").count(), 0);
+      assert.equal(await page.locator(".gdp-static-fallback:visible").count(), count);
+      await page.emulateMedia({media: "screen"});
+      console.log(`macro ${slug}: ${count} charts passed`);
+    }
+    assert.deepEqual(errors, []);
+    assert.deepEqual(remote, []);
+    const mobile = await browser.newPage({viewport: {width: 390, height: 844}, isMobile: true, hasTouch: true});
+    await mobile.goto(`${base}/data/prices.html`);
+    const widget = mobile.locator("#interactive-cpi-core");
+    await widget.locator("select").selectOption("2026-03");
+    assert.match(await widget.locator(".gdp-readout").innerText(), /2026-03/);
+    await widget.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-cpi-core-2026-03").isVisible());
+    const overflow = await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
+    assert.equal(overflow, false);
+    if (process.env.MACRO_SCREENSHOT) {
+      await widget.scrollIntoViewIfNeeded();
+      await widget.screenshot({path: process.env.MACRO_SCREENSHOT});
+    }
+    for (const js of [false, true]) {
+      const fallback = await browser.newPage({javaScriptEnabled: js});
+      if (js) await fallback.route("**/vendor/echarts-*.js*", route => route.abort());
+      await fallback.goto(`${base}/data/prices.html`);
+      assert.equal(await fallback.locator(".macro-interactive").count(), 0);
+      assert.equal(await fallback.locator('img[src*="macro-"]:visible').count(), 4);
+      await fallback.close();
+    }
+    console.log("Macro mobile, downloads, missingness, print and static fallbacks passed");
+  } finally {
+    await browser.close();
+  }
+})().catch(error => {console.error(error); process.exitCode = 1;});

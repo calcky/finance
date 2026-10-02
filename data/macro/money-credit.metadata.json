@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "title": "货币与社会融资",
+  "series": {
+    "m1": {
+      "label": "M1 余额",
+      "unit": "万亿元",
+      "frequency": "M",
+      "source": "中国人民银行",
+      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
+    },
+    "m2": {
+      "label": "M2 余额",
+      "unit": "万亿元",
+      "frequency": "M",
+      "source": "中国人民银行",
+      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
+    },
+    "m1_yoy": {
+      "label": "M1 同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局（央行数据）",
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
+    },
+    "m2_yoy": {
+      "label": "M2 同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局（央行数据）",
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
+    },
+    "tsf_stock_yoy": {
+      "label": "社融存量同比",
+      "unit": "%",
+      "frequency": "M",
+      "source": "中国人民银行",
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
+    },
+    "tsf_flow": {
+      "label": "社融当月增量",
+      "unit": "亿元",
+      "frequency": "M",
+      "source": "中国人民银行",
+      "basis": "单月融资流量，不是年内累计，也不是存量的机械差分。"
+    },
+    "tsf_stock": {
+      "label": "社融存量",
+      "unit": "万亿元",
+      "frequency": "M",
+      "source": "中国人民银行",
+      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
+    }
+  },
+  "acquisition": {
+    "m1": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ]
+    },
+    "m2": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ]
+    },
+    "m1_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "82130c6621a745cda3d64b090e733383",
+        "indicatorIds": [
+          "640401d3351b4b868dea28f89f410a54",
+          "e03f2232631f41cd9d754a7d7feb4a81"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202501MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "640401d3351b4b868dea28f89f410a54",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "m2_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "82130c6621a745cda3d64b090e733383",
+        "indicatorIds": [
+          "640401d3351b4b868dea28f89f410a54",
+          "e03f2232631f41cd9d754a7d7feb4a81"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202501MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "e03f2232631f41cd9d754a7d7feb4a81",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "tsf_stock_yoy": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ]
+    },
+    "tsf_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ]
+    },
+    "tsf_stock": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:31+00:00"
+}

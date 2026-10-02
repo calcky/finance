@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "title": "就业与居民收入",
+  "series": {
+    "unemployment": {
+      "label": "城镇调查失业率",
+      "unit": "%",
+      "frequency": "M",
+      "source": "国家统计局",
+      "basis": "全国城镇调查口径，不等于登记失业率或青年失业率。"
+    },
+    "income_nominal_ytd_yoy": {
+      "label": "可支配收入名义累计同比",
+      "unit": "%",
+      "frequency": "Q",
+      "source": "国家统计局",
+      "basis": "全国居民人均可支配收入，年内累计同比；Q2 指上半年而非单独第二季度。"
+    },
+    "income_real_ytd_yoy": {
+      "label": "可支配收入实际累计同比",
+      "unit": "%",
+      "frequency": "Q",
+      "source": "国家统计局",
+      "basis": "年内累计实际同比，扣除价格因素。"
+    },
+    "income_ytd": {
+      "label": "人均可支配收入累计金额",
+      "unit": "元/人",
+      "frequency": "Q",
+      "source": "国家统计局",
+      "basis": "年初至季度末累计，不把年末到次年一季度的重置解释为收入暴跌。"
+    }
+  },
+  "acquisition": {
+    "unemployment": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "ee3b7046b390415b9b7745e3d16f6052",
+        "indicatorIds": [
+          "3888eac6062945a79c8a27e5f13d4953"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "3888eac6062945a79c8a27e5f13d4953",
+      "conversion": "identity",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "income_nominal_ytd_yoy": {
+      "archive": "https://www.stats.gov.cn/sj/zxfb/",
+      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
+    },
+    "income_real_ytd_yoy": {
+      "archive": "https://www.stats.gov.cn/sj/zxfb/",
+      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
+    },
+    "income_ytd": {
+      "archive": "https://www.stats.gov.cn/sj/zxfb/",
+      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:32+00:00"
+}

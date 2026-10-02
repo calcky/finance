@@ -12,11 +12,13 @@
 | `docs/investing/` | 债券、股票、基金与投资组合 |
 | `docs/images/` | 原创图解的 Draw.io 图源、SVG，以及公式计算图 |
 | `scripts/` | 数值图生成、GDP 数据同步与独立绘图依赖 |
+| `scripts/macro_*.py`、`scripts/sync_macro.py` | 六个中国宏观专题的口径、官方采集、校验与生成 |
+| `data/macro/` | 六份宏观 CSV 及机器可读元数据 |
 | `docs/indicators/` | 指标定义、单位、频率与来源 |
 | `docs/data/` | 数据使用说明与更新规范 |
 | `data/` | 可公开再分发的小型数据集及说明 |
 | `.readthedocs.yaml` | Read the Docs 构建环境和入口 |
-| `.github/workflows/update-gdp.yml` | GDP 定时检查、校验和快照提交 |
+| `.github/workflows/update-gdp.yml` | GDP 与六个宏观专题的统一定时检查、校验和快照提交 |
 | `_build/` | 本地生成的网页，已加入 Git 忽略规则 |
 
 ## 本地预览
@@ -103,7 +105,32 @@ git diff --check
 
 只有观测或来源元数据变化才刷新快照并提交。GitHub 定时任务可能延迟；公开仓库 60 天没有活动可能自动暂停定时任务，需在 Actions 中重新启用。通过 [Actions 运行记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 判断最近一次检查是否成功，页面显示的快照时间不代表最后检查时间。参考 [GitHub schedule 文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
 
-自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
+GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
+
+### 六个中国宏观专题
+
+统一工作流也会更新物价、货币与社融、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、六个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
+
+```sh
+.venv/bin/python -m pip install -r scripts/requirements-data.txt -r scripts/requirements-plots.txt
+.venv/bin/python scripts/sync_macro.py
+# 只用已入库快照离线重建，不联网
+.venv/bin/python scripts/sync_macro.py --render-only --preview-dir /tmp/finance-macro-previews
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python -m sphinx -n -W --keep-going -b html docs _build/html
+# 启动前述本地 HTTP 服务后
+node tests/browser/macro.cjs
+```
+
+`macro_catalog.py` 保存指标、口径和阅读解释，`macro_nbs.py` 获取统计局月度公开接口及季度收入公告，`macro_pbc.py` 获取央行年度表格、操作公告、中国货币网和中债数据。`macro_render.py` 使用同一快照生成 19 张 SVG、页面和交互载荷；Sphinx 构建只需文档依赖，不需要数据采集或绘图库。
+
+采集使用普通 HTTPS、Cookie 和请求间隔，不模拟登录或绕过访问限制。开发排查可用 `--cache-dir /tmp/finance-macro-cache` 复用响应；定时任务不使用该缓存。首次覆盖范围逐指标列在页面中：价格从 2026 年换基后开始，M1 新定义从 2025 年开始，多数活动指标从 2024 年开始，汇率和国债收益率约一年，逆回购操作先取最近三页公告。滚动来源保留此前采集的历史，不宣称完整历史库。
+
+M1 同比采用统计局转发的央行可比同比，可能晚于央行余额表；不以新旧余额自行计算替代。价格指数以 100 为比较基准时减 100 得涨跌幅，PMI 保留指数点。贸易千美元除以 100000 得亿美元，货币亿元除以 10000 得万亿元。社融当月增量不由存量差分代替；收入明确为季度末年内累计。工业与社零的 1—2 月合并数据暂不进入单月序列。
+
+所有获取和渲染先在临时目录完成；错误不替换现有快照。完整历史来源缺失已有观测、滚动窗口内已有值消失、单位或结构改变均报错。正常数值修订可更新并由 Git 记录；新窗口之外的日度历史保留，不声称已重新核验它们。观测和元数据没有变化时不刷新获取时间。源机构未给出逐条发布时间的字段留空。
+
+新图延续 GDP 的静态回退，同时支持精确期间选择、固定读数、按月/季度/日历天缩放及自动展开定位表格。每张图使用自己的频率，不将季度值前向填充为月度数据。日历缺口断线，不假设所有工作日都有报价。每页的“本站同版快照”下载对应当前构建，GitHub 原始文件链接则对应主分支最新版本。
 
 ### GDP 交互图
 

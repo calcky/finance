@@ -1,0 +1,175 @@
+series_id,country,period,value,unit,frequency,published_at,source_url,note
+m1,CHN,2025-01,112.445745,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-02,109.437001,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-03,113.48631,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-04,109.140733,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-05,108.914765,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-06,113.949408,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-07,111.058692,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-08,111.22557,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-09,113.145507,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-10,111.996273,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-11,112.886664,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2025-12,115.51465,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-01,117.968052,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-02,115.925882,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-03,119.320299,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-04,114.583373,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-05,114.889141,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-06,118.477553,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-07,115.4623,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1,CHN,2026-08,115.774143,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m1_yoy,CHN,2025-01,0.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 0.4
+m1_yoy,CHN,2025-02,0.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 0.1
+m1_yoy,CHN,2025-03,1.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 1.6
+m1_yoy,CHN,2025-04,1.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 1.5
+m1_yoy,CHN,2025-05,2.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 2.3
+m1_yoy,CHN,2025-06,4.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.6
+m1_yoy,CHN,2025-07,5.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.6
+m1_yoy,CHN,2025-08,6.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 6.0
+m1_yoy,CHN,2025-09,7.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 7.2
+m1_yoy,CHN,2025-10,6.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 6.2
+m1_yoy,CHN,2025-11,4.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.9
+m1_yoy,CHN,2025-12,3.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 3.8
+m1_yoy,CHN,2026-01,4.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.9
+m1_yoy,CHN,2026-02,5.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.9
+m1_yoy,CHN,2026-03,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.1
+m1_yoy,CHN,2026-04,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.0
+m1_yoy,CHN,2026-05,5.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.5
+m1_yoy,CHN,2026-06,4.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.0
+m1_yoy,CHN,2026-07,4.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.0
+m2,CHN,2025-01,318.524718,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-02,320.517324,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-03,326.055457,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-04,325.173932,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-05,325.783811,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-06,330.286817,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-07,329.942906,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-08,331.983144,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-09,335.377103,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-10,335.131231,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-11,336.989052,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2025-12,340.294806,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx,2025 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-01,347.186039,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-02,349.215991,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-03,353.863653,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-04,353.042521,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-05,353.668892,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-06,356.710843,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-07,355.507724,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2,CHN,2026-08,356.80836,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx,2026 年官方统计表；亿元÷10000=万亿元
+m2_yoy,CHN,2025-01,7.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.0
+m2_yoy,CHN,2025-02,7.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.0
+m2_yoy,CHN,2025-03,7.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.0
+m2_yoy,CHN,2025-04,8.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.0
+m2_yoy,CHN,2025-05,7.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.9
+m2_yoy,CHN,2025-06,8.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.3
+m2_yoy,CHN,2025-07,8.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.8
+m2_yoy,CHN,2025-08,8.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.8
+m2_yoy,CHN,2025-09,8.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.4
+m2_yoy,CHN,2025-10,8.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.2
+m2_yoy,CHN,2025-11,8.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.0
+m2_yoy,CHN,2025-12,8.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.5
+m2_yoy,CHN,2026-01,9.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 9.0
+m2_yoy,CHN,2026-02,9.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 9.0
+m2_yoy,CHN,2026-03,8.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.5
+m2_yoy,CHN,2026-04,8.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.6
+m2_yoy,CHN,2026-05,8.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.6
+m2_yoy,CHN,2026-06,8.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.0
+m2_yoy,CHN,2026-07,7.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.7
+tsf_flow,CHN,2024-01,64734,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-02,14959,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-03,48335,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-04,-658,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-05,20623,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-06,32985,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-07,7707,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-08,30323,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-09,37635,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-10,14120,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-11,23288,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2024-12,28537,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx,2024 年官方统计表；单月增量
+tsf_flow,CHN,2025-01,70546,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-02,22331,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-03,58961,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-04,11599,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-05,22900,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-06,42251,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-07,11307,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-08,25660,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-09,35299,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-10,8178,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-11,24926,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2025-12,22132,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx,2025 年官方统计表；单月增量
+tsf_flow,CHN,2026-01,72185,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-02,23837,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-03,52240,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-04,6238,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-05,20293,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-06,33671,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-07,14068,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_flow,CHN,2026-08,16577,亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx,2026 年官方统计表；单月增量
+tsf_stock,CHN,2024-01,384.32,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-02,385.71,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-03,390.32,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-04,389.93,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-05,391.93,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-06,395.1,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-07,395.72,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-08,398.56,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-09,402.19,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-10,403.45,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-11,405.6,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2024-12,408.34,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-01,415.19,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-02,417.29,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-03,422.97,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-04,424,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-05,426.16,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-06,430.24,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-07,431.25,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-08,433.65,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-09,437.08,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-10,437.71,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-11,440.07,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2025-12,442.12,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-01,449.11,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-02,451.4,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-03,456.46,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-04,456.88,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-05,458.81,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-06,462.06,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-07,463.28,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock,CHN,2026-08,464.8,万亿元,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-01,9.5,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-02,9,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-03,8.7,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-04,8.3,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-05,8.4,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-06,8.1,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-07,8.2,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-08,8.1,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-09,8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-10,7.8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-11,7.8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2024-12,8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx,2024 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-01,8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-02,8.2,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-03,8.4,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-04,8.7,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-05,8.7,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-06,8.9,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-07,9,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-08,8.8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-09,8.7,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-10,8.5,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-11,8.5,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2025-12,8.3,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx,2025 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-01,8.2,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-02,8.2,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-03,7.9,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-04,7.8,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-05,7.7,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-06,7.4,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-07,7.4,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比
+tsf_stock_yoy,CHN,2026-08,7.2,%,M,,https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx,2026 年官方统计表；月末存量/官方同比

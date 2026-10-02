@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "title": "进出口与人民币汇率",
+  "series": {
+    "exports": {
+      "label": "当月出口",
+      "unit": "亿美元",
+      "frequency": "M",
+      "source": "国家统计局（海关统计）",
+      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。"
+    },
+    "imports": {
+      "label": "当月进口",
+      "unit": "亿美元",
+      "frequency": "M",
+      "source": "国家统计局（海关统计）",
+      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。"
+    },
+    "trade_balance": {
+      "label": "当月货物贸易差额",
+      "unit": "亿美元",
+      "frequency": "M",
+      "source": "国家统计局（海关统计）",
+      "basis": "同月同币种出口减进口；正值为顺差，不等于企业利润。"
+    },
+    "usdcny_mid": {
+      "label": "美元兑人民币中间价",
+      "unit": "人民币/美元",
+      "frequency": "D",
+      "source": "中国货币网",
+      "basis": "人民币汇率中间价，不是即期成交价、银行结售汇价或离岸 CNH。"
+    }
+  },
+  "acquisition": {
+    "exports": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "7e11b47c828d4e4e925f1c5a98305558",
+        "indicatorIds": [
+          "9e38b39f55a7461ea195508c1bb7dbdc",
+          "86a340fee806409ebdf4d0069bd23f29",
+          "0123bdd4e85348f28efc74685a4a40e5"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "9e38b39f55a7461ea195508c1bb7dbdc",
+      "conversion": "usd100m",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "imports": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "7e11b47c828d4e4e925f1c5a98305558",
+        "indicatorIds": [
+          "9e38b39f55a7461ea195508c1bb7dbdc",
+          "86a340fee806409ebdf4d0069bd23f29",
+          "0123bdd4e85348f28efc74685a4a40e5"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "86a340fee806409ebdf4d0069bd23f29",
+      "conversion": "usd100m",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "trade_balance": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "request": {
+        "cid": "7e11b47c828d4e4e925f1c5a98305558",
+        "indicatorIds": [
+          "9e38b39f55a7461ea195508c1bb7dbdc",
+          "86a340fee806409ebdf4d0069bd23f29",
+          "0123bdd4e85348f28efc74685a4a40e5"
+        ],
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "202401MM-202609MM"
+        ],
+        "showType": "1",
+        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+      },
+      "indicator_id": "0123bdd4e85348f28efc74685a4a40e5",
+      "conversion": "usd100m",
+      "published_at": "接口未提供逐条发布日期"
+    },
+    "usdcny_mid": {
+      "url": "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml",
+      "coverage": "来源滚动窗口，首次约一年；日后保留已采集历史"
+    }
+  },
+  "retrieved_at": "2026-10-02T03:25:32+00:00"
+}

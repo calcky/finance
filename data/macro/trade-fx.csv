@@ -1,0 +1,335 @@
+series_id,country,period,value,unit,frequency,published_at,source_url,note
+exports,CHN,2024-01,3077.34618,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 307734618；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-02,2202.79326,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 220279326；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-03,2796.81675,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 279681675；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-04,2924.53498,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 292453498；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-05,3023.48019,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 302348019；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-06,3078.54505,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 307854505；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-07,3005.56525,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 300556525；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-08,3086.47262,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 308647262；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-09,3037.12134,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 303712134；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-10,3090.58423,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 309058423；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-11,3123.10466,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 312310466；转换：千美元除以 100000 得亿美元
+exports,CHN,2024-12,3356.27038,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 335627038；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-01,3247.68272,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 324768272；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-02,2151.72519,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 215172519；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-03,3139.11793,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 313911793；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-04,3156.92375,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 315692375；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-05,3161.0098,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 316100980；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-06,3252.32738,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 325232738；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-07,3217.8393,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 321783930；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-08,3218.10157,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 321810157；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-09,3285.65399,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 328565399；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-10,3053.53192,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 305353192；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-11,3303.50566,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 330350566；转换：千美元除以 100000 得亿美元
+exports,CHN,2025-12,3577.4717,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 357747170；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-01,3566.99626,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 356699626；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-02,2998.77987,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 299877987；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-03,3210.32653,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 321032653；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-04,3594.42136,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 359442136；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-05,3767.82594,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 376782594；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-06,4123.87125,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 412387125；转换：千美元除以 100000 得亿美元
+exports,CHN,2026-07,3978.51708,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：出口总值当期值 (千美元)；原始值 397851708；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-01,2222.76794,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 222276794；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-02,1805.73806,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 180573806；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-03,2211.30611,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 221130611；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-04,2201.0181,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 220101810；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-05,2197.25898,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 219725898；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-06,2088.07983,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 208807983；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-07,2159.096,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 215909600；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-08,2176.25707,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 217625707；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-09,2220.01611,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 222001611；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-10,2133.39605,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 213339605；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-11,2148.67327,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 214867327；转换：千美元除以 100000 得亿美元
+imports,CHN,2024-12,2307.89126,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 230789126；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-01,1859.71892,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 185971892；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-02,1834.53706,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 183453706；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-03,2112.69329,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 211269329；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-04,2195.12228,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 219512228；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-05,2128.80563,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 212880563；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-06,2104.81474,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 210481474；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-07,2235.393,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 223539300；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-08,2194.81352,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 219481352；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-09,2381.17951,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 238117951；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-10,2152.78962,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 215278962；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-11,2186.74618,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 218674618；转换：千美元除以 100000 得亿美元
+imports,CHN,2025-12,2436.39968,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 243639968；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-01,2340.59059,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 234059059；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-02,2089.00488,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 208900488；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-03,2699.0356,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 269903560；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-04,2746.18212,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 274618212；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-05,2713.4901,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 271349010；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-06,2867.64038,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 286764038；转换：千美元除以 100000 得亿美元
+imports,CHN,2026-07,2855.14272,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进口总值当期值 (千美元)；原始值 285514272；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-01,854.58,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 85458000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-02,397.06,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 39706000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-03,585.5,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 58550000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-04,723.5,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 72350000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-05,826.2,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 82620000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-06,990.5,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 99050000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-07,846.47,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 84647000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-08,910.22,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 91022000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-09,817.11,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 81711000；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-10,957.18818,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 95718818；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-11,974.43139,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 97443139；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2024-12,1048.37912,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 104837912；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-01,1387.9638,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 138796380；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-02,317.18813,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 31718813；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-03,1026.42464,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 102642464；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-04,961.80147,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 96180147；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-05,1032.20417,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 103220417；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-06,1147.51264,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 114751264；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-07,982.44631,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 98244631；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-08,1023.28805,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 102328805；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-09,904.47447,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 90447447；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-10,900.74229,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 90074229；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-11,1116.75947,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 111675947；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2025-12,1141.07202,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 114107202；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-01,1226.40568,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 122640568；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-02,909.77499,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 90977499；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-03,511.29093,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 51129093；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-04,848.23925,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 84823925；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-05,1054.33584,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 105433584；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-06,1256.23087,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 125623087；转换：千美元除以 100000 得亿美元
+trade_balance,CHN,2026-07,1123.37436,亿美元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：进出口差额当期值 (千美元)；原始值 112337436；转换：千美元除以 100000 得亿美元
+usdcny_mid,CHN,2025-10-09,7.1102,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-10,7.1048,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-13,7.1007,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-14,7.1021,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-15,7.0995,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-16,7.0968,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-17,7.0949,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-20,7.0973,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-21,7.0930,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-22,7.0954,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-23,7.0918,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-24,7.0928,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-27,7.0881,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-28,7.0856,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-29,7.0843,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-30,7.0864,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-10-31,7.0880,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-03,7.0867,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-04,7.0885,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-05,7.0901,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-06,7.0865,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-07,7.0836,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-10,7.0856,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-11,7.0866,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-12,7.0833,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-13,7.0865,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-14,7.0825,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-17,7.0816,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-18,7.0856,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-19,7.0872,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-20,7.0905,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-21,7.0875,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-24,7.0847,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-25,7.0826,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-26,7.0796,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-27,7.0779,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-11-28,7.0789,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-01,7.0759,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-02,7.0794,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-03,7.0754,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-04,7.0733,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-05,7.0749,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-08,7.0764,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-09,7.0773,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-10,7.0753,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-11,7.0686,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-12,7.0638,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-15,7.0656,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-16,7.0602,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-17,7.0573,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-18,7.0583,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-19,7.0550,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-22,7.0572,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-23,7.0523,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-24,7.0471,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-25,7.0392,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-26,7.0358,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-29,7.0331,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-30,7.0348,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2025-12-31,7.0288,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-05,7.0230,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-06,7.0173,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-07,7.0187,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-08,7.0197,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-09,7.0128,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-12,7.0108,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-13,7.0103,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-14,7.0120,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-15,7.0064,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-16,7.0078,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-19,7.0051,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-20,7.0006,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-21,7.0014,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-22,7.0019,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-23,6.9929,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-26,6.9843,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-27,6.9858,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-28,6.9755,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-29,6.9771,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-01-30,6.9678,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-02,6.9695,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-03,6.9608,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-04,6.9533,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-05,6.9570,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-06,6.9590,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-09,6.9523,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-10,6.9458,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-11,6.9438,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-12,6.9457,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-13,6.9398,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-24,6.9414,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-25,6.9321,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-26,6.9228,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-02-27,6.9228,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-02,6.9236,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-03,6.9088,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-04,6.9124,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-05,6.9007,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-06,6.9025,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-09,6.9158,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-10,6.8982,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-11,6.8917,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-12,6.8959,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-13,6.9007,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-16,6.9057,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-17,6.8961,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-18,6.8909,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-19,6.8975,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-20,6.8898,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-23,6.9041,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-24,6.8943,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-25,6.8911,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-26,6.9056,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-27,6.9141,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-30,6.9223,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-03-31,6.9194,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-01,6.9025,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-02,6.8880,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-03,6.8929,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-07,6.8854,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-08,6.8680,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-09,6.8649,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-10,6.8654,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-13,6.8657,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-14,6.8593,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-15,6.8582,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-16,6.8616,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-17,6.8622,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-20,6.8648,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-21,6.8594,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-22,6.8635,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-23,6.8650,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-24,6.8674,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-27,6.8579,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-28,6.8589,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-29,6.8608,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-04-30,6.8628,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-06,6.8562,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-07,6.8487,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-08,6.8502,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-11,6.8467,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-12,6.8426,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-13,6.8431,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-14,6.8401,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-15,6.8415,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-18,6.8435,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-19,6.8375,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-20,6.8397,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-21,6.8349,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-22,6.8373,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-25,6.8318,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-26,6.8288,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-27,6.8291,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-28,6.8240,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-05-29,6.8176,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-01,6.8167,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-02,6.8187,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-03,6.8184,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-04,6.8203,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-05,6.8157,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-08,6.8198,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-09,6.8147,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-10,6.8130,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-11,6.8150,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-12,6.8109,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-15,6.8088,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-16,6.8108,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-17,6.8096,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-18,6.8130,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-22,6.8150,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-23,6.8171,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-24,6.8195,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-25,6.8209,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-26,6.8166,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-29,6.8175,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-06-30,6.8109,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-01,6.8067,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-02,6.8088,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-03,6.8047,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-06,6.8066,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-07,6.8054,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-08,6.8077,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-09,6.8036,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-10,6.7989,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-13,6.7972,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-14,6.7990,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-15,6.7910,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-16,6.7909,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-17,6.7934,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-20,6.7948,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-21,6.7917,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-22,6.7933,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-23,6.7906,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-24,6.7939,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-27,6.7911,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-28,6.7928,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-29,6.7899,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-30,6.7892,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-07-31,6.7894,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-03,6.7898,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-04,6.7917,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-05,6.7889,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-06,6.7895,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-07,6.7904,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-10,6.7884,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-11,6.7900,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-12,6.7882,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-13,6.7888,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-14,6.7878,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-17,6.7873,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-18,6.7905,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-19,6.7854,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-20,6.7808,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-21,6.7817,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-24,6.7841,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-25,6.7852,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-26,6.7829,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-27,6.7840,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-28,6.7811,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-08-31,6.7828,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-01,6.7809,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-02,6.7829,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-03,6.7807,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-04,6.7787,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-07,6.7795,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-08,6.7804,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-09,6.7769,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-10,6.7766,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-11,6.7743,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-14,6.7698,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-15,6.7670,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-16,6.7628,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-17,6.7580,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-18,6.7521,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-21,6.7487,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-22,6.7459,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-23,6.7468,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-24,6.7489,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-28,6.7399,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-29,6.7411,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
+usdcny_mid,CHN,2026-09-30,6.7351,人民币/美元,D,,https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml,中国货币网 USD/CNY 中间价滚动图；人民币/美元
