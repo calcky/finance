@@ -1,10 +1,12 @@
-"""Definitions and reading guidance for the China macro data topics."""
+"""Definitions and reading guidance for macro data topics."""
 
 SERIES = {}
 
 
-def define(key, label, unit, frequency, source, basis):
+def define(key, label, unit, frequency, source, basis, *, country="CHN"):
     SERIES[key] = dict(label=label, unit=unit, frequency=frequency, source=source, basis=basis)
+    if country != "CHN":
+        SERIES[key]["country"] = country
 
 
 for key, label in [("cpi_yoy", "CPI 同比"), ("core_cpi_yoy", "核心 CPI 同比"),
@@ -302,6 +304,9 @@ TOPICS = {
 
 from macro_fiscal_catalog import register as register_fiscal
 register_fiscal(define, chart, TOPICS)
+
+from macro_us_rates_catalog import register as register_us_rates
+register_us_rates(define, chart, TOPICS)
 
 
 def topic_series(topic):

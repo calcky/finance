@@ -7,6 +7,7 @@
 .macro-details summary { cursor: pointer; padding: 12px; background: #f1f5f9; }
 .macro-interactive .gdp-readout span { white-space: normal; }
 .macro-interactive .gdp-canvas { height: 400px; }
+.macro-period[type="date"] { color: #203047; background: #fff; font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid #aab9ca; border-radius: 4px; min-height: 44px; }
 @media (max-width: 600px) {
   .macro-interactive .gdp-canvas { height: 380px; }
 }

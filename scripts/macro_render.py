@@ -98,15 +98,18 @@ def document(slug, rows, meta):
     lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", "",
               "图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。", ""]
     for chart in payload(slug, rows, meta)["charts"]:
+        compact = chart.get("compact_history", False)
         net_header = '<th>净合计</th>' if chart.get("kind") == "stacked" else ''
         lines += [f"## {chart['title']}", "", chart["explanation"], "",
                   f"![{chart['title']}，单位：{chart['unit']}；完整数值见下方明细](../images/data/macro-{chart['id']}.svg)", "",
-                  '<details class="macro-details">', f"<summary>{escape(chart['title'])}：展开完整数据表（{escape(chart['unit'])}）</summary>",
+                  (f'<details class="macro-details" id="details-{chart["id"]}">' if compact else '<details class="macro-details">'), f"<summary>{escape(chart['title'])}：{'分页数据表' if compact else '展开完整数据表'}（{escape(chart['unit'])}）</summary>",
                   '<div class="macro-table-wrap"><table><thead><tr><th>期间</th>' + ''.join(f"<th>{escape(SERIES[k]['label'])}</th>" for k in chart["series"]) + net_header + '</tr></thead><tbody>']
-        for period in reversed(chart["periods"]):
+        for period in reversed(chart["periods"][-60:] if compact else chart["periods"]):
             net_cell = f'<td>{display(chart["totals"].get(period))}</td>' if net_header else ''
             lines.append(f'<tr id="macro-{chart["id"]}-{period}" tabindex="-1"><td>{period}</td>' + ''.join(f'<td>{display(chart["values"][k].get(period))}</td>' for k in chart["series"]) + net_cell + '</tr>')
         lines += ["</tbody></table></div></details>", ""]
+        if compact:
+            lines += ["明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。", ""]
     for key in topic.get("extra", []):
         lines += [f"## {SERIES[key]['label']}：补充明细", "", SERIES[key]["basis"], "",
                   '<details class="macro-details">', f"<summary>展开完整数据表（{SERIES[key]['unit']}）</summary>",
@@ -160,7 +163,7 @@ def render(slug, rows, meta, out, font=None, preview_dir=None):
                     elif value < 0:
                         negative[i] += value
             else:
-                ax.plot(range(len(values)), values, color=color, linewidth=2, marker=".",
+                ax.plot(range(len(values)), values, color=color, linewidth=2, marker=None if chart.get("compact_history") and chart["frequency"] == "D" else ".",
                         linestyle="--" if key in chart.get("dashed_series", []) else "-",
                         markersize=3 if chart["frequency"] == "D" else 6, label=SERIES[key]["label"])
         if stacked:

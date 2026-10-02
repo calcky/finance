@@ -8,7 +8,7 @@
 - **指标**：定义、单位、频率、发布机构、解读方法与可比性限制。
 - **数据**：记录来源、统计期间、发布时间和获取时间，保留修订说明。
 
-目前提供 15 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据专题](docs/data/index.md)。每章包含图示、具体例子、自测和参考答案；教学部分及延伸阅读共有 24 张图：19 张可编辑原理图与 5 张公式计算图。[银行与货币创造](docs/banking-and-money-creation.md)用五张图追踪一笔贷款，再用[社融与信贷结构](docs/credit-structure.md)、[房地产与经济](docs/property-and-economy.md)解释融资、销售、回款和建设如何联系。
+目前提供 15 个学习单元，以及[术语速查](docs/glossary.md)、[指标目录](docs/indicators/index.md)和[数据专题](docs/data/index.md)。每章包含图示、具体例子、自测和参考答案；教学部分及延伸阅读共有 27 张图：22 张可编辑原理图与 5 张公式计算图。[银行与货币创造](docs/banking-and-money-creation.md)用五张图追踪一笔贷款，再用[社融与信贷结构](docs/credit-structure.md)、[房地产与经济](docs/property-and-economy.md)解释融资、销售、回款和建设如何联系。
 
 [GDP 数据专题](docs/data/gdp.md)提供中国历年经济规模、实际增速、人均 GDP 和中美对照，另配四张真实数据趋势图、年度表格与 CSV 下载。GitHub Actions 每日检查世界银行 WDI 新值及历史修订；各指标按来源发布进度更新，不是实时行情。[查看同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)。
 
@@ -23,6 +23,8 @@
 [财政政策与政府债务](docs/fiscal-policy-and-debt.md)新增三张可编辑原理图，解释四本预算、赤字与债务、发债与实际支出，以及房地产到地方财政的传导。[财政数据](docs/data/fiscal.md)提供 10 张交互图、29 条序列和 3,132 条观测，一般公共预算年度历史回到 1950 年；年度来源、累计执行、月末余额与当月发行分别保存。
 
 新增[房价、人口与住房需求](docs/housing-population.md)，配套全国与上海房价、住宅资产估值、中国与上海人口及生育率、中国家庭户数与规模的 13 张数据图。中国人口回溯到 1949 年，联合国生育率历史估计从 1950 年起；研究估值与模型延伸、普查与抽样调查分别标注。
+
+新增[美联储与美国利率](docs/fed-and-us-rates.md)：三张可编辑原理图，区分政策目标、市场成交、国债定价与实际收益率。[美国利率数据](docs/data/us-rates.md)提供六张交互图和11条序列，首次回填103,673条观测；10年期国债月均自1953年、EFFR自1954年起，完整历史与缺口说明随CSV提供。宏观专题合计64张交互图（另有年度GDP四张）。
 
 ## 阅读路线
 

@@ -118,6 +118,7 @@ jobs:
           git add docs/data/housing-prices.md docs/data/housing-wealth.md docs/data/population.md docs/data/shanghai-population.md
 
           git add docs/data/fiscal.md
+          git add docs/data/us-rates.md
           git add data/update-status.json docs/data/update-status.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."

@@ -24,7 +24,7 @@ def validate(rows, keys):
     for row in rows:
         key = row["series_id"]
         identity = (key, row["period"])
-        if key not in keys or identity in seen or row["country"] != "CHN":
+        if key not in keys or identity in seen or row["country"] != SERIES[key].get("country", "CHN"):
             raise ValueError(f"Unknown/duplicate observation: {identity}")
         seen.add(identity)
         checked = observation(key, row["period"], row["value"], row["source_url"], row["published_at"], row["note"])
@@ -116,6 +116,7 @@ def collectors_for(topics):
     from macro_housing import collect as housing
     from macro_housing_wealth import collect as housing_wealth
     from macro_fiscal import collect as fiscal
+    from macro_us_rates import collect as us_rates
     groups = [(nbs, {"prices", "money-credit", "activity", "trade-fx", "employment-income"}),
               (income, {"employment-income"}), (money, {"money-credit"}),
               (market, {"rates", "trade-fx"}), (repo, {"rates"}),
@@ -123,7 +124,7 @@ def collectors_for(topics):
               (tsf_components, {"credit-structure"}), (loans, {"credit-structure"}),
               (property_history, {"property"}), (population, {"population"}),
               (shanghai, {"shanghai-population"}), (housing, {"housing-prices"}),
-              (housing_wealth, {"housing-wealth"}), (fiscal, {"fiscal"})]
+              (housing_wealth, {"housing-wealth"}), (fiscal, {"fiscal"}), (us_rates, {"us-rates"})]
     return [collector for collector, covered in groups if covered.intersection(topics)]
 
 

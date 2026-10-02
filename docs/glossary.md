@@ -34,6 +34,12 @@
 | 同比 / 环比 | 与上年同期 / 上一相邻期间比较 | [数据练习](data/reading-exercise.md) |
 | 基点 bp / 百分点 | 1 bp = 0.01 个百分点，区别于相对百分比 | [利率](interest-rates.md) |
 | LPR | 中国贷款市场报价利率，是重要贷款定价参考 | [利率](interest-rates.md) |
+| FOMC / 联邦基金目标区间 | 美国货币政策决策委员会 / 其设定的隔夜利率目标范围 | [美国利率](fed-and-us-rates.md) |
+| EFFR | 特定隔夜美元无抵押交易形成的有效联邦基金利率，区别于政策目标 | [美国利率](fed-and-us-rates.md) |
+| IORB / ON RRP | 准备金余额利率 / 隔夜逆回购；对合资格机构提供的政策工具 | [美国利率](fed-and-us-rates.md) |
+| CMT | 从国债平价曲线读取的固定期限参考收益率，不一定对应一只债券 | [美国利率](fed-and-us-rates.md) |
+| TIPS / 盈亏平衡通胀 | 美国通胀保值国债 / 可比期限名义减实际收益率，含风险与流动性因素 | [美国利率](fed-and-us-rates.md) |
+| 收益率曲线倒挂 | 同日较长期限收益率低于较短期限，不保证未来衰退 | [美国利率](fed-and-us-rates.md) |
 | 降准 / 降息 | 调整法定准备金比例 / 调整某种利率 | [利率](interest-rates.md) |
 | CNY / CNH | 通常分别指在岸 / 离岸人民币市场报价 | [汇率](exchange-rates.md) |
 | DXY / CFETS | 美元 / 人民币对相应篮子货币的指数 | [汇率](exchange-rates.md) |

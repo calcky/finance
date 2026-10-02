@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, fiscal: 10, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, fiscal: 10, rates: 3, "us-rates": 6, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -15,13 +15,21 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
       await page.goto(`${base}/data/${slug}.html`);
       assert(await page.locator(".sync-status").isVisible());
       assert.equal(await page.locator(".sync-status a").getAttribute("href"), "update-status.html");
-      await page.locator(".macro-interactive").last().waitFor();
-      assert.equal(await page.locator(".macro-interactive").count(), count);
       const specs = await page.evaluate(() => FINANCE_MACRO.charts);
+      assert.equal(specs.length, count);
       for (const spec of specs) {
+        const preview = page.locator(`img[src$="/macro-${spec.id}.svg"]`);
+        if (await preview.isVisible()) await preview.scrollIntoViewIfNeeded();
         const widget = page.locator(`#interactive-${spec.id}`);
+        await widget.waitFor();
+        async function selectPeriod(period) {
+          if (spec.compact_history && spec.frequency === "D") {
+            await widget.locator('input[type="date"]').fill(period);
+            await widget.locator('input[type="date"]').dispatchEvent("change");
+          } else await widget.locator("select").selectOption(period);
+        }
         const period = spec.periods[Math.floor(spec.periods.length / 2)];
-        await widget.locator("select").selectOption(period);
+        await selectPeriod(period);
         assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(period));
         const pinned = await widget.locator(".gdp-readout").innerText();
         const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 8});
@@ -31,9 +39,9 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         }
         // Early history must remain selectable independently of the visible
         // zoom window, including archived definitions and calendar gaps.
-        await widget.locator("select").selectOption(spec.periods[0]);
+        await selectPeriod(spec.periods[0]);
         assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(spec.periods[0]));
-        await widget.locator("select").selectOption(period);
+        await selectPeriod(period);
         await widget.locator(".gdp-row-link").click();
         const row = page.locator(`#macro-${spec.id}-${period}`);
         assert(await row.isVisible());
@@ -65,6 +73,7 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         await page.mouse.move(1, 1);
         assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(hit.period));
       }
+      assert.equal(await page.locator(".macro-interactive").count(), count);
       const downloads = page.locator("a.reference.download");
       assert.equal(await downloads.count(), 2);
       const csvUrl = await downloads.first().getAttribute("href");
@@ -84,6 +93,36 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         assert.match(await widget.locator(".gdp-readout").innerText(), /缺失/);
         const nulls = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().series.map(s => [s.connectNulls, s.data.includes(null)]));
         assert(nulls.every(([connect, missing]) => !connect && missing));
+      }
+      if (slug === "us-rates") {
+        assert.equal(await page.locator(".macro-details tbody tr").count() <= 360, true);
+        assert.equal(await page.locator('input[type="date"]').count(), 5);
+        assert.equal(specs.find(s => s.id === "us-treasury-monthly").periods[0], "1953-04");
+        assert(Object.values(metadata.series).every(s => s.country === "USA"));
+        assert.match(await response.text(), /us_effr,USA,1954-07-01,1.13,/);
+        const widget = page.locator("#interactive-us-term-spread");
+        const input = widget.locator('input[type="date"]');
+        await input.fill("1990-11-21");
+        await input.dispatchEvent("change");
+        assert.match(await widget.locator(".gdp-readout").innerText(), /0.72/);
+        await widget.locator(".gdp-row-link").click();
+        const details = page.locator("#details-us-term-spread");
+        assert.match(await page.locator("#macro-us-term-spread-1990-11-21").innerText(), /0.72/);
+        const before = await details.locator("tbody tr").first().innerText();
+        await details.getByRole("button", {name: "更早60期", exact: true}).click();
+        assert.notEqual(await details.locator("tbody tr").first().innerText(), before);
+        await input.fill("1976-06-01");
+        await input.dispatchEvent("change");
+        await widget.locator(".gdp-row-link").click();
+        assert(await details.getByRole("button", {name: "更早60期", exact: true}).isDisabled());
+        for (const invalid of ["", "1900-01-01", "2099-01-01"]) {
+          await input.fill(invalid);
+          await input.dispatchEvent("change");
+          assert.equal(await input.inputValue(), "1976-06-01");
+          await widget.locator(".gdp-row-link").click();
+          assert(await page.locator("#macro-us-term-spread-1976-06-01").isVisible());
+        }
+        if (process.env.US_RATES_SCREENSHOT) await widget.screenshot({path: process.env.US_RATES_SCREENSHOT});
       }
       if (slug === "credit-structure") {
         const widget = page.locator("#interactive-financing-composition");
@@ -210,6 +249,15 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     assert(await mobile.locator("#macro-property-building-growth-2000-04").isVisible());
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     if (process.env.PROPERTY_SCREENSHOT) await property.screenshot({path: process.env.PROPERTY_SCREENSHOT});
+    await mobile.goto(`${base}/data/us-rates.html`);
+    await mobile.locator('img[src$="/macro-us-policy-rates.svg"]').scrollIntoViewIfNeeded();
+    const us = mobile.locator("#interactive-us-policy-rates");
+    await us.locator('input[type="date"]').fill("1954-07-01");
+    await us.locator('input[type="date"]').dispatchEvent("change");
+    assert.match(await us.locator(".gdp-readout").innerText(), /1.13/);
+    await us.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-us-policy-rates-1954-07-01").isVisible());
+    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     for (const slug of ["population", "shanghai-population", "housing-prices", "housing-wealth"]) {
       await mobile.goto(`${base}/data/${slug}.html`);
       const chart = mobile.locator(".macro-interactive").first();
@@ -246,6 +294,11 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
       await fallback.goto(`${base}/data/prices.html`);
       assert.equal(await fallback.locator(".macro-interactive").count(), 0);
       assert.equal(await fallback.locator('img[src*="macro-"]:visible').count(), 4);
+      await fallback.goto(`${base}/data/us-rates.html`);
+      assert.equal(await fallback.locator(".macro-interactive").count(), 0);
+      assert.equal(await fallback.locator('img[src*="macro-"]:visible').count(), 6);
+      assert.equal(await fallback.locator(".macro-details tbody tr").count(), 360);
+      assert.equal(await fallback.locator("a.reference.download").count(), 2);
       await fallback.close();
     }
     console.log("Macro mobile, downloads, missingness, print and static fallbacks passed");

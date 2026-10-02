@@ -6,7 +6,7 @@
 
 ## 从这里开始
 
-推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。教学部分及延伸阅读共 24 张图，分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期，再用[社融与信贷结构](credit-structure.md)、[房地产与经济](property-and-economy.md)连接融资与实际活动。
+推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。教学部分及延伸阅读共 27 张图，分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期，再用[社融与信贷结构](credit-structure.md)、[房地产与经济](property-and-economy.md)连接融资与实际活动。
 
 | 阶段 | 学习内容 | 要回答的问题 |
 |---|---|---|
@@ -30,6 +30,8 @@
 新增[房价、人口与住房需求](housing-population.md)：通过全国与上海房价、住宅资产估值、人口、生育率和家庭户数，练习区分价格、财富存量与住房需求。
 
 继续读[财政政策与政府债务](fiscal-policy-and-debt.md)：用三张原理图分清收入、支出、赤字和发债，再在[财政数据专题](data/fiscal.md)查看自1950年起的预算历史，以及基金、土地收入与中央／地方债务。
+
+新增[美联储与美国利率](fed-and-us-rates.md)：从目标区间与EFFR，读到国债、倒挂、实际收益率和黄金；[六张交互数据图](data/us-rates.md)提供从1953年起的分序列完整历史，支持精确选点和CSV下载。
 
 ## 阅读时先分清
 
@@ -89,6 +91,7 @@ housing-population
 fiscal-policy-and-debt
 growth-and-inflation
 interest-rates
+fed-and-us-rates
 ```
 
 ```{toctree}

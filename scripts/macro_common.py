@@ -86,7 +86,7 @@ def observation(series, period, value, url, published="", note=""):
         raise ValueError("Unemployment outside 0..100")
     if not url.startswith("https://"):
         raise ValueError("Missing HTTPS source URL")
-    return dict(series_id=series, country="CHN", period=period, value=format(value, "f"),
+    return dict(series_id=series, country=spec.get("country", "CHN"), period=period, value=format(value, "f"),
                 unit=spec["unit"], frequency=spec["frequency"], published_at=published,
                 source_url=url, note=note)
 
