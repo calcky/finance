@@ -26,7 +26,7 @@
       spec.periods.forEach(p => select.add(new Option(p, p)));
       label.append(select);
       tools.append(label);
-      const counts = spec.frequency === "M" ? [["近 12 个月", 12], ["近 5 年", 60]] : spec.frequency === "Q" ? [["近 4 季度", 4], ["近 5 年", 20]] : [["近 60 天", 60], ["近 5 年", 1826]];
+      const counts = spec.frequency === "A" ? [["近 10 年", 10], ["近 20 年", 20]] : spec.frequency === "M" ? [["近 12 个月", 12], ["近 5 年", 60]] : spec.frequency === "Q" ? [["近 4 季度", 4], ["近 5 年", 20]] : [["近 60 天", 60], ["近 5 年", 1826]];
       const buttons = [["全部", 0], ...counts].map(([text, count]) => {
         const button = element("button", "gdp-range", text);
         button.type = "button";

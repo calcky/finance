@@ -1,0 +1,46 @@
+series_id,country,period,value,unit,frequency,published_at,source_url,note
+fertility_shanghai_registered,CHN,2007,0.95,孩/妇女,A,2008-05-29,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21161.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.95 / 0.90 / 0.04 / 0.00 / 28.72 / 27.46
+fertility_shanghai_registered,CHN,2008,0.88,孩/妇女,A,2009-05-13,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21155.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.88 / 0.84 / 0.04 / 0.00 / 27.58 / 27.89
+fertility_shanghai_registered,CHN,2009,0.83,孩/妇女,A,2010-06-08,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21167.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.83 / 0.78 / 0.04 / 0.00 / 28.38 / 28.18
+fertility_shanghai_registered,CHN,2010,0.89,孩/妇女,A,2011-08-22,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21173.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.89 / 0.83 / 0.06 / 0.00 / 28.49 / 28.25
+fertility_shanghai_registered,CHN,2011,0.90,孩/妇女,A,2012-05-20,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21179.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.90 / 0.83 / 0.06 / 0.00 / 30.38 / 28.44
+fertility_shanghai_registered,CHN,2012,1.07,孩/妇女,A,2013-03-31,https://wsjkw.sh.gov.cn/tjsj2/20250325/5a882647025e457b84d661d0c9d851a1.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 1.07 / 0.98 / 0.09 / 0.00 / 36.51 / 28.46
+fertility_shanghai_registered,CHN,2013,0.98,孩/妇女,A,2014-03-31,https://wsjkw.sh.gov.cn/tjsj2/20250325/49c76c16c92d4b7a88e0d262f9fe4e5c.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.98 / 33.04 / 28.65
+fertility_shanghai_registered,CHN,2014,1.13,孩/妇女,A,2015-03-31,https://wsjkw.sh.gov.cn/tjsj2/20250325/375c841fae0e48cfbd29c59c0ca92444.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 1.13 / 38.53 / 28.66
+fertility_shanghai_registered,CHN,2015,0.97,孩/妇女,A,2016-03-30,https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-27793.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.97 / 0.77 / 0.20 / 0.00 / 33.46 / 29.01
+fertility_shanghai_registered,CHN,2016,1.1,孩/妇女,A,2017-05-02,https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-57333.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 1.1 / 38.27 / 29.37 / 30.45
+fertility_shanghai_registered,CHN,2017,1.0,孩/妇女,A,2018-05-14,https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-58393.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 1.0 / 33.22 / 29.81 / 31.16
+fertility_shanghai_registered,CHN,2018,0.9,孩/妇女,A,2019-05-06,https://wsjkw.sh.gov.cn/tjsj2/20190507/0012-63877.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.9 / 28.80 / 30.10 / 31.32
+fertility_shanghai_registered,CHN,2019,0.92,孩/妇女,A,2020-07-24,https://wsjkw.sh.gov.cn/tjsj2/20200724/6ac31287f7074c869f563fefe79c75d3.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.92 / 29.57 / 30.29 / 31.40
+fertility_shanghai_registered,CHN,2020,0.73,孩/妇女,A,2021-06-01,https://wsjkw.sh.gov.cn/tjsj2/20210601/c90aa6dc07884cffa515d207848b8659.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.73 / 23.00 / 30.73 / 31.74
+fertility_shanghai_registered,CHN,2021,0.70,孩/妇女,A,2022-02-25,https://wsjkw.sh.gov.cn/tjsj2/20220225/ab3bc16ec7cb43f3863599e1572d567f.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.70 / 21.56 / 30.08 / 30.93
+fertility_shanghai_registered,CHN,2022,0.70,孩/妇女,A,2023-02-20,https://wsjkw.sh.gov.cn/tjsj2/20230220/a52a46b6cf6b4ee7bd8e050cdaed2d63.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.70 / 21.17 / 30.36 / 31.18
+fertility_shanghai_registered,CHN,2023,0.6,孩/妇女,A,2024-05-20,https://wsjkw.sh.gov.cn/tjsj2/20240520/2dafb45f564a4aabb1a9c22e67ae753e.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.6 / 18.27 / 31.66 / 32.56
+fertility_shanghai_registered,CHN,2024,0.72,孩/妇女,A,2025-02-26,https://wsjkw.sh.gov.cn/tjsj2/20250226/56493f15c5a14146acfa66af3c8b2f84.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.72 / 20.82 / 31.81 / 32.58
+fertility_shanghai_registered,CHN,2025,0.66,孩/妇女,A,2026-03-04,https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html,上海户籍人口总和生育率；不是全体常住人口；原表全市行：全市 / 0.66 / 19.10 / 32.22 / 32.98
+population_shanghai,CHN,2000,1609,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2001,1668,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2002,1713,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2003,1766,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2004,1835,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2005,1890,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2006,1964,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2007,2064,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2008,2141,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2009,2210,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2010,2303,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2011,2356,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2012,2399,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2013,2448,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2014,2467,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2015,2458,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2016,2467,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2017,2466,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2018,2475,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2019,2481,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2020,2488,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2021,2489,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2022,2475,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2023,2487,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2024,2480,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度
+population_shanghai,CHN,2025,2485,万人,A,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,原指标：年末常住人口 (万人)；地区代码 310000000000；保留官方历史修订与显示精度

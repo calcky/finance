@@ -22,6 +22,8 @@ def load_topic(slug, root=ROOT):
 
 
 def periods_between(start, end, frequency):
+    if frequency == "A":
+        return [str(year) for year in range(int(start), int(end)+1)]
     if frequency == "D":
         first, last = date.fromisoformat(start), date.fromisoformat(end)
         return [(first + timedelta(days=i)).isoformat() for i in range((last-first).days+1)]
@@ -88,8 +90,10 @@ def document(slug, rows, meta):
         last = selected[-1]
         source = last["source_url"]
         if "stream/esData" in source:
-            page = "quarterData" if SERIES[key]["frequency"] == "Q" else "monthData"
+            page = {"A": "yearData", "Q": "quarterData", "M": "monthData"}[SERIES[key]["frequency"]]
             source = f"https://data.stats.gov.cn/dg/website/page.html#/pc/national/{page}"
+            if "shanghai" in key:
+                source = "https://data.stats.gov.cn/"
         lines.append(f"| {SERIES[key]['label']} | {last['period']} | {display(float(last['value']))} | {last['unit']} | {selected[0]['period']} | {len(selected)} | [{SERIES[key]['source']}]({source}) |")
     lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", "",
               "图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。", ""]
@@ -156,7 +160,9 @@ def render(slug, rows, meta, out, font=None, preview_dir=None):
                     elif value < 0:
                         negative[i] += value
             else:
-                ax.plot(range(len(values)), values, color=color, linewidth=2, marker=".", markersize=3 if chart["frequency"] == "D" else 6, label=SERIES[key]["label"])
+                ax.plot(range(len(values)), values, color=color, linewidth=2, marker=".",
+                        linestyle="--" if key in chart.get("dashed_series", []) else "-",
+                        markersize=3 if chart["frequency"] == "D" else 6, label=SERIES[key]["label"])
         if stacked:
             ax.plot(range(len(chart["periods"])), [chart["totals"].get(p, float("nan")) for p in chart["periods"]],
                     color="#203047", linewidth=1.4, label="净合计")

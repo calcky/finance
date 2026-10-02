@@ -110,12 +110,18 @@ def collectors_for(topics):
     from macro_tsf_components import collect as tsf_components
     from macro_loan_history import collect as loans
     from macro_property import collect as property_history
+    from macro_population import collect as population
+    from macro_shanghai import collect as shanghai
+    from macro_housing import collect as housing
+    from macro_housing_wealth import collect as housing_wealth
     groups = [(nbs, {"prices", "money-credit", "activity", "trade-fx", "employment-income"}),
               (income, {"employment-income"}), (money, {"money-credit"}),
               (market, {"rates", "trade-fx"}), (repo, {"rates"}),
               (cpi_releases, {"prices"}), (quarterly_gdp, {"quarterly-gdp"}),
               (tsf_components, {"credit-structure"}), (loans, {"credit-structure"}),
-              (property_history, {"property"})]
+              (property_history, {"property"}), (population, {"population"}),
+              (shanghai, {"shanghai-population"}), (housing, {"housing-prices"}),
+              (housing_wealth, {"housing-wealth"})]
     return [collector for collector, covered in groups if covered.intersection(topics)]
 
 

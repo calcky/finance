@@ -7,6 +7,7 @@ from pathlib import Path
 from decimal import Decimal
 import sys
 import unittest
+from unittest.mock import patch
 
 from openpyxl import Workbook
 
@@ -144,6 +145,14 @@ class SourceContracts(unittest.TestCase):
         self.assertEqual(periods_between("2025-12", "2026-02", "M"), ["2025-12", "2026-01", "2026-02"])
         self.assertEqual(periods_between("2025-Q4", "2026-Q2", "Q"), ["2025-Q4", "2026-Q1", "2026-Q2"])
         self.assertEqual(len(periods_between("2026-09-25", "2026-09-28", "D")), 4)
+
+    def test_annual_observations_keep_unobserved_years_and_reject_forecasts(self):
+        self.assertEqual(periods_between("2010", "2020", "A"), [str(y) for y in range(2010, 2021)])
+        with patch.dict(SERIES, {"annual_fixture": dict(unit="万人", frequency="A")}):
+            self.assertEqual(observation("annual_fixture", "1949", 54167, URL)["period"], "1949")
+            for period in ("2020-Q1", "2020-01", "9999", "0000"):
+                with self.assertRaises(ValueError):
+                    observation("annual_fixture", period, 1, URL)
 
 
 class CommittedSnapshot(unittest.TestCase):

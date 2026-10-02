@@ -18,6 +18,10 @@
 | [景气、生产、消费与投资](activity.md) | PMI、工业、社零、投资 | 月度 | 国家统计局；单月与年内累计分别标注 |
 | [就业与居民收入](employment-income.md) | 城镇调查失业率、可支配收入 | 月度 / 季度 | 国家统计局；季度收入为年内累计 |
 | [进出口与人民币汇率](trade-fx.md) | 货物进出口、贸易差额、USD/CNY 中间价 | 月度 / 日度 | 统计局海关数据、中国货币网 |
+| [全国与上海房价](housing-prices.md) | 新建住宅成交均价、BIS 指数、上海新房与二手房 | 年度 / 季度 / 月度 | 统计局与 BIS；口径变化分段 |
+| [住宅资产总值估算](housing-wealth.md) | 住宅及对应土地估值、与 GDP 的比例 | 年度 | WID；历史研究与模型延伸分列 |
+| [中国人口、生育与家庭](population.md) | 总人口、出生/死亡率、总和生育率、家庭户数与规模 | 年度 / 普查与调查时点 | 统计局、联合国；调查空档不插值 |
+| [上海人口与生育](shanghai-population.md) | 常住人口、户籍人口总和生育率 | 年度 | 统计局、上海卫健委；人口范围分开 |
 
 “每日检查”不等于所有指标实时更新。WDI 的年度数据可能晚于国家统计局季度快报，月度接口也可能晚于新闻发布页；看各指标的最新统计期，不以网页构建日期判断新旧。即期成交汇率和日内行情尚未接入。不同来源保持独立口径，不把季度快报补进 WDI 年度历史序列。
 
@@ -32,6 +36,11 @@ prices
 money-credit
 credit-structure
 property
+housing-prices
+housing-wealth
+population
+shanghai-population
+housing-population-methodology
 rates
 activity
 employment-income
@@ -43,7 +52,7 @@ history-coverage
 
 小型、允许公开再分发的数据集保存在仓库根目录 `data/`，采用 UTF-8 CSV。数据说明和分析放在文档中；构建出的 HTML 不入库。
 
-每个数据集提供 CSV 与机器可读元数据，说明包含序列定义、单位、频率、口径变化、缺失值约定和来源参数。九个中国宏观专题保存在 `data/macro/<topic>.csv` 和 `<topic>.metadata.json`；阅读说明与图表在本节对应页面。
+每个数据集提供 CSV 与机器可读元数据，说明包含序列定义、单位、频率、口径变化、缺失值约定和来源参数。十三个中国宏观专题保存在 `data/macro/<topic>.csv` 和 `<topic>.metadata.json`；阅读说明与图表在本节对应页面。
 
 已提供的 GDP 数据为 `data/gdp.csv`、`data/gdp.md` 和机器可读的 `data/gdp.metadata.json`；图表与页面由该快照生成。
 
@@ -80,7 +89,7 @@ history-coverage
 
 月度宏观指标在正式发布后更新，GDP 跟随季度及修订发布，政策利率跟随政策公告，行情跟随选定产品的采样频率。网站构建时间与数据更新时间不同，页面变新不意味着所有指标都变新。
 
-年度 GDP 与九个宏观专题的统一同步任务设为每天北京时间 06:17 检查，也可手动触发。GitHub 定时任务可能延迟或跳过，公开仓库长期不活跃时还可能暂停，不能视为准点服务。最近检查结果以 [Actions 记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 为准。
+年度 GDP 与十三个宏观专题的统一同步任务设为每天北京时间 06:17 检查，也可手动触发。GitHub 定时任务可能延迟或跳过，公开仓库长期不活跃时还可能暂停，不能视为准点服务。最近检查结果以 [Actions 记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 为准。
 
 日常更新保留全历史，每月首次定时任务另做全量回溯，手动触发时也可选择 `backfill`。[历史覆盖与来源核验](history-coverage.md)说明实际起点、口径断点与仍存在的缺口。
 

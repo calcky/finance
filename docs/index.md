@@ -22,9 +22,11 @@
 - [指标目录](indicators/index.md)：定义、单位、频率和数据来源。
 - [宏观经济总览](data/overview.md)：六个观察维度、最新数据与历史范围，结合传导图理解指标之间的联系。
 - [GDP 数据专题](data/gdp.md)：中国历年 GDP、实际增速、人均 GDP 与中美对照，提供四张趋势图和 CSV 下载。
-- [中国宏观数据](data/index.md)：季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、进出口与汇率；35 张交互图支持选点、缩放与逐期查表。
+- [中国宏观数据](data/index.md)：季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、进出口与汇率；48 张交互图支持选点、缩放与逐期查表。
 - [数据与更新](data/index.md)：每日检查来源新值与历史修订，区分统计期间、来源库更新和快照获取时间。
 - [维护与发布](maintenance.md)：贡献内容、本地构建和 Read the Docs 发布方法。
+
+新增[房价、人口与住房需求](housing-population.md)：通过全国与上海房价、住宅资产估值、人口、生育率和家庭户数，练习区分价格、财富存量与住房需求。
 
 ## 阅读时先分清
 
@@ -72,6 +74,7 @@ banking-and-money-creation
 money-and-credit
 credit-structure
 property-and-economy
+housing-population
 growth-and-inflation
 interest-rates
 ```

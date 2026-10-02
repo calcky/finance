@@ -1,0 +1,1418 @@
+{
+  "acquisition": {
+    "housing_average_all_current": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2006"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_all_legacy": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2004",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_all_transition": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2005",
+          "start": "2005"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_current": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2006"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_legacy": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2004",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_transition": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2005",
+          "start": "2005"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_bis_nominal_current": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2016-Q1"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv"
+    },
+    "housing_bis_nominal_legacy": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2015-Q4",
+          "start": "2005-Q2"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv"
+    },
+    "housing_bis_real_current": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2016-Q1"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.R.628?format=csv"
+    },
+    "housing_bis_real_legacy": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2015-Q4",
+          "start": "2005-Q2"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.R.628?format=csv"
+    },
+    "housing_shanghai_new_mom": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "732f9cca00c84facb9bb8dd8365bc0e7",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_mom_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "732f9cca00c84facb9bb8dd8365bc0e7",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_yoy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "fb43046325f64e3896a96b70b071d52b",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_yoy_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "fb43046325f64e3896a96b70b071d52b",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_mom": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "05dd255eb4d54986a567d523b4403676",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_mom_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "05dd255eb4d54986a567d523b4403676",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_yoy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "11ad09962ea7497eb2ccdf2be5719a20",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_yoy_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "11ad09962ea7497eb2ccdf2be5719a20",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "coverage": {
+    "housing_average_all_current": {
+      "count": 19,
+      "first": "2006",
+      "last": "2024"
+    },
+    "housing_average_all_legacy": {
+      "count": 14,
+      "first": "1991",
+      "last": "2004"
+    },
+    "housing_average_all_transition": {
+      "count": 1,
+      "first": "2005",
+      "last": "2005"
+    },
+    "housing_average_residential_current": {
+      "count": 19,
+      "first": "2006",
+      "last": "2024"
+    },
+    "housing_average_residential_legacy": {
+      "count": 14,
+      "first": "1991",
+      "last": "2004"
+    },
+    "housing_average_residential_transition": {
+      "count": 1,
+      "first": "2005",
+      "last": "2005"
+    },
+    "housing_bis_nominal_current": {
+      "count": 42,
+      "first": "2016-Q1",
+      "last": "2026-Q2"
+    },
+    "housing_bis_nominal_legacy": {
+      "count": 43,
+      "first": "2005-Q2",
+      "last": "2015-Q4"
+    },
+    "housing_bis_real_current": {
+      "count": 42,
+      "first": "2016-Q1",
+      "last": "2026-Q2"
+    },
+    "housing_bis_real_legacy": {
+      "count": 43,
+      "first": "2005-Q2",
+      "last": "2015-Q4"
+    },
+    "housing_shanghai_new_mom": {
+      "count": 188,
+      "first": "2011-01",
+      "last": "2026-08"
+    },
+    "housing_shanghai_new_mom_legacy": {
+      "count": 60,
+      "first": "2006-01",
+      "last": "2010-12"
+    },
+    "housing_shanghai_new_yoy": {
+      "count": 188,
+      "first": "2011-01",
+      "last": "2026-08"
+    },
+    "housing_shanghai_new_yoy_legacy": {
+      "count": 60,
+      "first": "2006-01",
+      "last": "2010-12"
+    },
+    "housing_shanghai_used_mom": {
+      "count": 188,
+      "first": "2011-01",
+      "last": "2026-08"
+    },
+    "housing_shanghai_used_mom_legacy": {
+      "count": 60,
+      "first": "2006-01",
+      "last": "2010-12"
+    },
+    "housing_shanghai_used_yoy": {
+      "count": 188,
+      "first": "2011-01",
+      "last": "2026-08"
+    },
+    "housing_shanghai_used_yoy_legacy": {
+      "count": 60,
+      "first": "2006-01",
+      "last": "2010-12"
+    }
+  },
+  "history": {
+    "housing_average_all_current": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2006"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_all_legacy": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2004",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_all_transition": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "67851f1515504d5992b1a9d0c023f0bb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2005",
+          "start": "2005"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_current": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2006"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_legacy": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2004",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_average_residential_transition": {
+      "annotation": null,
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "年度均价1991年起，非恒定质量房价；1991—1999取旧年鉴，2000年起数据库优先；2004年数据库修订不同于旧年鉴初值，不覆盖修订",
+      "definition": null,
+      "definition_notes": [
+        "销售统计2005年范围变化，2004年及以前、2005转换期、2006年起分段；均价受成交结构影响"
+      ],
+      "geography": "000000000000",
+      "indicator_id": "222b8f1e22804abaaa3b58b227f8103d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f",
+      "place": "全国",
+      "raw_unit": "元/平方米",
+      "refresh_ranges": [
+        {
+          "end": "2005",
+          "start": "2005"
+        }
+      ],
+      "request": {
+        "cid": "302cec9f9b354cb3a82670d8747bea2f",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "67851f1515504d5992b1a9d0c023f0bb",
+          "222b8f1e22804abaaa3b58b227f8103d"
+        ],
+        "rootId": "884c062607104a91967b22742537f44f",
+        "showType": "1"
+      },
+      "requested_window_complete": true,
+      "yearbook_url": "https://www.stats.gov.cn/sj/ndsj/2005/html/F0638C.HTM"
+    },
+    "housing_bis_nominal_current": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2016-Q1"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv"
+    },
+    "housing_bis_nominal_legacy": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2015-Q4",
+          "start": "2005-Q2"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv"
+    },
+    "housing_bis_real_current": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2016-Q1"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.R.628?format=csv"
+    },
+    "housing_bis_real_legacy": {
+      "base": "2010 average = 100",
+      "coverage": "BIS代表性70城住宅指数2005Q2起；2016Q1由新建改为二手住宅，分段保留；非全国所有住房统计",
+      "methodology_url": "https://www.bis.org/statistics/pp_selected_documentation.pdf",
+      "refresh_ranges": [
+        {
+          "end": "2015-Q4",
+          "start": "2005-Q2"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_url": "https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.R.628?format=csv"
+    },
+    "housing_shanghai_new_mom": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "732f9cca00c84facb9bb8dd8365bc0e7",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_mom_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "732f9cca00c84facb9bb8dd8365bc0e7",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_yoy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "fb43046325f64e3896a96b70b071d52b",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_new_yoy_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "fb43046325f64e3896a96b70b071d52b",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_mom": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "05dd255eb4d54986a567d523b4403676",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_mom_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "05dd255eb4d54986a567d523b4403676",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_yoy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "11ad09962ea7497eb2ccdf2be5719a20",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "housing_shanghai_used_yoy_legacy": {
+      "annotation": "房地产价格统计调查每五年进行一次基期轮换。2011年—2015年调查期以2010年为基期年，2016年—2020年调查期以2015年为基期年，2021年—2025年调查期以2020年为基期年。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "conversion": "comparison index - 100",
+      "coverage": "上海2006年起月度；2011调查方法改革前后单列保留；普通五年换基不删除同比环比历史",
+      "geography": "310000000000",
+      "indicator_id": "11ad09962ea7497eb2ccdf2be5719a20",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=3eb43764c74741469b745c396cf002d1",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "request": {
+        "cid": "3eb43764c74741469b745c396cf002d1",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "194901MM-202610MM"
+        ],
+        "indicatorIds": [
+          "732f9cca00c84facb9bb8dd8365bc0e7",
+          "fb43046325f64e3896a96b70b071d52b",
+          "05dd255eb4d54986a567d523b4403676",
+          "11ad09962ea7497eb2ccdf2be5719a20"
+        ],
+        "rootId": "327ecbb2e6b14c669da1e99e39faa24c",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "history_checked_at": "2026-10-02T15:21:38+00:00",
+  "retrieved_at": "2026-10-02T15:33:59+00:00",
+  "schema_version": 2,
+  "series": {
+    "housing_average_all_current": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "商品房成交均价（2006年起）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_average_all_legacy": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "商品房成交均价（2004年及以前）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_average_all_transition": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "商品房成交均价（2005转换期）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_average_residential_current": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "新建住宅成交均价（2006年起）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_average_residential_legacy": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "新建住宅成交均价（2004年及以前）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_average_residential_transition": {
+      "basis": "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。",
+      "frequency": "A",
+      "label": "新建住宅成交均价（2005转换期）",
+      "source": "国家统计局",
+      "unit": "元/平方米"
+    },
+    "housing_bis_nominal_current": {
+      "basis": "BIS基于国家统计局70城数据计算的中国代表性住宅价格序列，非全国所有住房普查。2005Q2—2015Q4为新建住宅，2016Q1起为二手住宅；使用BIS提供的2010年均值=100，断点分段，不重定基。实际指数由名义指数按CPI平减。",
+      "frequency": "Q",
+      "label": "名义指数（2016起二手房）",
+      "source": "BIS",
+      "unit": "指数点（2010年=100）"
+    },
+    "housing_bis_nominal_legacy": {
+      "basis": "BIS基于国家统计局70城数据计算的中国代表性住宅价格序列，非全国所有住房普查。2005Q2—2015Q4为新建住宅，2016Q1起为二手住宅；使用BIS提供的2010年均值=100，断点分段，不重定基。实际指数由名义指数按CPI平减。",
+      "frequency": "Q",
+      "label": "名义指数（2016年前新房）",
+      "source": "BIS",
+      "unit": "指数点（2010年=100）"
+    },
+    "housing_bis_real_current": {
+      "basis": "BIS基于国家统计局70城数据计算的中国代表性住宅价格序列，非全国所有住房普查。2005Q2—2015Q4为新建住宅，2016Q1起为二手住宅；使用BIS提供的2010年均值=100，断点分段，不重定基。实际指数由名义指数按CPI平减。",
+      "frequency": "Q",
+      "label": "CPI调整后指数（2016起二手房）",
+      "source": "BIS",
+      "unit": "指数点（2010年=100）"
+    },
+    "housing_bis_real_legacy": {
+      "basis": "BIS基于国家统计局70城数据计算的中国代表性住宅价格序列，非全国所有住房普查。2005Q2—2015Q4为新建住宅，2016Q1起为二手住宅；使用BIS提供的2010年均值=100，断点分段，不重定基。实际指数由名义指数按CPI平减。",
+      "frequency": "Q",
+      "label": "CPI调整后指数（2016年前新房）",
+      "source": "BIS",
+      "unit": "指数点（2010年=100）"
+    },
+    "housing_shanghai_new_mom": {
+      "basis": "上海住宅价格环比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "新房环比（2011起）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_new_mom_legacy": {
+      "basis": "上海住宅价格环比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "新房环比（旧法2006—2010）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_new_yoy": {
+      "basis": "上海住宅价格同比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "新房同比（2011起）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_new_yoy_legacy": {
+      "basis": "上海住宅价格同比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "新房同比（旧法2006—2010）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_used_mom": {
+      "basis": "上海住宅价格环比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "二手房环比（2011起）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_used_mom_legacy": {
+      "basis": "上海住宅价格环比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "二手房环比（旧法2006—2010）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_used_yoy": {
+      "basis": "上海住宅价格同比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "二手房同比（2011起）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "housing_shanghai_used_yoy_legacy": {
+      "basis": "上海住宅价格同比，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。",
+      "frequency": "M",
+      "label": "二手房同比（旧法2006—2010）",
+      "source": "国家统计局",
+      "unit": "%"
+    }
+  },
+  "title": "中国与上海房价"
+}

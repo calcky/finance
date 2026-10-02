@@ -120,6 +120,41 @@ for key, label, unit in [
                        "来源原值独立保留；"+desc+"，不与2006年起曲线拼接；2005年8月附近统计范围改变，转换年整年单列，非缺失。年内累计，不是单月。")
 
 
+for key, label, unit, source, basis in [
+    ("population_china", "中国年末总人口", "万人", "国家统计局", "大陆31省区市及现役军人，不含港澳台和海外华侨；1981年及以前为户籍统计，之后采用普查及抽样调查推算，保留官方修订。"),
+    ("population_birth_rate", "出生率", "‰", "国家统计局", "当年活产人数除以年平均人口，再乘1000；不是每名妇女生育子女数。"),
+    ("population_death_rate", "死亡率", "‰", "国家统计局", "当年死亡人数除以年平均人口，再乘1000。"),
+    ("population_natural_rate", "自然增长率", "‰", "国家统计局", "出生率减死亡率；不包含人口迁移。"),
+    ("fertility_china_un", "中国总和生育率（UN估计）", "孩/妇女", "联合国 WPP", "WPP2024历史估计，1950—2023；反映当年各年龄生育率，非一代妇女实际最终子女数。排除2024年起预测，不与其他版本拼接。"),
+    ("households_census", "家庭户数（人口普查）", "万户", "国家统计局", "家庭户不含集体户，一人独居也是家庭户；1990年7月1日，2000年起11月1日普查时点，不是年末数。原公告户数除以10000；不由人口除以平均规模估算。"),
+    ("households_survey", "家庭户数（1%调查推算）", "万户", "国家统计局", "官方1%人口抽样调查推算的全国家庭户数，非样本实际户数；调查时点存量，不与普查数拼成逐年观测。"),
+    ("household_size_census", "家庭户规模（人口普查）", "人/户", "国家统计局", "家庭户人口除以家庭户数；采用官方普查历史序列，只有普查年有观测，不插值。"),
+    ("household_size_survey", "家庭户规模（1%调查推算）", "人/户", "国家统计局", "官方全国1%人口抽样调查结果；不含集体户人口，单列于人口普查结果之外。"),
+    ("population_shanghai", "上海年末常住人口", "万人", "国家统计局", "上海市常住人口，非户籍人口；采用最新修订后的省级年度序列，原表精度为整数万人。2000年前连续可比历史尚未取得，不拼接旧版本或户籍数。"),
+    ("fertility_shanghai_registered", "上海户籍总和生育率", "孩/妇女", "上海市卫健委", "仅上海市户籍人口，不代表全体常住人口；总和生育率不是一般生育率、出生率或一孩比例。2007年起历年原始报告。"),
+]:
+    define(key, label, unit, "A", source, basis)
+
+for segment, label in [("legacy", "2004年及以前"), ("transition", "2005转换期"), ("current", "2006年起")]:
+    for category, name in [("residential", "新建住宅成交均价"), ("all", "商品房成交均价")]:
+        define(f"housing_average_{category}_{segment}", f"{name}（{label}）", "元/平方米", "A", "国家统计局",
+               "年度销售额/销售面积口径的成交均价，非同质房价指数；受地域与产品结构影响。销售统计2005年范围变化，分段保留。1991—1999年取2005年鉴，2000年起优先最新数据库，未把2004年初值覆盖修订值。")
+for kind, label in [("new", "新房"), ("used", "二手房")]:
+    for rate, name in [("mom", "环比"), ("yoy", "同比")]:
+        for segment, suffix in [("", "2011起"), ("_legacy", "旧法2006—2010")]:
+            define(f"housing_shanghai_{kind}_{rate}{segment}", f"{label}{name}（{suffix}）", "%", "M", "国家统计局",
+                   f"上海住宅价格{ name }，原上月/上年同月=100指数减100；不表示房价元/平方米。2011年调查方法改革，早期单列；五年换基不构成删除同比环比历史的理由。")
+for kind, label in [("nominal", "名义"), ("real", "CPI调整后")]:
+    for segment, suffix in [("legacy", "2016年前新房"), ("current", "2016起二手房")]:
+        define(f"housing_bis_{kind}_{segment}", f"{label}指数（{suffix}）", "指数点（2010年=100）", "Q", "BIS",
+               "BIS基于国家统计局70城数据计算的中国代表性住宅价格序列，非全国所有住房普查。2005Q2—2015Q4为新建住宅，2016Q1起为二手住宅；使用BIS提供的2010年均值=100，断点分段，不重定基。实际指数由名义指数按CPI平减。")
+for segment, label in [("history", "历史重建1979—2020"), ("extension", "模型延伸2021起")]:
+    define(f"housing_wealth_{segment}", f"住宅总值（{label}）", "万亿元（当年价格）", "A", "WID研究估算",
+           "全经济住宅及对应土地的资产总值，未减房贷，不含全部商业地产，不是官方市场普查。源不变价总量mnwhoui999乘同年inyixxi999，再除以1e12转成当年价万亿元；2021年起为延伸模型估算，不能直接据此判断实际市值涨跌。")
+    define(f"housing_wealth_gdp_{segment}", f"住宅总值/GDP（{label}）", "%", "A", "WID研究估算",
+           "存量与年度流量的比率，不是住宅产业贡献的GDP占比；直接采用同一WID版本ynwhoui999乘100，不混用其他版本GDP。研究重建与模型延伸分别展示。")
+
+
 def chart(id, title, series, explanation, baseline=None, **options):
     result = dict(id=id, title=title, series=series, explanation=explanation)
     if baseline is not None:
@@ -128,6 +163,45 @@ def chart(id, title, series, explanation, baseline=None, **options):
 
 
 TOPICS = {
+    "population": {
+        "title": "中国人口、生育与家庭", "question": "人口、出生和家庭户数，为什么可能朝不同方向变化？",
+        "intro": "人口是人数，家庭户是共同居住生活的单位，出生率与总和生育率的分母也不同。普查和1%调查只画真实调查年份，不制造年度插值。联合国总和生育率采用历史估计，排除预测期。",
+        "charts": [
+            chart("population-china", "中国年末总人口", ["population_china"], "人口总量是存量。1981年前户籍统计、之后普查及抽样推算，采用统计局当前历史版本；不含港澳台。单位万人，140000万人即14亿人。"),
+            chart("population-rates", "中国出生、死亡与自然增长率", ["population_birth_rate", "population_death_rate", "population_natural_rate"], "分母是年平均总人口。自然增长率等于出生率减死亡率，不含迁移；‰不是%。", 0),
+            chart("population-fertility", "中国总和生育率：联合国历史估计", ["fertility_china_un"], "WPP2024的1950—2023年估计；2024年起是预测，未混入。总和生育率反映当年的年龄别生育率，不是当年每位女性都生了多少，也不是某一代人的最终生育数。"),
+            chart("population-households", "中国家庭户数：普查与调查推算", ["households_census", "households_survey"], "只有调查时点的点，空白年没有估算线；1%调查采用官方推算全国总量，而非样本户数乘100。家庭户排除集体户，不能直接用总人口除以家庭规模计算。"),
+            chart("population-household-size", "中国家庭户平均规模", ["household_size_census", "household_size_survey"], "家庭变小可使户数在人口增长放缓时继续增加；但新增一户不等于新增购买一套房。普查与调查分列，早期仅有规模数据时不反算家庭总数。"),
+        ], "reading": "housing-population",
+    },
+    "shanghai-population": {
+        "title": "上海人口与生育", "question": "上海常住人口和户籍人口生育率分别说明什么？",
+        "intro": "两张图的统计人群不同：人口总量是上海常住人口，生育率是上海户籍人口。迁移会影响常住人口，不能只用本地出生解释城市人口变化，也不能将户籍生育率当作全部常住女性的生育率。",
+        "charts": [
+            chart("shanghai-population", "上海年末常住人口", ["population_shanghai"], "国家统计局修订后的2000年起序列，整数万人。上海年鉴有更早历史，但本次访问受限；旧公报还存在普查修订差异，暂不拼接，具体限制见历史覆盖说明。"),
+            chart("shanghai-fertility", "上海户籍人口总和生育率", ["fertility_shanghai_registered"], "2007年起卫健委历年报告，明确为户籍口径。0.66表示按该年年龄别生育率合成的终身平均子女数，不是出生率0.66%，也不代表常住人口口径。"),
+        ], "reading": "housing-population",
+    },
+    "housing-prices": {
+        "title": "中国与上海房价", "question": "成交均价与价格指数有什么区别，全国趋势能否代表上海？",
+        "intro": "房价不存在一个可以代表所有房屋的单一数字。全国新建住宅成交均价用元/平方米，BIS70城代表序列用指数，上海新房与二手房用同比、环比；不混成一条曲线。真实口径转换分段保留，旧数据仍在图表或补充明细中。",
+        "charts": [
+            chart("housing-average", "全国新建住宅成交均价：年度与口径分段", [f"housing_average_residential_{s}" for s in ("legacy", "transition", "current")], "官方公布的销售均价，不是同一套房的价格变化。城市和户型成交结构会改变均价；2005年销售范围转换单列。1991—1999年来自旧年鉴，之后优先最新数据库。"),
+            chart("housing-bis", "中国住宅价格：BIS代表性指数", ["housing_bis_nominal_legacy", "housing_bis_nominal_current"], "覆盖70城的代表性序列，不代表全国所有房屋。2016年由新建住宅转为二手住宅范围，曲线分开，仍保留来源的2010年=100；不能将2016年后的线解读为同一套新房的连续涨跌。"),
+            chart("housing-shanghai-yoy", "上海新房与二手房：同比", [f"housing_shanghai_{k}_yoy{s}" for s in ("", "_legacy") for k in ("new", "used")], "相对上年同月。旧法2006—2010和2011年改革后分开；同比下降不等于房价回到若干年前。指数减100得到百分比变化。", 0),
+            chart("housing-shanghai-mom", "上海新房与二手房：环比", [f"housing_shanghai_{k}_mom{s}" for s in ("", "_legacy") for k in ("new", "used")], "相对上月，未经季调。新房与二手房市场可不同步；不连乘同比，也不把不同五年基期的定基指数直接拼接。", 0),
+        ],
+        "extra": [f"housing_average_all_{s}" for s in ("legacy", "transition", "current")] + [f"housing_bis_real_{s}" for s in ("legacy", "current")],
+        "reading": "housing-population",
+    },
+    "housing-wealth": {
+        "title": "中国住宅资产总值：研究估算", "question": "住房资产存量有多大，为什么不能用一年销售额代表房地产总市值？",
+        "intro": "本页是WID对全国住宅及对应土地的资产总值估算，不是所有房地产的官方总市值，不包括全部商业地产，也未扣房贷。历史重建与2021年起模型延伸分线展示；尤其不能把模型延伸段的快速变化当作直接观测到的市场涨跌。",
+        "charts": [
+            chart("housing-wealth", "中国住宅资产总值：含住宅土地", ["housing_wealth_history", "housing_wealth_extension"], "单位当年价格万亿元。WID原始金额按最新基年不变价提供，本项目用同版价格指数还原各年名义值。1979—2020也是研究重建；2021年后缺少同等基础观测，使用模型延伸（虚线）。", dashed_series=["housing_wealth_extension"]),
+            chart("housing-wealth-gdp", "住宅资产总值相当于多少年度GDP", ["housing_wealth_gdp_history", "housing_wealth_gdp_extension"], "250%意为住宅资产存量约为2.5年的GDP，不表示房地产创造了250%的当年产出。使用同一WID版本的比率，不与其他GDP数据混配；延伸估算用虚线。", dashed_series=["housing_wealth_gdp_extension"]),
+        ], "reading": "housing-population",
+    },
     "property": {
         "title": "房地产：销售、资金与建设", "question": "销售变化怎样传到资金、开工和投资，哪些数据不能直接相加？",
         "intro": "全国开发企业的新建商品房与开发建设统计，不是二手房市场或房价指数。以下全部是年内累计值或累计同比：2月代表1—2月，1月不发布，不能把每个月的累计金额相加。官方可比增速独立保存，不从历史金额反算。",

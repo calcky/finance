@@ -1,0 +1,338 @@
+{
+  "acquisition": {
+    "fertility_shanghai_registered": {
+      "archive_pages": [
+        "https://wsjkw.sh.gov.cn/tjsj2/index.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_2.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_3.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_4.html"
+      ],
+      "coverage": "已遍历卫健委统计数据全部档案页，2007年起连续户籍总和生育率；不是全体常住人口；早期年份尚未核验",
+      "index_url": "https://wsjkw.sh.gov.cn/tjsj2/index.html",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "1949"
+        }
+      ],
+      "requested_window_complete": true,
+      "sources": [
+        {
+          "title": "2008年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21155.html",
+          "year": "2008"
+        },
+        {
+          "title": "2007年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21161.html",
+          "year": "2007"
+        },
+        {
+          "title": "2009年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21167.html",
+          "year": "2009"
+        },
+        {
+          "title": "2010年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21173.html",
+          "year": "2010"
+        },
+        {
+          "title": "2011年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21179.html",
+          "year": "2011"
+        },
+        {
+          "title": "2015年上海市人口和计划生育统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-27793.html",
+          "year": "2015"
+        },
+        {
+          "title": "2016年上海市卫生计生数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-57333.html",
+          "year": "2016"
+        },
+        {
+          "title": "2017年上海市卫生计生数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-58393.html",
+          "year": "2017"
+        },
+        {
+          "title": "2018年上海市卫生健康统计数据 ",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20190507/0012-63877.html",
+          "year": "2018"
+        },
+        {
+          "title": "2019年上海市卫生健康统计数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20200724/6ac31287f7074c869f563fefe79c75d3.html",
+          "year": "2019"
+        },
+        {
+          "title": "2020上海市计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20210601/c90aa6dc07884cffa515d207848b8659.html",
+          "year": "2020"
+        },
+        {
+          "title": "2021年上海市计划生育统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20220225/ab3bc16ec7cb43f3863599e1572d567f.html",
+          "year": "2021"
+        },
+        {
+          "title": "上海市2022年度人口监测统计数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20230220/a52a46b6cf6b4ee7bd8e050cdaed2d63.html",
+          "year": "2022"
+        },
+        {
+          "title": "2023年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20240520/2dafb45f564a4aabb1a9c22e67ae753e.html",
+          "year": "2023"
+        },
+        {
+          "title": "2024年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250226/56493f15c5a14146acfa66af3c8b2f84.html",
+          "year": "2024"
+        },
+        {
+          "title": "2014上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/375c841fae0e48cfbd29c59c0ca92444.html",
+          "year": "2014"
+        },
+        {
+          "title": "2013上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/49c76c16c92d4b7a88e0d262f9fe4e5c.html",
+          "year": "2013"
+        },
+        {
+          "title": "2012上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/5a882647025e457b84d661d0c9d851a1.html",
+          "year": "2012"
+        },
+        {
+          "title": "2025年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html",
+          "year": "2025"
+        }
+      ]
+    },
+    "population_shanghai": {
+      "annotation": "常住人口包括：居住在本乡镇街道且户口在本乡镇街道或户口待定的人；居住在本乡镇街道且离开户口登记地所在的乡镇街道半年以上的人；户口在本乡镇街道且外出不满半年或在境外工作学习的人。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "新版常住人口2000年起；上海年鉴更早历史访问受限，1998—1999旧年鉴只有未明确常住口径的年底总人口，暂不拼接；2000不是统计历史起点",
+      "definition": "年末人口数指每年12月31日24时的人口数。年度统计的全国人口总数内未包括香港、澳门特别行政区和台湾省以及海外华侨人数。",
+      "geography": "310000000000",
+      "indicator_id": "4810ad6e9ddc41fc804a66134afe587f",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=755d5f6efbcf41a6a411ad819aa93c17",
+      "place": "上海市",
+      "raw_unit": "万人",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "755d5f6efbcf41a6a411ad819aa93c17",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海市",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "4810ad6e9ddc41fc804a66134afe587f"
+        ],
+        "rootId": "c4d82af16c3d4f0cb4f09d4af7d5888e",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "coverage": {
+    "fertility_shanghai_registered": {
+      "count": 19,
+      "first": "2007",
+      "last": "2025"
+    },
+    "population_shanghai": {
+      "count": 26,
+      "first": "2000",
+      "last": "2025"
+    }
+  },
+  "history": {
+    "fertility_shanghai_registered": {
+      "archive_pages": [
+        "https://wsjkw.sh.gov.cn/tjsj2/index.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_2.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_3.html",
+        "https://wsjkw.sh.gov.cn/tjsj2/index_4.html"
+      ],
+      "coverage": "已遍历卫健委统计数据全部档案页，2007年起连续户籍总和生育率；不是全体常住人口；早期年份尚未核验",
+      "index_url": "https://wsjkw.sh.gov.cn/tjsj2/index.html",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "1949"
+        }
+      ],
+      "requested_window_complete": true,
+      "sources": [
+        {
+          "title": "2008年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21155.html",
+          "year": "2008"
+        },
+        {
+          "title": "2007年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21161.html",
+          "year": "2007"
+        },
+        {
+          "title": "2009年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21167.html",
+          "year": "2009"
+        },
+        {
+          "title": "2010年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21173.html",
+          "year": "2010"
+        },
+        {
+          "title": "2011年户籍人口生育率与初育年龄情况",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-21179.html",
+          "year": "2011"
+        },
+        {
+          "title": "2015年上海市人口和计划生育统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180525/0012-27793.html",
+          "year": "2015"
+        },
+        {
+          "title": "2016年上海市卫生计生数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-57333.html",
+          "year": "2016"
+        },
+        {
+          "title": "2017年上海市卫生计生数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20180815/0012-58393.html",
+          "year": "2017"
+        },
+        {
+          "title": "2018年上海市卫生健康统计数据 ",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20190507/0012-63877.html",
+          "year": "2018"
+        },
+        {
+          "title": "2019年上海市卫生健康统计数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20200724/6ac31287f7074c869f563fefe79c75d3.html",
+          "year": "2019"
+        },
+        {
+          "title": "2020上海市计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20210601/c90aa6dc07884cffa515d207848b8659.html",
+          "year": "2020"
+        },
+        {
+          "title": "2021年上海市计划生育统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20220225/ab3bc16ec7cb43f3863599e1572d567f.html",
+          "year": "2021"
+        },
+        {
+          "title": "上海市2022年度人口监测统计数据",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20230220/a52a46b6cf6b4ee7bd8e050cdaed2d63.html",
+          "year": "2022"
+        },
+        {
+          "title": "2023年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20240520/2dafb45f564a4aabb1a9c22e67ae753e.html",
+          "year": "2023"
+        },
+        {
+          "title": "2024年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250226/56493f15c5a14146acfa66af3c8b2f84.html",
+          "year": "2024"
+        },
+        {
+          "title": "2014上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/375c841fae0e48cfbd29c59c0ca92444.html",
+          "year": "2014"
+        },
+        {
+          "title": "2013上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/49c76c16c92d4b7a88e0d262f9fe4e5c.html",
+          "year": "2013"
+        },
+        {
+          "title": "2012上海市人口与计划生育统计资料汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20250325/5a882647025e457b84d661d0c9d851a1.html",
+          "year": "2012"
+        },
+        {
+          "title": "2025年上海市人口监测统计资料主要数据汇编",
+          "url": "https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html",
+          "year": "2025"
+        }
+      ]
+    },
+    "population_shanghai": {
+      "annotation": "常住人口包括：居住在本乡镇街道且户口在本乡镇街道或户口待定的人；居住在本乡镇街道且离开户口登记地所在的乡镇街道半年以上的人；户口在本乡镇街道且外出不满半年或在境外工作学习的人。",
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "新版常住人口2000年起；上海年鉴更早历史访问受限，1998—1999旧年鉴只有未明确常住口径的年底总人口，暂不拼接；2000不是统计历史起点",
+      "definition": "年末人口数指每年12月31日24时的人口数。年度统计的全国人口总数内未包括香港、澳门特别行政区和台湾省以及海外华侨人数。",
+      "geography": "310000000000",
+      "indicator_id": "4810ad6e9ddc41fc804a66134afe587f",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=755d5f6efbcf41a6a411ad819aa93c17",
+      "place": "上海市",
+      "raw_unit": "万人",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "1949"
+        }
+      ],
+      "request": {
+        "cid": "755d5f6efbcf41a6a411ad819aa93c17",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "上海市",
+            "value": "310000000000"
+          }
+        ],
+        "dts": [
+          "1949YY-2026YY"
+        ],
+        "indicatorIds": [
+          "4810ad6e9ddc41fc804a66134afe587f"
+        ],
+        "rootId": "c4d82af16c3d4f0cb4f09d4af7d5888e",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "history_checked_at": "2026-10-02T15:21:38+00:00",
+  "retrieved_at": "2026-10-02T15:21:38+00:00",
+  "schema_version": 2,
+  "series": {
+    "fertility_shanghai_registered": {
+      "basis": "仅上海市户籍人口，不代表全体常住人口；总和生育率不是一般生育率、出生率或一孩比例。2007年起历年原始报告。",
+      "frequency": "A",
+      "label": "上海户籍总和生育率",
+      "source": "上海市卫健委",
+      "unit": "孩/妇女"
+    },
+    "population_shanghai": {
+      "basis": "上海市常住人口，非户籍人口；采用最新修订后的省级年度序列，原表精度为整数万人。2000年前连续可比历史尚未取得，不拼接旧版本或户籍数。",
+      "frequency": "A",
+      "label": "上海年末常住人口",
+      "source": "国家统计局",
+      "unit": "万人"
+    }
+  },
+  "title": "上海人口与生育"
+}

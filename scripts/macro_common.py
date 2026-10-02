@@ -60,10 +60,12 @@ def number(value):
 
 def observation(series, period, value, url, published="", note=""):
     spec = SERIES[series]
-    pattern = {"M": r"\d{4}-(0[1-9]|1[0-2])", "Q": r"\d{4}-Q[1-4]", "D": r"\d{4}-\d{2}-\d{2}"}[spec["frequency"]]
+    pattern = {"A": r"[1-9]\d{3}", "M": r"\d{4}-(0[1-9]|1[0-2])", "Q": r"\d{4}-Q[1-4]", "D": r"\d{4}-\d{2}-\d{2}"}[spec["frequency"]]
     if not re.fullmatch(pattern, period):
         raise ValueError(f"Wrong period for {series}: {period}")
     now = datetime.now(timezone.utc).date()
+    if spec["frequency"] == "A" and int(period) > now.year:
+        raise ValueError("Future observation year")
     if spec["frequency"] == "D":
         from datetime import date
         if date.fromisoformat(period) > now:

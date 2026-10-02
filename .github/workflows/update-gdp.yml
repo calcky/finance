@@ -17,6 +17,7 @@ on:
       - 'scripts/sync_macro.py'
       - 'scripts/macro_*.py'
       - 'data/reference/property-early-releases.json'
+      - 'data/reference/population-households.json'
       - 'scripts/requirements-data.txt'
       - 'scripts/render_learning_charts.py'
       - 'scripts/requirements-plots.txt'
@@ -121,6 +122,7 @@ jobs:
           git add docs/data/quarterly-gdp.md
           git add docs/data/credit-structure.md
           git add docs/data/property.md
+          git add docs/data/housing-prices.md docs/data/housing-wealth.md docs/data/population.md docs/data/shanghai-population.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."
             exit 0

@@ -1,0 +1,2594 @@
+{
+  "acquisition": {
+    "housing_wealth_extension": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "317956026269696",
+          "deflator": "1.003119111061096",
+          "gdp_constant_price_cny": "117017365446656",
+          "nominal_trillion_cny": "318.95",
+          "raw_gdp_ratio": "2.7172",
+          "raw_quality_flag": "5",
+          "year": "2021"
+        },
+        {
+          "constant_price_cny": "306910477680640",
+          "deflator": "1.022525429725647",
+          "gdp_constant_price_cny": "120684462211072",
+          "nominal_trillion_cny": "313.82",
+          "raw_gdp_ratio": "2.5431",
+          "raw_quality_flag": "5",
+          "year": "2022"
+        },
+        {
+          "constant_price_cny": "302483440140288",
+          "deflator": "1.017343401908875",
+          "gdp_constant_price_cny": "127220882341888",
+          "nominal_trillion_cny": "307.73",
+          "raw_gdp_ratio": "2.3776",
+          "raw_quality_flag": "5",
+          "year": "2023"
+        },
+        {
+          "constant_price_cny": "307388292792320",
+          "deflator": "1.010155439376831",
+          "gdp_constant_price_cny": "133552209395712",
+          "nominal_trillion_cny": "310.51",
+          "raw_gdp_ratio": "2.3016",
+          "raw_quality_flag": "5",
+          "year": "2024"
+        },
+        {
+          "constant_price_cny": "360180487290880",
+          "deflator": "1",
+          "gdp_constant_price_cny": "140174579204096",
+          "nominal_trillion_cny": "360.18",
+          "raw_gdp_ratio": "2.5695",
+          "raw_quality_flag": "5",
+          "year": "2025"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2021"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_gdp_extension": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "317956026269696",
+          "deflator": "1.003119111061096",
+          "gdp_constant_price_cny": "117017365446656",
+          "nominal_trillion_cny": "318.95",
+          "raw_gdp_ratio": "2.7172",
+          "raw_quality_flag": "5",
+          "year": "2021"
+        },
+        {
+          "constant_price_cny": "306910477680640",
+          "deflator": "1.022525429725647",
+          "gdp_constant_price_cny": "120684462211072",
+          "nominal_trillion_cny": "313.82",
+          "raw_gdp_ratio": "2.5431",
+          "raw_quality_flag": "5",
+          "year": "2022"
+        },
+        {
+          "constant_price_cny": "302483440140288",
+          "deflator": "1.017343401908875",
+          "gdp_constant_price_cny": "127220882341888",
+          "nominal_trillion_cny": "307.73",
+          "raw_gdp_ratio": "2.3776",
+          "raw_quality_flag": "5",
+          "year": "2023"
+        },
+        {
+          "constant_price_cny": "307388292792320",
+          "deflator": "1.010155439376831",
+          "gdp_constant_price_cny": "133552209395712",
+          "nominal_trillion_cny": "310.51",
+          "raw_gdp_ratio": "2.3016",
+          "raw_quality_flag": "5",
+          "year": "2024"
+        },
+        {
+          "constant_price_cny": "360180487290880",
+          "deflator": "1",
+          "gdp_constant_price_cny": "140174579204096",
+          "nominal_trillion_cny": "360.18",
+          "raw_gdp_ratio": "2.5695",
+          "raw_quality_flag": "5",
+          "year": "2025"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2021"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_gdp_history": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "3259603353600",
+          "deflator": "0.0666646957397461",
+          "gdp_constant_price_cny": "6150925320192",
+          "nominal_trillion_cny": "0.22",
+          "raw_gdp_ratio": "0.5299",
+          "raw_quality_flag": "5",
+          "year": "1979"
+        },
+        {
+          "constant_price_cny": "3382837510144",
+          "deflator": "0.0718527212738991",
+          "gdp_constant_price_cny": "6384716349440",
+          "nominal_trillion_cny": "0.24",
+          "raw_gdp_ratio": "0.5298",
+          "raw_quality_flag": "5",
+          "year": "1980"
+        },
+        {
+          "constant_price_cny": "3734551396352",
+          "deflator": "0.0735414773225784",
+          "gdp_constant_price_cny": "6711578984448",
+          "nominal_trillion_cny": "0.27",
+          "raw_gdp_ratio": "0.5564",
+          "raw_quality_flag": "5",
+          "year": "1981"
+        },
+        {
+          "constant_price_cny": "4331695505408",
+          "deflator": "0.0740154236555099",
+          "gdp_constant_price_cny": "7259826946048",
+          "nominal_trillion_cny": "0.32",
+          "raw_gdp_ratio": "0.5967",
+          "raw_quality_flag": "5",
+          "year": "1982"
+        },
+        {
+          "constant_price_cny": "4981283356672",
+          "deflator": "0.077466256916523",
+          "gdp_constant_price_cny": "7772285435904",
+          "nominal_trillion_cny": "0.39",
+          "raw_gdp_ratio": "0.6409",
+          "raw_quality_flag": "5",
+          "year": "1983"
+        },
+        {
+          "constant_price_cny": "5635240886272",
+          "deflator": "0.0840264558792114",
+          "gdp_constant_price_cny": "8662147399680",
+          "nominal_trillion_cny": "0.47",
+          "raw_gdp_ratio": "0.6506000000000001",
+          "raw_quality_flag": "5",
+          "year": "1984"
+        },
+        {
+          "constant_price_cny": "6344166342656",
+          "deflator": "0.0960046201944351",
+          "gdp_constant_price_cny": "9477556273152",
+          "nominal_trillion_cny": "0.61",
+          "raw_gdp_ratio": "0.6694",
+          "raw_quality_flag": "5",
+          "year": "1985"
+        },
+        {
+          "constant_price_cny": "7896885100544",
+          "deflator": "0.10324776917696",
+          "gdp_constant_price_cny": "10049794605056",
+          "nominal_trillion_cny": "0.82",
+          "raw_gdp_ratio": "0.7858",
+          "raw_quality_flag": "5",
+          "year": "1986"
+        },
+        {
+          "constant_price_cny": "9439223480320",
+          "deflator": "0.1124425381422043",
+          "gdp_constant_price_cny": "10827392352256",
+          "nominal_trillion_cny": "1.06",
+          "raw_gdp_ratio": "0.8718",
+          "raw_quality_flag": "5",
+          "year": "1987"
+        },
+        {
+          "constant_price_cny": "9992711176192",
+          "deflator": "0.133847713470459",
+          "gdp_constant_price_cny": "11341543768064",
+          "nominal_trillion_cny": "1.34",
+          "raw_gdp_ratio": "0.8811",
+          "raw_quality_flag": "5",
+          "year": "1988"
+        },
+        {
+          "constant_price_cny": "10680930402304",
+          "deflator": "0.1499103009700775",
+          "gdp_constant_price_cny": "11459969941504",
+          "nominal_trillion_cny": "1.60",
+          "raw_gdp_ratio": "0.932",
+          "raw_quality_flag": "5",
+          "year": "1989"
+        },
+        {
+          "constant_price_cny": "11596471468032",
+          "deflator": "0.1638138145208359",
+          "gdp_constant_price_cny": "11520942538752",
+          "nominal_trillion_cny": "1.90",
+          "raw_gdp_ratio": "1.0066",
+          "raw_quality_flag": "5",
+          "year": "1990"
+        },
+        {
+          "constant_price_cny": "12980162920448",
+          "deflator": "0.1789827346801758",
+          "gdp_constant_price_cny": "12294818889728",
+          "nominal_trillion_cny": "2.32",
+          "raw_gdp_ratio": "1.0557",
+          "raw_quality_flag": "5",
+          "year": "1991"
+        },
+        {
+          "constant_price_cny": "14527879970816",
+          "deflator": "0.2020148485898972",
+          "gdp_constant_price_cny": "13461632319488",
+          "nominal_trillion_cny": "2.93",
+          "raw_gdp_ratio": "1.0792",
+          "raw_quality_flag": "5",
+          "year": "1992"
+        },
+        {
+          "constant_price_cny": "16780538937344",
+          "deflator": "0.2396153211593628",
+          "gdp_constant_price_cny": "14887696728064",
+          "nominal_trillion_cny": "4.02",
+          "raw_gdp_ratio": "1.1271",
+          "raw_quality_flag": "5",
+          "year": "1993"
+        },
+        {
+          "constant_price_cny": "17032223391744",
+          "deflator": "0.3008706569671631",
+          "gdp_constant_price_cny": "16165563793408",
+          "nominal_trillion_cny": "5.12",
+          "raw_gdp_ratio": "1.0536",
+          "raw_quality_flag": "5",
+          "year": "1994"
+        },
+        {
+          "constant_price_cny": "19073612120064",
+          "deflator": "0.3342599272727966",
+          "gdp_constant_price_cny": "18350952415232",
+          "nominal_trillion_cny": "6.38",
+          "raw_gdp_ratio": "1.0394",
+          "raw_quality_flag": "5",
+          "year": "1995"
+        },
+        {
+          "constant_price_cny": "21642579279872",
+          "deflator": "0.3776045739650726",
+          "gdp_constant_price_cny": "19018176004096",
+          "nominal_trillion_cny": "8.17",
+          "raw_gdp_ratio": "1.138",
+          "raw_quality_flag": "5",
+          "year": "1996"
+        },
+        {
+          "constant_price_cny": "26450417680384",
+          "deflator": "0.3914265930652618",
+          "gdp_constant_price_cny": "20365252231168",
+          "nominal_trillion_cny": "10.35",
+          "raw_gdp_ratio": "1.2988",
+          "raw_quality_flag": "5",
+          "year": "1997"
+        },
+        {
+          "constant_price_cny": "33085710139392",
+          "deflator": "0.4164148271083832",
+          "gdp_constant_price_cny": "20459273846784",
+          "nominal_trillion_cny": "13.78",
+          "raw_gdp_ratio": "1.6171",
+          "raw_quality_flag": "5",
+          "year": "1998"
+        },
+        {
+          "constant_price_cny": "40383476137984",
+          "deflator": "0.417433887720108",
+          "gdp_constant_price_cny": "21695511396352",
+          "nominal_trillion_cny": "16.86",
+          "raw_gdp_ratio": "1.8614",
+          "raw_quality_flag": "5",
+          "year": "1999"
+        },
+        {
+          "constant_price_cny": "44145179623424",
+          "deflator": "0.434296727180481",
+          "gdp_constant_price_cny": "23090226528256",
+          "nominal_trillion_cny": "19.17",
+          "raw_gdp_ratio": "1.9119",
+          "raw_quality_flag": "5",
+          "year": "2000"
+        },
+        {
+          "constant_price_cny": "46354957074432",
+          "deflator": "0.4489994645118713",
+          "gdp_constant_price_cny": "24691133644800",
+          "nominal_trillion_cny": "20.81",
+          "raw_gdp_ratio": "1.8774",
+          "raw_quality_flag": "5",
+          "year": "2001"
+        },
+        {
+          "constant_price_cny": "52181768077312",
+          "deflator": "0.4453101456165314",
+          "gdp_constant_price_cny": "27333132025856",
+          "nominal_trillion_cny": "23.24",
+          "raw_gdp_ratio": "1.9091",
+          "raw_quality_flag": "5",
+          "year": "2002"
+        },
+        {
+          "constant_price_cny": "57692651520000",
+          "deflator": "0.4618274569511414",
+          "gdp_constant_price_cny": "29756108046336",
+          "nominal_trillion_cny": "26.64",
+          "raw_gdp_ratio": "1.9389",
+          "raw_quality_flag": "5",
+          "year": "2003"
+        },
+        {
+          "constant_price_cny": "65073758339072",
+          "deflator": "0.4909287393093109",
+          "gdp_constant_price_cny": "32966107463680",
+          "nominal_trillion_cny": "31.95",
+          "raw_gdp_ratio": "1.974",
+          "raw_quality_flag": "5",
+          "year": "2004"
+        },
+        {
+          "constant_price_cny": "75140561895424",
+          "deflator": "0.5232951045036316",
+          "gdp_constant_price_cny": "36290670100480",
+          "nominal_trillion_cny": "39.32",
+          "raw_gdp_ratio": "2.0705",
+          "raw_quality_flag": "5",
+          "year": "2005"
+        },
+        {
+          "constant_price_cny": "83831159783424",
+          "deflator": "0.5466024875640869",
+          "gdp_constant_price_cny": "40720324886528",
+          "nominal_trillion_cny": "45.82",
+          "raw_gdp_ratio": "2.0587",
+          "raw_quality_flag": "5",
+          "year": "2006"
+        },
+        {
+          "constant_price_cny": "95851582062592",
+          "deflator": "0.5991880297660828",
+          "gdp_constant_price_cny": "45758497685504",
+          "nominal_trillion_cny": "57.43",
+          "raw_gdp_ratio": "2.0947",
+          "raw_quality_flag": "5",
+          "year": "2007"
+        },
+        {
+          "constant_price_cny": "98395368718336",
+          "deflator": "0.6708735227584839",
+          "gdp_constant_price_cny": "48342566436864",
+          "nominal_trillion_cny": "66.01",
+          "raw_gdp_ratio": "2.0354",
+          "raw_quality_flag": "5",
+          "year": "2008"
+        },
+        {
+          "constant_price_cny": "107962727137280",
+          "deflator": "0.6775365471839905",
+          "gdp_constant_price_cny": "52325091639296",
+          "nominal_trillion_cny": "73.15",
+          "raw_gdp_ratio": "2.0633",
+          "raw_quality_flag": "5",
+          "year": "2009"
+        },
+        {
+          "constant_price_cny": "122203127414784",
+          "deflator": "0.7331001162528992",
+          "gdp_constant_price_cny": "57189070798848",
+          "nominal_trillion_cny": "89.59",
+          "raw_gdp_ratio": "2.1368",
+          "raw_quality_flag": "5",
+          "year": "2010"
+        },
+        {
+          "constant_price_cny": "126404477845504",
+          "deflator": "0.8040652871131897",
+          "gdp_constant_price_cny": "61650145116160",
+          "nominal_trillion_cny": "101.64",
+          "raw_gdp_ratio": "2.0504",
+          "raw_quality_flag": "5",
+          "year": "2011"
+        },
+        {
+          "constant_price_cny": "136095249465344",
+          "deflator": "0.8302380442619324",
+          "gdp_constant_price_cny": "65946211319808",
+          "nominal_trillion_cny": "112.99",
+          "raw_gdp_ratio": "2.0637",
+          "raw_quality_flag": "5",
+          "year": "2012"
+        },
+        {
+          "constant_price_cny": "146683568586752",
+          "deflator": "0.850156843662262",
+          "gdp_constant_price_cny": "71005724737536",
+          "nominal_trillion_cny": "124.70",
+          "raw_gdp_ratio": "2.0658",
+          "raw_quality_flag": "5",
+          "year": "2013"
+        },
+        {
+          "constant_price_cny": "157084184215552",
+          "deflator": "0.8609164357185364",
+          "gdp_constant_price_cny": "76172536840192",
+          "nominal_trillion_cny": "135.24",
+          "raw_gdp_ratio": "2.0622",
+          "raw_quality_flag": "5",
+          "year": "2014"
+        },
+        {
+          "constant_price_cny": "169561668190208",
+          "deflator": "0.8620978593826294",
+          "gdp_constant_price_cny": "81488515170304",
+          "nominal_trillion_cny": "146.18",
+          "raw_gdp_ratio": "2.0808",
+          "raw_quality_flag": "5",
+          "year": "2015"
+        },
+        {
+          "constant_price_cny": "196797532209152",
+          "deflator": "0.8748350739479065",
+          "gdp_constant_price_cny": "87009771126784",
+          "nominal_trillion_cny": "172.17",
+          "raw_gdp_ratio": "2.2618",
+          "raw_quality_flag": "5",
+          "year": "2016"
+        },
+        {
+          "constant_price_cny": "215503188525056",
+          "deflator": "0.9111058115959167",
+          "gdp_constant_price_cny": "93005839073280",
+          "nominal_trillion_cny": "196.35",
+          "raw_gdp_ratio": "2.3171",
+          "raw_quality_flag": "5",
+          "year": "2017"
+        },
+        {
+          "constant_price_cny": "236252007759872",
+          "deflator": "0.9427022337913513",
+          "gdp_constant_price_cny": "99290181533696",
+          "nominal_trillion_cny": "222.72",
+          "raw_gdp_ratio": "2.3794",
+          "raw_quality_flag": "5",
+          "year": "2018"
+        },
+        {
+          "constant_price_cny": "269612713246720",
+          "deflator": "0.9551034569740295",
+          "gdp_constant_price_cny": "105315525722112",
+          "nominal_trillion_cny": "257.51",
+          "raw_gdp_ratio": "2.56",
+          "raw_quality_flag": "5",
+          "year": "2019"
+        },
+        {
+          "constant_price_cny": "285459095748608",
+          "deflator": "0.9601656794548035",
+          "gdp_constant_price_cny": "107780224581632",
+          "nominal_trillion_cny": "274.09",
+          "raw_gdp_ratio": "2.6485",
+          "raw_quality_flag": "5",
+          "year": "2020"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2020",
+          "start": "1979"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_history": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "3259603353600",
+          "deflator": "0.0666646957397461",
+          "gdp_constant_price_cny": "6150925320192",
+          "nominal_trillion_cny": "0.22",
+          "raw_gdp_ratio": "0.5299",
+          "raw_quality_flag": "5",
+          "year": "1979"
+        },
+        {
+          "constant_price_cny": "3382837510144",
+          "deflator": "0.0718527212738991",
+          "gdp_constant_price_cny": "6384716349440",
+          "nominal_trillion_cny": "0.24",
+          "raw_gdp_ratio": "0.5298",
+          "raw_quality_flag": "5",
+          "year": "1980"
+        },
+        {
+          "constant_price_cny": "3734551396352",
+          "deflator": "0.0735414773225784",
+          "gdp_constant_price_cny": "6711578984448",
+          "nominal_trillion_cny": "0.27",
+          "raw_gdp_ratio": "0.5564",
+          "raw_quality_flag": "5",
+          "year": "1981"
+        },
+        {
+          "constant_price_cny": "4331695505408",
+          "deflator": "0.0740154236555099",
+          "gdp_constant_price_cny": "7259826946048",
+          "nominal_trillion_cny": "0.32",
+          "raw_gdp_ratio": "0.5967",
+          "raw_quality_flag": "5",
+          "year": "1982"
+        },
+        {
+          "constant_price_cny": "4981283356672",
+          "deflator": "0.077466256916523",
+          "gdp_constant_price_cny": "7772285435904",
+          "nominal_trillion_cny": "0.39",
+          "raw_gdp_ratio": "0.6409",
+          "raw_quality_flag": "5",
+          "year": "1983"
+        },
+        {
+          "constant_price_cny": "5635240886272",
+          "deflator": "0.0840264558792114",
+          "gdp_constant_price_cny": "8662147399680",
+          "nominal_trillion_cny": "0.47",
+          "raw_gdp_ratio": "0.6506000000000001",
+          "raw_quality_flag": "5",
+          "year": "1984"
+        },
+        {
+          "constant_price_cny": "6344166342656",
+          "deflator": "0.0960046201944351",
+          "gdp_constant_price_cny": "9477556273152",
+          "nominal_trillion_cny": "0.61",
+          "raw_gdp_ratio": "0.6694",
+          "raw_quality_flag": "5",
+          "year": "1985"
+        },
+        {
+          "constant_price_cny": "7896885100544",
+          "deflator": "0.10324776917696",
+          "gdp_constant_price_cny": "10049794605056",
+          "nominal_trillion_cny": "0.82",
+          "raw_gdp_ratio": "0.7858",
+          "raw_quality_flag": "5",
+          "year": "1986"
+        },
+        {
+          "constant_price_cny": "9439223480320",
+          "deflator": "0.1124425381422043",
+          "gdp_constant_price_cny": "10827392352256",
+          "nominal_trillion_cny": "1.06",
+          "raw_gdp_ratio": "0.8718",
+          "raw_quality_flag": "5",
+          "year": "1987"
+        },
+        {
+          "constant_price_cny": "9992711176192",
+          "deflator": "0.133847713470459",
+          "gdp_constant_price_cny": "11341543768064",
+          "nominal_trillion_cny": "1.34",
+          "raw_gdp_ratio": "0.8811",
+          "raw_quality_flag": "5",
+          "year": "1988"
+        },
+        {
+          "constant_price_cny": "10680930402304",
+          "deflator": "0.1499103009700775",
+          "gdp_constant_price_cny": "11459969941504",
+          "nominal_trillion_cny": "1.60",
+          "raw_gdp_ratio": "0.932",
+          "raw_quality_flag": "5",
+          "year": "1989"
+        },
+        {
+          "constant_price_cny": "11596471468032",
+          "deflator": "0.1638138145208359",
+          "gdp_constant_price_cny": "11520942538752",
+          "nominal_trillion_cny": "1.90",
+          "raw_gdp_ratio": "1.0066",
+          "raw_quality_flag": "5",
+          "year": "1990"
+        },
+        {
+          "constant_price_cny": "12980162920448",
+          "deflator": "0.1789827346801758",
+          "gdp_constant_price_cny": "12294818889728",
+          "nominal_trillion_cny": "2.32",
+          "raw_gdp_ratio": "1.0557",
+          "raw_quality_flag": "5",
+          "year": "1991"
+        },
+        {
+          "constant_price_cny": "14527879970816",
+          "deflator": "0.2020148485898972",
+          "gdp_constant_price_cny": "13461632319488",
+          "nominal_trillion_cny": "2.93",
+          "raw_gdp_ratio": "1.0792",
+          "raw_quality_flag": "5",
+          "year": "1992"
+        },
+        {
+          "constant_price_cny": "16780538937344",
+          "deflator": "0.2396153211593628",
+          "gdp_constant_price_cny": "14887696728064",
+          "nominal_trillion_cny": "4.02",
+          "raw_gdp_ratio": "1.1271",
+          "raw_quality_flag": "5",
+          "year": "1993"
+        },
+        {
+          "constant_price_cny": "17032223391744",
+          "deflator": "0.3008706569671631",
+          "gdp_constant_price_cny": "16165563793408",
+          "nominal_trillion_cny": "5.12",
+          "raw_gdp_ratio": "1.0536",
+          "raw_quality_flag": "5",
+          "year": "1994"
+        },
+        {
+          "constant_price_cny": "19073612120064",
+          "deflator": "0.3342599272727966",
+          "gdp_constant_price_cny": "18350952415232",
+          "nominal_trillion_cny": "6.38",
+          "raw_gdp_ratio": "1.0394",
+          "raw_quality_flag": "5",
+          "year": "1995"
+        },
+        {
+          "constant_price_cny": "21642579279872",
+          "deflator": "0.3776045739650726",
+          "gdp_constant_price_cny": "19018176004096",
+          "nominal_trillion_cny": "8.17",
+          "raw_gdp_ratio": "1.138",
+          "raw_quality_flag": "5",
+          "year": "1996"
+        },
+        {
+          "constant_price_cny": "26450417680384",
+          "deflator": "0.3914265930652618",
+          "gdp_constant_price_cny": "20365252231168",
+          "nominal_trillion_cny": "10.35",
+          "raw_gdp_ratio": "1.2988",
+          "raw_quality_flag": "5",
+          "year": "1997"
+        },
+        {
+          "constant_price_cny": "33085710139392",
+          "deflator": "0.4164148271083832",
+          "gdp_constant_price_cny": "20459273846784",
+          "nominal_trillion_cny": "13.78",
+          "raw_gdp_ratio": "1.6171",
+          "raw_quality_flag": "5",
+          "year": "1998"
+        },
+        {
+          "constant_price_cny": "40383476137984",
+          "deflator": "0.417433887720108",
+          "gdp_constant_price_cny": "21695511396352",
+          "nominal_trillion_cny": "16.86",
+          "raw_gdp_ratio": "1.8614",
+          "raw_quality_flag": "5",
+          "year": "1999"
+        },
+        {
+          "constant_price_cny": "44145179623424",
+          "deflator": "0.434296727180481",
+          "gdp_constant_price_cny": "23090226528256",
+          "nominal_trillion_cny": "19.17",
+          "raw_gdp_ratio": "1.9119",
+          "raw_quality_flag": "5",
+          "year": "2000"
+        },
+        {
+          "constant_price_cny": "46354957074432",
+          "deflator": "0.4489994645118713",
+          "gdp_constant_price_cny": "24691133644800",
+          "nominal_trillion_cny": "20.81",
+          "raw_gdp_ratio": "1.8774",
+          "raw_quality_flag": "5",
+          "year": "2001"
+        },
+        {
+          "constant_price_cny": "52181768077312",
+          "deflator": "0.4453101456165314",
+          "gdp_constant_price_cny": "27333132025856",
+          "nominal_trillion_cny": "23.24",
+          "raw_gdp_ratio": "1.9091",
+          "raw_quality_flag": "5",
+          "year": "2002"
+        },
+        {
+          "constant_price_cny": "57692651520000",
+          "deflator": "0.4618274569511414",
+          "gdp_constant_price_cny": "29756108046336",
+          "nominal_trillion_cny": "26.64",
+          "raw_gdp_ratio": "1.9389",
+          "raw_quality_flag": "5",
+          "year": "2003"
+        },
+        {
+          "constant_price_cny": "65073758339072",
+          "deflator": "0.4909287393093109",
+          "gdp_constant_price_cny": "32966107463680",
+          "nominal_trillion_cny": "31.95",
+          "raw_gdp_ratio": "1.974",
+          "raw_quality_flag": "5",
+          "year": "2004"
+        },
+        {
+          "constant_price_cny": "75140561895424",
+          "deflator": "0.5232951045036316",
+          "gdp_constant_price_cny": "36290670100480",
+          "nominal_trillion_cny": "39.32",
+          "raw_gdp_ratio": "2.0705",
+          "raw_quality_flag": "5",
+          "year": "2005"
+        },
+        {
+          "constant_price_cny": "83831159783424",
+          "deflator": "0.5466024875640869",
+          "gdp_constant_price_cny": "40720324886528",
+          "nominal_trillion_cny": "45.82",
+          "raw_gdp_ratio": "2.0587",
+          "raw_quality_flag": "5",
+          "year": "2006"
+        },
+        {
+          "constant_price_cny": "95851582062592",
+          "deflator": "0.5991880297660828",
+          "gdp_constant_price_cny": "45758497685504",
+          "nominal_trillion_cny": "57.43",
+          "raw_gdp_ratio": "2.0947",
+          "raw_quality_flag": "5",
+          "year": "2007"
+        },
+        {
+          "constant_price_cny": "98395368718336",
+          "deflator": "0.6708735227584839",
+          "gdp_constant_price_cny": "48342566436864",
+          "nominal_trillion_cny": "66.01",
+          "raw_gdp_ratio": "2.0354",
+          "raw_quality_flag": "5",
+          "year": "2008"
+        },
+        {
+          "constant_price_cny": "107962727137280",
+          "deflator": "0.6775365471839905",
+          "gdp_constant_price_cny": "52325091639296",
+          "nominal_trillion_cny": "73.15",
+          "raw_gdp_ratio": "2.0633",
+          "raw_quality_flag": "5",
+          "year": "2009"
+        },
+        {
+          "constant_price_cny": "122203127414784",
+          "deflator": "0.7331001162528992",
+          "gdp_constant_price_cny": "57189070798848",
+          "nominal_trillion_cny": "89.59",
+          "raw_gdp_ratio": "2.1368",
+          "raw_quality_flag": "5",
+          "year": "2010"
+        },
+        {
+          "constant_price_cny": "126404477845504",
+          "deflator": "0.8040652871131897",
+          "gdp_constant_price_cny": "61650145116160",
+          "nominal_trillion_cny": "101.64",
+          "raw_gdp_ratio": "2.0504",
+          "raw_quality_flag": "5",
+          "year": "2011"
+        },
+        {
+          "constant_price_cny": "136095249465344",
+          "deflator": "0.8302380442619324",
+          "gdp_constant_price_cny": "65946211319808",
+          "nominal_trillion_cny": "112.99",
+          "raw_gdp_ratio": "2.0637",
+          "raw_quality_flag": "5",
+          "year": "2012"
+        },
+        {
+          "constant_price_cny": "146683568586752",
+          "deflator": "0.850156843662262",
+          "gdp_constant_price_cny": "71005724737536",
+          "nominal_trillion_cny": "124.70",
+          "raw_gdp_ratio": "2.0658",
+          "raw_quality_flag": "5",
+          "year": "2013"
+        },
+        {
+          "constant_price_cny": "157084184215552",
+          "deflator": "0.8609164357185364",
+          "gdp_constant_price_cny": "76172536840192",
+          "nominal_trillion_cny": "135.24",
+          "raw_gdp_ratio": "2.0622",
+          "raw_quality_flag": "5",
+          "year": "2014"
+        },
+        {
+          "constant_price_cny": "169561668190208",
+          "deflator": "0.8620978593826294",
+          "gdp_constant_price_cny": "81488515170304",
+          "nominal_trillion_cny": "146.18",
+          "raw_gdp_ratio": "2.0808",
+          "raw_quality_flag": "5",
+          "year": "2015"
+        },
+        {
+          "constant_price_cny": "196797532209152",
+          "deflator": "0.8748350739479065",
+          "gdp_constant_price_cny": "87009771126784",
+          "nominal_trillion_cny": "172.17",
+          "raw_gdp_ratio": "2.2618",
+          "raw_quality_flag": "5",
+          "year": "2016"
+        },
+        {
+          "constant_price_cny": "215503188525056",
+          "deflator": "0.9111058115959167",
+          "gdp_constant_price_cny": "93005839073280",
+          "nominal_trillion_cny": "196.35",
+          "raw_gdp_ratio": "2.3171",
+          "raw_quality_flag": "5",
+          "year": "2017"
+        },
+        {
+          "constant_price_cny": "236252007759872",
+          "deflator": "0.9427022337913513",
+          "gdp_constant_price_cny": "99290181533696",
+          "nominal_trillion_cny": "222.72",
+          "raw_gdp_ratio": "2.3794",
+          "raw_quality_flag": "5",
+          "year": "2018"
+        },
+        {
+          "constant_price_cny": "269612713246720",
+          "deflator": "0.9551034569740295",
+          "gdp_constant_price_cny": "105315525722112",
+          "nominal_trillion_cny": "257.51",
+          "raw_gdp_ratio": "2.56",
+          "raw_quality_flag": "5",
+          "year": "2019"
+        },
+        {
+          "constant_price_cny": "285459095748608",
+          "deflator": "0.9601656794548035",
+          "gdp_constant_price_cny": "107780224581632",
+          "nominal_trillion_cny": "274.09",
+          "raw_gdp_ratio": "2.6485",
+          "raw_quality_flag": "5",
+          "year": "2020"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2020",
+          "start": "1979"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    }
+  },
+  "coverage": {
+    "housing_wealth_extension": {
+      "count": 5,
+      "first": "2021",
+      "last": "2025"
+    },
+    "housing_wealth_gdp_extension": {
+      "count": 5,
+      "first": "2021",
+      "last": "2025"
+    },
+    "housing_wealth_gdp_history": {
+      "count": 42,
+      "first": "1979",
+      "last": "2020"
+    },
+    "housing_wealth_history": {
+      "count": 42,
+      "first": "1979",
+      "last": "2020"
+    }
+  },
+  "history": {
+    "housing_wealth_extension": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "317956026269696",
+          "deflator": "1.003119111061096",
+          "gdp_constant_price_cny": "117017365446656",
+          "nominal_trillion_cny": "318.95",
+          "raw_gdp_ratio": "2.7172",
+          "raw_quality_flag": "5",
+          "year": "2021"
+        },
+        {
+          "constant_price_cny": "306910477680640",
+          "deflator": "1.022525429725647",
+          "gdp_constant_price_cny": "120684462211072",
+          "nominal_trillion_cny": "313.82",
+          "raw_gdp_ratio": "2.5431",
+          "raw_quality_flag": "5",
+          "year": "2022"
+        },
+        {
+          "constant_price_cny": "302483440140288",
+          "deflator": "1.017343401908875",
+          "gdp_constant_price_cny": "127220882341888",
+          "nominal_trillion_cny": "307.73",
+          "raw_gdp_ratio": "2.3776",
+          "raw_quality_flag": "5",
+          "year": "2023"
+        },
+        {
+          "constant_price_cny": "307388292792320",
+          "deflator": "1.010155439376831",
+          "gdp_constant_price_cny": "133552209395712",
+          "nominal_trillion_cny": "310.51",
+          "raw_gdp_ratio": "2.3016",
+          "raw_quality_flag": "5",
+          "year": "2024"
+        },
+        {
+          "constant_price_cny": "360180487290880",
+          "deflator": "1",
+          "gdp_constant_price_cny": "140174579204096",
+          "nominal_trillion_cny": "360.18",
+          "raw_gdp_ratio": "2.5695",
+          "raw_quality_flag": "5",
+          "year": "2025"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2021"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_gdp_extension": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "317956026269696",
+          "deflator": "1.003119111061096",
+          "gdp_constant_price_cny": "117017365446656",
+          "nominal_trillion_cny": "318.95",
+          "raw_gdp_ratio": "2.7172",
+          "raw_quality_flag": "5",
+          "year": "2021"
+        },
+        {
+          "constant_price_cny": "306910477680640",
+          "deflator": "1.022525429725647",
+          "gdp_constant_price_cny": "120684462211072",
+          "nominal_trillion_cny": "313.82",
+          "raw_gdp_ratio": "2.5431",
+          "raw_quality_flag": "5",
+          "year": "2022"
+        },
+        {
+          "constant_price_cny": "302483440140288",
+          "deflator": "1.017343401908875",
+          "gdp_constant_price_cny": "127220882341888",
+          "nominal_trillion_cny": "307.73",
+          "raw_gdp_ratio": "2.3776",
+          "raw_quality_flag": "5",
+          "year": "2023"
+        },
+        {
+          "constant_price_cny": "307388292792320",
+          "deflator": "1.010155439376831",
+          "gdp_constant_price_cny": "133552209395712",
+          "nominal_trillion_cny": "310.51",
+          "raw_gdp_ratio": "2.3016",
+          "raw_quality_flag": "5",
+          "year": "2024"
+        },
+        {
+          "constant_price_cny": "360180487290880",
+          "deflator": "1",
+          "gdp_constant_price_cny": "140174579204096",
+          "nominal_trillion_cny": "360.18",
+          "raw_gdp_ratio": "2.5695",
+          "raw_quality_flag": "5",
+          "year": "2025"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2026",
+          "start": "2021"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_gdp_history": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "3259603353600",
+          "deflator": "0.0666646957397461",
+          "gdp_constant_price_cny": "6150925320192",
+          "nominal_trillion_cny": "0.22",
+          "raw_gdp_ratio": "0.5299",
+          "raw_quality_flag": "5",
+          "year": "1979"
+        },
+        {
+          "constant_price_cny": "3382837510144",
+          "deflator": "0.0718527212738991",
+          "gdp_constant_price_cny": "6384716349440",
+          "nominal_trillion_cny": "0.24",
+          "raw_gdp_ratio": "0.5298",
+          "raw_quality_flag": "5",
+          "year": "1980"
+        },
+        {
+          "constant_price_cny": "3734551396352",
+          "deflator": "0.0735414773225784",
+          "gdp_constant_price_cny": "6711578984448",
+          "nominal_trillion_cny": "0.27",
+          "raw_gdp_ratio": "0.5564",
+          "raw_quality_flag": "5",
+          "year": "1981"
+        },
+        {
+          "constant_price_cny": "4331695505408",
+          "deflator": "0.0740154236555099",
+          "gdp_constant_price_cny": "7259826946048",
+          "nominal_trillion_cny": "0.32",
+          "raw_gdp_ratio": "0.5967",
+          "raw_quality_flag": "5",
+          "year": "1982"
+        },
+        {
+          "constant_price_cny": "4981283356672",
+          "deflator": "0.077466256916523",
+          "gdp_constant_price_cny": "7772285435904",
+          "nominal_trillion_cny": "0.39",
+          "raw_gdp_ratio": "0.6409",
+          "raw_quality_flag": "5",
+          "year": "1983"
+        },
+        {
+          "constant_price_cny": "5635240886272",
+          "deflator": "0.0840264558792114",
+          "gdp_constant_price_cny": "8662147399680",
+          "nominal_trillion_cny": "0.47",
+          "raw_gdp_ratio": "0.6506000000000001",
+          "raw_quality_flag": "5",
+          "year": "1984"
+        },
+        {
+          "constant_price_cny": "6344166342656",
+          "deflator": "0.0960046201944351",
+          "gdp_constant_price_cny": "9477556273152",
+          "nominal_trillion_cny": "0.61",
+          "raw_gdp_ratio": "0.6694",
+          "raw_quality_flag": "5",
+          "year": "1985"
+        },
+        {
+          "constant_price_cny": "7896885100544",
+          "deflator": "0.10324776917696",
+          "gdp_constant_price_cny": "10049794605056",
+          "nominal_trillion_cny": "0.82",
+          "raw_gdp_ratio": "0.7858",
+          "raw_quality_flag": "5",
+          "year": "1986"
+        },
+        {
+          "constant_price_cny": "9439223480320",
+          "deflator": "0.1124425381422043",
+          "gdp_constant_price_cny": "10827392352256",
+          "nominal_trillion_cny": "1.06",
+          "raw_gdp_ratio": "0.8718",
+          "raw_quality_flag": "5",
+          "year": "1987"
+        },
+        {
+          "constant_price_cny": "9992711176192",
+          "deflator": "0.133847713470459",
+          "gdp_constant_price_cny": "11341543768064",
+          "nominal_trillion_cny": "1.34",
+          "raw_gdp_ratio": "0.8811",
+          "raw_quality_flag": "5",
+          "year": "1988"
+        },
+        {
+          "constant_price_cny": "10680930402304",
+          "deflator": "0.1499103009700775",
+          "gdp_constant_price_cny": "11459969941504",
+          "nominal_trillion_cny": "1.60",
+          "raw_gdp_ratio": "0.932",
+          "raw_quality_flag": "5",
+          "year": "1989"
+        },
+        {
+          "constant_price_cny": "11596471468032",
+          "deflator": "0.1638138145208359",
+          "gdp_constant_price_cny": "11520942538752",
+          "nominal_trillion_cny": "1.90",
+          "raw_gdp_ratio": "1.0066",
+          "raw_quality_flag": "5",
+          "year": "1990"
+        },
+        {
+          "constant_price_cny": "12980162920448",
+          "deflator": "0.1789827346801758",
+          "gdp_constant_price_cny": "12294818889728",
+          "nominal_trillion_cny": "2.32",
+          "raw_gdp_ratio": "1.0557",
+          "raw_quality_flag": "5",
+          "year": "1991"
+        },
+        {
+          "constant_price_cny": "14527879970816",
+          "deflator": "0.2020148485898972",
+          "gdp_constant_price_cny": "13461632319488",
+          "nominal_trillion_cny": "2.93",
+          "raw_gdp_ratio": "1.0792",
+          "raw_quality_flag": "5",
+          "year": "1992"
+        },
+        {
+          "constant_price_cny": "16780538937344",
+          "deflator": "0.2396153211593628",
+          "gdp_constant_price_cny": "14887696728064",
+          "nominal_trillion_cny": "4.02",
+          "raw_gdp_ratio": "1.1271",
+          "raw_quality_flag": "5",
+          "year": "1993"
+        },
+        {
+          "constant_price_cny": "17032223391744",
+          "deflator": "0.3008706569671631",
+          "gdp_constant_price_cny": "16165563793408",
+          "nominal_trillion_cny": "5.12",
+          "raw_gdp_ratio": "1.0536",
+          "raw_quality_flag": "5",
+          "year": "1994"
+        },
+        {
+          "constant_price_cny": "19073612120064",
+          "deflator": "0.3342599272727966",
+          "gdp_constant_price_cny": "18350952415232",
+          "nominal_trillion_cny": "6.38",
+          "raw_gdp_ratio": "1.0394",
+          "raw_quality_flag": "5",
+          "year": "1995"
+        },
+        {
+          "constant_price_cny": "21642579279872",
+          "deflator": "0.3776045739650726",
+          "gdp_constant_price_cny": "19018176004096",
+          "nominal_trillion_cny": "8.17",
+          "raw_gdp_ratio": "1.138",
+          "raw_quality_flag": "5",
+          "year": "1996"
+        },
+        {
+          "constant_price_cny": "26450417680384",
+          "deflator": "0.3914265930652618",
+          "gdp_constant_price_cny": "20365252231168",
+          "nominal_trillion_cny": "10.35",
+          "raw_gdp_ratio": "1.2988",
+          "raw_quality_flag": "5",
+          "year": "1997"
+        },
+        {
+          "constant_price_cny": "33085710139392",
+          "deflator": "0.4164148271083832",
+          "gdp_constant_price_cny": "20459273846784",
+          "nominal_trillion_cny": "13.78",
+          "raw_gdp_ratio": "1.6171",
+          "raw_quality_flag": "5",
+          "year": "1998"
+        },
+        {
+          "constant_price_cny": "40383476137984",
+          "deflator": "0.417433887720108",
+          "gdp_constant_price_cny": "21695511396352",
+          "nominal_trillion_cny": "16.86",
+          "raw_gdp_ratio": "1.8614",
+          "raw_quality_flag": "5",
+          "year": "1999"
+        },
+        {
+          "constant_price_cny": "44145179623424",
+          "deflator": "0.434296727180481",
+          "gdp_constant_price_cny": "23090226528256",
+          "nominal_trillion_cny": "19.17",
+          "raw_gdp_ratio": "1.9119",
+          "raw_quality_flag": "5",
+          "year": "2000"
+        },
+        {
+          "constant_price_cny": "46354957074432",
+          "deflator": "0.4489994645118713",
+          "gdp_constant_price_cny": "24691133644800",
+          "nominal_trillion_cny": "20.81",
+          "raw_gdp_ratio": "1.8774",
+          "raw_quality_flag": "5",
+          "year": "2001"
+        },
+        {
+          "constant_price_cny": "52181768077312",
+          "deflator": "0.4453101456165314",
+          "gdp_constant_price_cny": "27333132025856",
+          "nominal_trillion_cny": "23.24",
+          "raw_gdp_ratio": "1.9091",
+          "raw_quality_flag": "5",
+          "year": "2002"
+        },
+        {
+          "constant_price_cny": "57692651520000",
+          "deflator": "0.4618274569511414",
+          "gdp_constant_price_cny": "29756108046336",
+          "nominal_trillion_cny": "26.64",
+          "raw_gdp_ratio": "1.9389",
+          "raw_quality_flag": "5",
+          "year": "2003"
+        },
+        {
+          "constant_price_cny": "65073758339072",
+          "deflator": "0.4909287393093109",
+          "gdp_constant_price_cny": "32966107463680",
+          "nominal_trillion_cny": "31.95",
+          "raw_gdp_ratio": "1.974",
+          "raw_quality_flag": "5",
+          "year": "2004"
+        },
+        {
+          "constant_price_cny": "75140561895424",
+          "deflator": "0.5232951045036316",
+          "gdp_constant_price_cny": "36290670100480",
+          "nominal_trillion_cny": "39.32",
+          "raw_gdp_ratio": "2.0705",
+          "raw_quality_flag": "5",
+          "year": "2005"
+        },
+        {
+          "constant_price_cny": "83831159783424",
+          "deflator": "0.5466024875640869",
+          "gdp_constant_price_cny": "40720324886528",
+          "nominal_trillion_cny": "45.82",
+          "raw_gdp_ratio": "2.0587",
+          "raw_quality_flag": "5",
+          "year": "2006"
+        },
+        {
+          "constant_price_cny": "95851582062592",
+          "deflator": "0.5991880297660828",
+          "gdp_constant_price_cny": "45758497685504",
+          "nominal_trillion_cny": "57.43",
+          "raw_gdp_ratio": "2.0947",
+          "raw_quality_flag": "5",
+          "year": "2007"
+        },
+        {
+          "constant_price_cny": "98395368718336",
+          "deflator": "0.6708735227584839",
+          "gdp_constant_price_cny": "48342566436864",
+          "nominal_trillion_cny": "66.01",
+          "raw_gdp_ratio": "2.0354",
+          "raw_quality_flag": "5",
+          "year": "2008"
+        },
+        {
+          "constant_price_cny": "107962727137280",
+          "deflator": "0.6775365471839905",
+          "gdp_constant_price_cny": "52325091639296",
+          "nominal_trillion_cny": "73.15",
+          "raw_gdp_ratio": "2.0633",
+          "raw_quality_flag": "5",
+          "year": "2009"
+        },
+        {
+          "constant_price_cny": "122203127414784",
+          "deflator": "0.7331001162528992",
+          "gdp_constant_price_cny": "57189070798848",
+          "nominal_trillion_cny": "89.59",
+          "raw_gdp_ratio": "2.1368",
+          "raw_quality_flag": "5",
+          "year": "2010"
+        },
+        {
+          "constant_price_cny": "126404477845504",
+          "deflator": "0.8040652871131897",
+          "gdp_constant_price_cny": "61650145116160",
+          "nominal_trillion_cny": "101.64",
+          "raw_gdp_ratio": "2.0504",
+          "raw_quality_flag": "5",
+          "year": "2011"
+        },
+        {
+          "constant_price_cny": "136095249465344",
+          "deflator": "0.8302380442619324",
+          "gdp_constant_price_cny": "65946211319808",
+          "nominal_trillion_cny": "112.99",
+          "raw_gdp_ratio": "2.0637",
+          "raw_quality_flag": "5",
+          "year": "2012"
+        },
+        {
+          "constant_price_cny": "146683568586752",
+          "deflator": "0.850156843662262",
+          "gdp_constant_price_cny": "71005724737536",
+          "nominal_trillion_cny": "124.70",
+          "raw_gdp_ratio": "2.0658",
+          "raw_quality_flag": "5",
+          "year": "2013"
+        },
+        {
+          "constant_price_cny": "157084184215552",
+          "deflator": "0.8609164357185364",
+          "gdp_constant_price_cny": "76172536840192",
+          "nominal_trillion_cny": "135.24",
+          "raw_gdp_ratio": "2.0622",
+          "raw_quality_flag": "5",
+          "year": "2014"
+        },
+        {
+          "constant_price_cny": "169561668190208",
+          "deflator": "0.8620978593826294",
+          "gdp_constant_price_cny": "81488515170304",
+          "nominal_trillion_cny": "146.18",
+          "raw_gdp_ratio": "2.0808",
+          "raw_quality_flag": "5",
+          "year": "2015"
+        },
+        {
+          "constant_price_cny": "196797532209152",
+          "deflator": "0.8748350739479065",
+          "gdp_constant_price_cny": "87009771126784",
+          "nominal_trillion_cny": "172.17",
+          "raw_gdp_ratio": "2.2618",
+          "raw_quality_flag": "5",
+          "year": "2016"
+        },
+        {
+          "constant_price_cny": "215503188525056",
+          "deflator": "0.9111058115959167",
+          "gdp_constant_price_cny": "93005839073280",
+          "nominal_trillion_cny": "196.35",
+          "raw_gdp_ratio": "2.3171",
+          "raw_quality_flag": "5",
+          "year": "2017"
+        },
+        {
+          "constant_price_cny": "236252007759872",
+          "deflator": "0.9427022337913513",
+          "gdp_constant_price_cny": "99290181533696",
+          "nominal_trillion_cny": "222.72",
+          "raw_gdp_ratio": "2.3794",
+          "raw_quality_flag": "5",
+          "year": "2018"
+        },
+        {
+          "constant_price_cny": "269612713246720",
+          "deflator": "0.9551034569740295",
+          "gdp_constant_price_cny": "105315525722112",
+          "nominal_trillion_cny": "257.51",
+          "raw_gdp_ratio": "2.56",
+          "raw_quality_flag": "5",
+          "year": "2019"
+        },
+        {
+          "constant_price_cny": "285459095748608",
+          "deflator": "0.9601656794548035",
+          "gdp_constant_price_cny": "107780224581632",
+          "nominal_trillion_cny": "274.09",
+          "raw_gdp_ratio": "2.6485",
+          "raw_quality_flag": "5",
+          "year": "2020"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2020",
+          "start": "1979"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    },
+    "housing_wealth_history": {
+      "conversion": "nominal trillion CNY = round(mnwhoui999 * inyixxi999 / 1e12, 2); GDP percent = ynwhoui999 * 100",
+      "conversion_audit": [
+        {
+          "constant_price_cny": "3259603353600",
+          "deflator": "0.0666646957397461",
+          "gdp_constant_price_cny": "6150925320192",
+          "nominal_trillion_cny": "0.22",
+          "raw_gdp_ratio": "0.5299",
+          "raw_quality_flag": "5",
+          "year": "1979"
+        },
+        {
+          "constant_price_cny": "3382837510144",
+          "deflator": "0.0718527212738991",
+          "gdp_constant_price_cny": "6384716349440",
+          "nominal_trillion_cny": "0.24",
+          "raw_gdp_ratio": "0.5298",
+          "raw_quality_flag": "5",
+          "year": "1980"
+        },
+        {
+          "constant_price_cny": "3734551396352",
+          "deflator": "0.0735414773225784",
+          "gdp_constant_price_cny": "6711578984448",
+          "nominal_trillion_cny": "0.27",
+          "raw_gdp_ratio": "0.5564",
+          "raw_quality_flag": "5",
+          "year": "1981"
+        },
+        {
+          "constant_price_cny": "4331695505408",
+          "deflator": "0.0740154236555099",
+          "gdp_constant_price_cny": "7259826946048",
+          "nominal_trillion_cny": "0.32",
+          "raw_gdp_ratio": "0.5967",
+          "raw_quality_flag": "5",
+          "year": "1982"
+        },
+        {
+          "constant_price_cny": "4981283356672",
+          "deflator": "0.077466256916523",
+          "gdp_constant_price_cny": "7772285435904",
+          "nominal_trillion_cny": "0.39",
+          "raw_gdp_ratio": "0.6409",
+          "raw_quality_flag": "5",
+          "year": "1983"
+        },
+        {
+          "constant_price_cny": "5635240886272",
+          "deflator": "0.0840264558792114",
+          "gdp_constant_price_cny": "8662147399680",
+          "nominal_trillion_cny": "0.47",
+          "raw_gdp_ratio": "0.6506000000000001",
+          "raw_quality_flag": "5",
+          "year": "1984"
+        },
+        {
+          "constant_price_cny": "6344166342656",
+          "deflator": "0.0960046201944351",
+          "gdp_constant_price_cny": "9477556273152",
+          "nominal_trillion_cny": "0.61",
+          "raw_gdp_ratio": "0.6694",
+          "raw_quality_flag": "5",
+          "year": "1985"
+        },
+        {
+          "constant_price_cny": "7896885100544",
+          "deflator": "0.10324776917696",
+          "gdp_constant_price_cny": "10049794605056",
+          "nominal_trillion_cny": "0.82",
+          "raw_gdp_ratio": "0.7858",
+          "raw_quality_flag": "5",
+          "year": "1986"
+        },
+        {
+          "constant_price_cny": "9439223480320",
+          "deflator": "0.1124425381422043",
+          "gdp_constant_price_cny": "10827392352256",
+          "nominal_trillion_cny": "1.06",
+          "raw_gdp_ratio": "0.8718",
+          "raw_quality_flag": "5",
+          "year": "1987"
+        },
+        {
+          "constant_price_cny": "9992711176192",
+          "deflator": "0.133847713470459",
+          "gdp_constant_price_cny": "11341543768064",
+          "nominal_trillion_cny": "1.34",
+          "raw_gdp_ratio": "0.8811",
+          "raw_quality_flag": "5",
+          "year": "1988"
+        },
+        {
+          "constant_price_cny": "10680930402304",
+          "deflator": "0.1499103009700775",
+          "gdp_constant_price_cny": "11459969941504",
+          "nominal_trillion_cny": "1.60",
+          "raw_gdp_ratio": "0.932",
+          "raw_quality_flag": "5",
+          "year": "1989"
+        },
+        {
+          "constant_price_cny": "11596471468032",
+          "deflator": "0.1638138145208359",
+          "gdp_constant_price_cny": "11520942538752",
+          "nominal_trillion_cny": "1.90",
+          "raw_gdp_ratio": "1.0066",
+          "raw_quality_flag": "5",
+          "year": "1990"
+        },
+        {
+          "constant_price_cny": "12980162920448",
+          "deflator": "0.1789827346801758",
+          "gdp_constant_price_cny": "12294818889728",
+          "nominal_trillion_cny": "2.32",
+          "raw_gdp_ratio": "1.0557",
+          "raw_quality_flag": "5",
+          "year": "1991"
+        },
+        {
+          "constant_price_cny": "14527879970816",
+          "deflator": "0.2020148485898972",
+          "gdp_constant_price_cny": "13461632319488",
+          "nominal_trillion_cny": "2.93",
+          "raw_gdp_ratio": "1.0792",
+          "raw_quality_flag": "5",
+          "year": "1992"
+        },
+        {
+          "constant_price_cny": "16780538937344",
+          "deflator": "0.2396153211593628",
+          "gdp_constant_price_cny": "14887696728064",
+          "nominal_trillion_cny": "4.02",
+          "raw_gdp_ratio": "1.1271",
+          "raw_quality_flag": "5",
+          "year": "1993"
+        },
+        {
+          "constant_price_cny": "17032223391744",
+          "deflator": "0.3008706569671631",
+          "gdp_constant_price_cny": "16165563793408",
+          "nominal_trillion_cny": "5.12",
+          "raw_gdp_ratio": "1.0536",
+          "raw_quality_flag": "5",
+          "year": "1994"
+        },
+        {
+          "constant_price_cny": "19073612120064",
+          "deflator": "0.3342599272727966",
+          "gdp_constant_price_cny": "18350952415232",
+          "nominal_trillion_cny": "6.38",
+          "raw_gdp_ratio": "1.0394",
+          "raw_quality_flag": "5",
+          "year": "1995"
+        },
+        {
+          "constant_price_cny": "21642579279872",
+          "deflator": "0.3776045739650726",
+          "gdp_constant_price_cny": "19018176004096",
+          "nominal_trillion_cny": "8.17",
+          "raw_gdp_ratio": "1.138",
+          "raw_quality_flag": "5",
+          "year": "1996"
+        },
+        {
+          "constant_price_cny": "26450417680384",
+          "deflator": "0.3914265930652618",
+          "gdp_constant_price_cny": "20365252231168",
+          "nominal_trillion_cny": "10.35",
+          "raw_gdp_ratio": "1.2988",
+          "raw_quality_flag": "5",
+          "year": "1997"
+        },
+        {
+          "constant_price_cny": "33085710139392",
+          "deflator": "0.4164148271083832",
+          "gdp_constant_price_cny": "20459273846784",
+          "nominal_trillion_cny": "13.78",
+          "raw_gdp_ratio": "1.6171",
+          "raw_quality_flag": "5",
+          "year": "1998"
+        },
+        {
+          "constant_price_cny": "40383476137984",
+          "deflator": "0.417433887720108",
+          "gdp_constant_price_cny": "21695511396352",
+          "nominal_trillion_cny": "16.86",
+          "raw_gdp_ratio": "1.8614",
+          "raw_quality_flag": "5",
+          "year": "1999"
+        },
+        {
+          "constant_price_cny": "44145179623424",
+          "deflator": "0.434296727180481",
+          "gdp_constant_price_cny": "23090226528256",
+          "nominal_trillion_cny": "19.17",
+          "raw_gdp_ratio": "1.9119",
+          "raw_quality_flag": "5",
+          "year": "2000"
+        },
+        {
+          "constant_price_cny": "46354957074432",
+          "deflator": "0.4489994645118713",
+          "gdp_constant_price_cny": "24691133644800",
+          "nominal_trillion_cny": "20.81",
+          "raw_gdp_ratio": "1.8774",
+          "raw_quality_flag": "5",
+          "year": "2001"
+        },
+        {
+          "constant_price_cny": "52181768077312",
+          "deflator": "0.4453101456165314",
+          "gdp_constant_price_cny": "27333132025856",
+          "nominal_trillion_cny": "23.24",
+          "raw_gdp_ratio": "1.9091",
+          "raw_quality_flag": "5",
+          "year": "2002"
+        },
+        {
+          "constant_price_cny": "57692651520000",
+          "deflator": "0.4618274569511414",
+          "gdp_constant_price_cny": "29756108046336",
+          "nominal_trillion_cny": "26.64",
+          "raw_gdp_ratio": "1.9389",
+          "raw_quality_flag": "5",
+          "year": "2003"
+        },
+        {
+          "constant_price_cny": "65073758339072",
+          "deflator": "0.4909287393093109",
+          "gdp_constant_price_cny": "32966107463680",
+          "nominal_trillion_cny": "31.95",
+          "raw_gdp_ratio": "1.974",
+          "raw_quality_flag": "5",
+          "year": "2004"
+        },
+        {
+          "constant_price_cny": "75140561895424",
+          "deflator": "0.5232951045036316",
+          "gdp_constant_price_cny": "36290670100480",
+          "nominal_trillion_cny": "39.32",
+          "raw_gdp_ratio": "2.0705",
+          "raw_quality_flag": "5",
+          "year": "2005"
+        },
+        {
+          "constant_price_cny": "83831159783424",
+          "deflator": "0.5466024875640869",
+          "gdp_constant_price_cny": "40720324886528",
+          "nominal_trillion_cny": "45.82",
+          "raw_gdp_ratio": "2.0587",
+          "raw_quality_flag": "5",
+          "year": "2006"
+        },
+        {
+          "constant_price_cny": "95851582062592",
+          "deflator": "0.5991880297660828",
+          "gdp_constant_price_cny": "45758497685504",
+          "nominal_trillion_cny": "57.43",
+          "raw_gdp_ratio": "2.0947",
+          "raw_quality_flag": "5",
+          "year": "2007"
+        },
+        {
+          "constant_price_cny": "98395368718336",
+          "deflator": "0.6708735227584839",
+          "gdp_constant_price_cny": "48342566436864",
+          "nominal_trillion_cny": "66.01",
+          "raw_gdp_ratio": "2.0354",
+          "raw_quality_flag": "5",
+          "year": "2008"
+        },
+        {
+          "constant_price_cny": "107962727137280",
+          "deflator": "0.6775365471839905",
+          "gdp_constant_price_cny": "52325091639296",
+          "nominal_trillion_cny": "73.15",
+          "raw_gdp_ratio": "2.0633",
+          "raw_quality_flag": "5",
+          "year": "2009"
+        },
+        {
+          "constant_price_cny": "122203127414784",
+          "deflator": "0.7331001162528992",
+          "gdp_constant_price_cny": "57189070798848",
+          "nominal_trillion_cny": "89.59",
+          "raw_gdp_ratio": "2.1368",
+          "raw_quality_flag": "5",
+          "year": "2010"
+        },
+        {
+          "constant_price_cny": "126404477845504",
+          "deflator": "0.8040652871131897",
+          "gdp_constant_price_cny": "61650145116160",
+          "nominal_trillion_cny": "101.64",
+          "raw_gdp_ratio": "2.0504",
+          "raw_quality_flag": "5",
+          "year": "2011"
+        },
+        {
+          "constant_price_cny": "136095249465344",
+          "deflator": "0.8302380442619324",
+          "gdp_constant_price_cny": "65946211319808",
+          "nominal_trillion_cny": "112.99",
+          "raw_gdp_ratio": "2.0637",
+          "raw_quality_flag": "5",
+          "year": "2012"
+        },
+        {
+          "constant_price_cny": "146683568586752",
+          "deflator": "0.850156843662262",
+          "gdp_constant_price_cny": "71005724737536",
+          "nominal_trillion_cny": "124.70",
+          "raw_gdp_ratio": "2.0658",
+          "raw_quality_flag": "5",
+          "year": "2013"
+        },
+        {
+          "constant_price_cny": "157084184215552",
+          "deflator": "0.8609164357185364",
+          "gdp_constant_price_cny": "76172536840192",
+          "nominal_trillion_cny": "135.24",
+          "raw_gdp_ratio": "2.0622",
+          "raw_quality_flag": "5",
+          "year": "2014"
+        },
+        {
+          "constant_price_cny": "169561668190208",
+          "deflator": "0.8620978593826294",
+          "gdp_constant_price_cny": "81488515170304",
+          "nominal_trillion_cny": "146.18",
+          "raw_gdp_ratio": "2.0808",
+          "raw_quality_flag": "5",
+          "year": "2015"
+        },
+        {
+          "constant_price_cny": "196797532209152",
+          "deflator": "0.8748350739479065",
+          "gdp_constant_price_cny": "87009771126784",
+          "nominal_trillion_cny": "172.17",
+          "raw_gdp_ratio": "2.2618",
+          "raw_quality_flag": "5",
+          "year": "2016"
+        },
+        {
+          "constant_price_cny": "215503188525056",
+          "deflator": "0.9111058115959167",
+          "gdp_constant_price_cny": "93005839073280",
+          "nominal_trillion_cny": "196.35",
+          "raw_gdp_ratio": "2.3171",
+          "raw_quality_flag": "5",
+          "year": "2017"
+        },
+        {
+          "constant_price_cny": "236252007759872",
+          "deflator": "0.9427022337913513",
+          "gdp_constant_price_cny": "99290181533696",
+          "nominal_trillion_cny": "222.72",
+          "raw_gdp_ratio": "2.3794",
+          "raw_quality_flag": "5",
+          "year": "2018"
+        },
+        {
+          "constant_price_cny": "269612713246720",
+          "deflator": "0.9551034569740295",
+          "gdp_constant_price_cny": "105315525722112",
+          "nominal_trillion_cny": "257.51",
+          "raw_gdp_ratio": "2.56",
+          "raw_quality_flag": "5",
+          "year": "2019"
+        },
+        {
+          "constant_price_cny": "285459095748608",
+          "deflator": "0.9601656794548035",
+          "gdp_constant_price_cny": "107780224581632",
+          "nominal_trillion_cny": "274.09",
+          "raw_gdp_ratio": "2.6485",
+          "raw_quality_flag": "5",
+          "year": "2020"
+        }
+      ],
+      "coverage": "WID中国住宅及对应土地资产总值1979年起，非全部房地产总市值；未扣房贷；原不变价按同版平减指数还原当年价",
+      "definition_notes": [
+        "基础研究覆盖1979—2020；2021年起为外推/模型延伸，虚线单列，不据其波动断言真实市场涨跌",
+        "历史重建也含估算，公共/企业住宅资产可能以比例补足；原data_quality标记不解释为直接观测",
+        "WID新版可能修订全历史及价格基年；每次重取完整数据与同版平减指数，不混用旧版"
+      ],
+      "dictionary_url": "https://wid.world/codes-dictionary/",
+      "metadata_url": "https://wid.world/bulk_download/WID_metadata_CN.csv",
+      "methodology_url": "https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03/",
+      "price_base_year": "2025",
+      "refresh_ranges": [
+        {
+          "end": "2020",
+          "start": "1979"
+        }
+      ],
+      "requested_window_complete": true,
+      "source_definitions": {
+        "inyixxi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Indices",
+          "method": "1800-1979: Data obtained from an external source (see source); 1980-2014: Data obtained from an external source (see source); 2015-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National income price index",
+          "shortpop": "individuals",
+          "shorttype": "Indices",
+          "simpledes": "Price index that reflects the evolution of the price level for all new, domestically produced, final goods and services in the economy.",
+          "source": "1800-1979: Price index from Nievas & Piketty (2025); 1980-2014: GDP deflator from Maddison & Wu (2017); 2015-2024: GDP deflator from the UN SNA; 2025: GDP deflator from the IMF World Economic Outlook;",
+          "technicaldes": "",
+          "unit": "",
+          "variable": "inyixxi999"
+        },
+        "mgdproi999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1800-1969: Data obtained from an external source (see source); 1970: Reference level; 1971-2024: Data obtained from an external source (see source); 2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "Gross domestic product",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "Gross domestic product is the total value of goods and services produced by the national economy.The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1800-1969: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Growth rate); 1970: [URL][URL_LINK]https://wid.world/document/unequal-exchange-and-north-south-relations-evidence-from-global-trade-flows-and-the-world-balance-of-payments-1800-2025-world-inequality-lab-working-paper-2025-11/[/URL_LINK][URL_TEXT]Nievas, G., Piketty, T. (2025). Unequal Exchange & North-South Relations: Evidence from Global Trade Flows and the World Balance of Payments, 1800-2025[/URL_TEXT][/URL] (Level value); 1971-2024: [URL][URL_LINK]http://unstats.un.org/unsd/snaama/Introduction.asp[/URL_LINK][URL_TEXT]United Nations National Accounts Main Aggregates Database[/URL_TEXT][/URL] (Growth rate); 2025: [URL][URL_LINK]https://www.imf.org/en/publications/weo/weo-database/2025/april/download-entire-database[/URL_LINK][URL_TEXT]IMF World Economic Outlook (04/2026)[/URL_TEXT][/URL] (Growth rate);",
+          "technicaldes": "",
+          "unit": "CNY",
+          "variable": "mgdproi999"
+        },
+        "mnwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Macroeconomic variable (i.e. corresponding to national economy rather than to a given group of individuals). The associated percentile is of the form 'pall'.",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "Total",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "CNY",
+          "variable": "mnwhoui999"
+        },
+        "ynwhoui999": {
+          "age": "999",
+          "avg_quality": "",
+          "country": "CN",
+          "countryname": "China",
+          "longage": "The population is comprised of individuals of all ages.",
+          "longpop": "The base unit is the individual (rather than the household). This is equivalent to assuming no sharing of resources within couples.",
+          "longtype": "Proportion of gross domestic product",
+          "method": "1979-2025: Data obtained from an external source (see source); For more details on the latest data update round, see [URL][URL_LINK]https://wid.world/document/extending-wid-national-accounts-series-institutional-sectors-and-factor-shares-world-inequality-lab-technical-note-2025-03/[/URL_LINK][URL_TEXT] Gomez-Carrera, R., Moshirf, R., Nievas, G., Piketty, T. (2024) Global Inequality Update 2024:New Insights from Extended WID Macro Series[/URL_TEXT][/URL]; For more details on the WID.world methods, see [URL][URL_LINK]https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/[/URL_LINK][URL_TEXT] Chancel, L., Flores, I., Moshirf, R., Nievas, G., Piketty, T. (2025) Distributional National Accounts Guidelines[/URL_TEXT][/URL]. ",
+          "pop": "i",
+          "shortage": "All Ages",
+          "shortname": "National housing assets",
+          "shortpop": "individuals",
+          "shorttype": "% of GDP",
+          "simpledes": "National housing assets are places of residence and land they built on owned by the national economy and measured at their market value.  The national economy - in the national accounts sense - includes all domestic sectors, i.e. all entities that are resident of a given country (in the sense of their economic activity), whether they belong to the private sector, the corporate sector, the governement sector.",
+          "source": "1979-2025: [URL][URL_LINK]https://wid.world/document/communism-capitalism-private-versus-public-property-inequality-china-russia-wid-world-working-paper-2018-2/[/URL_LINK][URL_TEXT]Piketty, Thomas, Li Yang, and Gabriel Zucman (2019). \"Capital accumulation, private property, and rising inequality in China, 1978–2015\"[/URL_TEXT][/URL]; [URL][URL_LINK]https://wid.world/document/estimation-of-global-wealth-aggregates-in-wid-tn-2026-03[/URL_LINK][URL_TEXT]Updated by Bauluz, L., Brassac, P., Martínez-Toledano, T. Piketty and Sodano, A. (2026). \"Estimation of Global Wealth Aggregates in WID.world: Methodology\"[/URL_TEXT][/URL]; ;",
+          "technicaldes": "[National housing assets]=[National dwellings]+[National land underlying dwellings]",
+          "unit": "% of GDP",
+          "variable": "ynwhoui999"
+        }
+      },
+      "source_url": "https://wid.world/bulk_download/WID_data_CN.csv"
+    }
+  },
+  "history_checked_at": "2026-10-02T15:21:39+00:00",
+  "retrieved_at": "2026-10-02T15:21:39+00:00",
+  "schema_version": 2,
+  "series": {
+    "housing_wealth_extension": {
+      "basis": "全经济住宅及对应土地的资产总值，未减房贷，不含全部商业地产，不是官方市场普查。源不变价总量mnwhoui999乘同年inyixxi999，再除以1e12转成当年价万亿元；2021年起为延伸模型估算，不能直接据此判断实际市值涨跌。",
+      "frequency": "A",
+      "label": "住宅总值（模型延伸2021起）",
+      "source": "WID研究估算",
+      "unit": "万亿元（当年价格）"
+    },
+    "housing_wealth_gdp_extension": {
+      "basis": "存量与年度流量的比率，不是住宅产业贡献的GDP占比；直接采用同一WID版本ynwhoui999乘100，不混用其他版本GDP。研究重建与模型延伸分别展示。",
+      "frequency": "A",
+      "label": "住宅总值/GDP（模型延伸2021起）",
+      "source": "WID研究估算",
+      "unit": "%"
+    },
+    "housing_wealth_gdp_history": {
+      "basis": "存量与年度流量的比率，不是住宅产业贡献的GDP占比；直接采用同一WID版本ynwhoui999乘100，不混用其他版本GDP。研究重建与模型延伸分别展示。",
+      "frequency": "A",
+      "label": "住宅总值/GDP（历史重建1979—2020）",
+      "source": "WID研究估算",
+      "unit": "%"
+    },
+    "housing_wealth_history": {
+      "basis": "全经济住宅及对应土地的资产总值，未减房贷，不含全部商业地产，不是官方市场普查。源不变价总量mnwhoui999乘同年inyixxi999，再除以1e12转成当年价万亿元；2021年起为延伸模型估算，不能直接据此判断实际市值涨跌。",
+      "frequency": "A",
+      "label": "住宅总值（历史重建1979—2020）",
+      "source": "WID研究估算",
+      "unit": "万亿元（当年价格）"
+    }
+  },
+  "title": "中国住宅资产总值：研究估算"
+}

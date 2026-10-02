@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -37,7 +37,7 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         assert(await row.isVisible());
         assert.match(await row.getAttribute("class"), /gdp-selected-row/);
         assert.equal(new URL(page.url()).hash, `#macro-${spec.id}-${period}`);
-        const countWanted = spec.frequency === "M" ? 12 : spec.frequency === "Q" ? 4 : 60;
+        const countWanted = spec.frequency === "A" ? 10 : spec.frequency === "M" ? 12 : spec.frequency === "Q" ? 4 : 60;
         await widget.locator("button").nth(1).click();
         const zoom = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().dataZoom[0]);
         assert.equal(zoom.endValue - zoom.startValue, Math.min(countWanted, spec.periods.length) - 1);
@@ -120,6 +120,32 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         assert.match(await response.text(), new RegExp(`${key},CHN,2005-02,`));
         assert.match(await page.locator("body").textContent(), /2005-02/);
       }
+      if (slug === "population") {
+        assert.equal(specs.find(s => s.id === "population-china").periods[0], "1949");
+        const fertility = specs.find(s => s.id === "population-fertility");
+        assert.equal(fertility.periods[0], "1950");
+        assert.equal(fertility.periods.at(-1), "2023");
+        const households = page.locator("#interactive-population-households");
+        await households.locator("select").selectOption("2021");
+        assert.match(await households.locator(".gdp-readout").innerText(), /缺失/);
+        assert(specs.find(s => s.id === "population-households").series.every(k =>
+          specs.find(s => s.id === "population-households").values[k]["2021"] == null));
+      }
+      if (slug === "housing-prices") {
+        const spec = specs.find(s => s.id === "housing-shanghai-yoy");
+        assert.equal(spec.periods[0], "2006-01");
+        assert.equal(spec.values.housing_shanghai_new_yoy["2006-01"], undefined);
+        assert.equal(typeof spec.values.housing_shanghai_new_yoy_legacy["2006-01"], "number");
+        assert.equal(spec.values.housing_shanghai_new_yoy_legacy["2011-01"], undefined);
+      }
+      if (slug === "housing-wealth") {
+        const spec = specs.find(s => s.id === "housing-wealth");
+        assert.equal(spec.values.housing_wealth_history["2021"], undefined);
+        assert.equal(typeof spec.values.housing_wealth_extension["2021"], "number");
+        const lines = await page.locator("#interactive-housing-wealth .gdp-canvas")
+          .evaluate(node => echarts.getInstanceByDom(node).getOption().series);
+        assert.equal(lines[1].lineStyle.type, "dashed");
+      }
       await page.emulateMedia({media: "print"});
       assert.equal(await page.locator(".macro-interactive:visible").count(), 0);
       assert.equal(await page.locator(".gdp-static-fallback:visible").count(), count);
@@ -165,6 +191,14 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     assert(await mobile.locator("#macro-property-building-growth-2000-04").isVisible());
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     if (process.env.PROPERTY_SCREENSHOT) await property.screenshot({path: process.env.PROPERTY_SCREENSHOT});
+    for (const slug of ["population", "shanghai-population", "housing-prices", "housing-wealth"]) {
+      await mobile.goto(`${base}/data/${slug}.html`);
+      const chart = mobile.locator(".macro-interactive").first();
+      const select = chart.locator("select");
+      await select.selectOption({index: 0});
+      await chart.locator(".gdp-row-link").tap();
+      assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
+    }
     // Synthetic missing component: never render a partial stack as a total.
     const missing = await browser.newPage();
     await missing.addInitScript(() => {
