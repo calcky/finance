@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '17 22 * * *' # 06:17 Asia/Shanghai the next day
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Recheck all historical archives (can take 1–2 hours)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -15,6 +20,8 @@ on:
       - 'scripts/render_learning_charts.py'
       - 'scripts/requirements-plots.txt'
       - 'tests/test_sync_gdp.py'
+      - 'tests/test_*history.py'
+      - 'tests/fixtures/**'
       - 'tests/test_macro.py'
       - 'docs/conf.py'
       - 'docs/_static/**'
@@ -30,7 +37,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 180
     permissions:
       contents: write
     steps:
@@ -51,9 +58,15 @@ jobs:
           sudo apt-get install -y fonts-droid-fallback
           python -m pip install -r docs/requirements.txt -r scripts/requirements-plots.txt -r scripts/requirements-data.txt
       - name: Fetch and generate
+        env:
+          FULL_HISTORY: ${{ inputs.backfill }}
         run: |
           python scripts/sync_gdp.py
-          python scripts/sync_macro.py
+          if [ "$FULL_HISTORY" = 'true' ] || { [ '${{ github.event_name }}' = 'schedule' ] && [ "$(date -u +%d)" = '01' ]; }; then
+            python scripts/sync_macro.py --backfill
+          else
+            python scripts/sync_macro.py
+          fi
       - name: Test data validation
         run: python -m unittest discover -s tests -v
       - name: Verify documentation

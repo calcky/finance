@@ -44,7 +44,24 @@ def payload(slug, rows, meta):
 
 
 def display(value):
-    return "缺失" if value is None else f"{value:,.5f}".rstrip("0").rstrip(".")
+    return "缺失" if value is None else f"{value:,.8f}".rstrip("0").rstrip(".")
+
+
+def source_notes(meta):
+    """Keep historical scope warnings visible after a smaller daily refresh."""
+    notes = []
+    def visit(detail):
+        for name in ("coverage", "coverage_note", "coverage_limit"):
+            if detail.get(name):
+                notes.append(detail[name].rstrip("。"))
+        notes.extend(detail.get("definition_notes", []))
+        notes.extend(f"{b['period']}：{b['note']}" for b in detail.get("structural_breaks", []))
+        for extra in detail.get("supplemental_sources", []):
+            visit(extra)
+    for section in ("history", "acquisition"):
+        for key in sorted(meta.get(section, {})):
+            visit(meta[section][key])
+    return list(dict.fromkeys(notes))
 
 
 def document(slug, rows, meta):
@@ -56,13 +73,14 @@ def document(slug, rows, meta):
              "[最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)", "",
              "```{only} html", f"本站同版快照：{{download}}`CSV <../../data/macro/{slug}.csv>` · {{download}}`元数据 <../../data/macro/{slug}.metadata.json>`", "```", "",
              "网页支持悬停查看、点击固定读数、按期间选择、缩放和定位明细。GitHub、打印或禁用 JavaScript 时显示静态图；数值与网页使用同一快照。", "",
-             "## 最新观测与覆盖", "", "| 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 来源 |", "|---|---|---:|---|---|---|"]
+             "## 最新观测与覆盖", "", "| 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |", "|---|---|---:|---|---|---:|---|"]
     for key in topic_series(topic):
         selected = sorted([r for r in rows if r["series_id"] == key], key=lambda r: r["period"])
         last = selected[-1]
         source = "https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData" if "stream/esData" in last["source_url"] else last["source_url"]
-        lines.append(f"| {SERIES[key]['label']} | {last['period']} | {display(float(last['value']))} | {last['unit']} | {selected[0]['period']} | [{SERIES[key]['source']}]({source}) |")
-    lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", ""]
+        lines.append(f"| {SERIES[key]['label']} | {last['period']} | {display(float(last['value']))} | {last['unit']} | {selected[0]['period']} | {len(selected)} | [{SERIES[key]['source']}]({source}) |")
+    lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", "",
+              "图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。", ""]
     for chart in payload(slug, rows, meta)["charts"]:
         lines += [f"## {chart['title']}", "", chart["explanation"], "",
                   f"![{chart['title']}，单位：{chart['unit']}；完整数值见下方明细](../images/data/macro-{chart['id']}.svg)", "",
@@ -71,11 +89,26 @@ def document(slug, rows, meta):
         for period in reversed(chart["periods"]):
             lines.append(f'<tr id="macro-{chart["id"]}-{period}" tabindex="-1"><td>{period}</td>' + ''.join(f'<td>{display(chart["values"][k].get(period))}</td>' for k in chart["series"]) + '</tr>')
         lines += ["</tbody></table></div></details>", ""]
+    for key in topic.get("extra", []):
+        lines += [f"## {SERIES[key]['label']}：补充明细", "", SERIES[key]["basis"], "",
+                  '<details class="macro-details">', f"<summary>展开完整数据表（{SERIES[key]['unit']}）</summary>",
+                  '<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>']
+        for row in sorted((r for r in rows if r["series_id"] == key), key=lambda r: r["period"], reverse=True):
+            lines.append(f"<tr><td>{row['period']}</td><td>{display(float(row['value']))}</td></tr>")
+        lines += ["</tbody></table></div></details>", ""]
+    if meta.get("reported_balance_differences"):
+        differences = meta["reported_balance_differences"]
+        lines += ["## 原始差额与进出口相减不完全一致", "",
+                  f"有 {len(differences)} 个月，官方单列贸易差额与同源进出口金额相减的差异超出显示精度。已核对原始指标、月份和单位；保留官方原值，不静默改算。来源未逐项解释原因，不能仅当作四舍五入或断言为历史修订。单位：亿美元。", "",
+                  '<details class="macro-details"><summary>展开差异核对表</summary>',
+                  '<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>出口−进口</th><th>官方差额</th><th>前者−后者</th></tr></thead><tbody>']
+        for item in differences:
+            lines.append(f"<tr><td>{item['period']}</td><td>{display(float(item['calculated_balance']))}</td><td>{display(float(item['reported_balance']))}</td><td>{display(float(item['residual']))}</td></tr>")
+        lines += ["</tbody></table></div></details>", ""]
     lines += ["## 口径与阅读提醒", "", "| 指标 | 口径 |", "|---|---|"]
     for key in topic_series(topic):
         lines.append(f"| {SERIES[key]['label']} | {SERIES[key]['basis']} |")
-    coverage = list(dict.fromkeys(m.get("coverage", "") for m in meta["acquisition"].values()))
-    lines += ["", *[f"- {c}。" for c in coverage if c], "",
+    lines += ["", *[f"- {c}。" for c in source_notes(meta)], "",
               "日度图保留日历缺口：节假日、没有操作或上游缺失的日期均无观测，不能仅从空白判断原因。图线在缺失处断开；月度与季度图也不插值。", "",
               "来源可能修订历史值。同步程序对已有期间的消失报错，合法数值修订保存在 Git 历史中；这不是包含所有官方初值的实时数据库。这里只摘录指标事实并注明来源，来源文件和机构条款仍归各发布机构。", "",
               f"继续理解：[相关基础知识](../{topic['reading']}.md) · [如何读宏观数据](../reading-macro-data.md) · [全部数据专题](index.md)", ""]

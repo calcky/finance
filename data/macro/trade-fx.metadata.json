@@ -1,119 +1,1067 @@
 {
-  "schema_version": 1,
-  "title": "进出口与人民币汇率",
-  "series": {
-    "exports": {
-      "label": "当月出口",
-      "unit": "亿美元",
-      "frequency": "M",
-      "source": "国家统计局（海关统计）",
-      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。"
-    },
-    "imports": {
-      "label": "当月进口",
-      "unit": "亿美元",
-      "frequency": "M",
-      "source": "国家统计局（海关统计）",
-      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。"
-    },
-    "trade_balance": {
-      "label": "当月货物贸易差额",
-      "unit": "亿美元",
-      "frequency": "M",
-      "source": "国家统计局（海关统计）",
-      "basis": "同月同币种出口减进口；正值为顺差，不等于企业利润。"
-    },
-    "usdcny_mid": {
-      "label": "美元兑人民币中间价",
-      "unit": "人民币/美元",
-      "frequency": "D",
-      "source": "中国货币网",
-      "basis": "人民币汇率中间价，不是即期成交价、银行结售汇价或离岸 CNH。"
-    }
-  },
   "acquisition": {
     "exports": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "7e11b47c828d4e4e925f1c5a98305558",
-        "indicatorIds": [
-          "9e38b39f55a7461ea195508c1bb7dbdc",
-          "86a340fee806409ebdf4d0069bd23f29",
-          "0123bdd4e85348f28efc74685a4a40e5"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "9e38b39f55a7461ea195508c1bb7dbdc",
-      "conversion": "usd100m",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "imports": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "7e11b47c828d4e4e925f1c5a98305558",
-        "indicatorIds": [
-          "9e38b39f55a7461ea195508c1bb7dbdc",
-          "86a340fee806409ebdf4d0069bd23f29",
-          "0123bdd4e85348f28efc74685a4a40e5"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "86a340fee806409ebdf4d0069bd23f29",
-      "conversion": "usd100m",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "trade_balance": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "7e11b47c828d4e4e925f1c5a98305558",
-        "indicatorIds": [
-          "9e38b39f55a7461ea195508c1bb7dbdc",
-          "86a340fee806409ebdf4d0069bd23f29",
-          "0123bdd4e85348f28efc74685a4a40e5"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "0123bdd4e85348f28efc74685a4a40e5",
-      "conversion": "usd100m",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "usdcny_mid": {
-      "url": "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/fx/ccpr-chrt-usd.xml",
-      "coverage": "来源滚动窗口，首次约一年；日后保留已采集历史"
+      "coverage": "官方历史查询起点2006-01-04；按月分页核对总条数，不填充非交易日；日常刷新最近三个日历月",
+      "earliest_verified": "2006-01-04",
+      "first_observation": "2006-01-04",
+      "last_observation": "2026-09-30",
+      "observation_count": 5043,
+      "query_urls": [
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-01-04&endDate=2006-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-02-01&endDate=2006-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-03-01&endDate=2006-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-04-01&endDate=2006-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-05-01&endDate=2006-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-06-01&endDate=2006-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-07-01&endDate=2006-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-08-01&endDate=2006-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-09-01&endDate=2006-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-10-01&endDate=2006-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-11-01&endDate=2006-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-12-01&endDate=2006-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-01-01&endDate=2007-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-02-01&endDate=2007-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-03-01&endDate=2007-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-04-01&endDate=2007-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-05-01&endDate=2007-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-06-01&endDate=2007-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-07-01&endDate=2007-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-08-01&endDate=2007-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-09-01&endDate=2007-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-10-01&endDate=2007-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-11-01&endDate=2007-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-12-01&endDate=2007-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-01-01&endDate=2008-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-02-01&endDate=2008-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-03-01&endDate=2008-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-04-01&endDate=2008-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-05-01&endDate=2008-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-06-01&endDate=2008-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-07-01&endDate=2008-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-08-01&endDate=2008-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-09-01&endDate=2008-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-10-01&endDate=2008-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-11-01&endDate=2008-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-12-01&endDate=2008-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-01-01&endDate=2009-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-02-01&endDate=2009-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-03-01&endDate=2009-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-04-01&endDate=2009-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-05-01&endDate=2009-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-06-01&endDate=2009-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-07-01&endDate=2009-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-08-01&endDate=2009-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-09-01&endDate=2009-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-10-01&endDate=2009-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-11-01&endDate=2009-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-12-01&endDate=2009-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-01-01&endDate=2010-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-02-01&endDate=2010-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-03-01&endDate=2010-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-04-01&endDate=2010-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-05-01&endDate=2010-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-06-01&endDate=2010-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-07-01&endDate=2010-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-08-01&endDate=2010-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-09-01&endDate=2010-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-10-01&endDate=2010-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-11-01&endDate=2010-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-12-01&endDate=2010-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-01-01&endDate=2011-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-02-01&endDate=2011-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-03-01&endDate=2011-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-04-01&endDate=2011-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-05-01&endDate=2011-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-06-01&endDate=2011-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-07-01&endDate=2011-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-08-01&endDate=2011-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-09-01&endDate=2011-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-10-01&endDate=2011-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-11-01&endDate=2011-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-12-01&endDate=2011-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-01-01&endDate=2012-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-02-01&endDate=2012-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-03-01&endDate=2012-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-04-01&endDate=2012-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-05-01&endDate=2012-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-06-01&endDate=2012-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-07-01&endDate=2012-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-08-01&endDate=2012-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-09-01&endDate=2012-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-10-01&endDate=2012-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-11-01&endDate=2012-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-12-01&endDate=2012-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-01-01&endDate=2013-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-02-01&endDate=2013-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-03-01&endDate=2013-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-04-01&endDate=2013-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-05-01&endDate=2013-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-06-01&endDate=2013-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-07-01&endDate=2013-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-08-01&endDate=2013-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-09-01&endDate=2013-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-10-01&endDate=2013-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-11-01&endDate=2013-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-12-01&endDate=2013-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-01-01&endDate=2014-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-02-01&endDate=2014-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-03-01&endDate=2014-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-04-01&endDate=2014-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-05-01&endDate=2014-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-06-01&endDate=2014-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-07-01&endDate=2014-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-08-01&endDate=2014-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-09-01&endDate=2014-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-10-01&endDate=2014-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-11-01&endDate=2014-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-12-01&endDate=2014-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-01-01&endDate=2015-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-02-01&endDate=2015-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-03-01&endDate=2015-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-04-01&endDate=2015-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-05-01&endDate=2015-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-06-01&endDate=2015-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-07-01&endDate=2015-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-08-01&endDate=2015-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-09-01&endDate=2015-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-10-01&endDate=2015-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-11-01&endDate=2015-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-12-01&endDate=2015-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-01-01&endDate=2016-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-02-01&endDate=2016-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-03-01&endDate=2016-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-04-01&endDate=2016-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-05-01&endDate=2016-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-06-01&endDate=2016-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-07-01&endDate=2016-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-08-01&endDate=2016-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-09-01&endDate=2016-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-10-01&endDate=2016-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-11-01&endDate=2016-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-12-01&endDate=2016-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-01-01&endDate=2017-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-02-01&endDate=2017-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-03-01&endDate=2017-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-04-01&endDate=2017-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-05-01&endDate=2017-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-06-01&endDate=2017-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-07-01&endDate=2017-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-08-01&endDate=2017-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-09-01&endDate=2017-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-10-01&endDate=2017-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-11-01&endDate=2017-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-12-01&endDate=2017-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-01-01&endDate=2018-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-02-01&endDate=2018-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-03-01&endDate=2018-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-04-01&endDate=2018-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-05-01&endDate=2018-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-06-01&endDate=2018-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-07-01&endDate=2018-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-08-01&endDate=2018-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-09-01&endDate=2018-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-10-01&endDate=2018-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-11-01&endDate=2018-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-12-01&endDate=2018-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-01-01&endDate=2019-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-02-01&endDate=2019-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-03-01&endDate=2019-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-04-01&endDate=2019-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-05-01&endDate=2019-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-06-01&endDate=2019-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-07-01&endDate=2019-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-08-01&endDate=2019-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-09-01&endDate=2019-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-10-01&endDate=2019-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-11-01&endDate=2019-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-12-01&endDate=2019-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-01-01&endDate=2020-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-02-01&endDate=2020-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-03-01&endDate=2020-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-04-01&endDate=2020-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-05-01&endDate=2020-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-06-01&endDate=2020-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-07-01&endDate=2020-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-08-01&endDate=2020-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-09-01&endDate=2020-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-10-01&endDate=2020-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-11-01&endDate=2020-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-12-01&endDate=2020-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-01-01&endDate=2021-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-02-01&endDate=2021-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-03-01&endDate=2021-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-04-01&endDate=2021-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-05-01&endDate=2021-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-06-01&endDate=2021-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-07-01&endDate=2021-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-08-01&endDate=2021-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-09-01&endDate=2021-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-10-01&endDate=2021-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-11-01&endDate=2021-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-12-01&endDate=2021-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-01-01&endDate=2022-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-02-01&endDate=2022-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-03-01&endDate=2022-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-04-01&endDate=2022-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-05-01&endDate=2022-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-06-01&endDate=2022-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-07-01&endDate=2022-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-08-01&endDate=2022-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-09-01&endDate=2022-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-10-01&endDate=2022-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-11-01&endDate=2022-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-12-01&endDate=2022-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-01-01&endDate=2023-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-02-01&endDate=2023-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-03-01&endDate=2023-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-04-01&endDate=2023-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-05-01&endDate=2023-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-06-01&endDate=2023-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-07-01&endDate=2023-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-08-01&endDate=2023-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-09-01&endDate=2023-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-10-01&endDate=2023-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-11-01&endDate=2023-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-12-01&endDate=2023-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-01-01&endDate=2024-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-02-01&endDate=2024-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-03-01&endDate=2024-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-04-01&endDate=2024-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-05-01&endDate=2024-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-06-01&endDate=2024-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-07-01&endDate=2024-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-08-01&endDate=2024-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-09-01&endDate=2024-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-10-01&endDate=2024-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-11-01&endDate=2024-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-12-01&endDate=2024-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-01-01&endDate=2025-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-02-01&endDate=2025-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-03-01&endDate=2025-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-04-01&endDate=2025-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-05-01&endDate=2025-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-06-01&endDate=2025-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-07-01&endDate=2025-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-08-01&endDate=2025-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-09-01&endDate=2025-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-10-01&endDate=2025-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-11-01&endDate=2025-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-12-01&endDate=2025-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-01-01&endDate=2026-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-02-01&endDate=2026-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-03-01&endDate=2026-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-04-01&endDate=2026-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-05-01&endDate=2026-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-06-01&endDate=2026-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-07-01&endDate=2026-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-08-01&endDate=2026-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-09-01&endDate=2026-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-10-01&endDate=2026-10-02&currency=USD/CNY&pageNum=1&pageSize=30"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-10-02",
+          "start": "2006-01-04"
+        }
+      ],
+      "source_page": "https://www.chinamoney.com.cn/chinese/bkccpr/"
     }
   },
-  "retrieved_at": "2026-10-02T03:25:32+00:00"
+  "coverage": {
+    "exports": {
+      "count": 375,
+      "first": "1995-01",
+      "last": "2026-07"
+    },
+    "imports": {
+      "count": 371,
+      "first": "1995-01",
+      "last": "2026-07"
+    },
+    "trade_balance": {
+      "count": 343,
+      "first": "1998-01",
+      "last": "2026-07"
+    },
+    "usdcny_mid": {
+      "count": 5043,
+      "first": "2006-01-04",
+      "last": "2026-09-30"
+    }
+  },
+  "history": {
+    "exports": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "imports": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "trade_balance": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7e11b47c828d4e4e925f1c5a98305558",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "9e38b39f55a7461ea195508c1bb7dbdc",
+            "86a340fee806409ebdf4d0069bd23f29",
+            "0123bdd4e85348f28efc74685a4a40e5"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "usdcny_mid": {
+      "coverage": "官方历史查询起点2006-01-04；按月分页核对总条数，不填充非交易日；日常刷新最近三个日历月",
+      "earliest_verified": "2006-01-04",
+      "first_observation": "2006-01-04",
+      "last_observation": "2026-09-30",
+      "observation_count": 5043,
+      "query_urls": [
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-01-04&endDate=2006-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-02-01&endDate=2006-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-03-01&endDate=2006-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-04-01&endDate=2006-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-05-01&endDate=2006-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-06-01&endDate=2006-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-07-01&endDate=2006-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-08-01&endDate=2006-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-09-01&endDate=2006-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-10-01&endDate=2006-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-11-01&endDate=2006-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2006-12-01&endDate=2006-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-01-01&endDate=2007-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-02-01&endDate=2007-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-03-01&endDate=2007-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-04-01&endDate=2007-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-05-01&endDate=2007-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-06-01&endDate=2007-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-07-01&endDate=2007-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-08-01&endDate=2007-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-09-01&endDate=2007-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-10-01&endDate=2007-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-11-01&endDate=2007-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2007-12-01&endDate=2007-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-01-01&endDate=2008-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-02-01&endDate=2008-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-03-01&endDate=2008-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-04-01&endDate=2008-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-05-01&endDate=2008-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-06-01&endDate=2008-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-07-01&endDate=2008-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-08-01&endDate=2008-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-09-01&endDate=2008-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-10-01&endDate=2008-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-11-01&endDate=2008-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2008-12-01&endDate=2008-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-01-01&endDate=2009-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-02-01&endDate=2009-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-03-01&endDate=2009-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-04-01&endDate=2009-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-05-01&endDate=2009-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-06-01&endDate=2009-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-07-01&endDate=2009-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-08-01&endDate=2009-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-09-01&endDate=2009-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-10-01&endDate=2009-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-11-01&endDate=2009-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2009-12-01&endDate=2009-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-01-01&endDate=2010-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-02-01&endDate=2010-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-03-01&endDate=2010-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-04-01&endDate=2010-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-05-01&endDate=2010-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-06-01&endDate=2010-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-07-01&endDate=2010-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-08-01&endDate=2010-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-09-01&endDate=2010-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-10-01&endDate=2010-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-11-01&endDate=2010-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2010-12-01&endDate=2010-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-01-01&endDate=2011-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-02-01&endDate=2011-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-03-01&endDate=2011-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-04-01&endDate=2011-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-05-01&endDate=2011-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-06-01&endDate=2011-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-07-01&endDate=2011-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-08-01&endDate=2011-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-09-01&endDate=2011-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-10-01&endDate=2011-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-11-01&endDate=2011-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2011-12-01&endDate=2011-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-01-01&endDate=2012-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-02-01&endDate=2012-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-03-01&endDate=2012-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-04-01&endDate=2012-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-05-01&endDate=2012-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-06-01&endDate=2012-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-07-01&endDate=2012-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-08-01&endDate=2012-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-09-01&endDate=2012-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-10-01&endDate=2012-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-11-01&endDate=2012-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2012-12-01&endDate=2012-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-01-01&endDate=2013-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-02-01&endDate=2013-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-03-01&endDate=2013-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-04-01&endDate=2013-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-05-01&endDate=2013-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-06-01&endDate=2013-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-07-01&endDate=2013-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-08-01&endDate=2013-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-09-01&endDate=2013-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-10-01&endDate=2013-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-11-01&endDate=2013-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2013-12-01&endDate=2013-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-01-01&endDate=2014-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-02-01&endDate=2014-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-03-01&endDate=2014-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-04-01&endDate=2014-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-05-01&endDate=2014-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-06-01&endDate=2014-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-07-01&endDate=2014-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-08-01&endDate=2014-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-09-01&endDate=2014-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-10-01&endDate=2014-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-11-01&endDate=2014-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2014-12-01&endDate=2014-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-01-01&endDate=2015-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-02-01&endDate=2015-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-03-01&endDate=2015-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-04-01&endDate=2015-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-05-01&endDate=2015-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-06-01&endDate=2015-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-07-01&endDate=2015-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-08-01&endDate=2015-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-09-01&endDate=2015-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-10-01&endDate=2015-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-11-01&endDate=2015-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2015-12-01&endDate=2015-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-01-01&endDate=2016-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-02-01&endDate=2016-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-03-01&endDate=2016-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-04-01&endDate=2016-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-05-01&endDate=2016-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-06-01&endDate=2016-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-07-01&endDate=2016-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-08-01&endDate=2016-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-09-01&endDate=2016-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-10-01&endDate=2016-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-11-01&endDate=2016-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2016-12-01&endDate=2016-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-01-01&endDate=2017-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-02-01&endDate=2017-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-03-01&endDate=2017-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-04-01&endDate=2017-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-05-01&endDate=2017-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-06-01&endDate=2017-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-07-01&endDate=2017-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-08-01&endDate=2017-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-09-01&endDate=2017-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-10-01&endDate=2017-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-11-01&endDate=2017-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2017-12-01&endDate=2017-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-01-01&endDate=2018-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-02-01&endDate=2018-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-03-01&endDate=2018-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-04-01&endDate=2018-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-05-01&endDate=2018-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-06-01&endDate=2018-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-07-01&endDate=2018-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-08-01&endDate=2018-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-09-01&endDate=2018-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-10-01&endDate=2018-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-11-01&endDate=2018-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2018-12-01&endDate=2018-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-01-01&endDate=2019-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-02-01&endDate=2019-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-03-01&endDate=2019-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-04-01&endDate=2019-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-05-01&endDate=2019-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-06-01&endDate=2019-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-07-01&endDate=2019-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-08-01&endDate=2019-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-09-01&endDate=2019-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-10-01&endDate=2019-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-11-01&endDate=2019-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2019-12-01&endDate=2019-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-01-01&endDate=2020-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-02-01&endDate=2020-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-03-01&endDate=2020-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-04-01&endDate=2020-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-05-01&endDate=2020-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-06-01&endDate=2020-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-07-01&endDate=2020-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-08-01&endDate=2020-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-09-01&endDate=2020-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-10-01&endDate=2020-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-11-01&endDate=2020-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2020-12-01&endDate=2020-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-01-01&endDate=2021-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-02-01&endDate=2021-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-03-01&endDate=2021-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-04-01&endDate=2021-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-05-01&endDate=2021-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-06-01&endDate=2021-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-07-01&endDate=2021-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-08-01&endDate=2021-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-09-01&endDate=2021-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-10-01&endDate=2021-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-11-01&endDate=2021-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2021-12-01&endDate=2021-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-01-01&endDate=2022-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-02-01&endDate=2022-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-03-01&endDate=2022-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-04-01&endDate=2022-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-05-01&endDate=2022-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-06-01&endDate=2022-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-07-01&endDate=2022-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-08-01&endDate=2022-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-09-01&endDate=2022-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-10-01&endDate=2022-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-11-01&endDate=2022-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2022-12-01&endDate=2022-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-01-01&endDate=2023-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-02-01&endDate=2023-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-03-01&endDate=2023-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-04-01&endDate=2023-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-05-01&endDate=2023-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-06-01&endDate=2023-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-07-01&endDate=2023-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-08-01&endDate=2023-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-09-01&endDate=2023-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-10-01&endDate=2023-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-11-01&endDate=2023-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2023-12-01&endDate=2023-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-01-01&endDate=2024-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-02-01&endDate=2024-02-29&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-03-01&endDate=2024-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-04-01&endDate=2024-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-05-01&endDate=2024-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-06-01&endDate=2024-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-07-01&endDate=2024-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-08-01&endDate=2024-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-09-01&endDate=2024-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-10-01&endDate=2024-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-11-01&endDate=2024-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2024-12-01&endDate=2024-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-01-01&endDate=2025-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-02-01&endDate=2025-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-03-01&endDate=2025-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-04-01&endDate=2025-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-05-01&endDate=2025-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-06-01&endDate=2025-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-07-01&endDate=2025-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-08-01&endDate=2025-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-09-01&endDate=2025-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-10-01&endDate=2025-10-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-11-01&endDate=2025-11-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2025-12-01&endDate=2025-12-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-01-01&endDate=2026-01-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-02-01&endDate=2026-02-28&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-03-01&endDate=2026-03-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-04-01&endDate=2026-04-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-05-01&endDate=2026-05-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-06-01&endDate=2026-06-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-07-01&endDate=2026-07-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-08-01&endDate=2026-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-09-01&endDate=2026-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-10-01&endDate=2026-10-02&currency=USD/CNY&pageNum=1&pageSize=30"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-10-02",
+          "start": "2006-01-04"
+        }
+      ],
+      "source_page": "https://www.chinamoney.com.cn/chinese/bkccpr/"
+    }
+  },
+  "history_checked_at": "2026-10-02T10:37:59+00:00",
+  "reported_balance_differences": [
+    {
+      "calculated_balance": "-73.27837",
+      "exports": "967.36127",
+      "imports": "1040.63964",
+      "period": "2011-02",
+      "reported_balance": "-73.061",
+      "residual": "-0.21737",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "114.21003",
+      "exports": "1556.84084",
+      "imports": "1442.63081",
+      "period": "2011-04",
+      "reported_balance": "114.23165",
+      "residual": "-0.02162",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "130.46968",
+      "exports": "1571.57191",
+      "imports": "1441.10223",
+      "period": "2011-05",
+      "reported_balance": "130.46384",
+      "residual": "0.00584",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "165.20762",
+      "exports": "1747.17651",
+      "imports": "1581.96889",
+      "period": "2011-12",
+      "reported_balance": "165.19919",
+      "residual": "0.00843",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "272.77886",
+      "exports": "1499.39113",
+      "imports": "1226.61227",
+      "period": "2012-01",
+      "reported_balance": "272.76569",
+      "residual": "0.01317",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "53.47301",
+      "exports": "1656.581",
+      "imports": "1603.10799",
+      "period": "2012-03",
+      "reported_balance": "53.45981",
+      "residual": "0.01320",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "184.27188",
+      "exports": "1632.51712",
+      "imports": "1448.24524",
+      "period": "2012-04",
+      "reported_balance": "184.2585",
+      "residual": "0.01338",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "186.99322",
+      "exports": "1811.40762",
+      "imports": "1624.4144",
+      "period": "2012-05",
+      "reported_balance": "186.95305",
+      "residual": "0.04017",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "251.46754",
+      "exports": "1769.40032",
+      "imports": "1517.93278",
+      "period": "2012-07",
+      "reported_balance": "251.46735",
+      "residual": "0.00019",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "266.60551",
+      "exports": "1779.73297",
+      "imports": "1513.12746",
+      "period": "2012-08",
+      "reported_balance": "266.60527",
+      "residual": "0.00024",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "320.46686",
+      "exports": "1755.71102",
+      "imports": "1435.24416",
+      "period": "2012-10",
+      "reported_balance": "319.92491",
+      "residual": "0.54195",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "152.25460",
+      "exports": "1393.67235",
+      "imports": "1241.41775",
+      "period": "2013-02",
+      "reported_balance": "152.5098",
+      "residual": "-0.25520",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "-8.23098",
+      "exports": "1821.89999",
+      "imports": "1830.13097",
+      "period": "2013-03",
+      "reported_balance": "-8.84291",
+      "residual": "0.61193",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "152.17214",
+      "exports": "1856.43576",
+      "imports": "1704.26362",
+      "period": "2013-09",
+      "reported_balance": "152.06504",
+      "residual": "0.10710",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "77.03295",
+      "exports": "1701.07988",
+      "imports": "1624.04693",
+      "period": "2014-03",
+      "reported_balance": "77.05527",
+      "residual": "-0.02232",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "184.52571",
+      "exports": "1885.40548",
+      "imports": "1700.87977",
+      "period": "2014-04",
+      "reported_balance": "184.54765",
+      "residual": "-0.02194",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "315.64696",
+      "exports": "1867.88537",
+      "imports": "1552.23841",
+      "period": "2014-06",
+      "reported_balance": "315.64346",
+      "residual": "0.00350",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "473.00551",
+      "exports": "2128.91063",
+      "imports": "1655.90512",
+      "period": "2014-07",
+      "reported_balance": "473.00239",
+      "residual": "0.00312",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "498.36476",
+      "exports": "2084.65863",
+      "imports": "1586.29387",
+      "period": "2014-08",
+      "reported_balance": "498.35502",
+      "residual": "0.00974",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "309.63354",
+      "exports": "2136.87462",
+      "imports": "1827.24108",
+      "period": "2014-09",
+      "reported_balance": "309.42678",
+      "residual": "0.20676",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "496.11875",
+      "exports": "2275.12544",
+      "imports": "1779.00669",
+      "period": "2014-12",
+      "reported_balance": "496.13263",
+      "residual": "-0.01388",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "588.67422",
+      "exports": "1900.57568",
+      "imports": "1311.90146",
+      "period": "2015-05",
+      "reported_balance": "594.88009",
+      "residual": "-6.20587",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "499.75506",
+      "exports": "1810.59364",
+      "imports": "1310.83858",
+      "period": "2016-05",
+      "reported_balance": "499.79506",
+      "residual": "-0.04000",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "408.18370",
+      "exports": "2094.17479",
+      "imports": "1685.99109",
+      "period": "2016-12",
+      "reported_balance": "407.08425",
+      "residual": "1.09945",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "447.04997",
+      "exports": "2274.45523",
+      "imports": "1827.40526",
+      "period": "2018-11",
+      "reported_balance": "418.61",
+      "residual": "28.43997",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "391.56850",
+      "exports": "2175.66642",
+      "imports": "1784.09792",
+      "period": "2019-01",
+      "reported_balance": "397.94",
+      "residual": "-6.37150",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "379.26421",
+      "exports": "2213.37434",
+      "imports": "1834.11013",
+      "period": "2019-11",
+      "reported_balance": "376.18",
+      "residual": "3.08421",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "692.48168",
+      "exports": "2955.0077",
+      "imports": "2262.52602",
+      "period": "2022-11",
+      "reported_balance": "698.4",
+      "residual": "-5.91832",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "657.91987",
+      "exports": "2834.84005",
+      "imports": "2176.92018",
+      "period": "2023-05",
+      "reported_balance": "658.1",
+      "residual": "-0.18013",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "681.98238",
+      "exports": "2847.90965",
+      "imports": "2165.92727",
+      "period": "2023-08",
+      "reported_balance": "683.6",
+      "residual": "-1.61762",
+      "unit": "亿美元"
+    },
+    {
+      "calculated_balance": "778.31489",
+      "exports": "2991.29677",
+      "imports": "2212.98188",
+      "period": "2023-09",
+      "reported_balance": "777.1",
+      "residual": "1.21489",
+      "unit": "亿美元"
+    }
+  ],
+  "retrieved_at": "2026-10-02T10:37:59+00:00",
+  "schema_version": 2,
+  "series": {
+    "exports": {
+      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。",
+      "frequency": "M",
+      "label": "当月出口",
+      "source": "国家统计局（海关统计）",
+      "unit": "亿美元"
+    },
+    "imports": {
+      "basis": "货物贸易，当月美元金额；不与累计、人民币金额或服务贸易混用。",
+      "frequency": "M",
+      "label": "当月进口",
+      "source": "国家统计局（海关统计）",
+      "unit": "亿美元"
+    },
+    "trade_balance": {
+      "basis": "同月同币种出口减进口；正值为顺差，不等于企业利润。",
+      "frequency": "M",
+      "label": "当月货物贸易差额",
+      "source": "国家统计局（海关统计）",
+      "unit": "亿美元"
+    },
+    "usdcny_mid": {
+      "basis": "人民币汇率中间价，不是即期成交价、银行结售汇价或离岸 CNH。",
+      "frequency": "D",
+      "label": "美元兑人民币中间价",
+      "source": "中国货币网",
+      "unit": "人民币/美元"
+    }
+  },
+  "title": "进出口与人民币汇率"
 }

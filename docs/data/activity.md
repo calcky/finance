@@ -5,7 +5,7 @@
 
 PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它们观察对象不同，发布时间也不同。规模以上工业是实际增速，社零和投资是名义增速，不能因为单位相同就当成同一种量。
 
-本页快照获取时间：**2026-10-02T03:25:31+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-02T10:37:58+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/activity.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/activity.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -17,15 +17,20 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 
 ## 最新观测与覆盖
 
-| 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 来源 |
-|---|---|---:|---|---|---|
-| 制造业 PMI | 2026-08 | 49.8 | 指数点 | 2024-01 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 非制造业商务活动指数 | 2026-08 | 49 | 指数点 | 2024-01 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 工业增加值实际同比 | 2026-08 | 5.2 | % | 2024-03 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 社零名义同比 | 2026-08 | 0.4 | % | 2024-03 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 固定资产投资累计同比 | 2026-08 | -7.2 | % | 2024-02 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
+|---|---|---:|---|---|---:|---|
+| 制造业 PMI | 2026-08 | 49.8 | 指数点 | 2005-01 | 260 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 非制造业商务活动指数 | 2026-08 | 49 | 指数点 | 2007-01 | 236 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 工业增加值实际同比 | 2026-08 | 5.2 | % | 1998-07 | 296 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 社零名义同比 | 2026-08 | 0.4 | % | 2000-01 | 290 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 固定资产投资累计同比 | 2026-08 | -7.2 | % | 2011-02 | 172 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 投资累计同比（2011 年前旧口径） | 2010-12 | 24.5 | % | 1998-02 | 143 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 工业 1—2 月合计实际同比 | 2026-02 | 6.3 | % | 1999-02 | 28 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 社零 1—2 月合计名义同比 | 2026-02 | 2.8 | % | 2000-02 | 27 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 
-起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
+起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
+
+图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。
 
 ## 制造业与非制造业景气
 
@@ -68,6 +73,234 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 <tr id="macro-pmi-2024-03" tabindex="-1"><td>2024-03</td><td>50.8</td><td>53</td></tr>
 <tr id="macro-pmi-2024-02" tabindex="-1"><td>2024-02</td><td>49.1</td><td>51.4</td></tr>
 <tr id="macro-pmi-2024-01" tabindex="-1"><td>2024-01</td><td>49.2</td><td>50.7</td></tr>
+<tr id="macro-pmi-2023-12" tabindex="-1"><td>2023-12</td><td>49</td><td>50.4</td></tr>
+<tr id="macro-pmi-2023-11" tabindex="-1"><td>2023-11</td><td>49.4</td><td>50.2</td></tr>
+<tr id="macro-pmi-2023-10" tabindex="-1"><td>2023-10</td><td>49.5</td><td>50.6</td></tr>
+<tr id="macro-pmi-2023-09" tabindex="-1"><td>2023-09</td><td>50.2</td><td>51.7</td></tr>
+<tr id="macro-pmi-2023-08" tabindex="-1"><td>2023-08</td><td>49.7</td><td>51</td></tr>
+<tr id="macro-pmi-2023-07" tabindex="-1"><td>2023-07</td><td>49.3</td><td>51.5</td></tr>
+<tr id="macro-pmi-2023-06" tabindex="-1"><td>2023-06</td><td>49</td><td>53.2</td></tr>
+<tr id="macro-pmi-2023-05" tabindex="-1"><td>2023-05</td><td>48.8</td><td>54.5</td></tr>
+<tr id="macro-pmi-2023-04" tabindex="-1"><td>2023-04</td><td>49.2</td><td>56.4</td></tr>
+<tr id="macro-pmi-2023-03" tabindex="-1"><td>2023-03</td><td>51.9</td><td>58.2</td></tr>
+<tr id="macro-pmi-2023-02" tabindex="-1"><td>2023-02</td><td>52.6</td><td>56.3</td></tr>
+<tr id="macro-pmi-2023-01" tabindex="-1"><td>2023-01</td><td>50.1</td><td>54.4</td></tr>
+<tr id="macro-pmi-2022-12" tabindex="-1"><td>2022-12</td><td>47</td><td>41.6</td></tr>
+<tr id="macro-pmi-2022-11" tabindex="-1"><td>2022-11</td><td>48</td><td>46.7</td></tr>
+<tr id="macro-pmi-2022-10" tabindex="-1"><td>2022-10</td><td>49.2</td><td>48.7</td></tr>
+<tr id="macro-pmi-2022-09" tabindex="-1"><td>2022-09</td><td>50.1</td><td>50.6</td></tr>
+<tr id="macro-pmi-2022-08" tabindex="-1"><td>2022-08</td><td>49.4</td><td>52.6</td></tr>
+<tr id="macro-pmi-2022-07" tabindex="-1"><td>2022-07</td><td>49</td><td>53.8</td></tr>
+<tr id="macro-pmi-2022-06" tabindex="-1"><td>2022-06</td><td>50.2</td><td>54.7</td></tr>
+<tr id="macro-pmi-2022-05" tabindex="-1"><td>2022-05</td><td>49.6</td><td>47.8</td></tr>
+<tr id="macro-pmi-2022-04" tabindex="-1"><td>2022-04</td><td>47.4</td><td>41.9</td></tr>
+<tr id="macro-pmi-2022-03" tabindex="-1"><td>2022-03</td><td>49.5</td><td>48.4</td></tr>
+<tr id="macro-pmi-2022-02" tabindex="-1"><td>2022-02</td><td>50.2</td><td>51.6</td></tr>
+<tr id="macro-pmi-2022-01" tabindex="-1"><td>2022-01</td><td>50.1</td><td>51.1</td></tr>
+<tr id="macro-pmi-2021-12" tabindex="-1"><td>2021-12</td><td>50.3</td><td>52.7</td></tr>
+<tr id="macro-pmi-2021-11" tabindex="-1"><td>2021-11</td><td>50.1</td><td>52.3</td></tr>
+<tr id="macro-pmi-2021-10" tabindex="-1"><td>2021-10</td><td>49.2</td><td>52.4</td></tr>
+<tr id="macro-pmi-2021-09" tabindex="-1"><td>2021-09</td><td>49.6</td><td>53.2</td></tr>
+<tr id="macro-pmi-2021-08" tabindex="-1"><td>2021-08</td><td>50.1</td><td>47.5</td></tr>
+<tr id="macro-pmi-2021-07" tabindex="-1"><td>2021-07</td><td>50.4</td><td>53.3</td></tr>
+<tr id="macro-pmi-2021-06" tabindex="-1"><td>2021-06</td><td>50.9</td><td>53.5</td></tr>
+<tr id="macro-pmi-2021-05" tabindex="-1"><td>2021-05</td><td>51</td><td>55.2</td></tr>
+<tr id="macro-pmi-2021-04" tabindex="-1"><td>2021-04</td><td>51.1</td><td>54.9</td></tr>
+<tr id="macro-pmi-2021-03" tabindex="-1"><td>2021-03</td><td>51.9</td><td>56.3</td></tr>
+<tr id="macro-pmi-2021-02" tabindex="-1"><td>2021-02</td><td>50.6</td><td>51.4</td></tr>
+<tr id="macro-pmi-2021-01" tabindex="-1"><td>2021-01</td><td>51.3</td><td>52.4</td></tr>
+<tr id="macro-pmi-2020-12" tabindex="-1"><td>2020-12</td><td>51.9</td><td>55.7</td></tr>
+<tr id="macro-pmi-2020-11" tabindex="-1"><td>2020-11</td><td>52.1</td><td>56.4</td></tr>
+<tr id="macro-pmi-2020-10" tabindex="-1"><td>2020-10</td><td>51.4</td><td>56.2</td></tr>
+<tr id="macro-pmi-2020-09" tabindex="-1"><td>2020-09</td><td>51.5</td><td>55.9</td></tr>
+<tr id="macro-pmi-2020-08" tabindex="-1"><td>2020-08</td><td>51</td><td>55.2</td></tr>
+<tr id="macro-pmi-2020-07" tabindex="-1"><td>2020-07</td><td>51.1</td><td>54.2</td></tr>
+<tr id="macro-pmi-2020-06" tabindex="-1"><td>2020-06</td><td>50.9</td><td>54.4</td></tr>
+<tr id="macro-pmi-2020-05" tabindex="-1"><td>2020-05</td><td>50.6</td><td>53.6</td></tr>
+<tr id="macro-pmi-2020-04" tabindex="-1"><td>2020-04</td><td>50.8</td><td>53.2</td></tr>
+<tr id="macro-pmi-2020-03" tabindex="-1"><td>2020-03</td><td>52</td><td>52.3</td></tr>
+<tr id="macro-pmi-2020-02" tabindex="-1"><td>2020-02</td><td>35.7</td><td>29.6</td></tr>
+<tr id="macro-pmi-2020-01" tabindex="-1"><td>2020-01</td><td>50</td><td>54.1</td></tr>
+<tr id="macro-pmi-2019-12" tabindex="-1"><td>2019-12</td><td>50.2</td><td>53.5</td></tr>
+<tr id="macro-pmi-2019-11" tabindex="-1"><td>2019-11</td><td>50.2</td><td>54.4</td></tr>
+<tr id="macro-pmi-2019-10" tabindex="-1"><td>2019-10</td><td>49.3</td><td>52.8</td></tr>
+<tr id="macro-pmi-2019-09" tabindex="-1"><td>2019-09</td><td>49.8</td><td>53.7</td></tr>
+<tr id="macro-pmi-2019-08" tabindex="-1"><td>2019-08</td><td>49.5</td><td>53.8</td></tr>
+<tr id="macro-pmi-2019-07" tabindex="-1"><td>2019-07</td><td>49.7</td><td>53.7</td></tr>
+<tr id="macro-pmi-2019-06" tabindex="-1"><td>2019-06</td><td>49.4</td><td>54.2</td></tr>
+<tr id="macro-pmi-2019-05" tabindex="-1"><td>2019-05</td><td>49.4</td><td>54.3</td></tr>
+<tr id="macro-pmi-2019-04" tabindex="-1"><td>2019-04</td><td>50.1</td><td>54.3</td></tr>
+<tr id="macro-pmi-2019-03" tabindex="-1"><td>2019-03</td><td>50.5</td><td>54.8</td></tr>
+<tr id="macro-pmi-2019-02" tabindex="-1"><td>2019-02</td><td>49.2</td><td>54.3</td></tr>
+<tr id="macro-pmi-2019-01" tabindex="-1"><td>2019-01</td><td>49.5</td><td>54.7</td></tr>
+<tr id="macro-pmi-2018-12" tabindex="-1"><td>2018-12</td><td>49.4</td><td>53.8</td></tr>
+<tr id="macro-pmi-2018-11" tabindex="-1"><td>2018-11</td><td>50</td><td>53.4</td></tr>
+<tr id="macro-pmi-2018-10" tabindex="-1"><td>2018-10</td><td>50.2</td><td>53.9</td></tr>
+<tr id="macro-pmi-2018-09" tabindex="-1"><td>2018-09</td><td>50.8</td><td>54.9</td></tr>
+<tr id="macro-pmi-2018-08" tabindex="-1"><td>2018-08</td><td>51.3</td><td>54.2</td></tr>
+<tr id="macro-pmi-2018-07" tabindex="-1"><td>2018-07</td><td>51.2</td><td>54</td></tr>
+<tr id="macro-pmi-2018-06" tabindex="-1"><td>2018-06</td><td>51.5</td><td>55</td></tr>
+<tr id="macro-pmi-2018-05" tabindex="-1"><td>2018-05</td><td>51.9</td><td>54.9</td></tr>
+<tr id="macro-pmi-2018-04" tabindex="-1"><td>2018-04</td><td>51.4</td><td>54.8</td></tr>
+<tr id="macro-pmi-2018-03" tabindex="-1"><td>2018-03</td><td>51.5</td><td>54.6</td></tr>
+<tr id="macro-pmi-2018-02" tabindex="-1"><td>2018-02</td><td>50.3</td><td>54.4</td></tr>
+<tr id="macro-pmi-2018-01" tabindex="-1"><td>2018-01</td><td>51.3</td><td>55.3</td></tr>
+<tr id="macro-pmi-2017-12" tabindex="-1"><td>2017-12</td><td>51.6</td><td>55</td></tr>
+<tr id="macro-pmi-2017-11" tabindex="-1"><td>2017-11</td><td>51.8</td><td>54.8</td></tr>
+<tr id="macro-pmi-2017-10" tabindex="-1"><td>2017-10</td><td>51.6</td><td>54.3</td></tr>
+<tr id="macro-pmi-2017-09" tabindex="-1"><td>2017-09</td><td>52.4</td><td>55.4</td></tr>
+<tr id="macro-pmi-2017-08" tabindex="-1"><td>2017-08</td><td>51.7</td><td>53.4</td></tr>
+<tr id="macro-pmi-2017-07" tabindex="-1"><td>2017-07</td><td>51.4</td><td>54.5</td></tr>
+<tr id="macro-pmi-2017-06" tabindex="-1"><td>2017-06</td><td>51.7</td><td>54.9</td></tr>
+<tr id="macro-pmi-2017-05" tabindex="-1"><td>2017-05</td><td>51.2</td><td>54.5</td></tr>
+<tr id="macro-pmi-2017-04" tabindex="-1"><td>2017-04</td><td>51.2</td><td>54</td></tr>
+<tr id="macro-pmi-2017-03" tabindex="-1"><td>2017-03</td><td>51.8</td><td>55.1</td></tr>
+<tr id="macro-pmi-2017-02" tabindex="-1"><td>2017-02</td><td>51.6</td><td>54.2</td></tr>
+<tr id="macro-pmi-2017-01" tabindex="-1"><td>2017-01</td><td>51.3</td><td>54.6</td></tr>
+<tr id="macro-pmi-2016-12" tabindex="-1"><td>2016-12</td><td>51.4</td><td>54.5</td></tr>
+<tr id="macro-pmi-2016-11" tabindex="-1"><td>2016-11</td><td>51.7</td><td>54.7</td></tr>
+<tr id="macro-pmi-2016-10" tabindex="-1"><td>2016-10</td><td>51.2</td><td>54</td></tr>
+<tr id="macro-pmi-2016-09" tabindex="-1"><td>2016-09</td><td>50.4</td><td>53.7</td></tr>
+<tr id="macro-pmi-2016-08" tabindex="-1"><td>2016-08</td><td>50.4</td><td>53.5</td></tr>
+<tr id="macro-pmi-2016-07" tabindex="-1"><td>2016-07</td><td>49.9</td><td>53.9</td></tr>
+<tr id="macro-pmi-2016-06" tabindex="-1"><td>2016-06</td><td>50</td><td>53.7</td></tr>
+<tr id="macro-pmi-2016-05" tabindex="-1"><td>2016-05</td><td>50.1</td><td>53.1</td></tr>
+<tr id="macro-pmi-2016-04" tabindex="-1"><td>2016-04</td><td>50.1</td><td>53.5</td></tr>
+<tr id="macro-pmi-2016-03" tabindex="-1"><td>2016-03</td><td>50.2</td><td>53.8</td></tr>
+<tr id="macro-pmi-2016-02" tabindex="-1"><td>2016-02</td><td>49</td><td>52.7</td></tr>
+<tr id="macro-pmi-2016-01" tabindex="-1"><td>2016-01</td><td>49.4</td><td>53.5</td></tr>
+<tr id="macro-pmi-2015-12" tabindex="-1"><td>2015-12</td><td>49.7</td><td>54.4</td></tr>
+<tr id="macro-pmi-2015-11" tabindex="-1"><td>2015-11</td><td>49.6</td><td>53.6</td></tr>
+<tr id="macro-pmi-2015-10" tabindex="-1"><td>2015-10</td><td>49.8</td><td>53.1</td></tr>
+<tr id="macro-pmi-2015-09" tabindex="-1"><td>2015-09</td><td>49.8</td><td>53.4</td></tr>
+<tr id="macro-pmi-2015-08" tabindex="-1"><td>2015-08</td><td>49.7</td><td>53.4</td></tr>
+<tr id="macro-pmi-2015-07" tabindex="-1"><td>2015-07</td><td>50</td><td>53.9</td></tr>
+<tr id="macro-pmi-2015-06" tabindex="-1"><td>2015-06</td><td>50.2</td><td>53.8</td></tr>
+<tr id="macro-pmi-2015-05" tabindex="-1"><td>2015-05</td><td>50.2</td><td>53.2</td></tr>
+<tr id="macro-pmi-2015-04" tabindex="-1"><td>2015-04</td><td>50.1</td><td>53.4</td></tr>
+<tr id="macro-pmi-2015-03" tabindex="-1"><td>2015-03</td><td>50.1</td><td>53.7</td></tr>
+<tr id="macro-pmi-2015-02" tabindex="-1"><td>2015-02</td><td>49.9</td><td>53.9</td></tr>
+<tr id="macro-pmi-2015-01" tabindex="-1"><td>2015-01</td><td>49.8</td><td>53.7</td></tr>
+<tr id="macro-pmi-2014-12" tabindex="-1"><td>2014-12</td><td>50.1</td><td>54.1</td></tr>
+<tr id="macro-pmi-2014-11" tabindex="-1"><td>2014-11</td><td>50.3</td><td>53.9</td></tr>
+<tr id="macro-pmi-2014-10" tabindex="-1"><td>2014-10</td><td>50.8</td><td>53.8</td></tr>
+<tr id="macro-pmi-2014-09" tabindex="-1"><td>2014-09</td><td>51.1</td><td>54</td></tr>
+<tr id="macro-pmi-2014-08" tabindex="-1"><td>2014-08</td><td>51.1</td><td>54.4</td></tr>
+<tr id="macro-pmi-2014-07" tabindex="-1"><td>2014-07</td><td>51.7</td><td>54.2</td></tr>
+<tr id="macro-pmi-2014-06" tabindex="-1"><td>2014-06</td><td>51</td><td>55</td></tr>
+<tr id="macro-pmi-2014-05" tabindex="-1"><td>2014-05</td><td>50.8</td><td>55.5</td></tr>
+<tr id="macro-pmi-2014-04" tabindex="-1"><td>2014-04</td><td>50.4</td><td>54.8</td></tr>
+<tr id="macro-pmi-2014-03" tabindex="-1"><td>2014-03</td><td>50.3</td><td>54.5</td></tr>
+<tr id="macro-pmi-2014-02" tabindex="-1"><td>2014-02</td><td>50.2</td><td>55</td></tr>
+<tr id="macro-pmi-2014-01" tabindex="-1"><td>2014-01</td><td>50.5</td><td>53.4</td></tr>
+<tr id="macro-pmi-2013-12" tabindex="-1"><td>2013-12</td><td>51</td><td>54.6</td></tr>
+<tr id="macro-pmi-2013-11" tabindex="-1"><td>2013-11</td><td>51.4</td><td>56</td></tr>
+<tr id="macro-pmi-2013-10" tabindex="-1"><td>2013-10</td><td>51.4</td><td>56.3</td></tr>
+<tr id="macro-pmi-2013-09" tabindex="-1"><td>2013-09</td><td>51.1</td><td>55.4</td></tr>
+<tr id="macro-pmi-2013-08" tabindex="-1"><td>2013-08</td><td>51</td><td>53.9</td></tr>
+<tr id="macro-pmi-2013-07" tabindex="-1"><td>2013-07</td><td>50.3</td><td>54.1</td></tr>
+<tr id="macro-pmi-2013-06" tabindex="-1"><td>2013-06</td><td>50.1</td><td>53.9</td></tr>
+<tr id="macro-pmi-2013-05" tabindex="-1"><td>2013-05</td><td>50.8</td><td>54.3</td></tr>
+<tr id="macro-pmi-2013-04" tabindex="-1"><td>2013-04</td><td>50.6</td><td>54.5</td></tr>
+<tr id="macro-pmi-2013-03" tabindex="-1"><td>2013-03</td><td>50.9</td><td>55.6</td></tr>
+<tr id="macro-pmi-2013-02" tabindex="-1"><td>2013-02</td><td>50.1</td><td>54.5</td></tr>
+<tr id="macro-pmi-2013-01" tabindex="-1"><td>2013-01</td><td>50.4</td><td>56.2</td></tr>
+<tr id="macro-pmi-2012-12" tabindex="-1"><td>2012-12</td><td>50.6</td><td>56.1</td></tr>
+<tr id="macro-pmi-2012-11" tabindex="-1"><td>2012-11</td><td>50.6</td><td>55.6</td></tr>
+<tr id="macro-pmi-2012-10" tabindex="-1"><td>2012-10</td><td>50.2</td><td>55.5</td></tr>
+<tr id="macro-pmi-2012-09" tabindex="-1"><td>2012-09</td><td>49.8</td><td>53.7</td></tr>
+<tr id="macro-pmi-2012-08" tabindex="-1"><td>2012-08</td><td>49.2</td><td>56.3</td></tr>
+<tr id="macro-pmi-2012-07" tabindex="-1"><td>2012-07</td><td>50.1</td><td>55.6</td></tr>
+<tr id="macro-pmi-2012-06" tabindex="-1"><td>2012-06</td><td>50.2</td><td>56.7</td></tr>
+<tr id="macro-pmi-2012-05" tabindex="-1"><td>2012-05</td><td>50.4</td><td>55.2</td></tr>
+<tr id="macro-pmi-2012-04" tabindex="-1"><td>2012-04</td><td>53.3</td><td>56.1</td></tr>
+<tr id="macro-pmi-2012-03" tabindex="-1"><td>2012-03</td><td>53.1</td><td>58</td></tr>
+<tr id="macro-pmi-2012-02" tabindex="-1"><td>2012-02</td><td>51</td><td>57.3</td></tr>
+<tr id="macro-pmi-2012-01" tabindex="-1"><td>2012-01</td><td>50.5</td><td>55.7</td></tr>
+<tr id="macro-pmi-2011-12" tabindex="-1"><td>2011-12</td><td>50.3</td><td>56.3</td></tr>
+<tr id="macro-pmi-2011-11" tabindex="-1"><td>2011-11</td><td>49</td><td>55.9</td></tr>
+<tr id="macro-pmi-2011-10" tabindex="-1"><td>2011-10</td><td>50.4</td><td>55.5</td></tr>
+<tr id="macro-pmi-2011-09" tabindex="-1"><td>2011-09</td><td>51.2</td><td>55.8</td></tr>
+<tr id="macro-pmi-2011-08" tabindex="-1"><td>2011-08</td><td>50.9</td><td>57.1</td></tr>
+<tr id="macro-pmi-2011-07" tabindex="-1"><td>2011-07</td><td>50.7</td><td>57.3</td></tr>
+<tr id="macro-pmi-2011-06" tabindex="-1"><td>2011-06</td><td>50.9</td><td>56.6</td></tr>
+<tr id="macro-pmi-2011-05" tabindex="-1"><td>2011-05</td><td>52</td><td>58.7</td></tr>
+<tr id="macro-pmi-2011-04" tabindex="-1"><td>2011-04</td><td>52.9</td><td>58.2</td></tr>
+<tr id="macro-pmi-2011-03" tabindex="-1"><td>2011-03</td><td>53.4</td><td>59.2</td></tr>
+<tr id="macro-pmi-2011-02" tabindex="-1"><td>2011-02</td><td>52.2</td><td>57</td></tr>
+<tr id="macro-pmi-2011-01" tabindex="-1"><td>2011-01</td><td>52.9</td><td>57.2</td></tr>
+<tr id="macro-pmi-2010-12" tabindex="-1"><td>2010-12</td><td>53.9</td><td>58.8</td></tr>
+<tr id="macro-pmi-2010-11" tabindex="-1"><td>2010-11</td><td>55.2</td><td>58.9</td></tr>
+<tr id="macro-pmi-2010-10" tabindex="-1"><td>2010-10</td><td>54.7</td><td>57.4</td></tr>
+<tr id="macro-pmi-2010-09" tabindex="-1"><td>2010-09</td><td>53.8</td><td>57.9</td></tr>
+<tr id="macro-pmi-2010-08" tabindex="-1"><td>2010-08</td><td>51.7</td><td>58</td></tr>
+<tr id="macro-pmi-2010-07" tabindex="-1"><td>2010-07</td><td>51.2</td><td>57.1</td></tr>
+<tr id="macro-pmi-2010-06" tabindex="-1"><td>2010-06</td><td>52.1</td><td>58.8</td></tr>
+<tr id="macro-pmi-2010-05" tabindex="-1"><td>2010-05</td><td>53.9</td><td>58.1</td></tr>
+<tr id="macro-pmi-2010-04" tabindex="-1"><td>2010-04</td><td>55.7</td><td>57.8</td></tr>
+<tr id="macro-pmi-2010-03" tabindex="-1"><td>2010-03</td><td>55.1</td><td>57.3</td></tr>
+<tr id="macro-pmi-2010-02" tabindex="-1"><td>2010-02</td><td>52</td><td>57</td></tr>
+<tr id="macro-pmi-2010-01" tabindex="-1"><td>2010-01</td><td>55.8</td><td>58.1</td></tr>
+<tr id="macro-pmi-2009-12" tabindex="-1"><td>2009-12</td><td>56.6</td><td>58.8</td></tr>
+<tr id="macro-pmi-2009-11" tabindex="-1"><td>2009-11</td><td>55.2</td><td>58.4</td></tr>
+<tr id="macro-pmi-2009-10" tabindex="-1"><td>2009-10</td><td>55.2</td><td>59.5</td></tr>
+<tr id="macro-pmi-2009-09" tabindex="-1"><td>2009-09</td><td>54.3</td><td>57.9</td></tr>
+<tr id="macro-pmi-2009-08" tabindex="-1"><td>2009-08</td><td>54</td><td>57.3</td></tr>
+<tr id="macro-pmi-2009-07" tabindex="-1"><td>2009-07</td><td>53.3</td><td>57.3</td></tr>
+<tr id="macro-pmi-2009-06" tabindex="-1"><td>2009-06</td><td>53.2</td><td>55.4</td></tr>
+<tr id="macro-pmi-2009-05" tabindex="-1"><td>2009-05</td><td>53.1</td><td>54.9</td></tr>
+<tr id="macro-pmi-2009-04" tabindex="-1"><td>2009-04</td><td>53.5</td><td>53.5</td></tr>
+<tr id="macro-pmi-2009-03" tabindex="-1"><td>2009-03</td><td>52.4</td><td>54.4</td></tr>
+<tr id="macro-pmi-2009-02" tabindex="-1"><td>2009-02</td><td>49</td><td>55.1</td></tr>
+<tr id="macro-pmi-2009-01" tabindex="-1"><td>2009-01</td><td>45.3</td><td>53.7</td></tr>
+<tr id="macro-pmi-2008-12" tabindex="-1"><td>2008-12</td><td>41.2</td><td>50.8</td></tr>
+<tr id="macro-pmi-2008-11" tabindex="-1"><td>2008-11</td><td>38.8</td><td>51.2</td></tr>
+<tr id="macro-pmi-2008-10" tabindex="-1"><td>2008-10</td><td>44.6</td><td>53.1</td></tr>
+<tr id="macro-pmi-2008-09" tabindex="-1"><td>2008-09</td><td>51.2</td><td>55</td></tr>
+<tr id="macro-pmi-2008-08" tabindex="-1"><td>2008-08</td><td>48.4</td><td>52.9</td></tr>
+<tr id="macro-pmi-2008-07" tabindex="-1"><td>2008-07</td><td>48.4</td><td>55.7</td></tr>
+<tr id="macro-pmi-2008-06" tabindex="-1"><td>2008-06</td><td>52</td><td>57.4</td></tr>
+<tr id="macro-pmi-2008-05" tabindex="-1"><td>2008-05</td><td>53.3</td><td>57.4</td></tr>
+<tr id="macro-pmi-2008-04" tabindex="-1"><td>2008-04</td><td>59.2</td><td>58.4</td></tr>
+<tr id="macro-pmi-2008-03" tabindex="-1"><td>2008-03</td><td>58.4</td><td>58.9</td></tr>
+<tr id="macro-pmi-2008-02" tabindex="-1"><td>2008-02</td><td>53.4</td><td>59.3</td></tr>
+<tr id="macro-pmi-2008-01" tabindex="-1"><td>2008-01</td><td>53</td><td>60.2</td></tr>
+<tr id="macro-pmi-2007-12" tabindex="-1"><td>2007-12</td><td>55.3</td><td>60.2</td></tr>
+<tr id="macro-pmi-2007-11" tabindex="-1"><td>2007-11</td><td>55.4</td><td>60.6</td></tr>
+<tr id="macro-pmi-2007-10" tabindex="-1"><td>2007-10</td><td>53.2</td><td>61.4</td></tr>
+<tr id="macro-pmi-2007-09" tabindex="-1"><td>2007-09</td><td>56.1</td><td>61.9</td></tr>
+<tr id="macro-pmi-2007-08" tabindex="-1"><td>2007-08</td><td>54</td><td>61.7</td></tr>
+<tr id="macro-pmi-2007-07" tabindex="-1"><td>2007-07</td><td>53.3</td><td>59.4</td></tr>
+<tr id="macro-pmi-2007-06" tabindex="-1"><td>2007-06</td><td>54.5</td><td>60</td></tr>
+<tr id="macro-pmi-2007-05" tabindex="-1"><td>2007-05</td><td>55.7</td><td>62.2</td></tr>
+<tr id="macro-pmi-2007-04" tabindex="-1"><td>2007-04</td><td>58.6</td><td>60.4</td></tr>
+<tr id="macro-pmi-2007-03" tabindex="-1"><td>2007-03</td><td>56.1</td><td>58.2</td></tr>
+<tr id="macro-pmi-2007-02" tabindex="-1"><td>2007-02</td><td>53.1</td><td>60.6</td></tr>
+<tr id="macro-pmi-2007-01" tabindex="-1"><td>2007-01</td><td>55.1</td><td>60.4</td></tr>
+<tr id="macro-pmi-2006-12" tabindex="-1"><td>2006-12</td><td>54.8</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-11" tabindex="-1"><td>2006-11</td><td>55.3</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-10" tabindex="-1"><td>2006-10</td><td>54.7</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-09" tabindex="-1"><td>2006-09</td><td>57</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-08" tabindex="-1"><td>2006-08</td><td>53.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-07" tabindex="-1"><td>2006-07</td><td>52.4</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-06" tabindex="-1"><td>2006-06</td><td>54.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-05" tabindex="-1"><td>2006-05</td><td>54.8</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-04" tabindex="-1"><td>2006-04</td><td>58.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-03" tabindex="-1"><td>2006-03</td><td>55.3</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-02" tabindex="-1"><td>2006-02</td><td>52.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2006-01" tabindex="-1"><td>2006-01</td><td>52.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-12" tabindex="-1"><td>2005-12</td><td>54.3</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-11" tabindex="-1"><td>2005-11</td><td>54.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-10" tabindex="-1"><td>2005-10</td><td>54.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-09" tabindex="-1"><td>2005-09</td><td>55.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-08" tabindex="-1"><td>2005-08</td><td>52.6</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-07" tabindex="-1"><td>2005-07</td><td>51.1</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-06" tabindex="-1"><td>2005-06</td><td>51.7</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-05" tabindex="-1"><td>2005-05</td><td>52.9</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-04" tabindex="-1"><td>2005-04</td><td>56.7</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-03" tabindex="-1"><td>2005-03</td><td>57.9</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-02" tabindex="-1"><td>2005-02</td><td>54.5</td><td>缺失</td></tr>
+<tr id="macro-pmi-2005-01" tabindex="-1"><td>2005-01</td><td>54.7</td><td>缺失</td></tr>
 </tbody></table></div></details>
 
 ## 工业生产与消费零售同比
@@ -109,48 +342,741 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 <tr id="macro-production-retail-2024-05" tabindex="-1"><td>2024-05</td><td>5.6</td><td>3.7</td></tr>
 <tr id="macro-production-retail-2024-04" tabindex="-1"><td>2024-04</td><td>6.7</td><td>2.3</td></tr>
 <tr id="macro-production-retail-2024-03" tabindex="-1"><td>2024-03</td><td>4.5</td><td>3.1</td></tr>
+<tr id="macro-production-retail-2024-02" tabindex="-1"><td>2024-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2024-01" tabindex="-1"><td>2024-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2023-12" tabindex="-1"><td>2023-12</td><td>6.8</td><td>7.4</td></tr>
+<tr id="macro-production-retail-2023-11" tabindex="-1"><td>2023-11</td><td>6.6</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2023-10" tabindex="-1"><td>2023-10</td><td>4.6</td><td>7.6</td></tr>
+<tr id="macro-production-retail-2023-09" tabindex="-1"><td>2023-09</td><td>4.5</td><td>5.5</td></tr>
+<tr id="macro-production-retail-2023-08" tabindex="-1"><td>2023-08</td><td>4.5</td><td>4.6</td></tr>
+<tr id="macro-production-retail-2023-07" tabindex="-1"><td>2023-07</td><td>3.7</td><td>2.5</td></tr>
+<tr id="macro-production-retail-2023-06" tabindex="-1"><td>2023-06</td><td>4.4</td><td>3.1</td></tr>
+<tr id="macro-production-retail-2023-05" tabindex="-1"><td>2023-05</td><td>3.5</td><td>12.7</td></tr>
+<tr id="macro-production-retail-2023-04" tabindex="-1"><td>2023-04</td><td>5.6</td><td>18.4</td></tr>
+<tr id="macro-production-retail-2023-03" tabindex="-1"><td>2023-03</td><td>3.9</td><td>10.6</td></tr>
+<tr id="macro-production-retail-2023-02" tabindex="-1"><td>2023-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2023-01" tabindex="-1"><td>2023-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2022-12" tabindex="-1"><td>2022-12</td><td>1.3</td><td>-1.8</td></tr>
+<tr id="macro-production-retail-2022-11" tabindex="-1"><td>2022-11</td><td>2.2</td><td>-5.9</td></tr>
+<tr id="macro-production-retail-2022-10" tabindex="-1"><td>2022-10</td><td>5</td><td>-0.5</td></tr>
+<tr id="macro-production-retail-2022-09" tabindex="-1"><td>2022-09</td><td>6.3</td><td>2.5</td></tr>
+<tr id="macro-production-retail-2022-08" tabindex="-1"><td>2022-08</td><td>4.2</td><td>5.4</td></tr>
+<tr id="macro-production-retail-2022-07" tabindex="-1"><td>2022-07</td><td>3.8</td><td>2.7</td></tr>
+<tr id="macro-production-retail-2022-06" tabindex="-1"><td>2022-06</td><td>3.9</td><td>3.1</td></tr>
+<tr id="macro-production-retail-2022-05" tabindex="-1"><td>2022-05</td><td>0.7</td><td>-6.7</td></tr>
+<tr id="macro-production-retail-2022-04" tabindex="-1"><td>2022-04</td><td>-2.9</td><td>-11.1</td></tr>
+<tr id="macro-production-retail-2022-03" tabindex="-1"><td>2022-03</td><td>5</td><td>-3.5</td></tr>
+<tr id="macro-production-retail-2022-02" tabindex="-1"><td>2022-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2022-01" tabindex="-1"><td>2022-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2021-12" tabindex="-1"><td>2021-12</td><td>4.3</td><td>1.7</td></tr>
+<tr id="macro-production-retail-2021-11" tabindex="-1"><td>2021-11</td><td>3.8</td><td>3.9</td></tr>
+<tr id="macro-production-retail-2021-10" tabindex="-1"><td>2021-10</td><td>3.5</td><td>4.9</td></tr>
+<tr id="macro-production-retail-2021-09" tabindex="-1"><td>2021-09</td><td>3.1</td><td>4.4</td></tr>
+<tr id="macro-production-retail-2021-08" tabindex="-1"><td>2021-08</td><td>5.3</td><td>2.5</td></tr>
+<tr id="macro-production-retail-2021-07" tabindex="-1"><td>2021-07</td><td>6.4</td><td>8.5</td></tr>
+<tr id="macro-production-retail-2021-06" tabindex="-1"><td>2021-06</td><td>8.3</td><td>12.1</td></tr>
+<tr id="macro-production-retail-2021-05" tabindex="-1"><td>2021-05</td><td>8.8</td><td>12.4</td></tr>
+<tr id="macro-production-retail-2021-04" tabindex="-1"><td>2021-04</td><td>9.8</td><td>17.7</td></tr>
+<tr id="macro-production-retail-2021-03" tabindex="-1"><td>2021-03</td><td>14.1</td><td>34.2</td></tr>
+<tr id="macro-production-retail-2021-02" tabindex="-1"><td>2021-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2021-01" tabindex="-1"><td>2021-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2020-12" tabindex="-1"><td>2020-12</td><td>7.3</td><td>4.6</td></tr>
+<tr id="macro-production-retail-2020-11" tabindex="-1"><td>2020-11</td><td>7</td><td>5</td></tr>
+<tr id="macro-production-retail-2020-10" tabindex="-1"><td>2020-10</td><td>6.9</td><td>4.3</td></tr>
+<tr id="macro-production-retail-2020-09" tabindex="-1"><td>2020-09</td><td>6.9</td><td>3.3</td></tr>
+<tr id="macro-production-retail-2020-08" tabindex="-1"><td>2020-08</td><td>5.6</td><td>0.5</td></tr>
+<tr id="macro-production-retail-2020-07" tabindex="-1"><td>2020-07</td><td>4.8</td><td>-1.1</td></tr>
+<tr id="macro-production-retail-2020-06" tabindex="-1"><td>2020-06</td><td>4.8</td><td>-1.8</td></tr>
+<tr id="macro-production-retail-2020-05" tabindex="-1"><td>2020-05</td><td>4.4</td><td>-2.8</td></tr>
+<tr id="macro-production-retail-2020-04" tabindex="-1"><td>2020-04</td><td>3.9</td><td>-7.5</td></tr>
+<tr id="macro-production-retail-2020-03" tabindex="-1"><td>2020-03</td><td>-1.1</td><td>-15.8</td></tr>
+<tr id="macro-production-retail-2020-02" tabindex="-1"><td>2020-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2020-01" tabindex="-1"><td>2020-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2019-12" tabindex="-1"><td>2019-12</td><td>6.9</td><td>8</td></tr>
+<tr id="macro-production-retail-2019-11" tabindex="-1"><td>2019-11</td><td>6.2</td><td>8</td></tr>
+<tr id="macro-production-retail-2019-10" tabindex="-1"><td>2019-10</td><td>4.7</td><td>7.2</td></tr>
+<tr id="macro-production-retail-2019-09" tabindex="-1"><td>2019-09</td><td>5.8</td><td>7.8</td></tr>
+<tr id="macro-production-retail-2019-08" tabindex="-1"><td>2019-08</td><td>4.4</td><td>7.5</td></tr>
+<tr id="macro-production-retail-2019-07" tabindex="-1"><td>2019-07</td><td>4.8</td><td>7.6</td></tr>
+<tr id="macro-production-retail-2019-06" tabindex="-1"><td>2019-06</td><td>6.3</td><td>9.8</td></tr>
+<tr id="macro-production-retail-2019-05" tabindex="-1"><td>2019-05</td><td>5</td><td>8.6</td></tr>
+<tr id="macro-production-retail-2019-04" tabindex="-1"><td>2019-04</td><td>5.4</td><td>7.2</td></tr>
+<tr id="macro-production-retail-2019-03" tabindex="-1"><td>2019-03</td><td>8.5</td><td>8.7</td></tr>
+<tr id="macro-production-retail-2019-02" tabindex="-1"><td>2019-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2019-01" tabindex="-1"><td>2019-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2018-12" tabindex="-1"><td>2018-12</td><td>5.7</td><td>8.2</td></tr>
+<tr id="macro-production-retail-2018-11" tabindex="-1"><td>2018-11</td><td>5.4</td><td>8.1</td></tr>
+<tr id="macro-production-retail-2018-10" tabindex="-1"><td>2018-10</td><td>5.9</td><td>8.6</td></tr>
+<tr id="macro-production-retail-2018-09" tabindex="-1"><td>2018-09</td><td>5.8</td><td>9.2</td></tr>
+<tr id="macro-production-retail-2018-08" tabindex="-1"><td>2018-08</td><td>6.1</td><td>9</td></tr>
+<tr id="macro-production-retail-2018-07" tabindex="-1"><td>2018-07</td><td>6</td><td>8.8</td></tr>
+<tr id="macro-production-retail-2018-06" tabindex="-1"><td>2018-06</td><td>6</td><td>9</td></tr>
+<tr id="macro-production-retail-2018-05" tabindex="-1"><td>2018-05</td><td>6.8</td><td>8.5</td></tr>
+<tr id="macro-production-retail-2018-04" tabindex="-1"><td>2018-04</td><td>7</td><td>9.4</td></tr>
+<tr id="macro-production-retail-2018-03" tabindex="-1"><td>2018-03</td><td>6</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2018-02" tabindex="-1"><td>2018-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2018-01" tabindex="-1"><td>2018-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2017-12" tabindex="-1"><td>2017-12</td><td>6.2</td><td>9.4</td></tr>
+<tr id="macro-production-retail-2017-11" tabindex="-1"><td>2017-11</td><td>6.1</td><td>10.2</td></tr>
+<tr id="macro-production-retail-2017-10" tabindex="-1"><td>2017-10</td><td>6.2</td><td>10</td></tr>
+<tr id="macro-production-retail-2017-09" tabindex="-1"><td>2017-09</td><td>6.6</td><td>10.3</td></tr>
+<tr id="macro-production-retail-2017-08" tabindex="-1"><td>2017-08</td><td>6</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2017-07" tabindex="-1"><td>2017-07</td><td>6.4</td><td>10.4</td></tr>
+<tr id="macro-production-retail-2017-06" tabindex="-1"><td>2017-06</td><td>7.6</td><td>11</td></tr>
+<tr id="macro-production-retail-2017-05" tabindex="-1"><td>2017-05</td><td>6.5</td><td>10.7</td></tr>
+<tr id="macro-production-retail-2017-04" tabindex="-1"><td>2017-04</td><td>6.5</td><td>10.7</td></tr>
+<tr id="macro-production-retail-2017-03" tabindex="-1"><td>2017-03</td><td>7.6</td><td>10.9</td></tr>
+<tr id="macro-production-retail-2017-02" tabindex="-1"><td>2017-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2017-01" tabindex="-1"><td>2017-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2016-12" tabindex="-1"><td>2016-12</td><td>6</td><td>10.9</td></tr>
+<tr id="macro-production-retail-2016-11" tabindex="-1"><td>2016-11</td><td>6.2</td><td>10.8</td></tr>
+<tr id="macro-production-retail-2016-10" tabindex="-1"><td>2016-10</td><td>6.1</td><td>10</td></tr>
+<tr id="macro-production-retail-2016-09" tabindex="-1"><td>2016-09</td><td>6.1</td><td>10.7</td></tr>
+<tr id="macro-production-retail-2016-08" tabindex="-1"><td>2016-08</td><td>6.3</td><td>10.6</td></tr>
+<tr id="macro-production-retail-2016-07" tabindex="-1"><td>2016-07</td><td>6</td><td>10.2</td></tr>
+<tr id="macro-production-retail-2016-06" tabindex="-1"><td>2016-06</td><td>6.2</td><td>10.6</td></tr>
+<tr id="macro-production-retail-2016-05" tabindex="-1"><td>2016-05</td><td>6</td><td>10</td></tr>
+<tr id="macro-production-retail-2016-04" tabindex="-1"><td>2016-04</td><td>6</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2016-03" tabindex="-1"><td>2016-03</td><td>6.8</td><td>10.5</td></tr>
+<tr id="macro-production-retail-2016-02" tabindex="-1"><td>2016-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2016-01" tabindex="-1"><td>2016-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2015-12" tabindex="-1"><td>2015-12</td><td>5.9</td><td>11.1</td></tr>
+<tr id="macro-production-retail-2015-11" tabindex="-1"><td>2015-11</td><td>6.2</td><td>11.2</td></tr>
+<tr id="macro-production-retail-2015-10" tabindex="-1"><td>2015-10</td><td>5.6</td><td>11</td></tr>
+<tr id="macro-production-retail-2015-09" tabindex="-1"><td>2015-09</td><td>5.7</td><td>10.9</td></tr>
+<tr id="macro-production-retail-2015-08" tabindex="-1"><td>2015-08</td><td>6.1</td><td>10.8</td></tr>
+<tr id="macro-production-retail-2015-07" tabindex="-1"><td>2015-07</td><td>6</td><td>10.5</td></tr>
+<tr id="macro-production-retail-2015-06" tabindex="-1"><td>2015-06</td><td>6.8</td><td>10.6</td></tr>
+<tr id="macro-production-retail-2015-05" tabindex="-1"><td>2015-05</td><td>6.1</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2015-04" tabindex="-1"><td>2015-04</td><td>5.9</td><td>10</td></tr>
+<tr id="macro-production-retail-2015-03" tabindex="-1"><td>2015-03</td><td>5.6</td><td>10.2</td></tr>
+<tr id="macro-production-retail-2015-02" tabindex="-1"><td>2015-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2015-01" tabindex="-1"><td>2015-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2014-12" tabindex="-1"><td>2014-12</td><td>7.9</td><td>11.9</td></tr>
+<tr id="macro-production-retail-2014-11" tabindex="-1"><td>2014-11</td><td>7.2</td><td>11.7</td></tr>
+<tr id="macro-production-retail-2014-10" tabindex="-1"><td>2014-10</td><td>7.7</td><td>11.5</td></tr>
+<tr id="macro-production-retail-2014-09" tabindex="-1"><td>2014-09</td><td>8</td><td>11.6</td></tr>
+<tr id="macro-production-retail-2014-08" tabindex="-1"><td>2014-08</td><td>6.9</td><td>11.9</td></tr>
+<tr id="macro-production-retail-2014-07" tabindex="-1"><td>2014-07</td><td>9</td><td>12.2</td></tr>
+<tr id="macro-production-retail-2014-06" tabindex="-1"><td>2014-06</td><td>9.2</td><td>12.4</td></tr>
+<tr id="macro-production-retail-2014-05" tabindex="-1"><td>2014-05</td><td>8.8</td><td>12.5</td></tr>
+<tr id="macro-production-retail-2014-04" tabindex="-1"><td>2014-04</td><td>8.7</td><td>11.9</td></tr>
+<tr id="macro-production-retail-2014-03" tabindex="-1"><td>2014-03</td><td>8.8</td><td>12.2</td></tr>
+<tr id="macro-production-retail-2014-02" tabindex="-1"><td>2014-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2014-01" tabindex="-1"><td>2014-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2013-12" tabindex="-1"><td>2013-12</td><td>9.7</td><td>13.6</td></tr>
+<tr id="macro-production-retail-2013-11" tabindex="-1"><td>2013-11</td><td>10</td><td>13.7</td></tr>
+<tr id="macro-production-retail-2013-10" tabindex="-1"><td>2013-10</td><td>10.3</td><td>13.3</td></tr>
+<tr id="macro-production-retail-2013-09" tabindex="-1"><td>2013-09</td><td>10.2</td><td>13.3</td></tr>
+<tr id="macro-production-retail-2013-08" tabindex="-1"><td>2013-08</td><td>10.4</td><td>13.4</td></tr>
+<tr id="macro-production-retail-2013-07" tabindex="-1"><td>2013-07</td><td>9.7</td><td>13.2</td></tr>
+<tr id="macro-production-retail-2013-06" tabindex="-1"><td>2013-06</td><td>8.9</td><td>13.3</td></tr>
+<tr id="macro-production-retail-2013-05" tabindex="-1"><td>2013-05</td><td>9.2</td><td>12.9</td></tr>
+<tr id="macro-production-retail-2013-04" tabindex="-1"><td>2013-04</td><td>9.3</td><td>12.8</td></tr>
+<tr id="macro-production-retail-2013-03" tabindex="-1"><td>2013-03</td><td>8.9</td><td>12.6</td></tr>
+<tr id="macro-production-retail-2013-02" tabindex="-1"><td>2013-02</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2013-01" tabindex="-1"><td>2013-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2012-12" tabindex="-1"><td>2012-12</td><td>10.3</td><td>15.2</td></tr>
+<tr id="macro-production-retail-2012-11" tabindex="-1"><td>2012-11</td><td>10.1</td><td>14.9</td></tr>
+<tr id="macro-production-retail-2012-10" tabindex="-1"><td>2012-10</td><td>9.6</td><td>14.5</td></tr>
+<tr id="macro-production-retail-2012-09" tabindex="-1"><td>2012-09</td><td>9.2</td><td>14.2</td></tr>
+<tr id="macro-production-retail-2012-08" tabindex="-1"><td>2012-08</td><td>8.9</td><td>13.2</td></tr>
+<tr id="macro-production-retail-2012-07" tabindex="-1"><td>2012-07</td><td>9.2</td><td>13.1</td></tr>
+<tr id="macro-production-retail-2012-06" tabindex="-1"><td>2012-06</td><td>9.5</td><td>13.7</td></tr>
+<tr id="macro-production-retail-2012-05" tabindex="-1"><td>2012-05</td><td>9.6</td><td>13.8</td></tr>
+<tr id="macro-production-retail-2012-04" tabindex="-1"><td>2012-04</td><td>9.3</td><td>14.1</td></tr>
+<tr id="macro-production-retail-2012-03" tabindex="-1"><td>2012-03</td><td>11.9</td><td>15.2</td></tr>
+<tr id="macro-production-retail-2012-02" tabindex="-1"><td>2012-02</td><td>21.3</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2012-01" tabindex="-1"><td>2012-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-2011-12" tabindex="-1"><td>2011-12</td><td>12.8</td><td>18.1</td></tr>
+<tr id="macro-production-retail-2011-11" tabindex="-1"><td>2011-11</td><td>12.4</td><td>17.3</td></tr>
+<tr id="macro-production-retail-2011-10" tabindex="-1"><td>2011-10</td><td>13.2</td><td>17.2</td></tr>
+<tr id="macro-production-retail-2011-09" tabindex="-1"><td>2011-09</td><td>13.8</td><td>17.7</td></tr>
+<tr id="macro-production-retail-2011-08" tabindex="-1"><td>2011-08</td><td>13.5</td><td>17</td></tr>
+<tr id="macro-production-retail-2011-07" tabindex="-1"><td>2011-07</td><td>14</td><td>17.2</td></tr>
+<tr id="macro-production-retail-2011-06" tabindex="-1"><td>2011-06</td><td>15.1</td><td>17.7</td></tr>
+<tr id="macro-production-retail-2011-05" tabindex="-1"><td>2011-05</td><td>13.3</td><td>16.9</td></tr>
+<tr id="macro-production-retail-2011-04" tabindex="-1"><td>2011-04</td><td>13.4</td><td>17.1</td></tr>
+<tr id="macro-production-retail-2011-03" tabindex="-1"><td>2011-03</td><td>14.8</td><td>17.4</td></tr>
+<tr id="macro-production-retail-2011-02" tabindex="-1"><td>2011-02</td><td>14.9</td><td>11.6</td></tr>
+<tr id="macro-production-retail-2011-01" tabindex="-1"><td>2011-01</td><td>缺失</td><td>19.9</td></tr>
+<tr id="macro-production-retail-2010-12" tabindex="-1"><td>2010-12</td><td>13.5</td><td>19.1</td></tr>
+<tr id="macro-production-retail-2010-11" tabindex="-1"><td>2010-11</td><td>13.3</td><td>18.7</td></tr>
+<tr id="macro-production-retail-2010-10" tabindex="-1"><td>2010-10</td><td>13.1</td><td>18.6</td></tr>
+<tr id="macro-production-retail-2010-09" tabindex="-1"><td>2010-09</td><td>13.3</td><td>18.8</td></tr>
+<tr id="macro-production-retail-2010-08" tabindex="-1"><td>2010-08</td><td>13.9</td><td>18.4</td></tr>
+<tr id="macro-production-retail-2010-07" tabindex="-1"><td>2010-07</td><td>13.4</td><td>17.9</td></tr>
+<tr id="macro-production-retail-2010-06" tabindex="-1"><td>2010-06</td><td>13.7</td><td>18.3</td></tr>
+<tr id="macro-production-retail-2010-05" tabindex="-1"><td>2010-05</td><td>16.5</td><td>18.7</td></tr>
+<tr id="macro-production-retail-2010-04" tabindex="-1"><td>2010-04</td><td>17.8</td><td>18.5</td></tr>
+<tr id="macro-production-retail-2010-03" tabindex="-1"><td>2010-03</td><td>18.1</td><td>18</td></tr>
+<tr id="macro-production-retail-2010-02" tabindex="-1"><td>2010-02</td><td>12.8</td><td>22.1</td></tr>
+<tr id="macro-production-retail-2010-01" tabindex="-1"><td>2010-01</td><td>缺失</td><td>14</td></tr>
+<tr id="macro-production-retail-2009-12" tabindex="-1"><td>2009-12</td><td>18.5</td><td>17.5</td></tr>
+<tr id="macro-production-retail-2009-11" tabindex="-1"><td>2009-11</td><td>19.2</td><td>15.8</td></tr>
+<tr id="macro-production-retail-2009-10" tabindex="-1"><td>2009-10</td><td>16.1</td><td>16.2</td></tr>
+<tr id="macro-production-retail-2009-09" tabindex="-1"><td>2009-09</td><td>13.9</td><td>15.5</td></tr>
+<tr id="macro-production-retail-2009-08" tabindex="-1"><td>2009-08</td><td>12.3</td><td>15.4</td></tr>
+<tr id="macro-production-retail-2009-07" tabindex="-1"><td>2009-07</td><td>10.8</td><td>15.2</td></tr>
+<tr id="macro-production-retail-2009-06" tabindex="-1"><td>2009-06</td><td>10.7</td><td>15</td></tr>
+<tr id="macro-production-retail-2009-05" tabindex="-1"><td>2009-05</td><td>8.9</td><td>15.2</td></tr>
+<tr id="macro-production-retail-2009-04" tabindex="-1"><td>2009-04</td><td>7.3</td><td>14.8</td></tr>
+<tr id="macro-production-retail-2009-03" tabindex="-1"><td>2009-03</td><td>8.3</td><td>14.7</td></tr>
+<tr id="macro-production-retail-2009-02" tabindex="-1"><td>2009-02</td><td>11</td><td>11.6</td></tr>
+<tr id="macro-production-retail-2009-01" tabindex="-1"><td>2009-01</td><td>缺失</td><td>18.5</td></tr>
+<tr id="macro-production-retail-2008-12" tabindex="-1"><td>2008-12</td><td>5.7</td><td>19</td></tr>
+<tr id="macro-production-retail-2008-11" tabindex="-1"><td>2008-11</td><td>5.4</td><td>20.8</td></tr>
+<tr id="macro-production-retail-2008-10" tabindex="-1"><td>2008-10</td><td>8.2</td><td>22</td></tr>
+<tr id="macro-production-retail-2008-09" tabindex="-1"><td>2008-09</td><td>11.4</td><td>23.2</td></tr>
+<tr id="macro-production-retail-2008-08" tabindex="-1"><td>2008-08</td><td>12.8</td><td>23.2</td></tr>
+<tr id="macro-production-retail-2008-07" tabindex="-1"><td>2008-07</td><td>14.7</td><td>23.3</td></tr>
+<tr id="macro-production-retail-2008-06" tabindex="-1"><td>2008-06</td><td>16</td><td>23</td></tr>
+<tr id="macro-production-retail-2008-05" tabindex="-1"><td>2008-05</td><td>16</td><td>21.6</td></tr>
+<tr id="macro-production-retail-2008-04" tabindex="-1"><td>2008-04</td><td>15.7</td><td>22</td></tr>
+<tr id="macro-production-retail-2008-03" tabindex="-1"><td>2008-03</td><td>17.8</td><td>21.5</td></tr>
+<tr id="macro-production-retail-2008-02" tabindex="-1"><td>2008-02</td><td>15.4</td><td>19.1</td></tr>
+<tr id="macro-production-retail-2008-01" tabindex="-1"><td>2008-01</td><td>缺失</td><td>21.2</td></tr>
+<tr id="macro-production-retail-2007-12" tabindex="-1"><td>2007-12</td><td>17.4</td><td>20.2</td></tr>
+<tr id="macro-production-retail-2007-11" tabindex="-1"><td>2007-11</td><td>17.3</td><td>18.8</td></tr>
+<tr id="macro-production-retail-2007-10" tabindex="-1"><td>2007-10</td><td>17.9</td><td>18.1</td></tr>
+<tr id="macro-production-retail-2007-09" tabindex="-1"><td>2007-09</td><td>18.9</td><td>17</td></tr>
+<tr id="macro-production-retail-2007-08" tabindex="-1"><td>2007-08</td><td>17.5</td><td>17.1</td></tr>
+<tr id="macro-production-retail-2007-07" tabindex="-1"><td>2007-07</td><td>18</td><td>16.4</td></tr>
+<tr id="macro-production-retail-2007-06" tabindex="-1"><td>2007-06</td><td>19.4</td><td>16</td></tr>
+<tr id="macro-production-retail-2007-05" tabindex="-1"><td>2007-05</td><td>18.1</td><td>15.9</td></tr>
+<tr id="macro-production-retail-2007-04" tabindex="-1"><td>2007-04</td><td>17.4</td><td>15.5</td></tr>
+<tr id="macro-production-retail-2007-03" tabindex="-1"><td>2007-03</td><td>17.6</td><td>15.3</td></tr>
+<tr id="macro-production-retail-2007-02" tabindex="-1"><td>2007-02</td><td>12.6</td><td>16.9</td></tr>
+<tr id="macro-production-retail-2007-01" tabindex="-1"><td>2007-01</td><td>缺失</td><td>12.7</td></tr>
+<tr id="macro-production-retail-2006-12" tabindex="-1"><td>2006-12</td><td>14.7</td><td>14.6</td></tr>
+<tr id="macro-production-retail-2006-11" tabindex="-1"><td>2006-11</td><td>14.9</td><td>14.1</td></tr>
+<tr id="macro-production-retail-2006-10" tabindex="-1"><td>2006-10</td><td>14.7</td><td>14.3</td></tr>
+<tr id="macro-production-retail-2006-09" tabindex="-1"><td>2006-09</td><td>16.1</td><td>13.9</td></tr>
+<tr id="macro-production-retail-2006-08" tabindex="-1"><td>2006-08</td><td>15.7</td><td>13.8</td></tr>
+<tr id="macro-production-retail-2006-07" tabindex="-1"><td>2006-07</td><td>16.7</td><td>13.7</td></tr>
+<tr id="macro-production-retail-2006-06" tabindex="-1"><td>2006-06</td><td>19.5</td><td>13.9</td></tr>
+<tr id="macro-production-retail-2006-05" tabindex="-1"><td>2006-05</td><td>17.9</td><td>14.2</td></tr>
+<tr id="macro-production-retail-2006-04" tabindex="-1"><td>2006-04</td><td>16.6</td><td>13.6</td></tr>
+<tr id="macro-production-retail-2006-03" tabindex="-1"><td>2006-03</td><td>17.8</td><td>13.5</td></tr>
+<tr id="macro-production-retail-2006-02" tabindex="-1"><td>2006-02</td><td>20.1</td><td>9.4</td></tr>
+<tr id="macro-production-retail-2006-01" tabindex="-1"><td>2006-01</td><td>缺失</td><td>15.5</td></tr>
+<tr id="macro-production-retail-2005-12" tabindex="-1"><td>2005-12</td><td>16.5</td><td>12.5</td></tr>
+<tr id="macro-production-retail-2005-11" tabindex="-1"><td>2005-11</td><td>16.6</td><td>12.4</td></tr>
+<tr id="macro-production-retail-2005-10" tabindex="-1"><td>2005-10</td><td>16.1</td><td>12.8</td></tr>
+<tr id="macro-production-retail-2005-09" tabindex="-1"><td>2005-09</td><td>16.5</td><td>12.7</td></tr>
+<tr id="macro-production-retail-2005-08" tabindex="-1"><td>2005-08</td><td>16</td><td>12.5</td></tr>
+<tr id="macro-production-retail-2005-07" tabindex="-1"><td>2005-07</td><td>16.1</td><td>12.7</td></tr>
+<tr id="macro-production-retail-2005-06" tabindex="-1"><td>2005-06</td><td>16.8</td><td>12.9</td></tr>
+<tr id="macro-production-retail-2005-05" tabindex="-1"><td>2005-05</td><td>16.6</td><td>12.8</td></tr>
+<tr id="macro-production-retail-2005-04" tabindex="-1"><td>2005-04</td><td>16</td><td>12.2</td></tr>
+<tr id="macro-production-retail-2005-03" tabindex="-1"><td>2005-03</td><td>15.1</td><td>13.9</td></tr>
+<tr id="macro-production-retail-2005-02" tabindex="-1"><td>2005-02</td><td>7.6</td><td>15.8</td></tr>
+<tr id="macro-production-retail-2005-01" tabindex="-1"><td>2005-01</td><td>缺失</td><td>11.5</td></tr>
+<tr id="macro-production-retail-2004-12" tabindex="-1"><td>2004-12</td><td>14.4</td><td>14.5</td></tr>
+<tr id="macro-production-retail-2004-11" tabindex="-1"><td>2004-11</td><td>14.8</td><td>13.9</td></tr>
+<tr id="macro-production-retail-2004-10" tabindex="-1"><td>2004-10</td><td>15.7</td><td>14.2</td></tr>
+<tr id="macro-production-retail-2004-09" tabindex="-1"><td>2004-09</td><td>16.1</td><td>14</td></tr>
+<tr id="macro-production-retail-2004-08" tabindex="-1"><td>2004-08</td><td>15.9</td><td>13.1</td></tr>
+<tr id="macro-production-retail-2004-07" tabindex="-1"><td>2004-07</td><td>15.5</td><td>13.2</td></tr>
+<tr id="macro-production-retail-2004-06" tabindex="-1"><td>2004-06</td><td>16.2</td><td>13.9</td></tr>
+<tr id="macro-production-retail-2004-05" tabindex="-1"><td>2004-05</td><td>17.5</td><td>17.8</td></tr>
+<tr id="macro-production-retail-2004-04" tabindex="-1"><td>2004-04</td><td>19.1</td><td>13.2</td></tr>
+<tr id="macro-production-retail-2004-03" tabindex="-1"><td>2004-03</td><td>19.4</td><td>11.1</td></tr>
+<tr id="macro-production-retail-2004-02" tabindex="-1"><td>2004-02</td><td>23.2</td><td>9.2</td></tr>
+<tr id="macro-production-retail-2004-01" tabindex="-1"><td>2004-01</td><td>缺失</td><td>11.8</td></tr>
+<tr id="macro-production-retail-2003-12" tabindex="-1"><td>2003-12</td><td>18.1</td><td>10.9</td></tr>
+<tr id="macro-production-retail-2003-11" tabindex="-1"><td>2003-11</td><td>17.9</td><td>9.7</td></tr>
+<tr id="macro-production-retail-2003-10" tabindex="-1"><td>2003-10</td><td>17.2</td><td>10.2</td></tr>
+<tr id="macro-production-retail-2003-09" tabindex="-1"><td>2003-09</td><td>16.3</td><td>9.5</td></tr>
+<tr id="macro-production-retail-2003-08" tabindex="-1"><td>2003-08</td><td>17.1</td><td>9.9</td></tr>
+<tr id="macro-production-retail-2003-07" tabindex="-1"><td>2003-07</td><td>16.5</td><td>9.8</td></tr>
+<tr id="macro-production-retail-2003-06" tabindex="-1"><td>2003-06</td><td>16.9</td><td>8.3</td></tr>
+<tr id="macro-production-retail-2003-05" tabindex="-1"><td>2003-05</td><td>13.7</td><td>4.3</td></tr>
+<tr id="macro-production-retail-2003-04" tabindex="-1"><td>2003-04</td><td>14.9</td><td>7.7</td></tr>
+<tr id="macro-production-retail-2003-03" tabindex="-1"><td>2003-03</td><td>16.9</td><td>9.3</td></tr>
+<tr id="macro-production-retail-2003-02" tabindex="-1"><td>2003-02</td><td>19.8</td><td>8.5</td></tr>
+<tr id="macro-production-retail-2003-01" tabindex="-1"><td>2003-01</td><td>缺失</td><td>10</td></tr>
+<tr id="macro-production-retail-2002-12" tabindex="-1"><td>2002-12</td><td>14.9</td><td>9.2</td></tr>
+<tr id="macro-production-retail-2002-11" tabindex="-1"><td>2002-11</td><td>14.5</td><td>9.1</td></tr>
+<tr id="macro-production-retail-2002-10" tabindex="-1"><td>2002-10</td><td>14.2</td><td>9.4</td></tr>
+<tr id="macro-production-retail-2002-09" tabindex="-1"><td>2002-09</td><td>13.8</td><td>9.1</td></tr>
+<tr id="macro-production-retail-2002-08" tabindex="-1"><td>2002-08</td><td>12.7</td><td>8.8</td></tr>
+<tr id="macro-production-retail-2002-07" tabindex="-1"><td>2002-07</td><td>12.8</td><td>8.6</td></tr>
+<tr id="macro-production-retail-2002-06" tabindex="-1"><td>2002-06</td><td>12.4</td><td>8.6</td></tr>
+<tr id="macro-production-retail-2002-05" tabindex="-1"><td>2002-05</td><td>12.9</td><td>9.3</td></tr>
+<tr id="macro-production-retail-2002-04" tabindex="-1"><td>2002-04</td><td>12.1</td><td>8.2</td></tr>
+<tr id="macro-production-retail-2002-03" tabindex="-1"><td>2002-03</td><td>10.9</td><td>8.3</td></tr>
+<tr id="macro-production-retail-2002-02" tabindex="-1"><td>2002-02</td><td>2.7</td><td>9.1</td></tr>
+<tr id="macro-production-retail-2002-01" tabindex="-1"><td>2002-01</td><td>缺失</td><td>7.9</td></tr>
+<tr id="macro-production-retail-2001-12" tabindex="-1"><td>2001-12</td><td>8.7</td><td>9.6</td></tr>
+<tr id="macro-production-retail-2001-11" tabindex="-1"><td>2001-11</td><td>7.9</td><td>10.1</td></tr>
+<tr id="macro-production-retail-2001-10" tabindex="-1"><td>2001-10</td><td>8.8</td><td>10.5</td></tr>
+<tr id="macro-production-retail-2001-09" tabindex="-1"><td>2001-09</td><td>9.5</td><td>9.9</td></tr>
+<tr id="macro-production-retail-2001-08" tabindex="-1"><td>2001-08</td><td>8.1</td><td>9.6</td></tr>
+<tr id="macro-production-retail-2001-07" tabindex="-1"><td>2001-07</td><td>8.1</td><td>9.8</td></tr>
+<tr id="macro-production-retail-2001-06" tabindex="-1"><td>2001-06</td><td>10.1</td><td>10</td></tr>
+<tr id="macro-production-retail-2001-05" tabindex="-1"><td>2001-05</td><td>10.2</td><td>11.1</td></tr>
+<tr id="macro-production-retail-2001-04" tabindex="-1"><td>2001-04</td><td>11.5</td><td>9.7</td></tr>
+<tr id="macro-production-retail-2001-03" tabindex="-1"><td>2001-03</td><td>12.1</td><td>9.5</td></tr>
+<tr id="macro-production-retail-2001-02" tabindex="-1"><td>2001-02</td><td>19</td><td>8.6</td></tr>
+<tr id="macro-production-retail-2001-01" tabindex="-1"><td>2001-01</td><td>缺失</td><td>12.5</td></tr>
+<tr id="macro-production-retail-2000-12" tabindex="-1"><td>2000-12</td><td>10.4</td><td>8.8</td></tr>
+<tr id="macro-production-retail-2000-11" tabindex="-1"><td>2000-11</td><td>10.6</td><td>8.7</td></tr>
+<tr id="macro-production-retail-2000-10" tabindex="-1"><td>2000-10</td><td>11.4</td><td>10.4</td></tr>
+<tr id="macro-production-retail-2000-09" tabindex="-1"><td>2000-09</td><td>12</td><td>9.6</td></tr>
+<tr id="macro-production-retail-2000-08" tabindex="-1"><td>2000-08</td><td>12.8</td><td>9.3</td></tr>
+<tr id="macro-production-retail-2000-07" tabindex="-1"><td>2000-07</td><td>12.8</td><td>9.1</td></tr>
+<tr id="macro-production-retail-2000-06" tabindex="-1"><td>2000-06</td><td>12.2</td><td>8.9</td></tr>
+<tr id="macro-production-retail-2000-05" tabindex="-1"><td>2000-05</td><td>11.5</td><td>11.5</td></tr>
+<tr id="macro-production-retail-2000-04" tabindex="-1"><td>2000-04</td><td>11.4</td><td>9.1</td></tr>
+<tr id="macro-production-retail-2000-03" tabindex="-1"><td>2000-03</td><td>11.9</td><td>9.3</td></tr>
+<tr id="macro-production-retail-2000-02" tabindex="-1"><td>2000-02</td><td>12</td><td>10.5</td></tr>
+<tr id="macro-production-retail-2000-01" tabindex="-1"><td>2000-01</td><td>缺失</td><td>11.3</td></tr>
+<tr id="macro-production-retail-1999-12" tabindex="-1"><td>1999-12</td><td>7.4</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-11" tabindex="-1"><td>1999-11</td><td>7.6</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-10" tabindex="-1"><td>1999-10</td><td>7</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-09" tabindex="-1"><td>1999-09</td><td>8.2</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-08" tabindex="-1"><td>1999-08</td><td>9.5</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-07" tabindex="-1"><td>1999-07</td><td>9.3</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-06" tabindex="-1"><td>1999-06</td><td>9.1</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-05" tabindex="-1"><td>1999-05</td><td>8.9</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-04" tabindex="-1"><td>1999-04</td><td>9.1</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-03" tabindex="-1"><td>1999-03</td><td>9</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-02" tabindex="-1"><td>1999-02</td><td>2.1</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1999-01" tabindex="-1"><td>1999-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-12" tabindex="-1"><td>1998-12</td><td>11.5</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-11" tabindex="-1"><td>1998-11</td><td>11</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-10" tabindex="-1"><td>1998-10</td><td>10.6</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-09" tabindex="-1"><td>1998-09</td><td>10.2</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-08" tabindex="-1"><td>1998-08</td><td>7.9</td><td>缺失</td></tr>
+<tr id="macro-production-retail-1998-07" tabindex="-1"><td>1998-07</td><td>7.6</td><td>缺失</td></tr>
 </tbody></table></div></details>
 
 ## 固定资产投资累计同比
 
-每个点表示当年 1 月至该月，不含农户。不能把两个月的累计增速相减得到当月增速。
+每个点表示当年 1 月至该月。2011 年前旧范围/项目起报点单独展示；现行口径不含农户。不能把两个月的累计增速相减得到当月增速。
 
 ![固定资产投资累计同比，单位：%；完整数值见下方明细](../images/data/macro-investment.svg)
 
 <details class="macro-details">
 <summary>固定资产投资累计同比：展开完整数据表（%）</summary>
-<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>固定资产投资累计同比</th></tr></thead><tbody>
-<tr id="macro-investment-2026-08" tabindex="-1"><td>2026-08</td><td>-7.2</td></tr>
-<tr id="macro-investment-2026-07" tabindex="-1"><td>2026-07</td><td>-6.7</td></tr>
-<tr id="macro-investment-2026-06" tabindex="-1"><td>2026-06</td><td>-5.7</td></tr>
-<tr id="macro-investment-2026-05" tabindex="-1"><td>2026-05</td><td>-4.1</td></tr>
-<tr id="macro-investment-2026-04" tabindex="-1"><td>2026-04</td><td>-1.6</td></tr>
-<tr id="macro-investment-2026-03" tabindex="-1"><td>2026-03</td><td>1.7</td></tr>
-<tr id="macro-investment-2026-02" tabindex="-1"><td>2026-02</td><td>1.8</td></tr>
-<tr id="macro-investment-2026-01" tabindex="-1"><td>2026-01</td><td>缺失</td></tr>
-<tr id="macro-investment-2025-12" tabindex="-1"><td>2025-12</td><td>-3.8</td></tr>
-<tr id="macro-investment-2025-11" tabindex="-1"><td>2025-11</td><td>-2.6</td></tr>
-<tr id="macro-investment-2025-10" tabindex="-1"><td>2025-10</td><td>-1.7</td></tr>
-<tr id="macro-investment-2025-09" tabindex="-1"><td>2025-09</td><td>-0.5</td></tr>
-<tr id="macro-investment-2025-08" tabindex="-1"><td>2025-08</td><td>0.5</td></tr>
-<tr id="macro-investment-2025-07" tabindex="-1"><td>2025-07</td><td>1.6</td></tr>
-<tr id="macro-investment-2025-06" tabindex="-1"><td>2025-06</td><td>2.8</td></tr>
-<tr id="macro-investment-2025-05" tabindex="-1"><td>2025-05</td><td>3.7</td></tr>
-<tr id="macro-investment-2025-04" tabindex="-1"><td>2025-04</td><td>4</td></tr>
-<tr id="macro-investment-2025-03" tabindex="-1"><td>2025-03</td><td>4.2</td></tr>
-<tr id="macro-investment-2025-02" tabindex="-1"><td>2025-02</td><td>4.1</td></tr>
-<tr id="macro-investment-2025-01" tabindex="-1"><td>2025-01</td><td>缺失</td></tr>
-<tr id="macro-investment-2024-12" tabindex="-1"><td>2024-12</td><td>3.2</td></tr>
-<tr id="macro-investment-2024-11" tabindex="-1"><td>2024-11</td><td>3.3</td></tr>
-<tr id="macro-investment-2024-10" tabindex="-1"><td>2024-10</td><td>3.4</td></tr>
-<tr id="macro-investment-2024-09" tabindex="-1"><td>2024-09</td><td>3.4</td></tr>
-<tr id="macro-investment-2024-08" tabindex="-1"><td>2024-08</td><td>3.4</td></tr>
-<tr id="macro-investment-2024-07" tabindex="-1"><td>2024-07</td><td>3.6</td></tr>
-<tr id="macro-investment-2024-06" tabindex="-1"><td>2024-06</td><td>3.9</td></tr>
-<tr id="macro-investment-2024-05" tabindex="-1"><td>2024-05</td><td>4</td></tr>
-<tr id="macro-investment-2024-04" tabindex="-1"><td>2024-04</td><td>4.2</td></tr>
-<tr id="macro-investment-2024-03" tabindex="-1"><td>2024-03</td><td>4.5</td></tr>
-<tr id="macro-investment-2024-02" tabindex="-1"><td>2024-02</td><td>4.2</td></tr>
+<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>固定资产投资累计同比</th><th>投资累计同比（2011 年前旧口径）</th></tr></thead><tbody>
+<tr id="macro-investment-2026-08" tabindex="-1"><td>2026-08</td><td>-7.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-07" tabindex="-1"><td>2026-07</td><td>-6.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-06" tabindex="-1"><td>2026-06</td><td>-5.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-05" tabindex="-1"><td>2026-05</td><td>-4.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-04" tabindex="-1"><td>2026-04</td><td>-1.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-03" tabindex="-1"><td>2026-03</td><td>1.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-02" tabindex="-1"><td>2026-02</td><td>1.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2026-01" tabindex="-1"><td>2026-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-12" tabindex="-1"><td>2025-12</td><td>-3.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-11" tabindex="-1"><td>2025-11</td><td>-2.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-10" tabindex="-1"><td>2025-10</td><td>-1.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-09" tabindex="-1"><td>2025-09</td><td>-0.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-08" tabindex="-1"><td>2025-08</td><td>0.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-07" tabindex="-1"><td>2025-07</td><td>1.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-06" tabindex="-1"><td>2025-06</td><td>2.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-05" tabindex="-1"><td>2025-05</td><td>3.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-04" tabindex="-1"><td>2025-04</td><td>4</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-03" tabindex="-1"><td>2025-03</td><td>4.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-02" tabindex="-1"><td>2025-02</td><td>4.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2025-01" tabindex="-1"><td>2025-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-12" tabindex="-1"><td>2024-12</td><td>3.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-11" tabindex="-1"><td>2024-11</td><td>3.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-10" tabindex="-1"><td>2024-10</td><td>3.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-09" tabindex="-1"><td>2024-09</td><td>3.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-08" tabindex="-1"><td>2024-08</td><td>3.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-07" tabindex="-1"><td>2024-07</td><td>3.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-06" tabindex="-1"><td>2024-06</td><td>3.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-05" tabindex="-1"><td>2024-05</td><td>4</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-04" tabindex="-1"><td>2024-04</td><td>4.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-03" tabindex="-1"><td>2024-03</td><td>4.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-02" tabindex="-1"><td>2024-02</td><td>4.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2024-01" tabindex="-1"><td>2024-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-12" tabindex="-1"><td>2023-12</td><td>3</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-11" tabindex="-1"><td>2023-11</td><td>2.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-10" tabindex="-1"><td>2023-10</td><td>2.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-09" tabindex="-1"><td>2023-09</td><td>3.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-08" tabindex="-1"><td>2023-08</td><td>3.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-07" tabindex="-1"><td>2023-07</td><td>3.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-06" tabindex="-1"><td>2023-06</td><td>3.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-05" tabindex="-1"><td>2023-05</td><td>4</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-04" tabindex="-1"><td>2023-04</td><td>4.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-03" tabindex="-1"><td>2023-03</td><td>5.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-02" tabindex="-1"><td>2023-02</td><td>5.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2023-01" tabindex="-1"><td>2023-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-12" tabindex="-1"><td>2022-12</td><td>5.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-11" tabindex="-1"><td>2022-11</td><td>5.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-10" tabindex="-1"><td>2022-10</td><td>5.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-09" tabindex="-1"><td>2022-09</td><td>5.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-08" tabindex="-1"><td>2022-08</td><td>5.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-07" tabindex="-1"><td>2022-07</td><td>5.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-06" tabindex="-1"><td>2022-06</td><td>6.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-05" tabindex="-1"><td>2022-05</td><td>6.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-04" tabindex="-1"><td>2022-04</td><td>6.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-03" tabindex="-1"><td>2022-03</td><td>9.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-02" tabindex="-1"><td>2022-02</td><td>12.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2022-01" tabindex="-1"><td>2022-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-12" tabindex="-1"><td>2021-12</td><td>4.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-11" tabindex="-1"><td>2021-11</td><td>5.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-10" tabindex="-1"><td>2021-10</td><td>6.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-09" tabindex="-1"><td>2021-09</td><td>7.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-08" tabindex="-1"><td>2021-08</td><td>8.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-07" tabindex="-1"><td>2021-07</td><td>10.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-06" tabindex="-1"><td>2021-06</td><td>12.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-05" tabindex="-1"><td>2021-05</td><td>15.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-04" tabindex="-1"><td>2021-04</td><td>19.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-03" tabindex="-1"><td>2021-03</td><td>25.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-02" tabindex="-1"><td>2021-02</td><td>35</td><td>缺失</td></tr>
+<tr id="macro-investment-2021-01" tabindex="-1"><td>2021-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-12" tabindex="-1"><td>2020-12</td><td>2.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-11" tabindex="-1"><td>2020-11</td><td>2.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-10" tabindex="-1"><td>2020-10</td><td>1.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-09" tabindex="-1"><td>2020-09</td><td>0.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-08" tabindex="-1"><td>2020-08</td><td>-0.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-07" tabindex="-1"><td>2020-07</td><td>-1.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-06" tabindex="-1"><td>2020-06</td><td>-3.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-05" tabindex="-1"><td>2020-05</td><td>-6.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-04" tabindex="-1"><td>2020-04</td><td>-10.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-03" tabindex="-1"><td>2020-03</td><td>-16.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-02" tabindex="-1"><td>2020-02</td><td>-24.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2020-01" tabindex="-1"><td>2020-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-12" tabindex="-1"><td>2019-12</td><td>5.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-11" tabindex="-1"><td>2019-11</td><td>5.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-10" tabindex="-1"><td>2019-10</td><td>5.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-09" tabindex="-1"><td>2019-09</td><td>5.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-08" tabindex="-1"><td>2019-08</td><td>5.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-07" tabindex="-1"><td>2019-07</td><td>5.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-06" tabindex="-1"><td>2019-06</td><td>5.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-05" tabindex="-1"><td>2019-05</td><td>5.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-04" tabindex="-1"><td>2019-04</td><td>6.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-03" tabindex="-1"><td>2019-03</td><td>6.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-02" tabindex="-1"><td>2019-02</td><td>6.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2019-01" tabindex="-1"><td>2019-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-12" tabindex="-1"><td>2018-12</td><td>5.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-11" tabindex="-1"><td>2018-11</td><td>5.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-10" tabindex="-1"><td>2018-10</td><td>5.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-09" tabindex="-1"><td>2018-09</td><td>5.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-08" tabindex="-1"><td>2018-08</td><td>5.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-07" tabindex="-1"><td>2018-07</td><td>5.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-06" tabindex="-1"><td>2018-06</td><td>6</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-05" tabindex="-1"><td>2018-05</td><td>6.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-04" tabindex="-1"><td>2018-04</td><td>7</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-03" tabindex="-1"><td>2018-03</td><td>7.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-02" tabindex="-1"><td>2018-02</td><td>7.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2018-01" tabindex="-1"><td>2018-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-12" tabindex="-1"><td>2017-12</td><td>7.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-11" tabindex="-1"><td>2017-11</td><td>7.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-10" tabindex="-1"><td>2017-10</td><td>7.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-09" tabindex="-1"><td>2017-09</td><td>7.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-08" tabindex="-1"><td>2017-08</td><td>7.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-07" tabindex="-1"><td>2017-07</td><td>8.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-06" tabindex="-1"><td>2017-06</td><td>8.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-05" tabindex="-1"><td>2017-05</td><td>8.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-04" tabindex="-1"><td>2017-04</td><td>8.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-03" tabindex="-1"><td>2017-03</td><td>9.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-02" tabindex="-1"><td>2017-02</td><td>8.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2017-01" tabindex="-1"><td>2017-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-12" tabindex="-1"><td>2016-12</td><td>8.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-11" tabindex="-1"><td>2016-11</td><td>8.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-10" tabindex="-1"><td>2016-10</td><td>8.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-09" tabindex="-1"><td>2016-09</td><td>8.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-08" tabindex="-1"><td>2016-08</td><td>8.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-07" tabindex="-1"><td>2016-07</td><td>8.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-06" tabindex="-1"><td>2016-06</td><td>9</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-05" tabindex="-1"><td>2016-05</td><td>9.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-04" tabindex="-1"><td>2016-04</td><td>10.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-03" tabindex="-1"><td>2016-03</td><td>10.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-02" tabindex="-1"><td>2016-02</td><td>10.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2016-01" tabindex="-1"><td>2016-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-12" tabindex="-1"><td>2015-12</td><td>10</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-11" tabindex="-1"><td>2015-11</td><td>10.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-10" tabindex="-1"><td>2015-10</td><td>10.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-09" tabindex="-1"><td>2015-09</td><td>10.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-08" tabindex="-1"><td>2015-08</td><td>10.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-07" tabindex="-1"><td>2015-07</td><td>11.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-06" tabindex="-1"><td>2015-06</td><td>11.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-05" tabindex="-1"><td>2015-05</td><td>11.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-04" tabindex="-1"><td>2015-04</td><td>12</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-03" tabindex="-1"><td>2015-03</td><td>13.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-02" tabindex="-1"><td>2015-02</td><td>13.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2015-01" tabindex="-1"><td>2015-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-12" tabindex="-1"><td>2014-12</td><td>15.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-11" tabindex="-1"><td>2014-11</td><td>15.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-10" tabindex="-1"><td>2014-10</td><td>15.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-09" tabindex="-1"><td>2014-09</td><td>16.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-08" tabindex="-1"><td>2014-08</td><td>16.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-07" tabindex="-1"><td>2014-07</td><td>17</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-06" tabindex="-1"><td>2014-06</td><td>17.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-05" tabindex="-1"><td>2014-05</td><td>17.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-04" tabindex="-1"><td>2014-04</td><td>17.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-03" tabindex="-1"><td>2014-03</td><td>17.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-02" tabindex="-1"><td>2014-02</td><td>17.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2014-01" tabindex="-1"><td>2014-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-12" tabindex="-1"><td>2013-12</td><td>19.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-11" tabindex="-1"><td>2013-11</td><td>19.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-10" tabindex="-1"><td>2013-10</td><td>20.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-09" tabindex="-1"><td>2013-09</td><td>20.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-08" tabindex="-1"><td>2013-08</td><td>20.3</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-07" tabindex="-1"><td>2013-07</td><td>20.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-06" tabindex="-1"><td>2013-06</td><td>20.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-05" tabindex="-1"><td>2013-05</td><td>20.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-04" tabindex="-1"><td>2013-04</td><td>20.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-03" tabindex="-1"><td>2013-03</td><td>20.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-02" tabindex="-1"><td>2013-02</td><td>21.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2013-01" tabindex="-1"><td>2013-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-12" tabindex="-1"><td>2012-12</td><td>20.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-11" tabindex="-1"><td>2012-11</td><td>20.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-10" tabindex="-1"><td>2012-10</td><td>20.7</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-09" tabindex="-1"><td>2012-09</td><td>20.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-08" tabindex="-1"><td>2012-08</td><td>20.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-07" tabindex="-1"><td>2012-07</td><td>20.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-06" tabindex="-1"><td>2012-06</td><td>20.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-05" tabindex="-1"><td>2012-05</td><td>20.1</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-04" tabindex="-1"><td>2012-04</td><td>20.2</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-03" tabindex="-1"><td>2012-03</td><td>20.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-02" tabindex="-1"><td>2012-02</td><td>21.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2012-01" tabindex="-1"><td>2012-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-12" tabindex="-1"><td>2011-12</td><td>23.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-11" tabindex="-1"><td>2011-11</td><td>24.5</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-10" tabindex="-1"><td>2011-10</td><td>24.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-09" tabindex="-1"><td>2011-09</td><td>24.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-08" tabindex="-1"><td>2011-08</td><td>25</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-07" tabindex="-1"><td>2011-07</td><td>25.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-06" tabindex="-1"><td>2011-06</td><td>25.6</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-05" tabindex="-1"><td>2011-05</td><td>25.8</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-04" tabindex="-1"><td>2011-04</td><td>25.4</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-03" tabindex="-1"><td>2011-03</td><td>25</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-02" tabindex="-1"><td>2011-02</td><td>24.9</td><td>缺失</td></tr>
+<tr id="macro-investment-2011-01" tabindex="-1"><td>2011-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2010-12" tabindex="-1"><td>2010-12</td><td>缺失</td><td>24.5</td></tr>
+<tr id="macro-investment-2010-11" tabindex="-1"><td>2010-11</td><td>缺失</td><td>24.9</td></tr>
+<tr id="macro-investment-2010-10" tabindex="-1"><td>2010-10</td><td>缺失</td><td>24.4</td></tr>
+<tr id="macro-investment-2010-09" tabindex="-1"><td>2010-09</td><td>缺失</td><td>24.5</td></tr>
+<tr id="macro-investment-2010-08" tabindex="-1"><td>2010-08</td><td>缺失</td><td>24.8</td></tr>
+<tr id="macro-investment-2010-07" tabindex="-1"><td>2010-07</td><td>缺失</td><td>24.9</td></tr>
+<tr id="macro-investment-2010-06" tabindex="-1"><td>2010-06</td><td>缺失</td><td>25.5</td></tr>
+<tr id="macro-investment-2010-05" tabindex="-1"><td>2010-05</td><td>缺失</td><td>25.9</td></tr>
+<tr id="macro-investment-2010-04" tabindex="-1"><td>2010-04</td><td>缺失</td><td>26.1</td></tr>
+<tr id="macro-investment-2010-03" tabindex="-1"><td>2010-03</td><td>缺失</td><td>26.4</td></tr>
+<tr id="macro-investment-2010-02" tabindex="-1"><td>2010-02</td><td>缺失</td><td>26.6</td></tr>
+<tr id="macro-investment-2010-01" tabindex="-1"><td>2010-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2009-12" tabindex="-1"><td>2009-12</td><td>缺失</td><td>30.5</td></tr>
+<tr id="macro-investment-2009-11" tabindex="-1"><td>2009-11</td><td>缺失</td><td>32.1</td></tr>
+<tr id="macro-investment-2009-10" tabindex="-1"><td>2009-10</td><td>缺失</td><td>33.1</td></tr>
+<tr id="macro-investment-2009-09" tabindex="-1"><td>2009-09</td><td>缺失</td><td>33.3</td></tr>
+<tr id="macro-investment-2009-08" tabindex="-1"><td>2009-08</td><td>缺失</td><td>33</td></tr>
+<tr id="macro-investment-2009-07" tabindex="-1"><td>2009-07</td><td>缺失</td><td>32.9</td></tr>
+<tr id="macro-investment-2009-06" tabindex="-1"><td>2009-06</td><td>缺失</td><td>33.6</td></tr>
+<tr id="macro-investment-2009-05" tabindex="-1"><td>2009-05</td><td>缺失</td><td>32.9</td></tr>
+<tr id="macro-investment-2009-04" tabindex="-1"><td>2009-04</td><td>缺失</td><td>30.5</td></tr>
+<tr id="macro-investment-2009-03" tabindex="-1"><td>2009-03</td><td>缺失</td><td>28.6</td></tr>
+<tr id="macro-investment-2009-02" tabindex="-1"><td>2009-02</td><td>缺失</td><td>26.5</td></tr>
+<tr id="macro-investment-2009-01" tabindex="-1"><td>2009-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2008-12" tabindex="-1"><td>2008-12</td><td>缺失</td><td>26.1</td></tr>
+<tr id="macro-investment-2008-11" tabindex="-1"><td>2008-11</td><td>缺失</td><td>26.8</td></tr>
+<tr id="macro-investment-2008-10" tabindex="-1"><td>2008-10</td><td>缺失</td><td>27.2</td></tr>
+<tr id="macro-investment-2008-09" tabindex="-1"><td>2008-09</td><td>缺失</td><td>27.6</td></tr>
+<tr id="macro-investment-2008-08" tabindex="-1"><td>2008-08</td><td>缺失</td><td>27.4</td></tr>
+<tr id="macro-investment-2008-07" tabindex="-1"><td>2008-07</td><td>缺失</td><td>27.3</td></tr>
+<tr id="macro-investment-2008-06" tabindex="-1"><td>2008-06</td><td>缺失</td><td>26.8</td></tr>
+<tr id="macro-investment-2008-05" tabindex="-1"><td>2008-05</td><td>缺失</td><td>25.6</td></tr>
+<tr id="macro-investment-2008-04" tabindex="-1"><td>2008-04</td><td>缺失</td><td>25.7</td></tr>
+<tr id="macro-investment-2008-03" tabindex="-1"><td>2008-03</td><td>缺失</td><td>25.9</td></tr>
+<tr id="macro-investment-2008-02" tabindex="-1"><td>2008-02</td><td>缺失</td><td>24.3</td></tr>
+<tr id="macro-investment-2008-01" tabindex="-1"><td>2008-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2007-12" tabindex="-1"><td>2007-12</td><td>缺失</td><td>25.8</td></tr>
+<tr id="macro-investment-2007-11" tabindex="-1"><td>2007-11</td><td>缺失</td><td>26.8</td></tr>
+<tr id="macro-investment-2007-10" tabindex="-1"><td>2007-10</td><td>缺失</td><td>26.9</td></tr>
+<tr id="macro-investment-2007-09" tabindex="-1"><td>2007-09</td><td>缺失</td><td>26.4</td></tr>
+<tr id="macro-investment-2007-08" tabindex="-1"><td>2007-08</td><td>缺失</td><td>26.7</td></tr>
+<tr id="macro-investment-2007-07" tabindex="-1"><td>2007-07</td><td>缺失</td><td>26.6</td></tr>
+<tr id="macro-investment-2007-06" tabindex="-1"><td>2007-06</td><td>缺失</td><td>26.7</td></tr>
+<tr id="macro-investment-2007-05" tabindex="-1"><td>2007-05</td><td>缺失</td><td>25.9</td></tr>
+<tr id="macro-investment-2007-04" tabindex="-1"><td>2007-04</td><td>缺失</td><td>25.5</td></tr>
+<tr id="macro-investment-2007-03" tabindex="-1"><td>2007-03</td><td>缺失</td><td>25.3</td></tr>
+<tr id="macro-investment-2007-02" tabindex="-1"><td>2007-02</td><td>缺失</td><td>23.4</td></tr>
+<tr id="macro-investment-2007-01" tabindex="-1"><td>2007-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2006-12" tabindex="-1"><td>2006-12</td><td>缺失</td><td>24.5</td></tr>
+<tr id="macro-investment-2006-11" tabindex="-1"><td>2006-11</td><td>缺失</td><td>26.6</td></tr>
+<tr id="macro-investment-2006-10" tabindex="-1"><td>2006-10</td><td>缺失</td><td>26.8</td></tr>
+<tr id="macro-investment-2006-09" tabindex="-1"><td>2006-09</td><td>缺失</td><td>28.2</td></tr>
+<tr id="macro-investment-2006-08" tabindex="-1"><td>2006-08</td><td>缺失</td><td>29.1</td></tr>
+<tr id="macro-investment-2006-07" tabindex="-1"><td>2006-07</td><td>缺失</td><td>30.5</td></tr>
+<tr id="macro-investment-2006-06" tabindex="-1"><td>2006-06</td><td>缺失</td><td>31.3</td></tr>
+<tr id="macro-investment-2006-05" tabindex="-1"><td>2006-05</td><td>缺失</td><td>30.3</td></tr>
+<tr id="macro-investment-2006-04" tabindex="-1"><td>2006-04</td><td>缺失</td><td>29.6</td></tr>
+<tr id="macro-investment-2006-03" tabindex="-1"><td>2006-03</td><td>缺失</td><td>29.8</td></tr>
+<tr id="macro-investment-2006-02" tabindex="-1"><td>2006-02</td><td>缺失</td><td>26.6</td></tr>
+<tr id="macro-investment-2006-01" tabindex="-1"><td>2006-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2005-12" tabindex="-1"><td>2005-12</td><td>缺失</td><td>27.2</td></tr>
+<tr id="macro-investment-2005-11" tabindex="-1"><td>2005-11</td><td>缺失</td><td>27.8</td></tr>
+<tr id="macro-investment-2005-10" tabindex="-1"><td>2005-10</td><td>缺失</td><td>27.6</td></tr>
+<tr id="macro-investment-2005-09" tabindex="-1"><td>2005-09</td><td>缺失</td><td>27.7</td></tr>
+<tr id="macro-investment-2005-08" tabindex="-1"><td>2005-08</td><td>缺失</td><td>27.4</td></tr>
+<tr id="macro-investment-2005-07" tabindex="-1"><td>2005-07</td><td>缺失</td><td>27.2</td></tr>
+<tr id="macro-investment-2005-06" tabindex="-1"><td>2005-06</td><td>缺失</td><td>27.1</td></tr>
+<tr id="macro-investment-2005-05" tabindex="-1"><td>2005-05</td><td>缺失</td><td>26.4</td></tr>
+<tr id="macro-investment-2005-04" tabindex="-1"><td>2005-04</td><td>缺失</td><td>25.7</td></tr>
+<tr id="macro-investment-2005-03" tabindex="-1"><td>2005-03</td><td>缺失</td><td>25.3</td></tr>
+<tr id="macro-investment-2005-02" tabindex="-1"><td>2005-02</td><td>缺失</td><td>24.5</td></tr>
+<tr id="macro-investment-2005-01" tabindex="-1"><td>2005-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2004-12" tabindex="-1"><td>2004-12</td><td>缺失</td><td>27.6</td></tr>
+<tr id="macro-investment-2004-11" tabindex="-1"><td>2004-11</td><td>缺失</td><td>28.9</td></tr>
+<tr id="macro-investment-2004-10" tabindex="-1"><td>2004-10</td><td>缺失</td><td>29.5</td></tr>
+<tr id="macro-investment-2004-09" tabindex="-1"><td>2004-09</td><td>缺失</td><td>29.9</td></tr>
+<tr id="macro-investment-2004-08" tabindex="-1"><td>2004-08</td><td>缺失</td><td>30.3</td></tr>
+<tr id="macro-investment-2004-07" tabindex="-1"><td>2004-07</td><td>缺失</td><td>31.1</td></tr>
+<tr id="macro-investment-2004-06" tabindex="-1"><td>2004-06</td><td>缺失</td><td>31</td></tr>
+<tr id="macro-investment-2004-05" tabindex="-1"><td>2004-05</td><td>缺失</td><td>34.8</td></tr>
+<tr id="macro-investment-2004-04" tabindex="-1"><td>2004-04</td><td>缺失</td><td>42.8</td></tr>
+<tr id="macro-investment-2004-03" tabindex="-1"><td>2004-03</td><td>缺失</td><td>47.8</td></tr>
+<tr id="macro-investment-2004-02" tabindex="-1"><td>2004-02</td><td>缺失</td><td>53</td></tr>
+<tr id="macro-investment-2004-01" tabindex="-1"><td>2004-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2003-12" tabindex="-1"><td>2003-12</td><td>缺失</td><td>28.4</td></tr>
+<tr id="macro-investment-2003-11" tabindex="-1"><td>2003-11</td><td>缺失</td><td>29.6</td></tr>
+<tr id="macro-investment-2003-10" tabindex="-1"><td>2003-10</td><td>缺失</td><td>30.2</td></tr>
+<tr id="macro-investment-2003-09" tabindex="-1"><td>2003-09</td><td>缺失</td><td>31.4</td></tr>
+<tr id="macro-investment-2003-08" tabindex="-1"><td>2003-08</td><td>缺失</td><td>32.4</td></tr>
+<tr id="macro-investment-2003-07" tabindex="-1"><td>2003-07</td><td>缺失</td><td>32.7</td></tr>
+<tr id="macro-investment-2003-06" tabindex="-1"><td>2003-06</td><td>缺失</td><td>32.8</td></tr>
+<tr id="macro-investment-2003-05" tabindex="-1"><td>2003-05</td><td>缺失</td><td>31.7</td></tr>
+<tr id="macro-investment-2003-04" tabindex="-1"><td>2003-04</td><td>缺失</td><td>30.5</td></tr>
+<tr id="macro-investment-2003-03" tabindex="-1"><td>2003-03</td><td>缺失</td><td>31.6</td></tr>
+<tr id="macro-investment-2003-02" tabindex="-1"><td>2003-02</td><td>缺失</td><td>32.8</td></tr>
+<tr id="macro-investment-2003-01" tabindex="-1"><td>2003-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2002-12" tabindex="-1"><td>2002-12</td><td>缺失</td><td>17.4</td></tr>
+<tr id="macro-investment-2002-11" tabindex="-1"><td>2002-11</td><td>缺失</td><td>23.4</td></tr>
+<tr id="macro-investment-2002-10" tabindex="-1"><td>2002-10</td><td>缺失</td><td>24.1</td></tr>
+<tr id="macro-investment-2002-09" tabindex="-1"><td>2002-09</td><td>缺失</td><td>24.3</td></tr>
+<tr id="macro-investment-2002-08" tabindex="-1"><td>2002-08</td><td>缺失</td><td>24.2</td></tr>
+<tr id="macro-investment-2002-07" tabindex="-1"><td>2002-07</td><td>缺失</td><td>24.1</td></tr>
+<tr id="macro-investment-2002-06" tabindex="-1"><td>2002-06</td><td>缺失</td><td>24.4</td></tr>
+<tr id="macro-investment-2002-05" tabindex="-1"><td>2002-05</td><td>缺失</td><td>25.8</td></tr>
+<tr id="macro-investment-2002-04" tabindex="-1"><td>2002-04</td><td>缺失</td><td>27.1</td></tr>
+<tr id="macro-investment-2002-03" tabindex="-1"><td>2002-03</td><td>缺失</td><td>26.1</td></tr>
+<tr id="macro-investment-2002-02" tabindex="-1"><td>2002-02</td><td>缺失</td><td>24.5</td></tr>
+<tr id="macro-investment-2002-01" tabindex="-1"><td>2002-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2001-12" tabindex="-1"><td>2001-12</td><td>缺失</td><td>13.7</td></tr>
+<tr id="macro-investment-2001-11" tabindex="-1"><td>2001-11</td><td>缺失</td><td>16.3</td></tr>
+<tr id="macro-investment-2001-10" tabindex="-1"><td>2001-10</td><td>缺失</td><td>17.4</td></tr>
+<tr id="macro-investment-2001-09" tabindex="-1"><td>2001-09</td><td>缺失</td><td>18.2</td></tr>
+<tr id="macro-investment-2001-08" tabindex="-1"><td>2001-08</td><td>缺失</td><td>18.9</td></tr>
+<tr id="macro-investment-2001-07" tabindex="-1"><td>2001-07</td><td>缺失</td><td>18.4</td></tr>
+<tr id="macro-investment-2001-06" tabindex="-1"><td>2001-06</td><td>缺失</td><td>17.9</td></tr>
+<tr id="macro-investment-2001-05" tabindex="-1"><td>2001-05</td><td>缺失</td><td>17.6</td></tr>
+<tr id="macro-investment-2001-04" tabindex="-1"><td>2001-04</td><td>缺失</td><td>16.5</td></tr>
+<tr id="macro-investment-2001-03" tabindex="-1"><td>2001-03</td><td>缺失</td><td>15.1</td></tr>
+<tr id="macro-investment-2001-02" tabindex="-1"><td>2001-02</td><td>缺失</td><td>16.7</td></tr>
+<tr id="macro-investment-2001-01" tabindex="-1"><td>2001-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-2000-12" tabindex="-1"><td>2000-12</td><td>缺失</td><td>9.7</td></tr>
+<tr id="macro-investment-2000-11" tabindex="-1"><td>2000-11</td><td>缺失</td><td>11.7</td></tr>
+<tr id="macro-investment-2000-10" tabindex="-1"><td>2000-10</td><td>缺失</td><td>12.6</td></tr>
+<tr id="macro-investment-2000-09" tabindex="-1"><td>2000-09</td><td>缺失</td><td>12.9</td></tr>
+<tr id="macro-investment-2000-08" tabindex="-1"><td>2000-08</td><td>缺失</td><td>12.7</td></tr>
+<tr id="macro-investment-2000-07" tabindex="-1"><td>2000-07</td><td>缺失</td><td>12.6</td></tr>
+<tr id="macro-investment-2000-06" tabindex="-1"><td>2000-06</td><td>缺失</td><td>12.1</td></tr>
+<tr id="macro-investment-2000-05" tabindex="-1"><td>2000-05</td><td>缺失</td><td>9.5</td></tr>
+<tr id="macro-investment-2000-04" tabindex="-1"><td>2000-04</td><td>缺失</td><td>9.3</td></tr>
+<tr id="macro-investment-2000-03" tabindex="-1"><td>2000-03</td><td>缺失</td><td>8.5</td></tr>
+<tr id="macro-investment-2000-02" tabindex="-1"><td>2000-02</td><td>缺失</td><td>8.6</td></tr>
+<tr id="macro-investment-2000-01" tabindex="-1"><td>2000-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-1999-12" tabindex="-1"><td>1999-12</td><td>缺失</td><td>6.3</td></tr>
+<tr id="macro-investment-1999-11" tabindex="-1"><td>1999-11</td><td>缺失</td><td>6.8</td></tr>
+<tr id="macro-investment-1999-10" tabindex="-1"><td>1999-10</td><td>缺失</td><td>7</td></tr>
+<tr id="macro-investment-1999-09" tabindex="-1"><td>1999-09</td><td>缺失</td><td>8.1</td></tr>
+<tr id="macro-investment-1999-08" tabindex="-1"><td>1999-08</td><td>缺失</td><td>10.4</td></tr>
+<tr id="macro-investment-1999-07" tabindex="-1"><td>1999-07</td><td>缺失</td><td>12.7</td></tr>
+<tr id="macro-investment-1999-06" tabindex="-1"><td>1999-06</td><td>缺失</td><td>15.1</td></tr>
+<tr id="macro-investment-1999-05" tabindex="-1"><td>1999-05</td><td>缺失</td><td>17.6</td></tr>
+<tr id="macro-investment-1999-04" tabindex="-1"><td>1999-04</td><td>缺失</td><td>18.1</td></tr>
+<tr id="macro-investment-1999-03" tabindex="-1"><td>1999-03</td><td>缺失</td><td>22.7</td></tr>
+<tr id="macro-investment-1999-02" tabindex="-1"><td>1999-02</td><td>缺失</td><td>28.3</td></tr>
+<tr id="macro-investment-1999-01" tabindex="-1"><td>1999-01</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-investment-1998-12" tabindex="-1"><td>1998-12</td><td>缺失</td><td>19.5</td></tr>
+<tr id="macro-investment-1998-11" tabindex="-1"><td>1998-11</td><td>缺失</td><td>22.3</td></tr>
+<tr id="macro-investment-1998-10" tabindex="-1"><td>1998-10</td><td>缺失</td><td>21.2</td></tr>
+<tr id="macro-investment-1998-09" tabindex="-1"><td>1998-09</td><td>缺失</td><td>20</td></tr>
+<tr id="macro-investment-1998-08" tabindex="-1"><td>1998-08</td><td>缺失</td><td>17.4</td></tr>
+<tr id="macro-investment-1998-07" tabindex="-1"><td>1998-07</td><td>缺失</td><td>15.6</td></tr>
+<tr id="macro-investment-1998-06" tabindex="-1"><td>1998-06</td><td>缺失</td><td>13.8</td></tr>
+<tr id="macro-investment-1998-05" tabindex="-1"><td>1998-05</td><td>缺失</td><td>12.7</td></tr>
+<tr id="macro-investment-1998-04" tabindex="-1"><td>1998-04</td><td>缺失</td><td>12.2</td></tr>
+<tr id="macro-investment-1998-03" tabindex="-1"><td>1998-03</td><td>缺失</td><td>10.3</td></tr>
+<tr id="macro-investment-1998-02" tabindex="-1"><td>1998-02</td><td>缺失</td><td>10.2</td></tr>
+</tbody></table></div></details>
+
+## 工业 1—2 月合计实际同比：补充明细
+
+期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。
+
+<details class="macro-details">
+<summary>展开完整数据表（%）</summary>
+<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-02</td><td>6.3</td></tr>
+<tr><td>2025-02</td><td>5.9</td></tr>
+<tr><td>2024-02</td><td>7</td></tr>
+<tr><td>2023-02</td><td>2.4</td></tr>
+<tr><td>2022-02</td><td>7.5</td></tr>
+<tr><td>2021-02</td><td>35.1</td></tr>
+<tr><td>2020-02</td><td>-13.5</td></tr>
+<tr><td>2019-02</td><td>5.3</td></tr>
+<tr><td>2018-02</td><td>7.2</td></tr>
+<tr><td>2017-02</td><td>6.3</td></tr>
+<tr><td>2016-02</td><td>5.4</td></tr>
+<tr><td>2015-02</td><td>6.8</td></tr>
+<tr><td>2014-02</td><td>8.6</td></tr>
+<tr><td>2013-02</td><td>9.9</td></tr>
+<tr><td>2012-02</td><td>11.4</td></tr>
+<tr><td>2011-02</td><td>14.1</td></tr>
+<tr><td>2010-02</td><td>20.7</td></tr>
+<tr><td>2009-02</td><td>3.8</td></tr>
+<tr><td>2008-02</td><td>15.4</td></tr>
+<tr><td>2007-02</td><td>18.5</td></tr>
+<tr><td>2006-02</td><td>16.2</td></tr>
+<tr><td>2005-02</td><td>16.9</td></tr>
+<tr><td>2004-02</td><td>16.6</td></tr>
+<tr><td>2003-02</td><td>17.5</td></tr>
+<tr><td>2002-02</td><td>10.9</td></tr>
+<tr><td>2001-02</td><td>10.2</td></tr>
+<tr><td>2000-02</td><td>10.4</td></tr>
+<tr><td>1999-02</td><td>10.6</td></tr>
+</tbody></table></div></details>
+
+## 社零 1—2 月合计名义同比：补充明细
+
+期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。
+
+<details class="macro-details">
+<summary>展开完整数据表（%）</summary>
+<div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-02</td><td>2.8</td></tr>
+<tr><td>2025-02</td><td>4</td></tr>
+<tr><td>2024-02</td><td>5.5</td></tr>
+<tr><td>2023-02</td><td>3.5</td></tr>
+<tr><td>2022-02</td><td>6.7</td></tr>
+<tr><td>2021-02</td><td>33.8</td></tr>
+<tr><td>2020-02</td><td>-20.5</td></tr>
+<tr><td>2019-02</td><td>8.2</td></tr>
+<tr><td>2018-02</td><td>9.7</td></tr>
+<tr><td>2017-02</td><td>9.5</td></tr>
+<tr><td>2016-02</td><td>10.2</td></tr>
+<tr><td>2015-02</td><td>10.7</td></tr>
+<tr><td>2014-02</td><td>11.8</td></tr>
+<tr><td>2013-02</td><td>12.3</td></tr>
+<tr><td>2012-02</td><td>14.7</td></tr>
+<tr><td>2011-02</td><td>15.8</td></tr>
+<tr><td>2010-02</td><td>17.9</td></tr>
+<tr><td>2009-02</td><td>15.2</td></tr>
+<tr><td>2008-02</td><td>20.2</td></tr>
+<tr><td>2007-02</td><td>14.7</td></tr>
+<tr><td>2006-02</td><td>12.5</td></tr>
+<tr><td>2005-02</td><td>13.6</td></tr>
+<tr><td>2004-02</td><td>10.5</td></tr>
+<tr><td>2003-02</td><td>9.2</td></tr>
+<tr><td>2002-02</td><td>8.5</td></tr>
+<tr><td>2001-02</td><td>10.6</td></tr>
+<tr><td>2000-02</td><td>10.9</td></tr>
 </tbody></table></div></details>
 
 ## 口径与阅读提醒
@@ -162,7 +1088,13 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 | 工业增加值实际同比 | 规模以上工业增加值，剔除价格影响；1—2 月合并发布不拆成单月。 |
 | 社零名义同比 | 社会消费品零售总额，名义增速；1—2 月合并发布不拆成单月。 |
 | 固定资产投资累计同比 | 不含农户，年初至当月累计名义同比；不是当月增速。 |
+| 投资累计同比（2011 年前旧口径） | 2011 年前旧统计范围与项目起报点；不与现行不含农户、500 万元及以上项目口径直接连接。 |
+| 工业 1—2 月合计实际同比 | 期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。 |
+| 社零 1—2 月合计名义同比 | 期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。 |
 
+- 查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。
+- 2011-01：规模以上企业起点由年主营业务收入500万元提高至2000万元。
+- 2013-01：1—2月一起调查和发布，不再公布2月单月。
 
 日度图保留日历缺口：节假日、没有操作或上游缺失的日期均无观测，不能仅从空白判断原因。图线在缺失处断开；月度与季度图也不插值。
 

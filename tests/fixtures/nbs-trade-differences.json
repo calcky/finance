@@ -1,0 +1,375 @@
+{
+  "verified_at": "2026-10-02",
+  "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+  "request": {
+    "cid": "7e11b47c828d4e4e925f1c5a98305558",
+    "indicatorIds": [
+      "9e38b39f55a7461ea195508c1bb7dbdc",
+      "86a340fee806409ebdf4d0069bd23f29",
+      "0123bdd4e85348f28efc74685a4a40e5"
+    ],
+    "daCatalogId": "",
+    "das": [
+      {
+        "text": "全国",
+        "value": "000000000000"
+      }
+    ],
+    "dts": [
+      "194901MM-202610MM"
+    ],
+    "showType": "1",
+    "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+  },
+  "indicator_ids": {
+    "9e38b39f55a7461ea195508c1bb7dbdc": "exports",
+    "86a340fee806409ebdf4d0069bd23f29": "imports",
+    "0123bdd4e85348f28efc74685a4a40e5": "reported_balance"
+  },
+  "validated_complete_triplets": 343,
+  "anomaly_count": 31,
+  "observations": [
+    {
+      "period": "2011-02",
+      "exports": "96736127",
+      "imports": "104063964",
+      "reported_balance": "-7306100",
+      "unit": "千美元",
+      "exports_minus_imports": "-7327837",
+      "residual": "-21737",
+      "rounding_bound": "51.0",
+      "residual_usd100m": "-0.21737"
+    },
+    {
+      "period": "2011-04",
+      "exports": "155684084",
+      "imports": "144263081",
+      "reported_balance": "11423165",
+      "unit": "千美元",
+      "exports_minus_imports": "11421003",
+      "residual": "-2162",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-0.02162"
+    },
+    {
+      "period": "2011-05",
+      "exports": "157157191",
+      "imports": "144110223",
+      "reported_balance": "13046384",
+      "unit": "千美元",
+      "exports_minus_imports": "13046968",
+      "residual": "584",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00584"
+    },
+    {
+      "period": "2011-12",
+      "exports": "174717651",
+      "imports": "158196889",
+      "reported_balance": "16519919",
+      "unit": "千美元",
+      "exports_minus_imports": "16520762",
+      "residual": "843",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00843"
+    },
+    {
+      "period": "2012-01",
+      "exports": "149939113",
+      "imports": "122661227",
+      "reported_balance": "27276569",
+      "unit": "千美元",
+      "exports_minus_imports": "27277886",
+      "residual": "1317",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.01317"
+    },
+    {
+      "period": "2012-03",
+      "exports": "165658100",
+      "imports": "160310799",
+      "reported_balance": "5345981",
+      "unit": "千美元",
+      "exports_minus_imports": "5347301",
+      "residual": "1320",
+      "rounding_bound": "51.0",
+      "residual_usd100m": "0.0132"
+    },
+    {
+      "period": "2012-04",
+      "exports": "163251712",
+      "imports": "144824524",
+      "reported_balance": "18425850",
+      "unit": "千美元",
+      "exports_minus_imports": "18427188",
+      "residual": "1338",
+      "rounding_bound": "6.0",
+      "residual_usd100m": "0.01338"
+    },
+    {
+      "period": "2012-05",
+      "exports": "181140762",
+      "imports": "162441440",
+      "reported_balance": "18695305",
+      "unit": "千美元",
+      "exports_minus_imports": "18699322",
+      "residual": "4017",
+      "rounding_bound": "6.0",
+      "residual_usd100m": "0.04017"
+    },
+    {
+      "period": "2012-07",
+      "exports": "176940032",
+      "imports": "151793278",
+      "reported_balance": "25146735",
+      "unit": "千美元",
+      "exports_minus_imports": "25146754",
+      "residual": "19",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00019"
+    },
+    {
+      "period": "2012-08",
+      "exports": "177973297",
+      "imports": "151312746",
+      "reported_balance": "26660527",
+      "unit": "千美元",
+      "exports_minus_imports": "26660551",
+      "residual": "24",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00024"
+    },
+    {
+      "period": "2012-10",
+      "exports": "175571102",
+      "imports": "143524416",
+      "reported_balance": "31992491",
+      "unit": "千美元",
+      "exports_minus_imports": "32046686",
+      "residual": "54195",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.54195"
+    },
+    {
+      "period": "2013-02",
+      "exports": "139367235",
+      "imports": "124141775",
+      "reported_balance": "15250980",
+      "unit": "千美元",
+      "exports_minus_imports": "15225460",
+      "residual": "-25520",
+      "rounding_bound": "6.0",
+      "residual_usd100m": "-0.2552"
+    },
+    {
+      "period": "2013-03",
+      "exports": "182189999",
+      "imports": "183013097",
+      "reported_balance": "-884291",
+      "unit": "千美元",
+      "exports_minus_imports": "-823098",
+      "residual": "61193",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.61193"
+    },
+    {
+      "period": "2013-09",
+      "exports": "185643576",
+      "imports": "170426362",
+      "reported_balance": "15206504",
+      "unit": "千美元",
+      "exports_minus_imports": "15217214",
+      "residual": "10710",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.1071"
+    },
+    {
+      "period": "2014-03",
+      "exports": "170107988",
+      "imports": "162404693",
+      "reported_balance": "7705527",
+      "unit": "千美元",
+      "exports_minus_imports": "7703295",
+      "residual": "-2232",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-0.02232"
+    },
+    {
+      "period": "2014-04",
+      "exports": "188540548",
+      "imports": "170087977",
+      "reported_balance": "18454765",
+      "unit": "千美元",
+      "exports_minus_imports": "18452571",
+      "residual": "-2194",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-0.02194"
+    },
+    {
+      "period": "2014-06",
+      "exports": "186788537",
+      "imports": "155223841",
+      "reported_balance": "31564346",
+      "unit": "千美元",
+      "exports_minus_imports": "31564696",
+      "residual": "350",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.0035"
+    },
+    {
+      "period": "2014-07",
+      "exports": "212891063",
+      "imports": "165590512",
+      "reported_balance": "47300239",
+      "unit": "千美元",
+      "exports_minus_imports": "47300551",
+      "residual": "312",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00312"
+    },
+    {
+      "period": "2014-08",
+      "exports": "208465863",
+      "imports": "158629387",
+      "reported_balance": "49835502",
+      "unit": "千美元",
+      "exports_minus_imports": "49836476",
+      "residual": "974",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.00974"
+    },
+    {
+      "period": "2014-09",
+      "exports": "213687462",
+      "imports": "182724108",
+      "reported_balance": "30942678",
+      "unit": "千美元",
+      "exports_minus_imports": "30963354",
+      "residual": "20676",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "0.20676"
+    },
+    {
+      "period": "2014-12",
+      "exports": "227512544",
+      "imports": "177900669",
+      "reported_balance": "49613263",
+      "unit": "千美元",
+      "exports_minus_imports": "49611875",
+      "residual": "-1388",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-0.01388"
+    },
+    {
+      "period": "2015-05",
+      "exports": "190057568",
+      "imports": "131190146",
+      "reported_balance": "59488009",
+      "unit": "千美元",
+      "exports_minus_imports": "58867422",
+      "residual": "-620587",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-6.20587"
+    },
+    {
+      "period": "2016-05",
+      "exports": "181059364",
+      "imports": "131083858",
+      "reported_balance": "49979506",
+      "unit": "千美元",
+      "exports_minus_imports": "49975506",
+      "residual": "-4000",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "-0.04"
+    },
+    {
+      "period": "2016-12",
+      "exports": "209417479",
+      "imports": "168599109",
+      "reported_balance": "40708425",
+      "unit": "千美元",
+      "exports_minus_imports": "40818370",
+      "residual": "109945",
+      "rounding_bound": "1.5",
+      "residual_usd100m": "1.09945"
+    },
+    {
+      "period": "2018-11",
+      "exports": "227445523",
+      "imports": "182740526",
+      "reported_balance": "41861000",
+      "unit": "千美元",
+      "exports_minus_imports": "44704997",
+      "residual": "2843997",
+      "rounding_bound": "501.0",
+      "residual_usd100m": "28.43997"
+    },
+    {
+      "period": "2019-01",
+      "exports": "217566642",
+      "imports": "178409792",
+      "reported_balance": "39794000",
+      "unit": "千美元",
+      "exports_minus_imports": "39156850",
+      "residual": "-637150",
+      "rounding_bound": "501.0",
+      "residual_usd100m": "-6.3715"
+    },
+    {
+      "period": "2019-11",
+      "exports": "221337434",
+      "imports": "183411013",
+      "reported_balance": "37618000",
+      "unit": "千美元",
+      "exports_minus_imports": "37926421",
+      "residual": "308421",
+      "rounding_bound": "501.0",
+      "residual_usd100m": "3.08421"
+    },
+    {
+      "period": "2022-11",
+      "exports": "295500770",
+      "imports": "226252602",
+      "reported_balance": "69840000",
+      "unit": "千美元",
+      "exports_minus_imports": "69248168",
+      "residual": "-591832",
+      "rounding_bound": "5005.5",
+      "residual_usd100m": "-5.91832"
+    },
+    {
+      "period": "2023-05",
+      "exports": "283484005",
+      "imports": "217692018",
+      "reported_balance": "65810000",
+      "unit": "千美元",
+      "exports_minus_imports": "65791987",
+      "residual": "-18013",
+      "rounding_bound": "5001.0",
+      "residual_usd100m": "-0.18013"
+    },
+    {
+      "period": "2023-08",
+      "exports": "284790965",
+      "imports": "216592727",
+      "reported_balance": "68360000",
+      "unit": "千美元",
+      "exports_minus_imports": "68198238",
+      "residual": "-161762",
+      "rounding_bound": "5001.0",
+      "residual_usd100m": "-1.61762"
+    },
+    {
+      "period": "2023-09",
+      "exports": "299129677",
+      "imports": "221298188",
+      "reported_balance": "77710000",
+      "unit": "千美元",
+      "exports_minus_imports": "77831489",
+      "residual": "121489",
+      "rounding_bound": "5001.0",
+      "residual_usd100m": "1.21489"
+    }
+  ],
+  "conclusion": "每条均与NBS原始同月、全国、当期值、千美元数据一致；归一化值等于原值除100000；原始官方差额与同批进出口金额在这些月份不完全相符，原因未由接口解释，保留并标注而非改写。"
+}

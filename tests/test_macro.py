@@ -1,6 +1,7 @@
 """Data-contract regressions: units, definitions, missingness and rolling history."""
 
 import copy
+import json
 from io import BytesIO
 from pathlib import Path
 from decimal import Decimal
@@ -149,6 +150,11 @@ class CommittedSnapshot(unittest.TestCase):
     def test_economic_cross_checks(self):
         rows, _ = load_topic("trade-fx")
         values = {(r["series_id"], r["period"]): Decimal(r["value"]) for r in rows}
+        # These exact source triplets were audited against the raw official
+        # response. Any new or changed inconsistency still fails for review;
+        # do not hide all history behind a looser numeric tolerance.
+        evidence = json.loads((Path(__file__).parent / "fixtures/nbs-trade-differences.json").read_text())
+        known = {r["period"]: r for r in evidence["observations"]}
         for r in rows:
             if r["series_id"] == "trade_balance":
                 p = r["period"]
@@ -156,7 +162,11 @@ class CommittedSnapshot(unittest.TestCase):
                 # hundred-million USD; retain them, do not silently recompute.
                 rounding = sum(Decimal(10) ** values[k, p].normalize().as_tuple().exponent / 2
                                for k in ("exports", "imports", "trade_balance"))
-                self.assertLessEqual(abs(values["exports", p] - values["imports", p] - values["trade_balance", p]), rounding)
+                residual = abs(values["exports", p] - values["imports", p] - values["trade_balance", p])
+                if residual > rounding:
+                    self.assertIn(p, known, f"New official trade inconsistency: {p}; verify before accepting")
+                    for key, raw_key in [("exports", "exports"), ("imports", "imports"), ("trade_balance", "reported_balance")]:
+                        self.assertEqual(values[key, p], Decimal(known[p][raw_key]) / 100000)
         rows, _ = load_topic("money-credit")
         values = {(r["series_id"], r["period"]): Decimal(r["value"]) for r in rows}
         for r in rows:

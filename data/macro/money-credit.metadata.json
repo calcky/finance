@@ -1,146 +1,1484 @@
 {
-  "schema_version": 1,
-  "title": "货币与社会融资",
-  "series": {
-    "m1": {
-      "label": "M1 余额",
-      "unit": "万亿元",
-      "frequency": "M",
-      "source": "中国人民银行",
-      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
-    },
-    "m2": {
-      "label": "M2 余额",
-      "unit": "万亿元",
-      "frequency": "M",
-      "source": "中国人民银行",
-      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
-    },
-    "m1_yoy": {
-      "label": "M1 同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局（央行数据）",
-      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
-    },
-    "m2_yoy": {
-      "label": "M2 同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局（央行数据）",
-      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
-    },
-    "tsf_stock_yoy": {
-      "label": "社融存量同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "中国人民银行",
-      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。"
-    },
-    "tsf_flow": {
-      "label": "社融当月增量",
-      "unit": "亿元",
-      "frequency": "M",
-      "source": "中国人民银行",
-      "basis": "单月融资流量，不是年内累计，也不是存量的机械差分。"
-    },
-    "tsf_stock": {
-      "label": "社融存量",
-      "unit": "万亿元",
-      "frequency": "M",
-      "source": "中国人民银行",
-      "basis": "月末存量；M1 仅展示 2025 年起新定义，不拼接旧定义余额。"
-    }
-  },
   "acquisition": {
     "m1": {
       "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
       "attachments": [
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2025-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "m1_old": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2001-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2002S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2003S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2004S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2005S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2006S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s07.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2016/01/2016012017255038120.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2017/01/2017011815321433867.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/03/2019032816071149486.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/02/2019020115394298232.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2020/01/2020011915353816215.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510364377981.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510393123006.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417122028124.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416473774723.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416485162540.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "1999-12",
+          "start": "1999-12"
+        },
+        {
+          "end": "2000-12",
+          "start": "2000-01"
+        },
+        {
+          "end": "2001-12",
+          "start": "2001-01"
+        },
+        {
+          "end": "2002-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2003-12",
+          "start": "2003-01"
+        },
+        {
+          "end": "2004-12",
+          "start": "2004-01"
+        },
+        {
+          "end": "2005-12",
+          "start": "2005-01"
+        },
+        {
+          "end": "2006-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        }
+      ]
+    },
+    "m1_old_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2024-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "m1_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2025-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+          "attachments": [
+            "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx"
+          ],
+          "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+          "definition_notes": [
+            "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2024-12",
+              "start": "2024-01"
+            }
+          ]
+        }
       ]
     },
     "m2": {
       "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
       "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2001-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2002S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2003S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2004S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2005S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2006S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s07.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2016/01/2016012017255038120.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2017/01/2017011815321433867.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/03/2019032816071149486.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/02/2019020115394298232.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2020/01/2020011915353816215.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510364377981.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510393123006.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417122028124.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416473774723.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416485162540.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2011 年 10 月起包括住房公积金中心存款和非存款类金融机构在存款类金融机构的存款；不能由跨口径余额机械计算同比",
+        "2018 年 1 月起以非存款机构部门持有的货币市场基金替代货币市场基金存款；官方同比使用可比口径",
+        "2022 年 12 月起 M0 含流通中数字人民币；官方说明 M1、M2 增速无明显变化"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "1999-12",
+          "start": "1999-12"
+        },
+        {
+          "end": "2000-12",
+          "start": "2000-01"
+        },
+        {
+          "end": "2001-12",
+          "start": "2001-01"
+        },
+        {
+          "end": "2002-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2003-12",
+          "start": "2003-01"
+        },
+        {
+          "end": "2004-12",
+          "start": "2004-01"
+        },
+        {
+          "end": "2005-12",
+          "start": "2005-01"
+        },
+        {
+          "end": "2006-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
       ]
-    },
-    "m1_yoy": {
-      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "82130c6621a745cda3d64b090e733383",
-        "indicatorIds": [
-          "640401d3351b4b868dea28f89f410a54",
-          "e03f2232631f41cd9d754a7d7feb4a81"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202501MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "640401d3351b4b868dea28f89f410a54",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
     },
     "m2_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "82130c6621a745cda3d64b090e733383",
-        "indicatorIds": [
-          "640401d3351b4b868dea28f89f410a54",
-          "e03f2232631f41cd9d754a7d7feb4a81"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202501MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "e03f2232631f41cd9d754a7d7feb4a81",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
-    },
-    "tsf_stock_yoy": {
-      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
-      "attachments": [
-        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
-        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
-        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
       ]
     },
     "tsf_flow": {
       "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
       "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-08",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
       ]
     },
     "tsf_stock": {
       "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
       "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2810586/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019053116170320732.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585987735.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054734868.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019050709591895742.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511314352412.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510125962568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510030348458.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417010166853.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000632854.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
         "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "coverage_limit": "已核验最早 2014 年末单点、2015 年季度末、2016 年起月末；2015 年首次发布说明提及 2002 年存量研究，但未提供可逐期提取的早期存量表，未反推余额",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2014-12",
+          "start": "2014-12"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_stock_yoy": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2810586/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019053116170320732.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585987735.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054734868.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019050709591895742.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511314352412.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510125962568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510030348458.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417010166853.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000632854.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "coverage_limit": "已核验最早 2014 年末单点、2015 年季度末、2016 年起月末；2015 年首次发布说明提及 2002 年存量研究，但未提供可逐期提取的早期存量表，未反推余额",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2014-12",
+          "start": "2014-12"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
       ]
     }
   },
-  "retrieved_at": "2026-10-02T03:25:31+00:00"
+  "coverage": {
+    "m1": {
+      "count": 32,
+      "first": "2024-01",
+      "last": "2026-08"
+    },
+    "m1_old": {
+      "count": 301,
+      "first": "1999-12",
+      "last": "2024-12"
+    },
+    "m1_old_yoy": {
+      "count": 301,
+      "first": "1999-12",
+      "last": "2024-12"
+    },
+    "m1_yoy": {
+      "count": 31,
+      "first": "2024-01",
+      "last": "2026-07"
+    },
+    "m2": {
+      "count": 321,
+      "first": "1999-12",
+      "last": "2026-08"
+    },
+    "m2_yoy": {
+      "count": 320,
+      "first": "1999-12",
+      "last": "2026-07"
+    },
+    "tsf_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_stock": {
+      "count": 133,
+      "first": "2014-12",
+      "last": "2026-08"
+    },
+    "tsf_stock_yoy": {
+      "count": 133,
+      "first": "2014-12",
+      "last": "2026-08"
+    }
+  },
+  "history": {
+    "m1": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2025-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "m1_old": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2001-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2002S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2003S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2004S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2005S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2006S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s07.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2016/01/2016012017255038120.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2017/01/2017011815321433867.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/03/2019032816071149486.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/02/2019020115394298232.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2020/01/2020011915353816215.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510364377981.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510393123006.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417122028124.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416473774723.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416485162540.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "1999-12",
+          "start": "1999-12"
+        },
+        {
+          "end": "2000-12",
+          "start": "2000-01"
+        },
+        {
+          "end": "2001-12",
+          "start": "2001-01"
+        },
+        {
+          "end": "2002-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2003-12",
+          "start": "2003-01"
+        },
+        {
+          "end": "2004-12",
+          "start": "2004-01"
+        },
+        {
+          "end": "2005-12",
+          "start": "2005-01"
+        },
+        {
+          "end": "2006-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        }
+      ]
+    },
+    "m1_old_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2024-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "m1_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2025-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+          "attachments": [
+            "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx"
+          ],
+          "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+          "definition_notes": [
+            "2025 年 M1 纳入个人活期存款与非银行支付机构客户备付金；新旧序列分列，新口径仅向前使用官方 2024 年回溯"
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2024-12",
+              "start": "2024-01"
+            }
+          ]
+        }
+      ]
+    },
+    "m2": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2001-S3c.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2002S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2003S3.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2004S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2005S14.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2006S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s07.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s07.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2016/01/2016012017255038120.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2017/01/2017011815321433867.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/03/2019032816071149486.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/02/2019020115394298232.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2020/01/2020011915353816215.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510364377981.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510393123006.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417122028124.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416473774723.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416485162540.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517191991857.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2011 年 10 月起包括住房公积金中心存款和非存款类金融机构在存款类金融机构的存款；不能由跨口径余额机械计算同比",
+        "2018 年 1 月起以非存款机构部门持有的货币市场基金替代货币市场基金存款；官方同比使用可比口径",
+        "2022 年 12 月起 M0 含流通中数字人民币；官方说明 M1、M2 增速无明显变化"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "1999-12",
+          "start": "1999-12"
+        },
+        {
+          "end": "2000-12",
+          "start": "2000-01"
+        },
+        {
+          "end": "2001-12",
+          "start": "2001-01"
+        },
+        {
+          "end": "2002-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2003-12",
+          "start": "2003-01"
+        },
+        {
+          "end": "2004-12",
+          "start": "2004-01"
+        },
+        {
+          "end": "2005-12",
+          "start": "2005-01"
+        },
+        {
+          "end": "2006-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "m2_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "82130c6621a745cda3d64b090e733383",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "640401d3351b4b868dea28f89f410a54",
+            "e03f2232631f41cd9d754a7d7feb4a81"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "tsf_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-08",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_stock": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2810586/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019053116170320732.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585987735.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054734868.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019050709591895742.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511314352412.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510125962568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510030348458.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417010166853.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000632854.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "coverage_limit": "已核验最早 2014 年末单点、2015 年季度末、2016 年起月末；2015 年首次发布说明提及 2002 年存量研究，但未提供可逐期提取的早期存量表，未反推余额",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2014-12",
+          "start": "2014-12"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_stock_yoy": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2810586/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019053116170320732.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585987735.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054734868.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/05/2019050709591895742.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511314352412.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510125962568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510030348458.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417010166853.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000632854.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx"
+      ],
+      "coverage": "按官方年度目录回溯；早期表的稀疏期间按原样保留",
+      "coverage_limit": "已核验最早 2014 年末单点、2015 年季度末、2016 年起月末；2015 年首次发布说明提及 2002 年存量研究，但未提供可逐期提取的早期存量表，未反推余额",
+      "definition_notes": [
+        "2018 年 7 月纳入存款类金融机构资产支持证券与贷款核销；2018 年 9 月纳入地方政府专项债券",
+        "2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据",
+        "2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2014-12",
+          "start": "2014-12"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    }
+  },
+  "history_checked_at": "2026-10-02T10:37:58+00:00",
+  "retrieved_at": "2026-10-02T10:37:58+00:00",
+  "schema_version": 2,
+  "series": {
+    "m1": {
+      "basis": "2025 年起新定义，含官方回溯的 2024 年可比余额；旧定义另列，不跨定义拼接。",
+      "frequency": "M",
+      "label": "M1 余额（新定义）",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "m1_old": {
+      "basis": "2025 年以前旧定义，单独保留；不能与增加个人活期存款等项目后的 M1 直接拼接。",
+      "frequency": "M",
+      "label": "M1 余额（旧定义）",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "m1_old_yoy": {
+      "basis": "旧定义官方同比；与 2025 年起按新定义计算的可比同比分别展示。",
+      "frequency": "M",
+      "label": "M1 同比（旧定义）",
+      "source": "国家统计局（央行数据）",
+      "unit": "%"
+    },
+    "m1_yoy": {
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。",
+      "frequency": "M",
+      "label": "M1 同比（新定义）",
+      "source": "中国人民银行、国家统计局",
+      "unit": "%"
+    },
+    "m2": {
+      "basis": "月末货币存量；保留历次官方统计范围，2011、2018、2022 年调整见历史口径说明。",
+      "frequency": "M",
+      "label": "M2 余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "m2_yoy": {
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。",
+      "frequency": "M",
+      "label": "M2 同比",
+      "source": "国家统计局（央行数据）",
+      "unit": "%"
+    },
+    "tsf_flow": {
+      "basis": "单月融资流量，不是年内累计，也不是存量的机械差分。",
+      "frequency": "M",
+      "label": "社融当月增量",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_stock": {
+      "basis": "社融期末余额；2014 年仅年末、2015 年仅季度末，2016 年起月度，不复制成不存在的月份。",
+      "frequency": "M",
+      "label": "社融存量",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "tsf_stock_yoy": {
+      "basis": "采用官方可比口径同比，不用旧口径余额重新计算 M1 增速。",
+      "frequency": "M",
+      "label": "社融存量同比",
+      "source": "中国人民银行",
+      "unit": "%"
+    }
+  },
+  "title": "货币与社会融资"
 }

@@ -114,6 +114,8 @@ GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.jso
 ```sh
 .venv/bin/python -m pip install -r scripts/requirements-data.txt -r scripts/requirements-plots.txt
 .venv/bin/python scripts/sync_macro.py
+# 完整回溯并复核历史（央行公告可能需要一至两小时）
+.venv/bin/python scripts/sync_macro.py --backfill
 # 只用已入库快照离线重建，不联网
 .venv/bin/python scripts/sync_macro.py --render-only --preview-dir /tmp/finance-macro-previews
 .venv/bin/python -m unittest discover -s tests -v
@@ -122,11 +124,13 @@ GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.jso
 node tests/browser/macro.cjs
 ```
 
-`macro_catalog.py` 保存指标、口径和阅读解释，`macro_nbs.py` 获取统计局月度公开接口及季度收入公告，`macro_pbc.py` 获取央行年度表格、操作公告、中国货币网和中债数据。`macro_render.py` 使用同一快照生成 19 张 SVG、页面和交互载荷；Sphinx 构建只需文档依赖，不需要数据采集或绘图库。
+`macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 19 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
 
-采集使用普通 HTTPS、Cookie 和请求间隔，不模拟登录或绕过访问限制。开发排查可用 `--cache-dir /tmp/finance-macro-cache` 复用响应；定时任务不使用该缓存。首次覆盖范围逐指标列在页面中：价格从 2026 年换基后开始，M1 新定义从 2025 年开始，多数活动指标从 2024 年开始，汇率和国债收益率约一年，逆回购操作先取最近三页公告。滚动来源保留此前采集的历史，不宣称完整历史库。
+采集使用普通 HTTPS、Cookie 和请求间隔，不模拟登录或绕过访问限制。开发排查可用 `--cache-dir /tmp/finance-macro-cache` 复用响应；定时任务不使用该缓存，避免错过修订。首次接入尽量完成可用历史，不自行设定近年起点；实际覆盖和限制见[历史来源核验](data/history-coverage.md)。公共搜索按日期分段、分页；日度市场数据按月或年查询；央行公告遍历档案并核对总数，未完成或有解析失败的抓取不可发布。
 
-M1 同比采用统计局转发的央行可比同比，可能晚于央行余额表；不以新旧余额自行计算替代。价格指数以 100 为比较基准时减 100 得涨跌幅，PMI 保留指数点。贸易千美元除以 100000 得亿美元，货币亿元除以 10000 得万亿元。社融当月增量不由存量差分代替；收入明确为季度末年内累计。工业与社零的 1—2 月合并数据暂不进入单月序列。
+日常查询保留既有早期观测，元数据 `refresh_ranges` 标明本次权威查询范围，`history` 保留全量回溯证据，`history_checked_at` 记录完整回溯时间，`coverage` 记录每个指标的实际首末期间和条数。每月 1 日的定时任务做全量复核，Actions 手动输入 `backfill` 也可开启；首次建立或快照更新与历史复核均超过 60 天时自动全量回溯。仅查询窗口或检查日期变化不会改写没有新数据的日常快照；一次真正完成的全历史核验会更新复核时间。
+
+M1 同比采用统计局转发的央行可比同比，并纳入央行官方 2024 年新定义回溯；不以跨定义余额计算替代。价格指数以 100 为比较基准时减 100 得涨跌幅，PMI 保留指数点。贸易千美元除以 100000 得亿美元，货币亿元除以 10000 得万亿元。社融当月增量不由存量差分代替；收入明确为季度末年内累计。工业与社零的 1—2 月合计使用独立序列和明细表，历史真实单月值仍保留。
 
 所有获取和渲染先在临时目录完成；错误不替换现有快照。完整历史来源缺失已有观测、滚动窗口内已有值消失、单位或结构改变均报错。正常数值修订可更新并由 Git 记录；新窗口之外的日度历史保留，不声称已重新核验它们。观测和元数据没有变化时不刷新获取时间。源机构未给出逐条发布时间的字段留空。
 

@@ -3,7 +3,7 @@
   "use strict";
   const snapshot = window.FINANCE_MACRO;
   if (!snapshot || !window.echarts) return;
-  const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 5});
+  const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 8});
   function element(tag, className, text) {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -26,7 +26,7 @@
       spec.periods.forEach(p => select.add(new Option(p, p)));
       label.append(select);
       tools.append(label);
-      const counts = spec.frequency === "M" ? [["近 12 个月", 12], ["近 24 个月", 24]] : spec.frequency === "Q" ? [["近 4 季度", 4], ["近 8 季度", 8]] : [["近 60 天", 60], ["近 180 天", 180]];
+      const counts = spec.frequency === "M" ? [["近 12 个月", 12], ["近 5 年", 60]] : spec.frequency === "Q" ? [["近 4 季度", 4], ["近 5 年", 20]] : [["近 60 天", 60], ["近 5 年", 1826]];
       const buttons = [["全部", 0], ...counts].map(([text, count]) => {
         const button = element("button", "gdp-range", text);
         button.type = "button";
@@ -46,7 +46,7 @@
       const sources = [...new Set(spec.series.map(k => snapshot.definitions[k].source))].join("、");
       wrapper.append(element("p", "gdp-source", `来源：${sources}｜快照 ${snapshot.metadata.retrieved_at.slice(0, 10)}（UTC）｜单位：${spec.unit}`));
       fallback.before(wrapper);
-      chart = echarts.init(surface, null, {renderer: "svg"});
+      chart = echarts.init(surface, null, {renderer: spec.frequency === "D" ? "canvas" : "svg"});
       const valueText = (key, period) => {
         const value = spec.values[key][period];
         return value == null ? "缺失" : `${format.format(value)} ${spec.unit}`;

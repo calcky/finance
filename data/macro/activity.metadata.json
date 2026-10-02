@@ -1,164 +1,618 @@
 {
-  "schema_version": 1,
-  "title": "景气、生产、消费与投资",
-  "series": {
-    "pmi_manufacturing": {
-      "label": "制造业 PMI",
-      "unit": "指数点",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "扩散指数，50 为临界点，不是经济增速百分比。"
-    },
-    "pmi_nonmanufacturing": {
-      "label": "非制造业商务活动指数",
-      "unit": "指数点",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "扩散指数，50 为临界点，不是经济增速百分比。"
-    },
-    "industry_yoy": {
-      "label": "工业增加值实际同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "规模以上工业增加值，剔除价格影响；1—2 月合并发布不拆成单月。"
-    },
-    "retail_yoy": {
-      "label": "社零名义同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "社会消费品零售总额，名义增速；1—2 月合并发布不拆成单月。"
-    },
-    "investment_ytd_yoy": {
-      "label": "固定资产投资累计同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "不含农户，年初至当月累计名义同比；不是当月增速。"
-    }
-  },
   "acquisition": {
-    "pmi_manufacturing": {
+    "industry_janfeb_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "93ffbb1aa85740d3aa2618371508b606",
-        "indicatorIds": [
-          "a09aa989bdcf4cffa2021795722eb916"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "a09aa989bdcf4cffa2021795722eb916",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
-    },
-    "pmi_nonmanufacturing": {
-      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "7a64a6e25aec4a8e9dde044ecd9e2cce",
-        "indicatorIds": [
-          "88a150208f6e4a1db8babe41ae700f66"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "88a150208f6e4a1db8babe41ae700f66",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "3f2e14f0542348ed9fe02476eca3450b",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "ef1b1765960d45a29b4d7c4ca91be916",
+            "21e7072e9f384209aedb56e69a18216e"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "industry_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "3f2e14f0542348ed9fe02476eca3450b",
-        "indicatorIds": [
-          "ef1b1765960d45a29b4d7c4ca91be916"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "ef1b1765960d45a29b4d7c4ca91be916",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "3f2e14f0542348ed9fe02476eca3450b",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "ef1b1765960d45a29b4d7c4ca91be916",
+            "21e7072e9f384209aedb56e69a18216e"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "structural_breaks": [
+        {
+          "note": "规模以上企业起点由年主营业务收入500万元提高至2000万元",
+          "period": "2011-01"
+        },
+        {
+          "note": "1—2月一起调查和发布，不再公布2月单月",
+          "period": "2013-01"
+        }
+      ]
     },
-    "retail_yoy": {
+    "investment_legacy_ytd_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "d0cb882c7f27443ab6b3ef9421901961",
-        "indicatorIds": [
-          "aaac57d54d2e465d91bc9f3ea1a8618e"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "aaac57d54d2e465d91bc9f3ea1a8618e",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5129067b149d4ddfbec1ffc478d35bfb",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "7e570cf8071c4734a7d78d9f0a70fbe1"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "investment_ytd_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "5129067b149d4ddfbec1ffc478d35bfb",
-        "indicatorIds": [
-          "7e570cf8071c4734a7d78d9f0a70fbe1"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202401MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "7e570cf8071c4734a7d78d9f0a70fbe1",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5129067b149d4ddfbec1ffc478d35bfb",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "7e570cf8071c4734a7d78d9f0a70fbe1"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "pmi_manufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "93ffbb1aa85740d3aa2618371508b606",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "a09aa989bdcf4cffa2021795722eb916"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "pmi_nonmanufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7a64a6e25aec4a8e9dde044ecd9e2cce",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "88a150208f6e4a1db8babe41ae700f66"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "retail_janfeb_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "d0cb882c7f27443ab6b3ef9421901961",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "aaac57d54d2e465d91bc9f3ea1a8618e",
+            "e3ca151b53d347b78d1e179e5ebf1d33"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "retail_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "d0cb882c7f27443ab6b3ef9421901961",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "aaac57d54d2e465d91bc9f3ea1a8618e",
+            "e3ca151b53d347b78d1e179e5ebf1d33"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     }
   },
-  "retrieved_at": "2026-10-02T03:25:31+00:00"
+  "coverage": {
+    "industry_janfeb_yoy": {
+      "count": 28,
+      "first": "1999-02",
+      "last": "2026-02"
+    },
+    "industry_yoy": {
+      "count": 296,
+      "first": "1998-07",
+      "last": "2026-08"
+    },
+    "investment_legacy_ytd_yoy": {
+      "count": 143,
+      "first": "1998-02",
+      "last": "2010-12"
+    },
+    "investment_ytd_yoy": {
+      "count": 172,
+      "first": "2011-02",
+      "last": "2026-08"
+    },
+    "pmi_manufacturing": {
+      "count": 260,
+      "first": "2005-01",
+      "last": "2026-08"
+    },
+    "pmi_nonmanufacturing": {
+      "count": 236,
+      "first": "2007-01",
+      "last": "2026-08"
+    },
+    "retail_janfeb_yoy": {
+      "count": 27,
+      "first": "2000-02",
+      "last": "2026-02"
+    },
+    "retail_yoy": {
+      "count": 290,
+      "first": "2000-01",
+      "last": "2026-08"
+    }
+  },
+  "history": {
+    "industry_janfeb_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "3f2e14f0542348ed9fe02476eca3450b",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "ef1b1765960d45a29b4d7c4ca91be916",
+            "21e7072e9f384209aedb56e69a18216e"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "industry_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "3f2e14f0542348ed9fe02476eca3450b",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "ef1b1765960d45a29b4d7c4ca91be916",
+            "21e7072e9f384209aedb56e69a18216e"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "structural_breaks": [
+        {
+          "note": "规模以上企业起点由年主营业务收入500万元提高至2000万元",
+          "period": "2011-01"
+        },
+        {
+          "note": "1—2月一起调查和发布，不再公布2月单月",
+          "period": "2013-01"
+        }
+      ]
+    },
+    "investment_legacy_ytd_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5129067b149d4ddfbec1ffc478d35bfb",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "7e570cf8071c4734a7d78d9f0a70fbe1"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "investment_ytd_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2011-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5129067b149d4ddfbec1ffc478d35bfb",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "7e570cf8071c4734a7d78d9f0a70fbe1"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "pmi_manufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "93ffbb1aa85740d3aa2618371508b606",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "a09aa989bdcf4cffa2021795722eb916"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "pmi_nonmanufacturing": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "7a64a6e25aec4a8e9dde044ecd9e2cce",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "88a150208f6e4a1db8babe41ae700f66"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "retail_janfeb_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "d0cb882c7f27443ab6b3ef9421901961",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "aaac57d54d2e465d91bc9f3ea1a8618e",
+            "e3ca151b53d347b78d1e179e5ebf1d33"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "retail_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "d0cb882c7f27443ab6b3ef9421901961",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "aaac57d54d2e465d91bc9f3ea1a8618e",
+            "e3ca151b53d347b78d1e179e5ebf1d33"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    }
+  },
+  "history_checked_at": "2026-10-02T10:37:58+00:00",
+  "retrieved_at": "2026-10-02T10:37:58+00:00",
+  "schema_version": 2,
+  "series": {
+    "industry_janfeb_yoy": {
+      "basis": "期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。",
+      "frequency": "M",
+      "label": "工业 1—2 月合计实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "industry_yoy": {
+      "basis": "规模以上工业增加值，剔除价格影响；1—2 月合并发布不拆成单月。",
+      "frequency": "M",
+      "label": "工业增加值实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "investment_legacy_ytd_yoy": {
+      "basis": "2011 年前旧统计范围与项目起报点；不与现行不含农户、500 万元及以上项目口径直接连接。",
+      "frequency": "M",
+      "label": "投资累计同比（2011 年前旧口径）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "investment_ytd_yoy": {
+      "basis": "不含农户，年初至当月累计名义同比；不是当月增速。",
+      "frequency": "M",
+      "label": "固定资产投资累计同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "pmi_manufacturing": {
+      "basis": "扩散指数，50 为临界点，不是经济增速百分比。",
+      "frequency": "M",
+      "label": "制造业 PMI",
+      "source": "国家统计局",
+      "unit": "指数点"
+    },
+    "pmi_nonmanufacturing": {
+      "basis": "扩散指数，50 为临界点，不是经济增速百分比。",
+      "frequency": "M",
+      "label": "非制造业商务活动指数",
+      "source": "国家统计局",
+      "unit": "指数点"
+    },
+    "retail_janfeb_yoy": {
+      "basis": "期间编码 YYYY-02 表示 1—2 月合计，不是 2 月单月。",
+      "frequency": "M",
+      "label": "社零 1—2 月合计名义同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "retail_yoy": {
+      "basis": "社会消费品零售总额，名义增速；1—2 月合并发布不拆成单月。",
+      "frequency": "M",
+      "label": "社零名义同比",
+      "source": "国家统计局",
+      "unit": "%"
+    }
+  },
+  "title": "景气、生产、消费与投资"
 }

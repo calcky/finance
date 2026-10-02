@@ -22,11 +22,16 @@ const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment
         await widget.locator("select").selectOption(period);
         assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(period));
         const pinned = await widget.locator(".gdp-readout").innerText();
-        const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 5});
+        const format = new Intl.NumberFormat("zh-CN", {maximumFractionDigits: 8});
         for (const key of spec.series) {
           const value = spec.values[key][period];
           assert(pinned.includes(value == null ? "缺失" : format.format(value)));
         }
+        // Early history must remain selectable independently of the visible
+        // zoom window, including archived definitions and calendar gaps.
+        await widget.locator("select").selectOption(spec.periods[0]);
+        assert.match(await widget.locator(".gdp-readout").innerText(), new RegExp(spec.periods[0]));
+        await widget.locator("select").selectOption(period);
         await widget.locator(".gdp-row-link").click();
         const row = page.locator(`#macro-${spec.id}-${period}`);
         assert(await row.isVisible());
@@ -41,7 +46,13 @@ const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment
         await canvas.scrollIntoViewIfNeeded();
         const hit = await canvas.evaluate((node, spec) => {
           const chart = echarts.getInstanceByDom(node);
-          const index = Math.max(1, spec.periods.findIndex(p => spec.values[spec.series[0]][p] != null));
+          const index = spec.periods.findIndex((p, i) => i > 0 && i < spec.periods.length - 1 && spec.values[spec.series[0]][p] != null);
+          if (index < 0) throw new Error("No observed interior point to click");
+          // Twenty years of daily dates can share a physical screen pixel.
+          // Zoom before asserting exact mouse selection; the dropdown above
+          // separately verifies exact dates at full-history scale.
+          const span = spec.frequency === "D" ? 60 : spec.frequency === "M" ? 24 : 8;
+          chart.dispatchAction({type: "dataZoom", startValue: Math.max(0, index - 5), endValue: Math.min(spec.periods.length - 1, index + span - 6)});
           const x = chart.convertToPixel({xAxisIndex: 0}, index);
           const y = chart.convertToPixel({yAxisIndex: 0}, spec.values[spec.series[0]][spec.periods[index]] ?? 0);
           const rect = node.getBoundingClientRect();
@@ -61,6 +72,10 @@ const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment
       const metaUrl = await downloads.nth(1).getAttribute("href");
       const metadata = await (await page.request.get(new URL(metaUrl, page.url()).href)).json();
       assert.equal(metadata.retrieved_at, await page.evaluate(() => FINANCE_MACRO.metadata.retrieved_at));
+      assert.equal(metadata.schema_version, 2);
+      for (const [key, coverage] of Object.entries(metadata.coverage)) {
+        assert(coverage.first <= coverage.last && coverage.count > 0, key);
+      }
       if (slug === "activity") {
         const widget = page.locator("#interactive-production-retail");
         await widget.locator("select").selectOption("2025-02");

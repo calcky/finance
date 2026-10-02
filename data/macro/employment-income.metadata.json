@@ -1,44 +1,51 @@
 {
-  "schema_version": 1,
-  "title": "就业与居民收入",
-  "series": {
-    "unemployment": {
-      "label": "城镇调查失业率",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "全国城镇调查口径，不等于登记失业率或青年失业率。"
-    },
+  "acquisition": {
     "income_nominal_ytd_yoy": {
-      "label": "可支配收入名义累计同比",
-      "unit": "%",
-      "frequency": "Q",
-      "source": "国家统计局",
-      "basis": "全国居民人均可支配收入，年内累计同比；Q2 指上半年而非单独第二季度。"
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "discovery_unparsed": [
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896813.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896815.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896839.html",
+        "https://www.stats.gov.cn/sj/xwfbh/xwfbhsp/202302/t20230221_1916380.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896855.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896878.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896885.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896898.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896905.html",
+        "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898924.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896957.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896986.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896995.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897008.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897018.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897026.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897042.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1895750.html"
+      ],
+      "first_observation": "2013-Q4",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
     },
     "income_real_ytd_yoy": {
-      "label": "可支配收入实际累计同比",
-      "unit": "%",
-      "frequency": "Q",
-      "source": "国家统计局",
-      "basis": "年内累计实际同比，扣除价格因素。"
-    },
-    "income_ytd": {
-      "label": "人均可支配收入累计金额",
-      "unit": "元/人",
-      "frequency": "Q",
-      "source": "国家统计局",
-      "basis": "年初至季度末累计，不把年末到次年一季度的重置解释为收入暴跌。"
-    }
-  },
-  "acquisition": {
-    "unemployment": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "coverage_note": "金额2013Q1起；本API实际增速2014Q1起；2013Q4 API值10.9与实际增速注释不一致，排除该API值并由原始官方公告补齐，不冒充实际增速。",
+      "first_observation": "2013-Q4",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=ec2d57ed282f456e8d025aff035b4fad",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
       "request": {
-        "cid": "ee3b7046b390415b9b7745e3d16f6052",
-        "indicatorIds": [
-          "3888eac6062945a79c8a27e5f13d4953"
-        ],
+        "cid": "ec2d57ed282f456e8d025aff035b4fad",
         "daCatalogId": "",
         "das": [
           {
@@ -47,27 +54,269 @@
           }
         ],
         "dts": [
-          "202401MM-202609MM"
+          "194901SS-202604SS"
         ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
+        "indicatorIds": [
+          "bb5699c5ad534b568cca7c946227225a",
+          "7abcbb6f7c844b669d43da985d3f6ff2"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
       },
-      "indicator_id": "3888eac6062945a79c8a27e5f13d4953",
-      "conversion": "identity",
-      "published_at": "接口未提供逐条发布日期"
-    },
-    "income_nominal_ytd_yoy": {
-      "archive": "https://www.stats.gov.cn/sj/zxfb/",
-      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
-    },
-    "income_real_ytd_yoy": {
-      "archive": "https://www.stats.gov.cn/sj/zxfb/",
-      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
     },
     "income_ytd": {
-      "archive": "https://www.stats.gov.cn/sj/zxfb/",
-      "parser": "官方季度报告：全国居民人均可支配收入表，括号内为实际增速"
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "coverage_note": "金额2013Q1起；本API实际增速2014Q1起；2013Q4 API值10.9与实际增速注释不一致，排除该API值并由原始官方公告补齐，不冒充实际增速。",
+      "first_observation": "2013-Q1",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=ec2d57ed282f456e8d025aff035b4fad",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
+      "request": {
+        "cid": "ec2d57ed282f456e8d025aff035b4fad",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "bb5699c5ad534b568cca7c946227225a",
+          "7abcbb6f7c844b669d43da985d3f6ff2"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
+    },
+    "unemployment": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "ee3b7046b390415b9b7745e3d16f6052",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "3888eac6062945a79c8a27e5f13d4953"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     }
   },
-  "retrieved_at": "2026-10-02T03:25:32+00:00"
+  "coverage": {
+    "income_nominal_ytd_yoy": {
+      "count": 51,
+      "first": "2013-Q4",
+      "last": "2026-Q2"
+    },
+    "income_real_ytd_yoy": {
+      "count": 51,
+      "first": "2013-Q4",
+      "last": "2026-Q2"
+    },
+    "income_ytd": {
+      "count": 54,
+      "first": "2013-Q1",
+      "last": "2026-Q2"
+    },
+    "unemployment": {
+      "count": 104,
+      "first": "2018-01",
+      "last": "2026-08"
+    }
+  },
+  "history": {
+    "income_nominal_ytd_yoy": {
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "discovery_unparsed": [
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896813.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896815.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896839.html",
+        "https://www.stats.gov.cn/sj/xwfbh/xwfbhsp/202302/t20230221_1916380.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896855.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896878.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896885.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896898.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896905.html",
+        "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898924.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896957.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896986.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896995.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897008.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897018.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897026.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897042.html",
+        "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1895750.html"
+      ],
+      "first_observation": "2013-Q4",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
+    },
+    "income_real_ytd_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "coverage_note": "金额2013Q1起；本API实际增速2014Q1起；2013Q4 API值10.9与实际增速注释不一致，排除该API值并由原始官方公告补齐，不冒充实际增速。",
+      "first_observation": "2013-Q4",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=ec2d57ed282f456e8d025aff035b4fad",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
+      "request": {
+        "cid": "ec2d57ed282f456e8d025aff035b4fad",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "bb5699c5ad534b568cca7c946227225a",
+          "7abcbb6f7c844b669d43da985d3f6ff2"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
+    },
+    "income_ytd": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage": "全国一体化住户调查；金额自2013年，增速仅保留官方明确且可核验期间，不推算缺失增速",
+      "coverage_note": "金额2013Q1起；本API实际增速2014Q1起；2013Q4 API值10.9与实际增速注释不一致，排除该API值并由原始官方公告补齐，不冒充实际增速。",
+      "first_observation": "2013-Q1",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=ec2d57ed282f456e8d025aff035b4fad",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "2013-Q1"
+        }
+      ],
+      "request": {
+        "cid": "ec2d57ed282f456e8d025aff035b4fad",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "bb5699c5ad534b568cca7c946227225a",
+          "7abcbb6f7c844b669d43da985d3f6ff2"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "search_api": "https://api.so-gov.cn/query/s",
+      "search_url": "https://www.stats.gov.cn/search/s"
+    },
+    "unemployment": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "ee3b7046b390415b9b7745e3d16f6052",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "3888eac6062945a79c8a27e5f13d4953"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    }
+  },
+  "history_checked_at": "2026-10-02T10:37:59+00:00",
+  "retrieved_at": "2026-10-02T10:37:59+00:00",
+  "schema_version": 2,
+  "series": {
+    "income_nominal_ytd_yoy": {
+      "basis": "全国居民人均可支配收入，年内累计同比；Q2 指上半年而非单独第二季度。",
+      "frequency": "Q",
+      "label": "可支配收入名义累计同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "income_real_ytd_yoy": {
+      "basis": "年内累计实际同比，扣除价格因素。",
+      "frequency": "Q",
+      "label": "可支配收入实际累计同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "income_ytd": {
+      "basis": "年初至季度末累计，不把年末到次年一季度的重置解释为收入暴跌。",
+      "frequency": "Q",
+      "label": "人均可支配收入累计金额",
+      "source": "国家统计局",
+      "unit": "元/人"
+    },
+    "unemployment": {
+      "basis": "全国城镇调查口径，不等于登记失业率或青年失业率。",
+      "frequency": "M",
+      "label": "城镇调查失业率",
+      "source": "国家统计局",
+      "unit": "%"
+    }
+  },
+  "title": "就业与居民收入"
 }

@@ -9,6 +9,7 @@ from http.cookiejar import CookieJar
 import re
 import time
 from urllib.request import Request, build_opener, HTTPCookieProcessor
+from urllib.parse import urlencode
 
 from macro_catalog import SERIES
 
@@ -17,9 +18,13 @@ _last_request = 0
 OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 
 
-def fetch(url, body=None):
+def fetch(url, body=None, *, form=None):
     global _last_request
     encoded = json.dumps(body, ensure_ascii=False).encode() if body is not None else None
+    if form is not None:
+        if body is not None:
+            raise ValueError("Choose JSON or form, not both")
+        encoded = urlencode(form).encode()
     key = hashlib.sha256(url.encode() + (encoded or b"")).hexdigest()
     cache = Path(CACHE) / key if CACHE else None
     if cache and cache.exists():
@@ -30,6 +35,8 @@ def fetch(url, body=None):
     headers = {"User-Agent": "finance-educational-data/1.0", "Accept": "*/*"}
     if body is not None:
         headers["Content-Type"] = "application/json;charset=UTF-8"
+    if form is not None:
+        headers["Content-Type"] = "application/x-www-form-urlencoded"
     with OPENER.open(Request(url, data=encoded, headers=headers), timeout=45) as response:
         data = response.read()
     if cache:

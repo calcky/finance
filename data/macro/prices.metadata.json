@@ -1,238 +1,2714 @@
 {
-  "schema_version": 1,
-  "title": "物价与通胀",
-  "series": {
-    "cpi_yoy": {
-      "label": "CPI 同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "core_cpi_yoy": {
-      "label": "核心 CPI 同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "cpi_mom": {
-      "label": "CPI 环比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "ppi_yoy": {
-      "label": "PPI 同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "food_cpi_yoy": {
-      "label": "食品价格同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "nonfood_cpi_yoy": {
-      "label": "非食品价格同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    },
-    "services_cpi_yoy": {
-      "label": "服务价格同比",
-      "unit": "%",
-      "frequency": "M",
-      "source": "国家统计局",
-      "basis": "官方价格涨跌幅；2026 年换基后单独展示，不拼接旧分类历史。"
-    }
-  },
   "acquisition": {
-    "cpi_yoy": {
-      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
-        "indicatorIds": [
-          "53180dfb9c14411ba4b762307c85920c",
-          "71be3d43d2fb44188199840272463ae0",
-          "f91a869a255949ccba0cd73cfa871340",
-          "c87191b714554e9eba8c2c062abfabb4"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "53180dfb9c14411ba4b762307c85920c",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
-    },
     "core_cpi_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
-        "indicatorIds": [
-          "53180dfb9c14411ba4b762307c85920c",
-          "71be3d43d2fb44188199840272463ae0",
-          "f91a869a255949ccba0cd73cfa871340",
-          "c87191b714554e9eba8c2c062abfabb4"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "71be3d43d2fb44188199840272463ae0",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
     },
     "cpi_mom": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "b4fad2cf9e0e4af7815b7e9e2e95c5c7",
-        "indicatorIds": [
-          "f3904a1f5a384d54a3944ec6e2df3d1c"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "f3904a1f5a384d54a3944ec6e2df3d1c",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "1949-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "b4fad2cf9e0e4af7815b7e9e2e95c5c7",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "f3904a1f5a384d54a3944ec6e2df3d1c"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "bc985d1741a94451880c606022a8fe00",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "384ddbda2edc47969caa98263f16231b"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "42132fae9f2244818f0480b4c422615c",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "0dc091b5194c46afaf10369d5c55676a"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "e6664817f0cd427783cd397770695634",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "e437d965279d41ceb9ace591b62f6ffc"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
-    "ppi_yoy": {
+    "cpi_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "60e8b361f11c4a878c652a6487a25561",
-        "indicatorIds": [
-          "150633e52b9a470a9a9fd1b296dd6c5b"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "150633e52b9a470a9a9fd1b296dd6c5b",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "1949-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "954cfd7597e34b919ec71caf6aeead51",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4c1065dd4e984b25a21190c843551697"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "9d4eec43537742a7ab5d63db97fa2f51",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "e5c318ffdbbc4d38898e52b52267eb25"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "food_cpi_legacy_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2000-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "deccae3d6ecb4967809ab21a3c679c7f",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "09373c3f8fdd428fa1b289925da6d590"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "food_cpi_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "deccae3d6ecb4967809ab21a3c679c7f",
-        "indicatorIds": [
-          "09373c3f8fdd428fa1b289925da6d590"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "09373c3f8fdd428fa1b289925da6d590",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2001-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "deccae3d6ecb4967809ab21a3c679c7f",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "09373c3f8fdd428fa1b289925da6d590"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "nonfood_cpi_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
-        "indicatorIds": [
-          "53180dfb9c14411ba4b762307c85920c",
-          "71be3d43d2fb44188199840272463ae0",
-          "f91a869a255949ccba0cd73cfa871340",
-          "c87191b714554e9eba8c2c062abfabb4"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "f91a869a255949ccba0cd73cfa871340",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
+    },
+    "ppi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "60e8b361f11c4a878c652a6487a25561",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "150633e52b9a470a9a9fd1b296dd6c5b"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
     },
     "services_cpi_yoy": {
       "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
-      "request": {
-        "cid": "5c7452825c7c4dcba391db5ca7f335c5",
-        "indicatorIds": [
-          "53180dfb9c14411ba4b762307c85920c",
-          "71be3d43d2fb44188199840272463ae0",
-          "f91a869a255949ccba0cd73cfa871340",
-          "c87191b714554e9eba8c2c062abfabb4"
-        ],
-        "daCatalogId": "",
-        "das": [
-          {
-            "text": "全国",
-            "value": "000000000000"
-          }
-        ],
-        "dts": [
-          "202601MM-202609MM"
-        ],
-        "showType": "1",
-        "rootId": "fc982599aa684be7969d7b90b1bd0e84"
-      },
-      "indicator_id": "c87191b714554e9eba8c2c062abfabb4",
-      "conversion": "index100",
-      "published_at": "接口未提供逐条发布日期"
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
     }
   },
-  "retrieved_at": "2026-10-02T03:25:30+00:00"
+  "coverage": {
+    "core_cpi_yoy": {
+      "count": 164,
+      "first": "2013-01",
+      "last": "2026-08"
+    },
+    "cpi_mom": {
+      "count": 320,
+      "first": "2000-01",
+      "last": "2026-08"
+    },
+    "cpi_yoy": {
+      "count": 344,
+      "first": "1998-01",
+      "last": "2026-08"
+    },
+    "food_cpi_legacy_yoy": {
+      "count": 36,
+      "first": "1998-01",
+      "last": "2000-12"
+    },
+    "food_cpi_yoy": {
+      "count": 308,
+      "first": "2001-01",
+      "last": "2026-08"
+    },
+    "nonfood_cpi_yoy": {
+      "count": 280,
+      "first": "2002-03",
+      "last": "2026-08"
+    },
+    "ppi_yoy": {
+      "count": 404,
+      "first": "1993-01",
+      "last": "2026-08"
+    },
+    "services_cpi_yoy": {
+      "count": 289,
+      "first": "2001-10",
+      "last": "2026-08"
+    }
+  },
+  "history": {
+    "core_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
+    },
+    "cpi_mom": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "1949-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "b4fad2cf9e0e4af7815b7e9e2e95c5c7",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "f3904a1f5a384d54a3944ec6e2df3d1c"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "bc985d1741a94451880c606022a8fe00",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "384ddbda2edc47969caa98263f16231b"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "42132fae9f2244818f0480b4c422615c",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "0dc091b5194c46afaf10369d5c55676a"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "e6664817f0cd427783cd397770695634",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "e437d965279d41ceb9ace591b62f6ffc"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "1949-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "954cfd7597e34b919ec71caf6aeead51",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4c1065dd4e984b25a21190c843551697"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "9d4eec43537742a7ab5d63db97fa2f51",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "e5c318ffdbbc4d38898e52b52267eb25"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "food_cpi_legacy_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2000-12",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "deccae3d6ecb4967809ab21a3c679c7f",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "09373c3f8fdd428fa1b289925da6d590"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "food_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2001-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "deccae3d6ecb4967809ab21a3c679c7f",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "09373c3f8fdd428fa1b289925da6d590"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "nonfood_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
+    },
+    "ppi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "1949-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "60e8b361f11c4a878c652a6487a25561",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "150633e52b9a470a9a9fd1b296dd6c5b"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ]
+    },
+    "services_cpi_yoy": {
+      "api_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
+      "refresh_ranges": [
+        {
+          "end": "2026-10",
+          "start": "2026-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "1900-01"
+        }
+      ],
+      "requests": [
+        {
+          "cid": "5c7452825c7c4dcba391db5ca7f335c5",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "53180dfb9c14411ba4b762307c85920c",
+            "71be3d43d2fb44188199840272463ae0",
+            "f91a869a255949ccba0cd73cfa871340",
+            "c87191b714554e9eba8c2c062abfabb4"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        },
+        {
+          "cid": "809d2522b0fe4be89142650341b19083",
+          "daCatalogId": "",
+          "das": [
+            {
+              "text": "全国",
+              "value": "000000000000"
+            }
+          ],
+          "dts": [
+            "194901MM-202610MM"
+          ],
+          "indicatorIds": [
+            "4ae9047687934a6390984c21d6ddab96",
+            "c2050e97c49a4763a6d0f0f38bf0b4ed",
+            "728da4f1859140139194110824b700e1",
+            "e330ad10ab224cfda1f25db93bf04d01"
+          ],
+          "rootId": "fc982599aa684be7969d7b90b1bd0e84",
+          "showType": "1"
+        }
+      ],
+      "supplemental_sources": [
+        {
+          "archive": "https://www.stats.gov.cn/search/s",
+          "archive_supplements": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919188.html": {
+              "published": "2010-03-11",
+              "title": "1-2月份国民经济主要指标数据"
+            }
+          },
+          "articles_without_target_components": [
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920167.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920172.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920173.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920180.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920187.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920196.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920204.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920206.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920213.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920217.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920221.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920227.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920106.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920156.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919760.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919791.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919826.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919858.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919874.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
+          ],
+          "coverage_note": "遍历官方搜索1900年至2021年1月CPI标题分区及全部分页，以分项词和国民经济标题补查早期经济运行公告、新闻发布会文字稿及已核验归档页；搜索索引存在漏收，早期缺少某分项则保留缺口，不把本项目最早有效公告等同官方首次发布。",
+          "examined_articles": 280,
+          "queries": [
+            {
+              "end": "2010-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 120
+            },
+            {
+              "end": "2015-12-31",
+              "pages": 6,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": true,
+              "total_hits": 101
+            },
+            {
+              "end": "2021-01-31",
+              "pages": 11,
+              "query": "(\"居民消费价格\")",
+              "start": "2016-01-01",
+              "title_only": true,
+              "total_hits": 219
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 169
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 9,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 176
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 12,
+              "query": "(\"国民经济\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 230
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"主要统计数据\")",
+              "start": "1900-01-01",
+              "title_only": true,
+              "total_hits": 1
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 3,
+              "query": "(\"非食品\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 52
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 5,
+              "query": "(\"非食品\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 85
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 6,
+              "query": "(\"服务项目\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 103
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 7,
+              "query": "(\"服务项目\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 126
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "1900-01-01",
+              "title_only": false,
+              "total_hits": 9
+            },
+            {
+              "end": "2013-01-31",
+              "pages": 1,
+              "query": "(\"扣除食品和能源\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2000-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2000-01-01",
+              "title_only": false,
+              "total_hits": 1
+            },
+            {
+              "end": "2001-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2001-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2002-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2002-01-01",
+              "title_only": false,
+              "total_hits": 18
+            },
+            {
+              "end": "2003-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2003-01-01",
+              "title_only": false,
+              "total_hits": 17
+            },
+            {
+              "end": "2004-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2004-01-01",
+              "title_only": false,
+              "total_hits": 23
+            },
+            {
+              "end": "2005-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2005-01-01",
+              "title_only": false,
+              "total_hits": 24
+            },
+            {
+              "end": "2006-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2006-01-01",
+              "title_only": false,
+              "total_hits": 38
+            },
+            {
+              "end": "2007-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2007-01-01",
+              "title_only": false,
+              "total_hits": 39
+            },
+            {
+              "end": "2008-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2008-01-01",
+              "title_only": false,
+              "total_hits": 21
+            },
+            {
+              "end": "2009-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2009-01-01",
+              "title_only": false,
+              "total_hits": 32
+            },
+            {
+              "end": "2010-12-31",
+              "pages": 2,
+              "query": "(\"居民消费价格\")",
+              "start": "2010-01-01",
+              "title_only": false,
+              "total_hits": 22
+            },
+            {
+              "end": "2011-12-31",
+              "pages": 1,
+              "query": "(\"居民消费价格\")",
+              "start": "2011-01-01",
+              "title_only": false,
+              "total_hits": 20
+            }
+          ],
+          "refresh_ranges": [
+            {
+              "end": "2020-12",
+              "start": "1900-01"
+            }
+          ],
+          "search_api": "https://api.so-gov.cn/query/s"
+        }
+      ]
+    }
+  },
+  "history_checked_at": "2026-10-02T10:37:57+00:00",
+  "retrieved_at": "2026-10-02T10:37:57+00:00",
+  "schema_version": 2,
+  "series": {
+    "core_cpi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "核心 CPI 同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "cpi_mom": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "CPI 环比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "cpi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "CPI 同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "food_cpi_legacy_yoy": {
+      "basis": "2001 年前食品分类包含烟酒，与此后的食品分类区分保留。",
+      "frequency": "M",
+      "label": "食品价格同比（2001 年前旧分类）",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "food_cpi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "食品价格同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "nonfood_cpi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "非食品价格同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "ppi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "PPI 同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "services_cpi_yoy": {
+      "basis": "官方各期同比/环比涨跌幅；保留各期权重和分类，不把换基误作只有当年数据，也不连乘同比构造价格指数。",
+      "frequency": "M",
+      "label": "服务价格同比",
+      "source": "国家统计局",
+      "unit": "%"
+    }
+  },
+  "title": "物价与通胀"
 }

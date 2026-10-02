@@ -3,6 +3,7 @@
 import argparse
 import csv
 from datetime import datetime, timezone
+from decimal import Decimal
 import json
 from pathlib import Path
 import shutil
@@ -32,62 +33,166 @@ def validate(rows, keys):
         raise ValueError("Missing entire series")
 
 
-def merge(previous, current, keys):
-    validate(current, keys)
+def merge(previous, current, keys, refresh_ranges=None):
+    current_keys = {r["series_id"] for r in current}
+    validate(current, current_keys if refresh_ranges is not None else keys)
     if previous:
-        validate(previous, keys)
+        validate(previous, {r["series_id"] for r in previous})
     fresh = {(r["series_id"], r["period"]): r for r in current}
     # Rolling sources keep history before their current window. Missing known
     # observations within the window (including its former end) fail closed.
     for key in keys:
         new = [r["period"] for r in current if r["series_id"] == key]
         for old in previous:
-            if old["series_id"] == key and (key not in ROLLING or old["period"] >= min(new)) and (key, old["period"]) not in fresh:
+            covered = (key not in ROLLING or (new and old["period"] >= min(new))) if refresh_ranges is None else any(
+                span["start"] <= old["period"] <= span["end"] for span in refresh_ranges.get(key, []))
+            if old["series_id"] == key and covered and (key, old["period"]) not in fresh:
                 raise ValueError(f"Source withdrew known observation {key}/{old['period']}")
     merged = {(r["series_id"], r["period"]): r for r in previous}
     merged.update(fresh)
     return sorted(merged.values(), key=lambda r: (r["series_id"], r["period"]))
 
 
+def combine(batches):
+    """Only identical overlaps can merge; conflicting sources need explicit policy."""
+    observations, metadata = {}, {}
+    for rows, details in batches:
+        if not isinstance(details, dict):
+            raise ValueError("Missing collector metadata")
+        for key, detail in details.items():
+            if detail.get("requested_window_complete") is False or detail.get("failed_urls"):
+                raise ValueError(f"Incomplete source crawl: {key}")
+        for row in rows:
+            identity = row["series_id"], row["period"]
+            old = observations.get(identity)
+            if old and Decimal(old["value"]) != Decimal(row["value"]):
+                raise ValueError(f"Conflicting source observations: {identity}")
+            observations[identity] = row
+        for key, detail in details.items():
+            if key not in metadata:
+                metadata[key] = detail
+            else:
+                old = metadata[key]
+                metadata[key] = dict(old, refresh_ranges=old.get("refresh_ranges", []) + detail.get("refresh_ranges", []),
+                                     supplemental_sources=old.get("supplemental_sources", []) + [detail])
+    return list(observations.values()), metadata
+
+
+def trade_reconciliation(rows):
+    """Expose reported-vs-calculated source differences; never alter the quote."""
+    values = {(r["series_id"], r["period"]): Decimal(r["value"]) for r in rows}
+    differences = []
+    for period in sorted(p for key, p in values if key == "trade_balance"):
+        triple = [values[key, period] for key in ("exports", "imports", "trade_balance")]
+        exports, imports, reported = triple
+        residual = exports - imports - reported
+        precision = sum(Decimal(10) ** v.normalize().as_tuple().exponent / 2 for v in triple)
+        if abs(residual) > precision:
+            differences.append(dict(period=period, exports=str(exports), imports=str(imports),
+                                    reported_balance=str(reported), calculated_balance=str(exports-imports),
+                                    residual=str(residual), unit="亿美元"))
+    return differences
+
+
+def needs_history(meta, now):
+    stamps = [datetime.fromisoformat(meta[k]) for k in ("retrieved_at", "history_checked_at") if meta.get(k)]
+    return not meta.get("history") or not stamps or (now - max(stamps)).days >= 60
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--render-only", action="store_true")
+    parser.add_argument("--backfill", action="store_true", help="Exhaust official history archives; slower than routine refresh")
+    parser.add_argument("--source-snapshots", nargs="+", type=Path, help="Import separately verified collector outputs for a resumable initial backfill")
     parser.add_argument("--cache-dir", help="Development only: reuse source responses; never used by scheduled sync")
     parser.add_argument("--preview-dir", type=Path)
     parser.add_argument("--font")
     args = parser.parse_args()
     macro_common.CACHE = args.cache_dir
+    if not args.render_only and not args.source_snapshots and not args.backfill:
+        for slug in TOPICS:
+            meta_path = ROOT / f"data/macro/{slug}.metadata.json"
+            meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
+            if needs_history(meta, datetime.now(timezone.utc)):
+                print("Missing/stale historical snapshot: running a full backfill", flush=True)
+                args.backfill = True
+                break
     fetched, acquisition = [], {}
     if not args.render_only:
-        from macro_nbs import collect_json, collect_income
-        from macro_pbc import collect
-        for collector in (collect_json, collect_income, collect):
-            rows, details = collector()
-            fetched.extend(rows)
-            acquisition.update(details)
-        validate(fetched, SERIES)
+        if args.source_snapshots:
+            batches = []
+            for path in args.source_snapshots:
+                snapshot = json.loads(path.read_text(encoding="utf-8"))
+                batches.append((snapshot["rows"], snapshot.get("meta", snapshot.get("metadata"))))
+        else:
+            from macro_nbs_history import collect as nbs
+            from macro_income_history import collect as income
+            from macro_money_history import collect as money
+            from macro_market_history import collect as market
+            from macro_repo_history import collect as repo
+            from macro_nbs_cpi_releases import collect as cpi_releases
+            batches = [collector(backfill=args.backfill) for collector in (nbs, income, money, market, repo, cpi_releases)]
+        fetched, acquisition = combine(batches)
+        if args.backfill and acquisition.get("repo_7d", {}).get("complete_archive") is not True:
+            raise ValueError("Full backfill requires a completed reverse-repo archive audit")
+        validate(fetched, {r["series_id"] for r in fetched})
+        expected = {key for topic in TOPICS.values() for key in topic_series(topic)}
+        if set(SERIES) != expected or {r["series_id"] for r in fetched} - expected:
+            raise ValueError("Series catalogue and topic coverage differ")
     with tempfile.TemporaryDirectory(prefix="finance-macro-") as temporary:
         staging = Path(temporary)
         for slug, topic in TOPICS.items():
             keys = topic_series(topic)
             path = ROOT / f"data/macro/{slug}.csv"
-            old, old_meta = load_topic(slug) if path.exists() else ([], {})
+            old, old_meta = load_topic(slug, ROOT) if path.exists() else ([], {})
             if args.render_only:
                 rows, meta = old, old_meta
                 validate(rows, keys)
             else:
-                rows = merge(old, [r for r in fetched if r["series_id"] in keys], keys)
-                meta = dict(schema_version=1, title=topic["title"], series={k: SERIES[k] for k in keys},
-                            acquisition={k: acquisition[k] for k in keys})
+                ranges = {k: acquisition.get(k, {}).get("refresh_ranges", []) for k in keys}
+                if args.backfill:
+                    # A full archive audit also covers every previously saved
+                    # point, even if its source index/first page disappeared.
+                    for key in keys:
+                        prior_periods = [r["period"] for r in old if r["series_id"] == key]
+                        if prior_periods:
+                            ranges[key] = ranges[key] + [{"start": min(prior_periods), "end": max(prior_periods)}]
+                rows = merge(old, [r for r in fetched if r["series_id"] in keys], keys, ranges)
+                validate(rows, keys)
+                prior_sources = old_meta.get("acquisition", {})
+                sources = {k: acquisition.get(k, prior_sources.get(k, {})) for k in keys}
+                # Retain initial archive provenance when daily refresh covers a
+                # smaller window; no daily timestamp churn for unchanged data.
+                history = old_meta.get("history", {})
+                if args.backfill:
+                    history = {k: sources[k] for k in keys}
+                meta = dict(schema_version=2, title=topic["title"], series={k: SERIES[k] for k in keys},
+                            acquisition=sources, history=history,
+                            coverage={k: {"first": min(r["period"] for r in rows if r["series_id"] == k),
+                                          "last": max(r["period"] for r in rows if r["series_id"] == k),
+                                          "count": sum(r["series_id"] == k for r in rows)} for k in keys})
+                if slug == "trade-fx":
+                    meta["reported_balance_differences"] = trade_reconciliation(rows)
+                if args.backfill:
+                    meta["history_checked_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+                elif old_meta.get("history_checked_at"):
+                    meta["history_checked_at"] = old_meta["history_checked_at"]
                 old_compare = {k: v for k, v in old_meta.items() if k != "retrieved_at"}
                 meta["retrieved_at"] = old_meta["retrieved_at"] if old == rows and old_compare == meta else datetime.now(timezone.utc).isoformat(timespec="seconds")
+                # Acquisition parameters describe the saved snapshot. A new
+                # check date or rolling query boundary alone is not new data;
+                # successful unchanged checks remain visible in Actions logs.
+                stable_fields = {k: v for k, v in meta.items() if k not in ("acquisition", "retrieved_at")}
+                prior_fields = {k: v for k, v in old_meta.items() if k not in ("acquisition", "retrieved_at")}
+                if not args.backfill and old == rows and prior_fields == stable_fields:
+                    meta = old_meta
             directory = staging / "data/macro"
             directory.mkdir(parents=True, exist_ok=True)
             with (directory / f"{slug}.csv").open("w", encoding="utf-8", newline="") as f:
                 writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n")
                 writer.writeheader()
                 writer.writerows(rows)
-            (directory / f"{slug}.metadata.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+            (directory / f"{slug}.metadata.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2, allow_nan=False, sort_keys=True) + "\n", encoding="utf-8")
             render(slug, rows, meta, staging, args.font, args.preview_dir)
             print(slug, len(rows), "observations rendered", flush=True)
         # No source/parser/render failure can leave a partially refreshed snapshot.
