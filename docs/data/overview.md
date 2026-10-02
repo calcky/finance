@@ -3,33 +3,33 @@
 
 先看增长与物价，再看融资条件、家庭状况和对外收支。每张卡片保留指标自己的统计期，帮助选择下一步要读的专题。
 
-**读法：最新值 → 前次观测 → 历史范围 → 查口径。** 位置条显示最近五个日历年内已收录观测的最低值、最高值与最新位置；向右只表示数值较高。年度 GDP 用于长期背景，季度 GDP 尚未接入。
+**读法：最新值 → 前次观测 → 历史范围 → 查口径。** 位置条显示最近五个日历年内已收录观测的最低值、最高值与最新位置；向右只表示数值较高。[季度 GDP](quarterly-gdp.md)观察近期增长，[年度 GDP](gdp.md)用于长期背景。
 
 ## 增长与景气
 
-先用年度产出看背景，再用月度调查观察方向。
+先看季度产出的实际增长，再用月度调查观察方向；年度 GDP 保留作长期背景。
 
 ::::{container} overview-grid
 
-:::{admonition} GDP 实际年度增速
+:::{admonition} GDP当季实际同比
 :class: overview-card
-:name: overview-gdp_growth
+:name: overview-gdp_q_yoy
 
-**4.95994886 %**
+**4.3 %**
 
-统计期 **2025** · 年度
+统计期 **2026-Q2** · 季度（独立单季）
 
-上一有效观测：2024 · 4.95830379 %；差值 **+0.00164507 个百分点**。
+上一有效观测：2026-Q1 · 5 %；差值 **-0.7 个百分点**。
 
-<div class="overview-range" role="img" aria-label="2025 的值为 4.95994886 %；区间最低 3.13385438，最高 8.57038415"><span style="left:33.5893%"></span></div>
+<div class="overview-range" role="img" aria-label="2026-Q2 的值为 4.3 %；区间最低 0.8，最高 6.5"><span style="left:61.4035%"></span></div>
 
-范围：**3.13385438 — 8.57038415 %**；2021 至 2025，5 个有效观测。
+范围：**0.8 — 6.5 %**；2022-Q1 至 2026-Q2，18 个有效观测。
 
-年度实际增长，不代表本月或本季度的经济增速。
+独立本季度与上年同季度比较；不是年内累计，也不是季调环比。
 
-[查看完整历史与口径](gdp.md) · [来源：World Bank WDI](https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD.ZG?source=2&date=2025&format=json)
+[查看完整历史与口径](quarterly-gdp.md) · [来源：国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData)
 
-本项目覆盖 1961 至 2025（65 条）。来源发布日期：未提供逐条日期；快照获取：2026-10-01T15:44:06+00:00。
+本项目覆盖 1993-Q1 至 2026-Q2（134 条）。来源发布日期：未提供逐条日期；快照获取：2026-10-02T12:42:00+00:00。
 :::
 
 
@@ -257,7 +257,7 @@
 
 Q2 是上半年、Q3 是前三季度；前后累计同比之差不是单季增速。
 
-[查看完整历史与口径](employment-income.md) · [来源：国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData)
+[查看完整历史与口径](employment-income.md) · [来源：国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData)
 
 本项目覆盖 2013-Q4 至 2026-Q2（51 条）。来源发布日期：未提供逐条日期；快照获取：2026-10-02T10:37:59+00:00。
 :::

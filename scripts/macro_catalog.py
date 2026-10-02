@@ -1,4 +1,4 @@
-"""Definitions and reading guidance for the six China macro data topics."""
+"""Definitions and reading guidance for the China macro data topics."""
 
 SERIES = {}
 
@@ -52,6 +52,20 @@ define("retail_janfeb_yoy", "社零 1—2 月合计名义同比", "%", "M", "国
 define("food_cpi_legacy_yoy", "食品价格同比（2001 年前旧分类）", "%", "M", "国家统计局", "2001 年前食品分类包含烟酒，与此后的食品分类区分保留。")
 
 
+for prefix, label in [("gdp", "GDP"), ("gdp_primary", "第一产业增加值"),
+                      ("gdp_secondary", "第二产业增加值"), ("gdp_tertiary", "第三产业增加值")]:
+    define(prefix + "_q_nominal", label + "当季现价金额", "亿元", "Q", "国家统计局",
+           "独立单季、现价增加值，未季调；包含价格与季节性影响，不用金额变化推算实际增长。")
+    define(prefix + "_q_yoy", label + "当季实际同比", "%", "Q", "国家统计局",
+           "按不变价计算，与上年同季相比；官方上年同期=100指数减100，不是产业增长贡献率。")
+define("gdp_ytd_nominal", "GDP 年内累计现价金额", "亿元", "Q", "国家统计局",
+       "年初至季度末的现价增加值；Q2为上半年，Q4为全年；不用累计同比作差得到单季增速。")
+define("gdp_ytd_yoy", "GDP 年内累计实际同比", "%", "Q", "国家统计局",
+       "按不变价计算，比较本年与上年相同累计期间；不是各季度同比的简单平均。")
+define("gdp_qoq_sa", "GDP 季调实际环比", "%", "Q", "国家统计局",
+       "季节调整后相对上一季度的实际增速，非年化；直接采用官方百分比，历史会随季调模型更新修订。")
+
+
 def chart(id, title, series, explanation, baseline=None):
     result = dict(id=id, title=title, series=series, explanation=explanation)
     if baseline is not None:
@@ -60,6 +74,17 @@ def chart(id, title, series, explanation, baseline=None):
 
 
 TOPICS = {
+    "quarterly-gdp": {
+        "title": "中国季度 GDP", "question": "这个季度产出增长多快，和累计增长、上一季度有什么不同？",
+        "intro": "使用国家统计局修订后的季度历史，分别展示当季、年内累计和季调环比。现价金额包含价格变化，实际增速剔除价格影响。季度资料与 World Bank 年度 GDP 独立保留，不混接。",
+        "charts": [
+            chart("gdp-quarter-yoy", "GDP：当季与累计实际同比", ["gdp_q_yoy", "gdp_ytd_yoy"], "当季同比比较本季与上年同季；累计同比比较年初至今与上年同期，例如 Q2 累计是上半年。两者不能相减得到其他季度增速。低基数会放大同比，应结合下一张环比图。", 0),
+            chart("gdp-quarter-qoq", "GDP：季调实际环比", ["gdp_qoq_sa"], "比较剔除季节因素后的本季与上季，非年化。0.9% 表示比上季增长 0.9%，不是同比，也不是年增长率。历史值会随新数据和季调模型修订。", 0),
+            chart("gdp-quarter-nominal", "GDP：当季现价金额", ["gdp_q_nominal"], "每个点是独立一个季度的产出增加值，未季调。年内起伏包含季节性；金额增长也包含价格因素，不能当作实际增速。累计金额在下方另列。"),
+            chart("gdp-quarter-sectors", "三次产业：当季实际同比", ["gdp_primary_q_yoy", "gdp_secondary_q_yoy", "gdp_tertiary_q_yoy"], "比较农业相关、工业建筑相关和服务业的增长节奏；准确分类见口径说明。产业增速不能相加，也不等于对 GDP 增长的贡献率。", 0),
+        ], "extra": ["gdp_ytd_nominal", "gdp_primary_q_nominal", "gdp_secondary_q_nominal", "gdp_tertiary_q_nominal"],
+        "reading": "data/quarterly-gdp-methodology",
+    },
     "prices": {
         "title": "物价与通胀", "question": "消费端和生产端价格怎样变化，涨价是否广泛？",
         "intro": "CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工业生产者出厂价格。同比看相对上年同月，环比看相对上月，不能把同比序列连乘成价格水平。历史涨跌幅按官方发布保留；各期权重、分类变化和确实缺失的时期另作说明。",

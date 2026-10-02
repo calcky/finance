@@ -1,0 +1,996 @@
+{
+  "acquisition": {
+    "gdp_primary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "a26bbeef7cac49ef9162c2411e0b211e",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_primary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "6be0a577e9ca470c9b5bb2a20805dd97",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "d22612f09aeb4241bc557ef0ac61b3ba",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "170e7f00f8c24ede863c0526b42ae81f",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_qoq_sa": {
+      "annotation": "环比增长速度为经季节调整后与上一季度对比的增长速度。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "环比增减%",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "88bcaf76058e49b08a45b14a204b2d3d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=2b0aa179980e41b8b636037ebae01d91",
+      "raw_unit": "%",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "2b0aa179980e41b8b636037ebae01d91",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "88bcaf76058e49b08a45b14a204b2d3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_secondary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_secondary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "db8aa034185e4b09a345bf4bb36be0eb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_tertiary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "5f9d870499024341862a97826d66ec3d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_tertiary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "bb45bc3960bd443caa67eb3b0118f123",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_ytd_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期累计",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "8c5fab362d124fa7b91af833b3bd7397",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_ytd_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期累计",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "f5b82b2b6ad345a29a337d256a9d5ded",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "coverage": {
+    "gdp_primary_q_nominal": {
+      "count": 138,
+      "first": "1992-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_primary_q_yoy": {
+      "count": 134,
+      "first": "1993-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_q_nominal": {
+      "count": 138,
+      "first": "1992-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_q_yoy": {
+      "count": 134,
+      "first": "1993-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_qoq_sa": {
+      "count": 62,
+      "first": "2011-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_secondary_q_nominal": {
+      "count": 138,
+      "first": "1992-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_secondary_q_yoy": {
+      "count": 134,
+      "first": "1993-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_tertiary_q_nominal": {
+      "count": 138,
+      "first": "1992-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_tertiary_q_yoy": {
+      "count": 134,
+      "first": "1993-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_ytd_nominal": {
+      "count": 138,
+      "first": "1992-Q1",
+      "last": "2026-Q2"
+    },
+    "gdp_ytd_yoy": {
+      "count": 134,
+      "first": "1993-Q1",
+      "last": "2026-Q2"
+    }
+  },
+  "history": {
+    "gdp_primary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "a26bbeef7cac49ef9162c2411e0b211e",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_primary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "6be0a577e9ca470c9b5bb2a20805dd97",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "d22612f09aeb4241bc557ef0ac61b3ba",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "170e7f00f8c24ede863c0526b42ae81f",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_qoq_sa": {
+      "annotation": "环比增长速度为经季节调整后与上一季度对比的增长速度。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "环比增减%",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "88bcaf76058e49b08a45b14a204b2d3d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=2b0aa179980e41b8b636037ebae01d91",
+      "raw_unit": "%",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "2b0aa179980e41b8b636037ebae01d91",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "88bcaf76058e49b08a45b14a204b2d3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_secondary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_secondary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "db8aa034185e4b09a345bf4bb36be0eb",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_tertiary_q_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "5f9d870499024341862a97826d66ec3d",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_tertiary_q_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "bb45bc3960bd443caa67eb3b0118f123",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_ytd_nominal": {
+      "annotation": "按当年价格计算。累计数据由当季数据相加得到。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期累计",
+      "conversion": "identity",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "8c5fab362d124fa7b91af833b3bd7397",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=28d936104e304aa191e338eb82b6dc09",
+      "raw_unit": "亿元",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "28d936104e304aa191e338eb82b6dc09",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "d22612f09aeb4241bc557ef0ac61b3ba",
+          "8c5fab362d124fa7b91af833b3bd7397",
+          "a26bbeef7cac49ef9162c2411e0b211e",
+          "4c9eec4f1cdd4c138ed3a25c9cb9cbaf",
+          "5f9d870499024341862a97826d66ec3d"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    },
+    "gdp_ytd_yoy": {
+      "annotation": "本表按不变价格计算。\n三次产业分类依据国家统计局2018年修订的《三次产业划分规定》。第一产业是指农、林、牧、渔业（不含农、林、牧、渔专业及辅助性活动）；第二产业是指采矿业（不含开采专业及辅助性活动），制造业（不含金属制品、机械和设备修理业），电力、热力、燃气及水生产和供应业，建筑业；第三产业即服务业，是指除第一产业、第二产业以外的其他行业。\n行业分类采用《国民经济行业分类（GB/T 4754－2017）》。\n2015年之前各季度，其他行业包含信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共9个门类行业；2015年及之后各季度，其他行业包含科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织共7个门类行业。",
+      "api": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "comparison": "本期累计",
+      "conversion": "index - 100",
+      "coverage": "官方修订后季度历史；每日全量复核；空白不补值；不混入旧公告初值",
+      "indicator_id": "f5b82b2b6ad345a29a337d256a9d5ded",
+      "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f9b694c9b79e4ce5958bc88c6410fa67",
+      "raw_unit": "无",
+      "refresh_ranges": [
+        {
+          "end": "2026-Q4",
+          "start": "1949-Q1"
+        }
+      ],
+      "request": {
+        "cid": "f9b694c9b79e4ce5958bc88c6410fa67",
+        "daCatalogId": "",
+        "das": [
+          {
+            "text": "全国",
+            "value": "000000000000"
+          }
+        ],
+        "dts": [
+          "194901SS-202604SS"
+        ],
+        "indicatorIds": [
+          "170e7f00f8c24ede863c0526b42ae81f",
+          "f5b82b2b6ad345a29a337d256a9d5ded",
+          "6be0a577e9ca470c9b5bb2a20805dd97",
+          "db8aa034185e4b09a345bf4bb36be0eb",
+          "bb45bc3960bd443caa67eb3b0118f123"
+        ],
+        "rootId": "a94b8b7365a94874968cabbe392cf679",
+        "showType": "1"
+      },
+      "requested_window_complete": true
+    }
+  },
+  "history_checked_at": "2026-10-02T12:42:00+00:00",
+  "retrieved_at": "2026-10-02T12:42:00+00:00",
+  "schema_version": 2,
+  "series": {
+    "gdp_primary_q_nominal": {
+      "basis": "独立单季、现价增加值，未季调；包含价格与季节性影响，不用金额变化推算实际增长。",
+      "frequency": "Q",
+      "label": "第一产业增加值当季现价金额",
+      "source": "国家统计局",
+      "unit": "亿元"
+    },
+    "gdp_primary_q_yoy": {
+      "basis": "按不变价计算，与上年同季相比；官方上年同期=100指数减100，不是产业增长贡献率。",
+      "frequency": "Q",
+      "label": "第一产业增加值当季实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "gdp_q_nominal": {
+      "basis": "独立单季、现价增加值，未季调；包含价格与季节性影响，不用金额变化推算实际增长。",
+      "frequency": "Q",
+      "label": "GDP当季现价金额",
+      "source": "国家统计局",
+      "unit": "亿元"
+    },
+    "gdp_q_yoy": {
+      "basis": "按不变价计算，与上年同季相比；官方上年同期=100指数减100，不是产业增长贡献率。",
+      "frequency": "Q",
+      "label": "GDP当季实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "gdp_qoq_sa": {
+      "basis": "季节调整后相对上一季度的实际增速，非年化；直接采用官方百分比，历史会随季调模型更新修订。",
+      "frequency": "Q",
+      "label": "GDP 季调实际环比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "gdp_secondary_q_nominal": {
+      "basis": "独立单季、现价增加值，未季调；包含价格与季节性影响，不用金额变化推算实际增长。",
+      "frequency": "Q",
+      "label": "第二产业增加值当季现价金额",
+      "source": "国家统计局",
+      "unit": "亿元"
+    },
+    "gdp_secondary_q_yoy": {
+      "basis": "按不变价计算，与上年同季相比；官方上年同期=100指数减100，不是产业增长贡献率。",
+      "frequency": "Q",
+      "label": "第二产业增加值当季实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "gdp_tertiary_q_nominal": {
+      "basis": "独立单季、现价增加值，未季调；包含价格与季节性影响，不用金额变化推算实际增长。",
+      "frequency": "Q",
+      "label": "第三产业增加值当季现价金额",
+      "source": "国家统计局",
+      "unit": "亿元"
+    },
+    "gdp_tertiary_q_yoy": {
+      "basis": "按不变价计算，与上年同季相比；官方上年同期=100指数减100，不是产业增长贡献率。",
+      "frequency": "Q",
+      "label": "第三产业增加值当季实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    },
+    "gdp_ytd_nominal": {
+      "basis": "年初至季度末的现价增加值；Q2为上半年，Q4为全年；不用累计同比作差得到单季增速。",
+      "frequency": "Q",
+      "label": "GDP 年内累计现价金额",
+      "source": "国家统计局",
+      "unit": "亿元"
+    },
+    "gdp_ytd_yoy": {
+      "basis": "按不变价计算，比较本年与上年相同累计期间；不是各季度同比的简单平均。",
+      "frequency": "Q",
+      "label": "GDP 年内累计实际同比",
+      "source": "国家统计局",
+      "unit": "%"
+    }
+  },
+  "title": "中国季度 GDP"
+}

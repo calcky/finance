@@ -50,7 +50,7 @@ const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
       if (href && !href.startsWith("#")) assert((await page.request.get(new URL(href, page.url()).href)).ok(), href);
     }
     await page.getByRole("link", {name: "查看完整历史与口径"}).first().click();
-    assert(new URL(page.url()).pathname.endsWith("/data/gdp.html"));
+    assert(new URL(page.url()).pathname.endsWith("/data/quarterly-gdp.html"));
     await page.goto(`${base}/data/overview.html`);
     if (process.env.OVERVIEW_SCREENSHOT) await page.screenshot({path: process.env.OVERVIEW_SCREENSHOT, fullPage: true});
     const mobile = await browser.newPage({viewport: {width: 390, height: 844}, isMobile: true, hasTouch: true});

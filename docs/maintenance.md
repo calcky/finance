@@ -12,13 +12,13 @@
 | `docs/investing/` | 债券、股票、基金与投资组合 |
 | `docs/images/` | 原创图解的 Draw.io 图源、SVG，以及公式计算图 |
 | `scripts/` | 数值图生成、GDP 数据同步与独立绘图依赖 |
-| `scripts/macro_*.py`、`scripts/sync_macro.py` | 六个中国宏观专题的口径、官方采集、校验与生成 |
-| `data/macro/` | 六份宏观 CSV 及机器可读元数据 |
+| `scripts/macro_*.py`、`scripts/sync_macro.py` | 七个中国宏观专题的口径、官方采集、校验与生成 |
+| `data/macro/` | 七份宏观 CSV 及机器可读元数据 |
 | `docs/indicators/` | 指标定义、单位、频率与来源 |
 | `docs/data/` | 数据使用说明与更新规范 |
 | `data/` | 可公开再分发的小型数据集及说明 |
 | `.readthedocs.yaml` | Read the Docs 构建环境和入口 |
-| `.github/workflows/update-gdp.yml` | GDP 与六个宏观专题的统一定时检查、校验和快照提交 |
+| `.github/workflows/update-gdp.yml` | 年度 GDP 与七个宏观专题的统一定时检查、校验和快照提交 |
 | `_build/` | 本地生成的网页，已加入 Git 忽略规则 |
 
 ## 本地预览
@@ -107,9 +107,9 @@ git diff --check
 
 GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
 
-### 六个中国宏观专题
+### 七个中国宏观专题
 
-统一工作流也会更新物价、货币与社融、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、六个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
+统一工作流也会更新季度 GDP、物价、货币与社融、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、七个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
 
 ```sh
 .venv/bin/python -m pip install -r scripts/requirements-data.txt -r scripts/requirements-plots.txt
@@ -126,7 +126,9 @@ node tests/browser/macro.cjs
 node tests/browser/overview.cjs
 ```
 
-`macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 19 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
+`macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_quarterly_gdp.py` 每次复核季度 GDP 完整历史和定义，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 23 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
+
+首次接入单一专题可运行 `.venv/bin/python scripts/sync_macro.py --topics quarterly-gdp --backfill`；日常单专题复核去掉 `--backfill`。不指定 `--topics` 时仍更新全部专题。选定专题的全部采集和渲染成功后才写入，不触碰其他专题快照；季度 GDP 每次读取全部季度历史，并核验同比指数减 100、现价/不变价、当季/累计和季调口径。新增专题的广范围查询应再用分段查询交叉验证完整性。
 
 采集使用普通 HTTPS、Cookie 和请求间隔，不模拟登录或绕过访问限制。开发排查可用 `--cache-dir /tmp/finance-macro-cache` 复用响应；定时任务不使用该缓存，避免错过修订。首次接入尽量完成可用历史，不自行设定近年起点；实际覆盖和限制见[历史来源核验](data/history-coverage.md)。公共搜索按日期分段、分页；日度市场数据按月或年查询；央行公告遍历档案并核对总数，未完成或有解析失败的抓取不可发布。
 
@@ -140,7 +142,7 @@ M1 同比采用统计局转发的央行可比同比，并纳入央行官方 2024
 
 ### 宏观经济总览
 
-`scripts/macro_overview.py` 从已保存的 GDP 与六个宏观专题读取快照，生成 `docs/data/overview.md`。运行 `.venv/bin/python scripts/macro_overview.py` 即可重新生成，不访问网络、不改写 CSV。同步工作流在两组数据更新成功后生成总览，再通过测试和构建后统一发布。
+`scripts/macro_overview.py` 从七个宏观专题读取快照，生成 `docs/data/overview.md`。增长卡片使用季度 GDP 当季实际同比，年度 GDP 通过背景链接保留。运行 `.venv/bin/python scripts/macro_overview.py` 即可重新生成，不访问网络、不改写 CSV。同步工作流在年度 GDP 和宏观数据更新成功后生成总览，再通过测试和构建后统一发布。
 
 总览按六个维度展示 12 个指标，各自保留统计期、前次有效观测、来源发布日期、快照获取时间及完整历史入口。差值以原始精度计算，百分比之差使用百分点。位置条使用每个指标最新有效观测所属年及此前四年的有效数据，不混合新旧定义，不填缺口；常值或单点不绘制虚假的相对位置。各卡片窗口可能不同，条长不用于跨指标排名。
 

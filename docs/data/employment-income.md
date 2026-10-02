@@ -21,8 +21,8 @@
 |---|---|---:|---|---|---:|---|
 | 城镇调查失业率 | 2026-08 | 5.3 | % | 2018-01 | 104 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 可支配收入名义累计同比 | 2026-Q2 | 5.2 | % | 2013-Q4 | 51 | [国家统计局](https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html) |
-| 可支配收入实际累计同比 | 2026-Q2 | 4.2 | % | 2013-Q4 | 51 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 人均可支配收入累计金额 | 2026-Q2 | 22,981 | 元/人 | 2013-Q1 | 54 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 可支配收入实际累计同比 | 2026-Q2 | 4.2 | % | 2013-Q4 | 51 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 人均可支配收入累计金额 | 2026-Q2 | 22,981 | 元/人 | 2013-Q1 | 54 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 

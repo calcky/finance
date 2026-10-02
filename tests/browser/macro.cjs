@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -104,6 +104,14 @@ const topics = {prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment
       await widget.scrollIntoViewIfNeeded();
       await widget.screenshot({path: process.env.MACRO_SCREENSHOT});
     }
+    await mobile.goto(`${base}/data/quarterly-gdp.html`);
+    const quarterly = mobile.locator("#interactive-gdp-quarter-yoy");
+    await quarterly.locator("select").selectOption("1993-Q1");
+    assert.match(await quarterly.locator(".gdp-readout").innerText(), /1993-Q1/);
+    await quarterly.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-gdp-quarter-yoy-1993-Q1").isVisible());
+    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
+    if (process.env.QUARTER_GDP_SCREENSHOT) await quarterly.screenshot({path: process.env.QUARTER_GDP_SCREENSHOT});
     for (const js of [false, true]) {
       const fallback = await browser.newPage({javaScriptEnabled: js});
       if (js) await fallback.route("**/vendor/echarts-*.js*", route => route.abort());

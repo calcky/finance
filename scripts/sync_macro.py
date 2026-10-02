@@ -1,4 +1,4 @@
-"""Synchronize six macro topics. Stage all outputs before replacing any snapshot."""
+"""Synchronize macro topics. Stage all outputs before replacing any snapshot."""
 
 import argparse
 import csv
@@ -99,6 +99,21 @@ def needs_history(meta, now):
     return not meta.get("history") or not stamps or (now - max(stamps)).days >= 60
 
 
+def collectors_for(topics):
+    from macro_nbs_history import collect as nbs
+    from macro_income_history import collect as income
+    from macro_money_history import collect as money
+    from macro_market_history import collect as market
+    from macro_repo_history import collect as repo
+    from macro_nbs_cpi_releases import collect as cpi_releases
+    from macro_quarterly_gdp import collect as quarterly_gdp
+    groups = [(nbs, {"prices", "money-credit", "activity", "trade-fx", "employment-income"}),
+              (income, {"employment-income"}), (money, {"money-credit"}),
+              (market, {"rates", "trade-fx"}), (repo, {"rates"}),
+              (cpi_releases, {"prices"}), (quarterly_gdp, {"quarterly-gdp"})]
+    return [collector for collector, covered in groups if covered.intersection(topics)]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--render-only", action="store_true")
@@ -107,10 +122,12 @@ def main():
     parser.add_argument("--cache-dir", help="Development only: reuse source responses; never used by scheduled sync")
     parser.add_argument("--preview-dir", type=Path)
     parser.add_argument("--font")
+    parser.add_argument("--topics", nargs="+", choices=list(TOPICS), help="Refresh only selected topics (default: all)")
     args = parser.parse_args()
+    selected_topics = {slug: topic for slug, topic in TOPICS.items() if not args.topics or slug in args.topics}
     macro_common.CACHE = args.cache_dir
     if not args.render_only and not args.source_snapshots and not args.backfill:
-        for slug in TOPICS:
+        for slug in selected_topics:
             meta_path = ROOT / f"data/macro/{slug}.metadata.json"
             meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
             if needs_history(meta, datetime.now(timezone.utc)):
@@ -125,15 +142,9 @@ def main():
                 snapshot = json.loads(path.read_text(encoding="utf-8"))
                 batches.append((snapshot["rows"], snapshot.get("meta", snapshot.get("metadata"))))
         else:
-            from macro_nbs_history import collect as nbs
-            from macro_income_history import collect as income
-            from macro_money_history import collect as money
-            from macro_market_history import collect as market
-            from macro_repo_history import collect as repo
-            from macro_nbs_cpi_releases import collect as cpi_releases
-            batches = [collector(backfill=args.backfill) for collector in (nbs, income, money, market, repo, cpi_releases)]
+            batches = [collector(backfill=args.backfill) for collector in collectors_for(selected_topics)]
         fetched, acquisition = combine(batches)
-        if args.backfill and acquisition.get("repo_7d", {}).get("complete_archive") is not True:
+        if args.backfill and "rates" in selected_topics and acquisition.get("repo_7d", {}).get("complete_archive") is not True:
             raise ValueError("Full backfill requires a completed reverse-repo archive audit")
         validate(fetched, {r["series_id"] for r in fetched})
         expected = {key for topic in TOPICS.values() for key in topic_series(topic)}
@@ -141,7 +152,7 @@ def main():
             raise ValueError("Series catalogue and topic coverage differ")
     with tempfile.TemporaryDirectory(prefix="finance-macro-") as temporary:
         staging = Path(temporary)
-        for slug, topic in TOPICS.items():
+        for slug, topic in selected_topics.items():
             keys = topic_series(topic)
             path = ROOT / f"data/macro/{slug}.csv"
             old, old_meta = load_topic(slug, ROOT) if path.exists() else ([], {})

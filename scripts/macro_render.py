@@ -77,7 +77,10 @@ def document(slug, rows, meta):
     for key in topic_series(topic):
         selected = sorted([r for r in rows if r["series_id"] == key], key=lambda r: r["period"])
         last = selected[-1]
-        source = "https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData" if "stream/esData" in last["source_url"] else last["source_url"]
+        source = last["source_url"]
+        if "stream/esData" in source:
+            page = "quarterData" if SERIES[key]["frequency"] == "Q" else "monthData"
+            source = f"https://data.stats.gov.cn/dg/website/page.html#/pc/national/{page}"
         lines.append(f"| {SERIES[key]['label']} | {last['period']} | {display(float(last['value']))} | {last['unit']} | {selected[0]['period']} | {len(selected)} | [{SERIES[key]['source']}]({source}) |")
     lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", "",
               "图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。", ""]
