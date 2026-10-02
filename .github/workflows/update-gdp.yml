@@ -16,6 +16,7 @@ on:
       - 'scripts/sync_gdp.py'
       - 'scripts/sync_macro.py'
       - 'scripts/macro_*.py'
+      - 'data/reference/property-early-releases.json'
       - 'scripts/requirements-data.txt'
       - 'scripts/render_learning_charts.py'
       - 'scripts/requirements-plots.txt'
@@ -104,6 +105,7 @@ jobs:
           git add docs/data/overview.md
           git add docs/data/quarterly-gdp.md
           git add docs/data/credit-structure.md
+          git add docs/data/property.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."
             exit 0

@@ -6,7 +6,7 @@
 
 ## 从这里开始
 
-推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。教学部分及延伸阅读共 20 张图，分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期，[社融与信贷结构](credit-structure.md)进一步拆解融资渠道和借款人。
+推荐先读[学习路线](learning-guide.md)，然后从[第 1 章：经济与金融](foundations/economic-map.md)开始。共 15 个学习单元，每章包含图示、例子、自测与参考答案。教学部分及延伸阅读共 21 张图，分别说明资金关系、产品原理和数值变化；[银行与货币创造](banking-and-money-creation.md)用其中五张图解释一笔贷款的生命周期，再用[社融与信贷结构](credit-structure.md)、[房地产与经济](property-and-economy.md)连接融资与实际活动。
 
 | 阶段 | 学习内容 | 要回答的问题 |
 |---|---|---|
@@ -22,7 +22,7 @@
 - [指标目录](indicators/index.md)：定义、单位、频率和数据来源。
 - [宏观经济总览](data/overview.md)：六个观察维度、最新数据与历史范围，结合传导图理解指标之间的联系。
 - [GDP 数据专题](data/gdp.md)：中国历年 GDP、实际增速、人均 GDP 与中美对照，提供四张趋势图和 CSV 下载。
-- [中国宏观数据](data/index.md)：季度 GDP、物价、货币与社融、信贷结构、利率、经济活动、就业与收入、进出口与汇率；29 张交互图支持选点、缩放与逐期查表。
+- [中国宏观数据](data/index.md)：季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、进出口与汇率；35 张交互图支持选点、缩放与逐期查表。
 - [数据与更新](data/index.md)：每日检查来源新值与历史修订，区分统计期间、来源库更新和快照获取时间。
 - [维护与发布](maintenance.md)：贡献内容、本地构建和 Read the Docs 发布方法。
 
@@ -71,6 +71,7 @@ investing/portfolio
 banking-and-money-creation
 money-and-credit
 credit-structure
+property-and-economy
 growth-and-inflation
 interest-rates
 ```

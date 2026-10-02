@@ -97,6 +97,29 @@ for sector, name in [("household", "住户"), ("business", "境内企业等"), (
             SERIES[f"loan_{sector}_{term}"]["basis"] += "2007—2009包含非居民，独立保存，不与境内企业线拼接。"
 
 
+for key, label, unit in [
+    ("investment", "房地产开发投资", "亿元"), ("residential_investment", "住宅开发投资", "亿元"),
+    ("funds", "开发企业到位资金", "亿元"), ("domestic_loans", "到位资金：国内贷款", "亿元"),
+    ("self_funding", "到位资金：自筹资金", "亿元"),
+    ("construction", "房屋施工面积", "万平方米"), ("starts", "房屋新开工面积", "万平方米"),
+    ("completions", "房屋竣工面积", "万平方米"),
+    ("sales_area", "新建商品房销售面积", "万平方米"), ("sales_value", "新建商品房销售额", "亿元"),
+]:
+    for suffix, ending, display_unit in [("ytd", "累计值", unit), ("ytd_yoy", "累计同比", "%")]:
+        key_id = f"property_{key}_{suffix}"
+        basis = "全国房地产开发经营企业统计；YYYY-MM表示年初至该月，2月为1—2月合计；不将累计值当单月。"
+        basis += "采用官方可比口径增速，不由历年公布的累计金额反算。" if suffix.endswith("yoy") else "保留原表金额/面积及精度；不能将各月累计值相加。"
+        if key in ("sales_area", "sales_value"):
+            basis += "包含住宅及非住宅的新建商品房，不含二手房；2006年起单列，2005转换期及更早实际销售口径另存。"
+        if key == "construction":
+            basis += "是本年施工过的房屋面积范围，包括上年结转、恢复施工等；不是本年新增面积，也不等于月末未完工库存。"
+        define(key_id, label+ending, display_unit, "M", "国家统计局", basis)
+        if key.startswith("sales_"):
+            for segment, desc in [("legacy", "2004年及以前实际销售口径"), ("transition", "2005年口径转换期")]:
+                define(key_id+"_"+segment, label+ending+"（"+desc+"）", display_unit, "M", "国家统计局",
+                       "来源原值独立保留；"+desc+"，不与2006年起曲线拼接；2005年8月附近统计范围改变，转换年整年单列，非缺失。年内累计，不是单月。")
+
+
 def chart(id, title, series, explanation, baseline=None, **options):
     result = dict(id=id, title=title, series=series, explanation=explanation)
     if baseline is not None:
@@ -105,6 +128,22 @@ def chart(id, title, series, explanation, baseline=None, **options):
 
 
 TOPICS = {
+    "property": {
+        "title": "房地产：销售、资金与建设", "question": "销售变化怎样传到资金、开工和投资，哪些数据不能直接相加？",
+        "intro": "全国开发企业的新建商品房与开发建设统计，不是二手房市场或房价指数。以下全部是年内累计值或累计同比：2月代表1—2月，1月不发布，不能把每个月的累计金额相加。官方可比增速独立保存，不从历史金额反算。",
+        "charts": [
+            chart("property-sales-growth", "新建商品房销售：面积与金额累计同比", ["property_sales_area_ytd_yoy", "property_sales_value_ytd_yoy"], "销售范围包含期房和现房、住宅和非住宅。2005年范围调整：2004年及以前和2005转换期的全部原值在补充表与CSV独立保留，这张图从2006年起。金额比面积增长快不等于同一套房涨价，城市、面积和产品结构都会影响均价。", 0),
+            chart("property-investment-growth", "开发投资：全部与住宅累计同比", ["property_investment_ytd_yoy", "property_residential_investment_ytd_yoy"], "住宅包含在全部开发投资中，不能相加。投资额包含建筑安装、设备和其他费用等，不等于房地产增加值；土地购置费不直接形成等额新增GDP。增速按官方可比范围计算。", 0),
+            chart("property-building-growth", "建设进度：开工、施工与竣工累计同比", ["property_starts_ytd_yoy", "property_construction_ytd_yoy", "property_completions_ytd_yoy"], "面积不是套数。新开工和竣工通常属于不同项目批次；施工是年内施工过的面积范围，不是当年新增。三者可以不同步，不能作开工减竣工等于库存的运算。", 0),
+            chart("property-funding-growth", "到位资金：总量、国内贷款与自筹累计同比", ["property_funds_ytd_yoy", "property_domestic_loans_ytd_yoy", "property_self_funding_ytd_yoy"], "到位资金是实际落实的资金，不是授信额度。国内贷款和自筹是总量的部分来源，此外还有定金及预收款、个人按揭贷款、外资等；三条线不相加，也不穷尽资金结构。缺失的早期增速不由金额反算。", 0),
+            chart("property-building-area", "新开工与竣工：年内累计面积", ["property_starts_ytd", "property_completions_ytd"], "每年重新累计，跨年回落不是当月建设崩塌；比较规模宜选同年内进度或同月。保留来源的实际缺口，零与未公布不同。"),
+            chart("property-investment-level", "开发投资：年内累计金额", ["property_investment_ytd", "property_residential_investment_ytd"], "按当期统计金额展示，包含价格与结构影响，不是剔除价格后的实际增长。1—8月累计不是8月单月，全年规模看12月，不能把2月至12月再次求和。"),
+        ],
+        "extra": ["property_funds_ytd", "property_domestic_loans_ytd", "property_self_funding_ytd", "property_construction_ytd",
+                  "property_sales_area_ytd", "property_sales_value_ytd"] +
+                 [f"property_sales_{measure}_{term}_{segment}" for segment in ("legacy", "transition") for measure in ("area", "value") for term in ("ytd", "ytd_yoy")],
+        "reading": "property-and-economy",
+    },
     "credit-structure": {
         "title": "社融与信贷结构", "question": "融资增长来自谁，通过什么渠道，是否转化成了需求？",
         "intro": "先按渠道拆社融单月增量，再按借款人和期限观察人民币贷款余额。这两套统计不能相加；贷款余额不是当月新增贷款。政府债券支撑总量，不自动说明居民和企业借贷需求回升。",

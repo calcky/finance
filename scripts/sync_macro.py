@@ -109,11 +109,13 @@ def collectors_for(topics):
     from macro_quarterly_gdp import collect as quarterly_gdp
     from macro_tsf_components import collect as tsf_components
     from macro_loan_history import collect as loans
+    from macro_property import collect as property_history
     groups = [(nbs, {"prices", "money-credit", "activity", "trade-fx", "employment-income"}),
               (income, {"employment-income"}), (money, {"money-credit"}),
               (market, {"rates", "trade-fx"}), (repo, {"rates"}),
               (cpi_releases, {"prices"}), (quarterly_gdp, {"quarterly-gdp"}),
-              (tsf_components, {"credit-structure"}), (loans, {"credit-structure"})]
+              (tsf_components, {"credit-structure"}), (loans, {"credit-structure"}),
+              (property_history, {"property"})]
     return [collector for collector, covered in groups if covered.intersection(topics)]
 
 

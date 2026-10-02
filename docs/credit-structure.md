@@ -75,6 +75,10 @@
 
 这些是已核验来源的实际覆盖，不是所有统计的历史起源。具体首末期间、条数、原始附件和缺口见[数据页](data/credit-structure.md)、[历史覆盖说明](data/history-coverage.md)及下载元数据。
 
+## 继续阅读
+
+下一步可读[房地产如何影响经济](property-and-economy.md)：将融资结构与销售、回款、开工及投资联系起来，并核对[房地产历史数据](data/property.md)。
+
 ## 一手来源
 
 1. [人民银行：2014 年社会融资规模存量统计数据报告及定义](https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2810586/index.html)。用于理解统计对象、渠道和计量方式；政府债券等后续扩围需再看新表。

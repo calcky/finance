@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -99,6 +99,27 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
         await early.locator("select").selectOption("2002-01");
         assert.match(await early.locator(".gdp-readout").innerText(), /信托贷款 缺失/);
       }
+      if (slug === "property") {
+        const widget = page.locator("#interactive-property-investment-level");
+        await widget.locator("select").selectOption("2026-02");
+        assert.doesNotMatch(await widget.locator(".gdp-readout").innerText(), /缺失/);
+        await widget.locator("select").selectOption("2026-01");
+        assert.match(await widget.locator(".gdp-readout").innerText(), /缺失/);
+        assert(await widget.locator(".gdp-canvas").evaluate(node => {
+          const option = echarts.getInstanceByDom(node).getOption();
+          const index = option.xAxis[0].data.indexOf("2026-01");
+          return option.series.every(s => s.data[index] === null && !s.connectNulls);
+        }));
+        const sales = specs.find(s => s.id === "property-sales-growth");
+        assert.equal(sales.periods[0], "2006-02");
+        // Scope transitions remain downloadable, without splicing them into
+        // the current-scope chart or silently dropping the transition year.
+        const key = "property_sales_area_ytd_transition";
+        assert.equal(metadata.coverage[key].count, 11);
+        assert.equal(metadata.coverage[key].first, "2005-02");
+        assert.match(await response.text(), new RegExp(`${key},CHN,2005-02,`));
+        assert.match(await page.locator("body").textContent(), /2005-02/);
+      }
       await page.emulateMedia({media: "print"});
       assert.equal(await page.locator(".macro-interactive:visible").count(), 0);
       assert.equal(await page.locator(".gdp-static-fallback:visible").count(), count);
@@ -136,6 +157,14 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     assert(await mobile.locator("#macro-financing-composition-2026-08").isVisible());
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     if (process.env.CREDIT_SCREENSHOT) await credit.screenshot({path: process.env.CREDIT_SCREENSHOT});
+    await mobile.goto(`${base}/data/property.html`);
+    const property = mobile.locator("#interactive-property-building-growth");
+    await property.locator("select").selectOption("2000-04");
+    assert.match(await property.locator(".gdp-readout").innerText(), /缺失/);
+    await property.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-property-building-growth-2000-04").isVisible());
+    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
+    if (process.env.PROPERTY_SCREENSHOT) await property.screenshot({path: process.env.PROPERTY_SCREENSHOT});
     // Synthetic missing component: never render a partial stack as a total.
     const missing = await browser.newPage();
     await missing.addInitScript(() => {
