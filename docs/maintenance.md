@@ -98,19 +98,35 @@ sudo apt-get install fonts-droid-fallback
 git diff --check
 ```
 
-`sync_gdp.py` 每次读取完整年度历史及指标定义，检查数据集、国家、指标、年份、分页完整性、重复键、数值范围与历史覆盖。缺失值保持为空；实际增速使用官方独立序列。全部抓取、校验、渲染成功后才替换本地文件。GitHub 工作流在严格文档构建也通过后才提交，失败时不推送新数据。
+`sync_gdp.py` 每次读取完整年度历史及指标定义，检查数据集、国家、指标、年份、分页完整性、重复键、数值范围与历史覆盖。缺失值保持为空；实际增速使用官方独立序列。该专题全部抓取、校验、渲染成功后才替换本地文件。GitHub 工作流在数据测试、严格文档构建与浏览器检查通过后才提交，某个专题同步失败时仅保留该专题的原快照。
 
 运行 `scripts/sync_gdp.py --render-only` 可从已有 CSV 和元数据离线重建页面与四张图，不访问网络。`docs/data/gdp.md` 是自动生成文件，改解读文案时编辑脚本中的页面模板，再离线重建。CSV 原始单位与显示单位分开；生成图使用固定中文字体和浅色背景。
 
 工作流每天 UTC 22:17（次日北京时间 06:17）检查；支持 `workflow_dispatch` 手动运行，同步代码变更推送到 `main` 时也会触发。它使用 GitHub 自带 `GITHUB_TOKEN`，不需世界银行 API key，仅同步 job 获得 `contents: write`。分支保护或组织权限若阻止 bot 提交，任务会失败，不能把工作流文件存在等同于同步成功。
 
-只有观测或来源元数据变化才刷新快照并提交。GitHub 定时任务可能延迟；公开仓库 60 天没有活动可能自动暂停定时任务，需在 Actions 中重新启用。通过 [Actions 运行记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 判断最近一次检查是否成功，页面显示的快照时间不代表最后检查时间。参考 [GitHub schedule 文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
+只有观测或来源元数据变化才刷新快照；同步状态从成功变为失败、从失败恢复或错误信息变化时另更新状态页。完全无变化的检查不会只为刷新时间戳而提交。GitHub 定时任务可能延迟；公开仓库 60 天没有活动可能自动暂停定时任务，需在 Actions 中重新启用。通过 [Actions 运行记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 判断最近一次检查是否成功，页面显示的快照时间不代表最后检查时间。参考 [GitHub schedule 文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
+
+### 独立同步与故障定位
+
+工作流入口是 `scripts/sync_data.py`：GDP 与中国宏观专题独立尝试。宏观侧使用 `sync_macro.py --keep-going --report <path>`，同一采集器只调用一次，共享来源失败会阻止所有依赖它的专题；其他专题继续。每个专题仍先完整抓取、合并历史、校验并渲染到临时目录，再替换文件。手动直接运行 `sync_macro.py` 的默认模式继续保持所有选中专题全部成功才替换文件。
+
+`source_http.py` 为公开 GET 和只读查询 POST 提供统一网络读取。断连、超时、不完整响应及 HTTP 500/502/503/504 最多尝试 3 次，重试间隔 2 秒、4 秒；保留来源原有请求节奏。HTTP 401/403/429、证书错误、解析错误和数据校验错误不重试。日志记录采集器、来源 URL、尝试次数和异常；失败响应不写入缓存，各模块不叠加重试。
+
+`data/update-status.json` 与[数据更新状态](data/update-status.md)记录专题同步状态、快照时间、状态变更时间及失败原因。最近一次实际检查时间、逐专题结果与完整日志保存在 Actions summary 和保留 14 天的 artifact；本地可运行：
+
+```sh
+.venv/bin/python scripts/sync_data.py --report-dir /tmp/finance-sync
+# 仅重建已保存状态，不发请求、不声称进行了新检查
+.venv/bin/python scripts/sync_data.py --render-status
+```
+
+有专题失败时，工作流继续测试和构建有效快照，只发布通过全部检查的文件，最后仍以失败结束，不把“部分成功”伪装为成功。若任务被取消、执行环境故障或后续测试失败，状态页可能来不及发布；以 Actions 运行记录为准。推送失败不会强制覆盖远端。
 
 GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
 
 ### 十四个中国宏观专题
 
-财政日常同步还会重新读取曾用于补齐统计局收支缺口的旧公告；只补收入/支出主体，不扩大基金、税收等其他序列的刷新窗口。网络读取超时或连接中断时，同一公开 GET 最多重试一次；拒绝访问、解析错误和缺失数据不重试绕过。失败信息包含来源 URL，任何未通过验证的结果都不替换快照。
+财政日常同步还会重新读取曾用于补齐统计局收支缺口的旧公告；只补收入/支出主体，不扩大基金、税收等其他序列的刷新窗口。网络读取采用上面的统一重试规则；失败信息包含来源 URL，任何未通过验证的结果都不替换该专题快照。
 
 财政专题由 `macro_fiscal.py` 统一采集；`macro_fiscal_nbs.py` 查询全历史并在回溯时核对分段请求，`macro_fiscal_mof.py` 解析财政收支档案，`macro_fiscal_debt.py` 区分月内发债与月末债务，`macro_fiscal_annual.py` 发现并解析全国基金及地方债年度决算表。`macro_fiscal_catalog.py` 集中保存这些指标的口径和图表说明。日常抓月报档案首页和最近两年决算，原有历史不删除；全量回溯遍历新旧档案全部分页。年度和月度序列独立，NBS修订后的收支主体优先，财政部补金额缺口并记录重叠差异。解析、分页、单位、期间或加总校验失败时停止发布。
 
@@ -118,7 +134,7 @@ GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.jso
 
 每次重查这些来源完整历史。联合国 WPP2024 固定排除 2024 年起预测，新版本需人工核对估计边界；家庭户公报证据清单 `data/reference/population-households.json` 新增时需核验全国总量而非样本数。WID 同时核验平减指数基年与同版 GDP；上海户籍生育率和常住人口不合并。具体流程见[房价与人口口径说明](data/housing-population-methodology.md)。
 
-统一工作流也会更新季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、十四个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
+统一工作流也会更新季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、十四个生成页面、`docs/images/data/macro-*.svg` 和同步状态 JSON/页面。每日 UTC 22:17 检查，各专题完整采集与校验后，再通过全库严格构建和浏览器测试才发布；失败专题保留原快照。
 
 ```sh
 .venv/bin/python -m pip install -r scripts/requirements-data.txt -r scripts/requirements-plots.txt

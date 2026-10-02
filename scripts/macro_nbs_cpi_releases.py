@@ -13,6 +13,7 @@ from urllib.request import Request
 from bs4 import BeautifulSoup
 import macro_common as common
 from macro_common import add, number
+from source_http import read
 
 SEARCH = "https://api.so-gov.cn/query/s"
 LABELS = {"非食品": "nonfood_cpi_yoy", "服务": "services_cpi_yoy",
@@ -38,10 +39,9 @@ def search_page(start, end, page, query='("居民消费价格")', title_only=Tru
     if cache and cache.exists():
         return json.loads(cache.read_bytes())
     time.sleep(2)
-    with common.OPENER.open(Request(SEARCH, data=body, headers={
+    raw = read(Request(SEARCH, data=body, headers={
             "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": "finance-educational-data/1.0"}), timeout=45) as response:
-        raw = response.read()
+            "User-Agent": "finance-educational-data/1.0"}), common.OPENER.open)
     result = json.loads(raw)
     if result.get("ok") is not True:
         raise ValueError("Official NBS search failed")

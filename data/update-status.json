@@ -1,0 +1,92 @@
+{
+  "activity": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "credit-structure": {
+    "error": "",
+    "snapshot_at": "2026-10-02T13:43:15+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "employment-income": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:59+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "fiscal": {
+    "error": "",
+    "snapshot_at": "2026-10-02T15:57:34+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "gdp": {
+    "error": "",
+    "snapshot_at": "2026-10-01T15:44:06+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "housing-prices": {
+    "error": "",
+    "snapshot_at": "2026-10-02T15:33:59+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "housing-wealth": {
+    "error": "",
+    "snapshot_at": "2026-10-02T15:21:39+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "money-credit": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "population": {
+    "error": "",
+    "snapshot_at": "2026-10-02T15:21:37+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "prices": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:57+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "property": {
+    "error": "",
+    "snapshot_at": "2026-10-02T14:19:42+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "quarterly-gdp": {
+    "error": "",
+    "snapshot_at": "2026-10-02T12:42:00+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "rates": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "shanghai-population": {
+    "error": "",
+    "snapshot_at": "2026-10-02T15:21:38+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  },
+  "trade-fx": {
+    "error": "",
+    "snapshot_at": "2026-10-02T10:37:59+00:00",
+    "state": "ok",
+    "state_since": "2026-10-02T21:07:56+00:00"
+  }
+}

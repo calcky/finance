@@ -13,9 +13,8 @@ import json
 import os
 from pathlib import Path
 import tempfile
-import time
-from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from source_http import read
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://api.worldbank.org/v2"
@@ -30,17 +29,8 @@ FIELDS = ["series_id", "country", "period", "value", "unit", "published_at", "re
 
 
 def fetch_json(url):
-    for attempt in range(3):
-        try:
-            request = Request(url, headers={"User-Agent": "calcky-finance/1.0 (public WDI educational data)"})
-            with urlopen(request, timeout=30) as response:
-                return json.load(response)
-        except (URLError, TimeoutError) as error:
-            if isinstance(error, HTTPError) and error.code not in (429, 500, 502, 503, 504):
-                raise
-            if attempt == 2:
-                raise
-            time.sleep(2 ** attempt)
+    request = Request(url, headers={"User-Agent": "calcky-finance/1.0 (public WDI educational data)"})
+    return json.loads(read(request, urlopen, timeout=30))
 
 
 def parse_response(payload, series_id, retrieved_at):

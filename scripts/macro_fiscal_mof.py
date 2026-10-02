@@ -2,7 +2,6 @@
 
 from decimal import Decimal
 import re
-import time
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -16,18 +15,11 @@ ANNUAL = "https://yss.mof.gov.cn/caizhengshuju/"
 
 
 def html_for(url):
-    for attempt in range(2):
-        try:
-            return fetch(url).decode("utf-8")
-        except (OSError, UnicodeError) as error:
-            # A verified MOF endpoint occasionally times out or closes the
-            # connection. Retry the same public GET once; never retry HTTP
-            # access refusals, decode errors, or failed content validation.
-            if attempt == 0 and isinstance(error, (TimeoutError, ConnectionError)):
-                print("Retrying fiscal connection:", url, flush=True)
-                time.sleep(2)
-                continue
-            raise RuntimeError("Fiscal source unavailable: "+url) from error
+    try:
+        return fetch(url).decode("utf-8")
+    except (OSError, UnicodeError) as error:
+        # Request retries belong to the shared HTTP reader, never nest them.
+        raise RuntimeError("Fiscal source unavailable: "+url) from error
 
 
 def soup_for(url):

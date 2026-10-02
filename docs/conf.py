@@ -45,9 +45,31 @@ def add_gdp_charts(app, pagename, templatename, context, doctree):
 
 
 def setup(app):
+    app.connect("html-page-context", add_sync_status)
     app.connect("html-page-context", add_gdp_charts)
     app.connect("html-page-context", add_macro_charts)
     app.add_css_file("macro-overview.css")
+
+
+def add_sync_status(app, pagename, templatename, context, doctree):
+    """Show the saved topic health without browser requests or timestamp churn."""
+    from html import escape
+    import json
+    from pathlib import Path
+
+    path = Path(__file__).resolve().parents[1] / "data/update-status.json"
+    if not pagename.startswith("data/") or not path.exists():
+        return
+    status = json.loads(path.read_text(encoding="utf-8")).get(pagename[5:])
+    if status is None:
+        return
+    failed = status["state"] == "failed"
+    label = {"ok": "保存的同步状态：通过", "failed": "同步失败：当前展示上次有效快照",
+             "unknown": "逐专题同步状态尚未记录"}[status["state"]]
+    target = context["pathto"]("data/update-status")
+    context["body"] = (f'<div class="admonition {"warning" if failed else "note"} sync-status">'
+                       f'<p>{label}。<a href="{escape(target, quote=True)}">查看更新状态与实际检查时间</a>。</p>'
+                       '</div>' + context["body"])
 
 
 def add_macro_charts(app, pagename, templatename, context, doctree):

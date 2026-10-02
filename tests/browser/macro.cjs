@@ -13,6 +13,8 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     page.on("request", r => {if (!r.url().startsWith(base)) remote.push(r.url());});
     for (const [slug, count] of Object.entries(topics)) {
       await page.goto(`${base}/data/${slug}.html`);
+      assert(await page.locator(".sync-status").isVisible());
+      assert.equal(await page.locator(".sync-status a").getAttribute("href"), "update-status.html");
       await page.locator(".macro-interactive").last().waitFor();
       assert.equal(await page.locator(".macro-interactive").count(), count);
       const specs = await page.evaluate(() => FINANCE_MACRO.charts);

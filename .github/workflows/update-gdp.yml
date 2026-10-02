@@ -15,6 +15,8 @@ on:
       - '.github/workflows/update-gdp.yml'
       - 'scripts/sync_gdp.py'
       - 'scripts/sync_macro.py'
+      - 'scripts/sync_data.py'
+      - 'scripts/source_http.py'
       - 'scripts/macro_*.py'
       - 'data/reference/property-early-releases.json'
       - 'data/reference/population-households.json'
@@ -22,6 +24,7 @@ on:
       - 'scripts/render_learning_charts.py'
       - 'scripts/requirements-plots.txt'
       - 'tests/test_sync_gdp.py'
+      - 'tests/test_sync_resilience.py'
       - 'tests/test_*history.py'
       - 'tests/fixtures/**'
       - 'tests/test_macro.py'
@@ -64,30 +67,20 @@ jobs:
           python -m pip install -r docs/requirements.txt -r scripts/requirements-plots.txt -r scripts/requirements-data.txt
       - name: Fetch and generate
         id: fetch
+        continue-on-error: true
         shell: bash
         env:
           FULL_HISTORY: ${{ inputs.backfill }}
         run: |
           {
-            python scripts/sync_gdp.py
             if [ "$FULL_HISTORY" = 'true' ] || { [ '${{ github.event_name }}' = 'schedule' ] && [ "$(date -u +%d)" = '01' ]; }; then
-              python scripts/sync_macro.py --backfill
+              python scripts/sync_data.py --backfill --report-dir "$RUNNER_TEMP/finance-sync"
             else
-              python scripts/sync_macro.py
+              python scripts/sync_data.py --report-dir "$RUNNER_TEMP/finance-sync"
             fi
-            python scripts/macro_overview.py
           } 2>&1 | tee "$RUNNER_TEMP/finance-fetch.log"
-      - name: Report fetch failure
-        if: failure() && steps.fetch.outcome == 'failure'
-        run: |
-          python - <<'PY'
-          import os
-          from pathlib import Path
-          path = Path(os.environ["RUNNER_TEMP"]) / "finance-fetch.log"
-          detail = "\n".join(path.read_text(errors="replace").splitlines()[-25:])
-          detail = detail.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
-          print("::error title=Official data fetch failed::" + detail)
-          PY
+      - name: Regenerate overview from validated snapshots
+        run: python scripts/macro_overview.py
       - name: Test data validation
         run: python -m unittest discover -s tests -v
       - name: Verify documentation
@@ -125,6 +118,7 @@ jobs:
           git add docs/data/housing-prices.md docs/data/housing-wealth.md docs/data/population.md docs/data/shanghai-population.md
 
           git add docs/data/fiscal.md
+          git add data/update-status.json docs/data/update-status.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."
             exit 0
@@ -133,3 +127,18 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'data: refresh official macro snapshots'
           git push origin HEAD:main
+      - name: Retain complete source logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: finance-sync-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/finance-fetch.log
+            ${{ runner.temp }}/finance-sync/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Report incomplete synchronization
+        if: always() && steps.fetch.outcome == 'failure'
+        run: |
+          echo '::error::Some topics could not refresh. Validated topics were eligible for publication; failed topics retained their previous snapshots. See the per-topic summary and log artifact.'
+          exit 1

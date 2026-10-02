@@ -12,6 +12,8 @@ const url = process.env.GDP_TEST_URL || "http://127.0.0.1:8767/data/gdp.html";
     page.on("pageerror", error => errors.push(error.message));
     page.on("request", request => requests.push(request.url()));
     await page.goto(url);
+    assert(await page.locator(".sync-status").isVisible());
+    assert.equal(await page.locator(".sync-status a").getAttribute("href"), "update-status.html");
     await page.locator(".gdp-interactive").last().waitFor();
     assert.equal(await page.locator(".gdp-interactive").count(), 4);
     assert.equal(await page.locator(".gdp-static-fallback:visible").count(), 0);

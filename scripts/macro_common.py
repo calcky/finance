@@ -12,6 +12,7 @@ from urllib.request import Request, build_opener, HTTPCookieProcessor
 from urllib.parse import urlencode
 
 from macro_catalog import SERIES
+from source_http import read
 
 CACHE = None
 _last_request = 0
@@ -37,8 +38,7 @@ def fetch(url, body=None, *, form=None):
         headers["Content-Type"] = "application/json;charset=UTF-8"
     if form is not None:
         headers["Content-Type"] = "application/x-www-form-urlencoded"
-    with OPENER.open(Request(url, data=encoded, headers=headers), timeout=45) as response:
-        data = response.read()
+    data = read(Request(url, data=encoded, headers=headers), OPENER.open)
     if cache:
         cache.parent.mkdir(parents=True, exist_ok=True)
         cache.write_bytes(data)

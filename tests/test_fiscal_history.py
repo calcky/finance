@@ -26,16 +26,13 @@ URL = "https://example.org/official.htm"
 
 class FiscalParsing(unittest.TestCase):
     def test_timeout_reports_source_and_never_substitutes_data(self):
-        with patch("macro_fiscal_mof.fetch", side_effect=TimeoutError("read timed out")) as request, patch("macro_fiscal_mof.time.sleep"):
+        with patch("macro_fiscal_mof.fetch", side_effect=TimeoutError("read timed out")) as request:
             with self.assertRaisesRegex(RuntimeError, URL) as context:
                 html_for(URL)
         self.assertIsInstance(context.exception.__cause__, TimeoutError)
-        self.assertEqual(request.call_count, 2)
+        self.assertEqual(request.call_count, 1)
 
-    def test_retry_only_transient_connections_not_access_refusals(self):
-        with patch("macro_fiscal_mof.fetch", side_effect=[TimeoutError(), b"verified page"]) as request, patch("macro_fiscal_mof.time.sleep"):
-            self.assertEqual(html_for(URL), "verified page")
-            self.assertEqual(request.call_count, 2)
+    def test_fiscal_wrapper_does_not_retry_access_refusals(self):
         with patch("macro_fiscal_mof.fetch", side_effect=HTTPError(URL, 403, "Forbidden", {}, None)) as request:
             with self.assertRaises(RuntimeError):
                 html_for(URL)
