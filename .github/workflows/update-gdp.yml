@@ -62,16 +62,31 @@ jobs:
           sudo apt-get install -y fonts-droid-fallback
           python -m pip install -r docs/requirements.txt -r scripts/requirements-plots.txt -r scripts/requirements-data.txt
       - name: Fetch and generate
+        id: fetch
+        shell: bash
         env:
           FULL_HISTORY: ${{ inputs.backfill }}
         run: |
-          python scripts/sync_gdp.py
-          if [ "$FULL_HISTORY" = 'true' ] || { [ '${{ github.event_name }}' = 'schedule' ] && [ "$(date -u +%d)" = '01' ]; }; then
-            python scripts/sync_macro.py --backfill
-          else
-            python scripts/sync_macro.py
-          fi
-          python scripts/macro_overview.py
+          {
+            python scripts/sync_gdp.py
+            if [ "$FULL_HISTORY" = 'true' ] || { [ '${{ github.event_name }}' = 'schedule' ] && [ "$(date -u +%d)" = '01' ]; }; then
+              python scripts/sync_macro.py --backfill
+            else
+              python scripts/sync_macro.py
+            fi
+            python scripts/macro_overview.py
+          } 2>&1 | tee "$RUNNER_TEMP/finance-fetch.log"
+      - name: Report fetch failure
+        if: failure() && steps.fetch.outcome == 'failure'
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          path = Path(os.environ["RUNNER_TEMP"]) / "finance-fetch.log"
+          detail = "\n".join(path.read_text(errors="replace").splitlines()[-25:])
+          detail = detail.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+          print("::error title=Official data fetch failed::" + detail)
+          PY
       - name: Test data validation
         run: python -m unittest discover -s tests -v
       - name: Verify documentation
