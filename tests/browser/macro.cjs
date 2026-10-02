@@ -2,6 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
+let checking = "launch";
 const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, fiscal: 10, rates: 3, "us-rates": 6, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
 
 (async () => {
@@ -12,12 +13,14 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     page.on("pageerror", e => errors.push(e.message));
     page.on("request", r => {if (!r.url().startsWith(base)) remote.push(r.url());});
     for (const [slug, count] of Object.entries(topics)) {
+      checking = slug;
       await page.goto(`${base}/data/${slug}.html`);
       assert(await page.locator(".sync-status").isVisible());
       assert.equal(await page.locator(".sync-status a").getAttribute("href"), "update-status.html");
       const specs = await page.evaluate(() => FINANCE_MACRO.charts);
       assert.equal(specs.length, count);
       for (const spec of specs) {
+        checking = `${slug}/${spec.id}`;
         const preview = page.locator(`img[src$="/macro-${spec.id}.svg"]`);
         if (await preview.isVisible()) await preview.scrollIntoViewIfNeeded();
         const widget = page.locator(`#interactive-${spec.id}`);
@@ -305,4 +308,9 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
   } finally {
     await browser.close();
   }
-})().catch(error => {console.error(error); process.exitCode = 1;});
+})().catch(error => {
+  console.error(`While checking ${checking}:`, error);
+  if (process.env.GITHUB_ACTIONS) console.error("::error title=Macro browser test::" +
+    `${checking}: ${error.stack || error}`.replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A"));
+  process.exitCode = 1;
+});

@@ -129,4 +129,9 @@ const url = process.env.GDP_TEST_URL || "http://127.0.0.1:8767/data/gdp.html";
   } finally {
     await browser.close();
   }
-})().catch(error => { console.error(error); process.exitCode = 1; });
+})().catch(error => {
+  console.error(error);
+  if (process.env.GITHUB_ACTIONS) console.error("::error title=GDP browser test::" +
+    String(error.stack || error).replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A"));
+  process.exitCode = 1;
+});

@@ -68,4 +68,9 @@ const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
     assert.deepEqual(remote, []);
     console.log("PASS: overview cards, source clocks, ranges, topic links, keyboard/touch scenarios, mobile layout, print, no-JS and local assets.");
   } finally { await browser.close(); }
-})().catch(error => {console.error(error); process.exitCode = 1;});
+})().catch(error => {
+  console.error(error);
+  if (process.env.GITHUB_ACTIONS) console.error("::error title=Overview browser test::" +
+    String(error.stack || error).replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A"));
+  process.exitCode = 1;
+});
