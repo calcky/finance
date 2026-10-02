@@ -25,6 +25,7 @@ on:
       - 'tests/test_macro.py'
       - 'tests/test_overview.py'
       - 'tests/test_quarterly_gdp.py'
+      - 'tests/test_credit_structure.py'
       - 'docs/conf.py'
       - 'docs/_static/**'
       - 'tests/browser/**'
@@ -102,6 +103,7 @@ jobs:
           git add data/macro docs/data/prices.md docs/data/money-credit.md docs/data/rates.md docs/data/activity.md docs/data/employment-income.md docs/data/trade-fx.md docs/images/data/macro-*.svg
           git add docs/data/overview.md
           git add docs/data/quarterly-gdp.md
+          git add docs/data/credit-structure.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."
             exit 0

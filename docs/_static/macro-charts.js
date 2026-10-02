@@ -51,29 +51,37 @@
         const value = spec.values[key][period];
         return value == null ? "缺失" : `${format.format(value)} ${spec.unit}`;
       };
+      const stacked = spec.kind === "stacked";
+      const plotSeries = spec.series.map((key, i) => ({name: snapshot.definitions[key].label,
+        type: stacked ? "bar" : "line", stack: stacked ? "flow" : undefined, stackStrategy: "samesign",
+        connectNulls: false, showSymbol: true, symbolSize: spec.frequency === "D" ? 3 : 6,
+        lineStyle: {width: 2, type: i === 1 ? "dashed" : "solid"},
+        data: spec.periods.map(p => stacked && spec.totals[p] == null ? null : (spec.values[key][p] ?? null)),
+      }));
+      if (stacked) plotSeries.push({name: "净合计", type: "line", connectNulls: false,
+        itemStyle: {color: "#203047"}, lineStyle: {width: 2}, symbolSize: 4,
+        data: spec.periods.map(p => spec.totals[p] ?? null)});
       chart.setOption({
-        animation: false, color: ["#3675b5", "#268566", "#ab6540"],
+        animation: false, color: ["#3675b5", "#268566", "#ab6540", "#8064a2", "#c09028", "#3a858a"],
         textStyle: {fontFamily: "sans-serif", fontSize: 12},
         grid: {left: 10, right: 20, top: 90, bottom: 90, containLabel: true},
         legend: {top: 8, type: "scroll"},
         tooltip: {trigger: "axis", confine: true, formatter: items => {
           if (!items.length) return "";
           const period = items[0].axisValue;
-          return period + "<br>" + spec.series.map(k => `${snapshot.definitions[k].label}：${valueText(k, period)}`).join("<br>");
+          return period + "<br>" + spec.series.map(k => `${snapshot.definitions[k].label}：${valueText(k, period)}`).join("<br>") +
+            (stacked ? `<br>净合计：${spec.totals[period] == null ? "缺失" : format.format(spec.totals[period])} ${spec.unit}` : "");
         }},
-        xAxis: {type: "category", data: spec.periods, boundaryGap: false, axisLabel: {hideOverlap: true}},
-        yAxis: {type: "value", name: spec.unit, scale: true},
+        xAxis: {type: "category", data: spec.periods, boundaryGap: stacked, axisLabel: {hideOverlap: true}},
+        yAxis: {type: "value", name: spec.unit, scale: !stacked},
         dataZoom: [{type: "slider", bottom: 16, height: 24, filterMode: "none", start: 0, end: 100, minValueSpan: 1}],
-        series: spec.series.map((key, i) => ({name: snapshot.definitions[key].label, type: "line",
-          connectNulls: false, showSymbol: true, symbolSize: spec.frequency === "D" ? 3 : 6,
-          lineStyle: {width: 2, type: i === 1 ? "dashed" : "solid"},
-          data: spec.periods.map(p => spec.values[key][p] ?? null),
-        })),
+        series: plotSeries,
       });
       function pin(period) {
         select.value = period;
         wrapper.dataset.selectedPeriod = period;
         readout.replaceChildren(element("span", "", `已固定 ${period}`), ...spec.series.map(k => element("span", "", `${snapshot.definitions[k].label} ${valueText(k, period)}`)));
+        if (stacked) readout.append(element("span", "", `净合计 ${spec.totals[period] == null ? "缺失" : format.format(spec.totals[period])} ${spec.unit}`));
         link.href = `#macro-${spec.id}-${period}`;
         const markers = [{xAxis: period}];
         if (spec.baseline !== undefined) markers.push({yAxis: spec.baseline, label: {formatter: "临界点 " + spec.baseline}});

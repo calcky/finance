@@ -66,14 +66,58 @@ define("gdp_qoq_sa", "GDP 季调实际环比", "%", "Q", "国家统计局",
        "季节调整后相对上一季度的实际增速，非年化；直接采用官方百分比，历史会随季调模型更新修订。")
 
 
-def chart(id, title, series, explanation, baseline=None):
+for key, label in [("rmb", "人民币贷款（社融口径）"), ("fx", "外币贷款折人民币"),
+                   ("entrusted", "委托贷款"), ("trust", "信托贷款"),
+                   ("acceptances", "未贴现银行承兑汇票"), ("corporate_bonds", "企业债券净融资"),
+                   ("government", "政府债券净融资"), ("equity", "非金融企业境内股票融资"),
+                   ("abs", "存款类金融机构 ABS"), ("writeoffs", "贷款核销")]:
+    define(f"tsf_{key}_flow", label, "亿元", "M", "中国人民银行",
+           "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。")
+SERIES["tsf_rmb_flow"]["basis"] += "排除金融机构和境外借款人，与全部金融机构人民币贷款不同。"
+SERIES["tsf_government_flow"]["basis"] += "含国债及地方一般债、专项债；官方回溯至2017年，之前缺项不等于零。"
+SERIES["tsf_writeoffs_flow"]["basis"] += "核销是统计调整项目，不是当月新增客户借款。"
+for key, label, formula in [
+    ("direct", "企业债券＋股票融资", "企业债券净融资＋非金融企业境内股票融资"),
+    ("offbalance", "委托＋信托＋未贴现票据", "委托贷款＋信托贷款＋未贴现银行承兑汇票"),
+    ("remaining", "其余融资及统计调整", "同版社融总量－人民币贷款－政府债券－企业债券/股票组－委托/信托/票据组；含外币贷款、ABS、核销及未列示项和舍入差额"),
+]:
+    define(f"tsf_{key}_flow", label, "亿元", "M", "中国人民银行（本项目计算分组）",
+           f"计算式：{formula}。仅在所需分项全部存在时计算，非央行独立发布的指标。")
+for sector, name in [("household", "住户"), ("business", "境内企业等"), ("business_legacy", "非金融公司及其他部门（含非居民旧口径）")]:
+    for term, label in [("total", "贷款余额"), ("short", "短期贷款余额"), ("long", "中长期贷款余额"), ("bills", "票据融资余额")]:
+        if sector == "household" and term == "bills":
+            continue
+        define(f"loan_{sector}_{term}", name + label, "万亿元", "M", "中国人民银行",
+               "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。")
+        if sector == "household":
+            SERIES[f"loan_{sector}_{term}"]["basis"] += "早期短期/中长期按同表消费性＋经营性贷款相加；中长期不全是房贷，短期不全是消费贷。"
+        elif sector == "business":
+            SERIES[f"loan_{sector}_{term}"]["basis"] += "含机关团体等，2010年起境外单列；三类期限图不穷尽企业贷款，另有租赁、垫款等。"
+        else:
+            SERIES[f"loan_{sector}_{term}"]["basis"] += "2007—2009包含非居民，独立保存，不与境内企业线拼接。"
+
+
+def chart(id, title, series, explanation, baseline=None, **options):
     result = dict(id=id, title=title, series=series, explanation=explanation)
     if baseline is not None:
         result["baseline"] = baseline
-    return result
+    return dict(result, **options)
 
 
 TOPICS = {
+    "credit-structure": {
+        "title": "社融与信贷结构", "question": "融资增长来自谁，通过什么渠道，是否转化成了需求？",
+        "intro": "先按渠道拆社融单月增量，再按借款人和期限观察人民币贷款余额。这两套统计不能相加；贷款余额不是当月新增贷款。政府债券支撑总量，不自动说明居民和企业借贷需求回升。",
+        "charts": [
+            chart("financing-composition", "社融增量：五组来源", ["tsf_rmb_flow", "tsf_government_flow", "tsf_direct_flow", "tsf_offbalance_flow", "tsf_remaining_flow"], "从政府债券官方回溯及全部分组的共同起点2017年开始堆叠；更早分项在后续图和下载中保留。正值向上、负值向下，黑线为净合计，上方柱顶不是总量。其余组为计算差额，含外币贷款、ABS、核销等，不是全新的融资渠道。2023年机构范围扩展需另看口径。", 0, kind="stacked", common_start=True),
+            chart("financing-market", "贷款与企业直接融资：单月增量", ["tsf_rmb_flow", "tsf_corporate_bonds_flow", "tsf_equity_flow"], "保留2002年以来可核验历史。债券为净融资，股票融资不是股票市值；不能用曲线大小判断哪类融资更优。2017年政府债券回溯和2023年机构扩围见口径说明。", 0),
+            chart("financing-offbalance", "委托、信托与未贴现票据", ["tsf_entrusted_flow", "tsf_trust_flow", "tsf_acceptances_flow"], "三条线是社融单月分项。信托2002—2005原表为缺失/业务很小的标记，不补零。未贴现票据转为贴现时，融资可能从票据项转入贷款项，不能仅凭某一项下降断言融资总量收缩。", 0),
+            chart("loan-borrowers", "谁在借款：人民币贷款余额", ["loan_household_total", "loan_business_total", "loan_business_legacy_total"], "这里是月末余额，不能当作当月借款需求。旧企业线含非居民，与2010年起境外单列后的境内企业线分开。2007年起的部门表逐年回溯；2023年机构扩围，不能直接用跨口径余额计算可比增速。"),
+            chart("loan-household-terms", "住户贷款：短期与中长期余额", ["loan_household_short", "loan_household_long"], "短期与中长期都可能包含消费和经营用途；中长期不全是房贷，短期也不全是消费贷。早期金额按同表的消费性与经营性分项相加。"),
+            chart("loan-business-terms", "境内企业等：贷款期限与票据", ["loan_business_short", "loan_business_long", "loan_business_bills"], "短期贷款、中长期贷款与票据融资分别观察，不把短期贷款及票据融资的合计行再与票据相加。三条线不穷尽所有企业贷款，还包括租赁、垫款等；机关团体也在企业等范围内。"),
+        ], "extra": ["tsf_fx_flow", "tsf_abs_flow", "tsf_writeoffs_flow", "loan_business_legacy_short", "loan_business_legacy_long", "loan_business_legacy_bills"],
+        "reading": "credit-structure",
+    },
     "quarterly-gdp": {
         "title": "中国季度 GDP", "question": "这个季度产出增长多快，和累计增长、上一季度有什么不同？",
         "intro": "使用国家统计局修订后的季度历史，分别展示当季、年内累计和季调环比。现价金额包含价格变化，实际增速剔除价格影响。季度资料与 World Bank 年度 GDP 独立保留，不混接。",

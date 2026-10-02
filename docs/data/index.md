@@ -12,6 +12,7 @@
 | [中国季度 GDP](quarterly-gdp.md) | 当季与累计实际同比、季调环比、现价金额、三次产业 | 季度 | 国家统计局；每日复核全部季度历史与季调修订 |
 | [物价与通胀](prices.md) | CPI、核心 CPI、PPI、食品/非食品/服务价格 | 月度 | 国家统计局历史目录与公告；保留换基前历史涨跌幅 |
 | [货币与社会融资](money-credit.md) | M1/M2 余额与增速、社融存量与当月增量 | 月度 / 早期季度末 | 央行统计表及统计局；M1 新旧定义分列 |
+| [社融与信贷结构](credit-structure.md) | 社融渠道分项、住户/企业贷款余额、期限与票据融资 | 月度 | 央行历年统计表；分项负值和企业范围变化独立保留 |
 | [利率与融资成本](rates.md) | 7 天逆回购、LPR、1 年/10 年国债收益率 | 日度 / 月度 | 央行、中国货币网、中债；分频率展示 |
 | [景气、生产、消费与投资](activity.md) | PMI、工业、社零、投资 | 月度 | 国家统计局；单月与年内累计分别标注 |
 | [就业与居民收入](employment-income.md) | 城镇调查失业率、可支配收入 | 月度 / 季度 | 国家统计局；季度收入为年内累计 |
@@ -28,6 +29,7 @@ quarterly-gdp
 quarterly-gdp-methodology
 prices
 money-credit
+credit-structure
 rates
 activity
 employment-income
@@ -39,7 +41,7 @@ history-coverage
 
 小型、允许公开再分发的数据集保存在仓库根目录 `data/`，采用 UTF-8 CSV。数据说明和分析放在文档中；构建出的 HTML 不入库。
 
-每个数据集提供 CSV 与机器可读元数据，说明包含序列定义、单位、频率、口径变化、缺失值约定和来源参数。七个中国宏观专题保存在 `data/macro/<topic>.csv` 和 `<topic>.metadata.json`；阅读说明与图表在本节对应页面。
+每个数据集提供 CSV 与机器可读元数据，说明包含序列定义、单位、频率、口径变化、缺失值约定和来源参数。八个中国宏观专题保存在 `data/macro/<topic>.csv` 和 `<topic>.metadata.json`；阅读说明与图表在本节对应页面。
 
 已提供的 GDP 数据为 `data/gdp.csv`、`data/gdp.md` 和机器可读的 `data/gdp.metadata.json`；图表与页面由该快照生成。
 
@@ -76,7 +78,7 @@ history-coverage
 
 月度宏观指标在正式发布后更新，GDP 跟随季度及修订发布，政策利率跟随政策公告，行情跟随选定产品的采样频率。网站构建时间与数据更新时间不同，页面变新不意味着所有指标都变新。
 
-年度 GDP 与七个宏观专题的统一同步任务设为每天北京时间 06:17 检查，也可手动触发。GitHub 定时任务可能延迟或跳过，公开仓库长期不活跃时还可能暂停，不能视为准点服务。最近检查结果以 [Actions 记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 为准。
+年度 GDP 与八个宏观专题的统一同步任务设为每天北京时间 06:17 检查，也可手动触发。GitHub 定时任务可能延迟或跳过，公开仓库长期不活跃时还可能暂停，不能视为准点服务。最近检查结果以 [Actions 记录](https://github.com/calcky/finance/actions/workflows/update-gdp.yml) 为准。
 
 日常更新保留全历史，每月首次定时任务另做全量回溯，手动触发时也可选择 `backfill`。[历史覆盖与来源核验](history-coverage.md)说明实际起点、口径断点与仍存在的缺口。
 

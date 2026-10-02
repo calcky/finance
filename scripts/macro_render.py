@@ -1,6 +1,7 @@
 """One snapshot supplies the Markdown tables, SVG fallbacks and browser payload."""
 
 import csv
+from decimal import Decimal
 from datetime import date, timedelta
 from html import escape
 from io import StringIO
@@ -10,6 +11,7 @@ from pathlib import Path
 from macro_catalog import SERIES, TOPICS, topic_series
 
 ROOT = Path(__file__).resolve().parents[1]
+COLORS = ["#3675b5", "#268566", "#ab6540", "#8064a2", "#c09028", "#3a858a"]
 
 
 def load_topic(slug, root=ROOT):
@@ -36,10 +38,17 @@ def payload(slug, rows, meta):
         selected = [r for r in rows if r["series_id"] in chart["series"]]
         present = sorted({r["period"] for r in selected})
         frequency = SERIES[chart["series"][0]]["frequency"]
+        if chart.get("common_start"):
+            start = max(min(r["period"] for r in selected if r["series_id"] == k) for k in chart["series"])
+            present = [p for p in present if p >= start]
         periods = periods_between(present[0], present[-1], frequency)
         charts.append(dict(chart, periods=periods, frequency=frequency,
                            unit=SERIES[chart["series"][0]]["unit"],
                            values={k: {r["period"]: float(r["value"]) for r in selected if r["series_id"] == k} for k in chart["series"]}))
+        if chart.get("kind") == "stacked":
+            values = {(r["series_id"], r["period"]): Decimal(r["value"]) for r in selected}
+            charts[-1]["totals"] = {p: float(sum(values[k, p] for k in chart["series"]))
+                                    for p in periods if all((k, p) in values for k in chart["series"])}
     return dict(charts=charts, metadata=meta, definitions={k: SERIES[k] for k in topic_series(TOPICS[slug])})
 
 
@@ -85,12 +94,14 @@ def document(slug, rows, meta):
     lines += ["", "起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。", "",
               "图表的“全部”与 CSV 保留完整已采集历史；缩放近期不会删除早期数据。[历史来源、口径断点与剩余缺口](history-coverage.md)说明回溯范围。", ""]
     for chart in payload(slug, rows, meta)["charts"]:
+        net_header = '<th>净合计</th>' if chart.get("kind") == "stacked" else ''
         lines += [f"## {chart['title']}", "", chart["explanation"], "",
                   f"![{chart['title']}，单位：{chart['unit']}；完整数值见下方明细](../images/data/macro-{chart['id']}.svg)", "",
                   '<details class="macro-details">', f"<summary>{escape(chart['title'])}：展开完整数据表（{escape(chart['unit'])}）</summary>",
-                  '<div class="macro-table-wrap"><table><thead><tr><th>期间</th>' + ''.join(f"<th>{escape(SERIES[k]['label'])}</th>" for k in chart["series"]) + '</tr></thead><tbody>']
+                  '<div class="macro-table-wrap"><table><thead><tr><th>期间</th>' + ''.join(f"<th>{escape(SERIES[k]['label'])}</th>" for k in chart["series"]) + net_header + '</tr></thead><tbody>']
         for period in reversed(chart["periods"]):
-            lines.append(f'<tr id="macro-{chart["id"]}-{period}" tabindex="-1"><td>{period}</td>' + ''.join(f'<td>{display(chart["values"][k].get(period))}</td>' for k in chart["series"]) + '</tr>')
+            net_cell = f'<td>{display(chart["totals"].get(period))}</td>' if net_header else ''
+            lines.append(f'<tr id="macro-{chart["id"]}-{period}" tabindex="-1"><td>{period}</td>' + ''.join(f'<td>{display(chart["values"][k].get(period))}</td>' for k in chart["series"]) + net_cell + '</tr>')
         lines += ["</tbody></table></div></details>", ""]
     for key in topic.get("extra", []):
         lines += [f"## {SERIES[key]['label']}：补充明细", "", SERIES[key]["basis"], "",
@@ -131,9 +142,24 @@ def render(slug, rows, meta, out, font=None, preview_dir=None):
         fig.subplots_adjust(left=.10, right=.96, bottom=.22, top=.78)
         fig.text(.06, .92, chart["title"], fontsize=22)
         fig.text(.06, .85, f"单位：{chart['unit']}  |  期间：{chart['periods'][0]} 至 {chart['periods'][-1]}", fontsize=13)
-        for key, color in zip(chart["series"], ["#3675b5", "#268566", "#ab6540"]):
+        stacked = chart.get("kind") == "stacked"
+        positive, negative = [0.] * len(chart["periods"]), [0.] * len(chart["periods"])
+        for key, color in zip(chart["series"], COLORS):
             values = [chart["values"][key].get(p, float("nan")) for p in chart["periods"]]
-            ax.plot(range(len(values)), values, color=color, linewidth=2, marker=".", markersize=3 if chart["frequency"] == "D" else 6, label=SERIES[key]["label"])
+            if stacked:
+                values = [v if p in chart["totals"] else float("nan") for v, p in zip(values, chart["periods"])]
+                bottoms = [positive[i] if v >= 0 else negative[i] for i, v in enumerate(values)]
+                ax.bar(range(len(values)), values, bottom=bottoms, color=color, width=.8, label=SERIES[key]["label"])
+                for i, value in enumerate(values):
+                    if value >= 0:
+                        positive[i] += value
+                    elif value < 0:
+                        negative[i] += value
+            else:
+                ax.plot(range(len(values)), values, color=color, linewidth=2, marker=".", markersize=3 if chart["frequency"] == "D" else 6, label=SERIES[key]["label"])
+        if stacked:
+            ax.plot(range(len(chart["periods"])), [chart["totals"].get(p, float("nan")) for p in chart["periods"]],
+                    color="#203047", linewidth=1.4, label="净合计")
         if "baseline" in chart:
             ax.axhline(chart["baseline"], color="#8492a6", linestyle="--", linewidth=1)
         # Six readable ticks at most, including both endpoints.
@@ -141,7 +167,11 @@ def render(slug, rows, meta, out, font=None, preview_dir=None):
         ax.set_xticks(ticks, [chart["periods"][i] for i in ticks], fontsize=11)
         ax.tick_params(axis="y", labelsize=12)
         ax.grid(axis="y", color="#e5eaf0")
-        ax.legend(frameon=False, fontsize=11, loc="best")
+        if stacked:
+            ax.legend(frameon=False, fontsize=9, loc="upper left", bbox_to_anchor=(0, 1.18), ncol=3)
+            ax.set_position([.10, .22, .86, .46])
+        else:
+            ax.legend(frameon=False, fontsize=11, loc="best")
         source = "、".join(dict.fromkeys(SERIES[k]["source"] for k in chart["series"]))
         fig.text(.06, .08, f"来源：{source}；缺失处断线。快照 {meta['retrieved_at'][:10]}（UTC）", fontsize=10)
         stream = StringIO()

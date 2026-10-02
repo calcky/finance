@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -83,6 +83,22 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, rates: 3, acti
         const nulls = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().series.map(s => [s.connectNulls, s.data.includes(null)]));
         assert(nulls.every(([connect, missing]) => !connect && missing));
       }
+      if (slug === "credit-structure") {
+        const widget = page.locator("#interactive-financing-composition");
+        await widget.locator("select").selectOption("2026-08");
+        assert.match(await widget.locator(".gdp-readout").innerText(), /净合计 16,577 亿元/);
+        const series = await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().series);
+        assert.equal(series.length, 6);
+        assert(series.slice(0, 5).every(s => s.type === "bar" && s.stack === "flow" && s.stackStrategy === "samesign"));
+        assert(series.slice(0, 5).some(s => s.data.some(v => v < 0)));
+        assert.equal(series[5].name, "净合计");
+        assert.equal(series[5].type, "line");
+        assert.equal(await widget.locator(".gdp-canvas").evaluate(node => echarts.getInstanceByDom(node).getOption().yAxis[0].scale), false);
+        assert.equal(await page.locator("#macro-financing-composition-2026-08 td").last().innerText(), "16,577");
+        const early = page.locator("#interactive-financing-offbalance");
+        await early.locator("select").selectOption("2002-01");
+        assert.match(await early.locator(".gdp-readout").innerText(), /信托贷款 缺失/);
+      }
       await page.emulateMedia({media: "print"});
       assert.equal(await page.locator(".macro-interactive:visible").count(), 0);
       assert.equal(await page.locator(".gdp-static-fallback:visible").count(), count);
@@ -112,6 +128,36 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, rates: 3, acti
     assert(await mobile.locator("#macro-gdp-quarter-yoy-1993-Q1").isVisible());
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     if (process.env.QUARTER_GDP_SCREENSHOT) await quarterly.screenshot({path: process.env.QUARTER_GDP_SCREENSHOT});
+    await mobile.goto(`${base}/data/credit-structure.html`);
+    const credit = mobile.locator("#interactive-financing-composition");
+    await credit.locator("select").selectOption("2026-08");
+    assert.match(await credit.locator(".gdp-readout").innerText(), /净合计 16,577 亿元/);
+    await credit.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-financing-composition-2026-08").isVisible());
+    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
+    if (process.env.CREDIT_SCREENSHOT) await credit.screenshot({path: process.env.CREDIT_SCREENSHOT});
+    // Synthetic missing component: never render a partial stack as a total.
+    const missing = await browser.newPage();
+    await missing.addInitScript(() => {
+      Object.defineProperty(window, "FINANCE_MACRO", {configurable: true, set(value) {
+        const spec = value.charts.find(c => c.id === "financing-composition");
+        if (spec) {
+          delete spec.values[spec.series[0]]["2026-08"];
+          delete spec.totals["2026-08"];
+        }
+        Object.defineProperty(window, "FINANCE_MACRO", {value, writable: true});
+      }});
+    });
+    await missing.goto(`${base}/data/credit-structure.html`);
+    const gap = missing.locator("#interactive-financing-composition");
+    await gap.locator("select").selectOption("2026-08");
+    assert.match(await gap.locator(".gdp-readout").innerText(), /净合计 缺失/);
+    assert(await gap.locator(".gdp-canvas").evaluate(node => {
+      const option = echarts.getInstanceByDom(node).getOption();
+      const index = option.xAxis[0].data.indexOf("2026-08");
+      return option.series.every(s => s.data[index] === null && !s.connectNulls);
+    }));
+    await missing.close();
     for (const js of [false, true]) {
       const fallback = await browser.newPage({javaScriptEnabled: js});
       if (js) await fallback.route("**/vendor/echarts-*.js*", route => route.abort());

@@ -1,0 +1,3756 @@
+{
+  "acquisition": {
+    "loan_business_bills": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_legacy_bills": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_abs_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_acceptances_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_corporate_bonds_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_direct_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2002-01"
+        }
+      ]
+    },
+    "tsf_entrusted_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_equity_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_fx_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_government_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_offbalance_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2006-01"
+        }
+      ]
+    },
+    "tsf_remaining_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2017-01"
+        }
+      ]
+    },
+    "tsf_rmb_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_trust_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_writeoffs_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "loan_business_bills": {
+      "count": 200,
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "loan_business_legacy_bills": {
+      "count": 36,
+      "first": "2007-01",
+      "last": "2009-12"
+    },
+    "loan_business_legacy_long": {
+      "count": 36,
+      "first": "2007-01",
+      "last": "2009-12"
+    },
+    "loan_business_legacy_short": {
+      "count": 36,
+      "first": "2007-01",
+      "last": "2009-12"
+    },
+    "loan_business_legacy_total": {
+      "count": 36,
+      "first": "2007-01",
+      "last": "2009-12"
+    },
+    "loan_business_long": {
+      "count": 200,
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "loan_business_short": {
+      "count": 200,
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "loan_business_total": {
+      "count": 200,
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "loan_household_long": {
+      "count": 236,
+      "first": "2007-01",
+      "last": "2026-08"
+    },
+    "loan_household_short": {
+      "count": 236,
+      "first": "2007-01",
+      "last": "2026-08"
+    },
+    "loan_household_total": {
+      "count": 236,
+      "first": "2007-01",
+      "last": "2026-08"
+    },
+    "tsf_abs_flow": {
+      "count": 116,
+      "first": "2017-01",
+      "last": "2026-08"
+    },
+    "tsf_acceptances_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_corporate_bonds_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_direct_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_entrusted_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_equity_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_fx_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_government_flow": {
+      "count": 116,
+      "first": "2017-01",
+      "last": "2026-08"
+    },
+    "tsf_offbalance_flow": {
+      "count": 248,
+      "first": "2006-01",
+      "last": "2026-08"
+    },
+    "tsf_remaining_flow": {
+      "count": 116,
+      "first": "2017-01",
+      "last": "2026-08"
+    },
+    "tsf_rmb_flow": {
+      "count": 296,
+      "first": "2002-01",
+      "last": "2026-08"
+    },
+    "tsf_trust_flow": {
+      "count": 248,
+      "first": "2006-01",
+      "last": "2026-08"
+    },
+    "tsf_writeoffs_flow": {
+      "count": 116,
+      "first": "2017-01",
+      "last": "2026-08"
+    }
+  },
+  "history": {
+    "loan_business_bills": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_legacy_bills": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_legacy_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        }
+      ]
+    },
+    "loan_business_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_business_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_long": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_short": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "loan_household_total": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2008S03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2009s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2010s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2011s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s03a.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s03a.htm",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111810564114123.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111811260014568.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111814223377038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815281576875.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111815533429222.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816065225038.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816273553641.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111816420126728.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817162649674.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111817274124837.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011517314370061.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418213884368.xlsx"
+      ],
+      "coverage": "住户与企业人民币贷款余额；已核验2007年起全部年度部门表，包括2012—2014年旧HTML附件；未发布月份不填值",
+      "definition_notes": [
+        "2007—2009企业含非居民，旧序列分列；2010年起境内/境外单列",
+        "2023年消费金融公司、理财公司、金融资产投资公司等三类机构纳入金融统计；不由跨范围余额计算可比增速",
+        "住户与境内企业余额不穷尽全部金融机构贷款；还包括非银行金融机构和境外等借款人"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2007-12",
+          "start": "2007-01"
+        },
+        {
+          "end": "2008-12",
+          "start": "2008-01"
+        },
+        {
+          "end": "2009-12",
+          "start": "2009-01"
+        },
+        {
+          "end": "2010-12",
+          "start": "2010-01"
+        },
+        {
+          "end": "2011-12",
+          "start": "2011-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2019-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_abs_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_acceptances_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_corporate_bonds_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_direct_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2002-01"
+        }
+      ]
+    },
+    "tsf_entrusted_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_equity_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_fx_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_government_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_offbalance_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2006-01"
+        }
+      ]
+    },
+    "tsf_remaining_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2026-12",
+          "start": "2017-01"
+        }
+      ]
+    },
+    "tsf_rmb_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2002-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_trust_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810462448165.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041810585985661.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2018/04/2018041811054763138.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/fileDir/resource/cms/2019/08/2019081915081468438.xls",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2012s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2013s18.htm",
+        "https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2012-12",
+          "start": "2006-01"
+        },
+        {
+          "end": "2012-12",
+          "start": "2012-01"
+        },
+        {
+          "end": "2013-12",
+          "start": "2013-01"
+        },
+        {
+          "end": "2014-12",
+          "start": "2014-01"
+        },
+        {
+          "end": "2015-12",
+          "start": "2015-01"
+        },
+        {
+          "end": "2016-12",
+          "start": "2016-01"
+        },
+        {
+          "end": "2017-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2018-12",
+          "start": "2018-01"
+        },
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    },
+    "tsf_writeoffs_flow": {
+      "annual_directory": "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html",
+      "attachments": [
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110415542112867.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416594167877.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110509591087259.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510115085998.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110511302316239.xls",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416252488839.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021418235592487.xlsx",
+        "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx"
+      ],
+      "coverage": "官方历史分项；2002—2005年信托贷款空白不补零；2019表附录回溯2017年起分项，政府债券不等于旧地方专项债",
+      "definition_notes": [
+        "2018年纳入存款类金融机构ABS、贷款核销与地方专项债；2019年纳入国债和地方一般债并官方回溯至2017年",
+        "2023年增加消费金融公司、理财公司、金融资产投资公司等三类机构；保留当期统计范围，不反推旧值"
+      ],
+      "refresh_ranges": [
+        {
+          "end": "2019-12",
+          "start": "2017-01"
+        },
+        {
+          "end": "2020-12",
+          "start": "2020-01"
+        },
+        {
+          "end": "2021-12",
+          "start": "2021-01"
+        },
+        {
+          "end": "2022-12",
+          "start": "2022-01"
+        },
+        {
+          "end": "2023-12",
+          "start": "2023-01"
+        },
+        {
+          "end": "2024-12",
+          "start": "2024-01"
+        },
+        {
+          "end": "2025-12",
+          "start": "2025-01"
+        },
+        {
+          "end": "2026-12",
+          "start": "2026-01"
+        }
+      ]
+    }
+  },
+  "history_checked_at": "2026-10-02T13:43:15+00:00",
+  "retrieved_at": "2026-10-02T13:43:15+00:00",
+  "schema_version": 2,
+  "series": {
+    "loan_business_bills": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。含机关团体等，2010年起境外单列；三类期限图不穷尽企业贷款，另有租赁、垫款等。",
+      "frequency": "M",
+      "label": "境内企业等票据融资余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_legacy_bills": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。2007—2009包含非居民，独立保存，不与境内企业线拼接。",
+      "frequency": "M",
+      "label": "非金融公司及其他部门（含非居民旧口径）票据融资余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_legacy_long": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。2007—2009包含非居民，独立保存，不与境内企业线拼接。",
+      "frequency": "M",
+      "label": "非金融公司及其他部门（含非居民旧口径）中长期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_legacy_short": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。2007—2009包含非居民，独立保存，不与境内企业线拼接。",
+      "frequency": "M",
+      "label": "非金融公司及其他部门（含非居民旧口径）短期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_legacy_total": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。2007—2009包含非居民，独立保存，不与境内企业线拼接。",
+      "frequency": "M",
+      "label": "非金融公司及其他部门（含非居民旧口径）贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_long": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。含机关团体等，2010年起境外单列；三类期限图不穷尽企业贷款，另有租赁、垫款等。",
+      "frequency": "M",
+      "label": "境内企业等中长期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_short": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。含机关团体等，2010年起境外单列；三类期限图不穷尽企业贷款，另有租赁、垫款等。",
+      "frequency": "M",
+      "label": "境内企业等短期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_business_total": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。含机关团体等，2010年起境外单列；三类期限图不穷尽企业贷款，另有租赁、垫款等。",
+      "frequency": "M",
+      "label": "境内企业等贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_household_long": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。早期短期/中长期按同表消费性＋经营性贷款相加；中长期不全是房贷，短期不全是消费贷。",
+      "frequency": "M",
+      "label": "住户中长期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_household_short": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。早期短期/中长期按同表消费性＋经营性贷款相加；中长期不全是房贷，短期不全是消费贷。",
+      "frequency": "M",
+      "label": "住户短期贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "loan_household_total": {
+      "basis": "金融机构人民币贷款月末余额，源亿元除以10000；不是当月新增贷款。2023年机构统计范围扩展。早期短期/中长期按同表消费性＋经营性贷款相加；中长期不全是房贷，短期不全是消费贷。",
+      "frequency": "M",
+      "label": "住户贷款余额",
+      "source": "中国人民银行",
+      "unit": "万亿元"
+    },
+    "tsf_abs_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "存款类金融机构 ABS",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_acceptances_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "未贴现银行承兑汇票",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_corporate_bonds_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "企业债券净融资",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_direct_flow": {
+      "basis": "计算式：企业债券净融资＋非金融企业境内股票融资。仅在所需分项全部存在时计算，非央行独立发布的指标。",
+      "frequency": "M",
+      "label": "企业债券＋股票融资",
+      "source": "中国人民银行（本项目计算分组）",
+      "unit": "亿元"
+    },
+    "tsf_entrusted_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "委托贷款",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_equity_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "非金融企业境内股票融资",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_fx_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "外币贷款折人民币",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_government_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。含国债及地方一般债、专项债；官方回溯至2017年，之前缺项不等于零。",
+      "frequency": "M",
+      "label": "政府债券净融资",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_offbalance_flow": {
+      "basis": "计算式：委托贷款＋信托贷款＋未贴现银行承兑汇票。仅在所需分项全部存在时计算，非央行独立发布的指标。",
+      "frequency": "M",
+      "label": "委托＋信托＋未贴现票据",
+      "source": "中国人民银行（本项目计算分组）",
+      "unit": "亿元"
+    },
+    "tsf_remaining_flow": {
+      "basis": "计算式：同版社融总量－人民币贷款－政府债券－企业债券/股票组－委托/信托/票据组；含外币贷款、ABS、核销及未列示项和舍入差额。仅在所需分项全部存在时计算，非央行独立发布的指标。",
+      "frequency": "M",
+      "label": "其余融资及统计调整",
+      "source": "中国人民银行（本项目计算分组）",
+      "unit": "亿元"
+    },
+    "tsf_rmb_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。排除金融机构和境外借款人，与全部金融机构人民币贷款不同。",
+      "frequency": "M",
+      "label": "人民币贷款（社融口径）",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_trust_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。",
+      "frequency": "M",
+      "label": "信托贷款",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    },
+    "tsf_writeoffs_flow": {
+      "basis": "社融单月分项；不是年内累计、存量差分或所有新签合同金额。负值保留；统计范围按当期原表。核销是统计调整项目，不是当月新增客户借款。",
+      "frequency": "M",
+      "label": "贷款核销",
+      "source": "中国人民银行",
+      "unit": "亿元"
+    }
+  },
+  "title": "社融与信贷结构"
+}

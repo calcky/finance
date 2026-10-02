@@ -12,13 +12,13 @@
 | `docs/investing/` | 债券、股票、基金与投资组合 |
 | `docs/images/` | 原创图解的 Draw.io 图源、SVG，以及公式计算图 |
 | `scripts/` | 数值图生成、GDP 数据同步与独立绘图依赖 |
-| `scripts/macro_*.py`、`scripts/sync_macro.py` | 七个中国宏观专题的口径、官方采集、校验与生成 |
-| `data/macro/` | 七份宏观 CSV 及机器可读元数据 |
+| `scripts/macro_*.py`、`scripts/sync_macro.py` | 八个中国宏观专题的口径、官方采集、校验与生成 |
+| `data/macro/` | 八份宏观 CSV 及机器可读元数据 |
 | `docs/indicators/` | 指标定义、单位、频率与来源 |
 | `docs/data/` | 数据使用说明与更新规范 |
 | `data/` | 可公开再分发的小型数据集及说明 |
 | `.readthedocs.yaml` | Read the Docs 构建环境和入口 |
-| `.github/workflows/update-gdp.yml` | 年度 GDP 与七个宏观专题的统一定时检查、校验和快照提交 |
+| `.github/workflows/update-gdp.yml` | 年度 GDP 与八个宏观专题的统一定时检查、校验和快照提交 |
 | `_build/` | 本地生成的网页，已加入 Git 忽略规则 |
 
 ## 本地预览
@@ -107,9 +107,9 @@ git diff --check
 
 GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.json`、`docs/data/gdp.md` 和四张 GDP SVG；不改课程正文。推送失败不会强制覆盖远端，下次从最新分支重跑。Read the Docs 是否收到更新、构建是否成功，仍须以其项目状态为准。
 
-### 七个中国宏观专题
+### 八个中国宏观专题
 
-统一工作流也会更新季度 GDP、物价、货币与社融、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、七个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
+统一工作流也会更新季度 GDP、物价、货币与社融、信贷结构、利率、经济活动、就业与收入、贸易与汇率，避免两个定时任务同时写同一分支。宏观数据提交范围另含 `data/macro/`、八个生成页面和 `docs/images/data/macro-*.svg`。每日 UTC 22:17 检查，全部采集、校验、严格构建与浏览器测试成功后才发布；任一来源失败均不提交本次刷新。
 
 ```sh
 .venv/bin/python -m pip install -r scripts/requirements-data.txt -r scripts/requirements-plots.txt
@@ -126,7 +126,7 @@ node tests/browser/macro.cjs
 node tests/browser/overview.cjs
 ```
 
-`macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_quarterly_gdp.py` 每次复核季度 GDP 完整历史和定义，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 23 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
+`macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_quarterly_gdp.py` 每次复核季度 GDP 完整历史和定义，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_tsf_components.py` 与 `macro_loan_history.py` 分别负责社融分项和借款人/期限贷款余额，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 29 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
 
 首次接入单一专题可运行 `.venv/bin/python scripts/sync_macro.py --topics quarterly-gdp --backfill`；日常单专题复核去掉 `--backfill`。不指定 `--topics` 时仍更新全部专题。选定专题的全部采集和渲染成功后才写入，不触碰其他专题快照；季度 GDP 每次读取全部季度历史，并核验同比指数减 100、现价/不变价、当季/累计和季调口径。新增专题的广范围查询应再用分段查询交叉验证完整性。
 
@@ -135,6 +135,8 @@ node tests/browser/overview.cjs
 日常查询保留既有早期观测，元数据 `refresh_ranges` 标明本次权威查询范围，`history` 保留全量回溯证据，`history_checked_at` 记录完整回溯时间，`coverage` 记录每个指标的实际首末期间和条数。每月 1 日的定时任务做全量复核，Actions 手动输入 `backfill` 也可开启；首次建立或快照更新与历史复核均超过 60 天时自动全量回溯。仅查询窗口或检查日期变化不会改写没有新数据的日常快照；一次真正完成的全历史核验会更新复核时间。
 
 M1 同比采用统计局转发的央行可比同比，并纳入央行官方 2024 年新定义回溯；不以跨定义余额计算替代。价格指数以 100 为比较基准时减 100 得涨跌幅，PMI 保留指数点。贸易千美元除以 100000 得亿美元，货币亿元除以 10000 得万亿元。社融当月增量不由存量差分代替；收入明确为季度末年内累计。工业与社零的 1—2 月合计使用独立序列和明细表，历史真实单月值仍保留。
+
+社融结构使用同版总量与分项，2019 年表中附录的 2017 年起金额回溯优先于旧表，不读取百分比附录。五组柱子按正负分别堆叠，黑线为净合计；缺少任何必要分项时整根堆叠柱留空，不能将不完整的加总画成总量。住户与企业图展示月末余额，不差分伪造新增贷款；源表按 0.01 亿元显示精度舍入后再换为万亿元，2007—2009 年含非居民的旧企业范围独立保存。2012—2014 年 HTML 附件已读取核验，不跳过获取失败的年度；失败时保留上次有效快照。
 
 所有获取和渲染先在临时目录完成；错误不替换现有快照。完整历史来源缺失已有观测、滚动窗口内已有值消失、单位或结构改变均报错。正常数值修订可更新并由 Git 记录；新窗口之外的日度历史保留，不声称已重新核验它们。观测和元数据没有变化时不刷新获取时间。源机构未给出逐条发布时间的字段留空。
 
