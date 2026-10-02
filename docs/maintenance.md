@@ -118,10 +118,12 @@ GDP 部分的自动提交范围限定为 `data/gdp.csv`、`data/gdp.metadata.jso
 .venv/bin/python scripts/sync_macro.py --backfill
 # 只用已入库快照离线重建，不联网
 .venv/bin/python scripts/sync_macro.py --render-only --preview-dir /tmp/finance-macro-previews
+.venv/bin/python scripts/macro_overview.py
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python -m sphinx -n -W --keep-going -b html docs _build/html
 # 启动前述本地 HTTP 服务后
 node tests/browser/macro.cjs
+node tests/browser/overview.cjs
 ```
 
 `macro_catalog.py` 保存指标、口径和阅读解释。`macro_nbs_history.py`、`macro_nbs_cpi_releases.py`、`macro_income_history.py` 负责统计局历史目录与原始公告，`macro_money_history.py` 负责央行年度统计表及回溯，`macro_market_history.py` 负责汇率、LPR 与国债曲线，`macro_repo_history.py` 负责逆回购公告。原 `macro_nbs.py`、`macro_pbc.py` 中部分解析器仍被复用。`macro_render.py` 使用同一快照生成 19 张 SVG、完整明细和交互载荷；Sphinx 构建只需文档依赖，不需要采集或绘图库。
@@ -135,6 +137,14 @@ M1 同比采用统计局转发的央行可比同比，并纳入央行官方 2024
 所有获取和渲染先在临时目录完成；错误不替换现有快照。完整历史来源缺失已有观测、滚动窗口内已有值消失、单位或结构改变均报错。正常数值修订可更新并由 Git 记录；新窗口之外的日度历史保留，不声称已重新核验它们。观测和元数据没有变化时不刷新获取时间。源机构未给出逐条发布时间的字段留空。
 
 新图延续 GDP 的静态回退，同时支持精确期间选择、固定读数、按月/季度/日历天缩放及自动展开定位表格。每张图使用自己的频率，不将季度值前向填充为月度数据。日历缺口断线，不假设所有工作日都有报价。每页的“本站同版快照”下载对应当前构建，GitHub 原始文件链接则对应主分支最新版本。
+
+### 宏观经济总览
+
+`scripts/macro_overview.py` 从已保存的 GDP 与六个宏观专题读取快照，生成 `docs/data/overview.md`。运行 `.venv/bin/python scripts/macro_overview.py` 即可重新生成，不访问网络、不改写 CSV。同步工作流在两组数据更新成功后生成总览，再通过测试和构建后统一发布。
+
+总览按六个维度展示 12 个指标，各自保留统计期、前次有效观测、来源发布日期、快照获取时间及完整历史入口。差值以原始精度计算，百分比之差使用百分点。位置条使用每个指标最新有效观测所属年及此前四年的有效数据，不混合新旧定义，不填缺口；常值或单点不绘制虚假的相对位置。各卡片窗口可能不同，条长不用于跨指标排名。
+
+总览使用 MyST 卡片、CSS 位置条和原生可展开阅读示例；禁用 JavaScript 时仍可阅读和点击专题链接。传导图复用已有可编辑 Draw.io 图。修改生成器、样式或卡片说明后运行 `tests/test_overview.py`、严格 Sphinx 构建和 `node tests/browser/overview.cjs`；测试会检查生成页面与快照一致，避免数据更新后总览遗留旧值。
 
 ### GDP 交互图
 

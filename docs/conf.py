@@ -8,6 +8,7 @@ root_doc = "index"
 extensions = ["myst_parser"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 myst_heading_anchors = 3
+myst_enable_extensions = ["colon_fence"]
 nitpicky = True
 
 html_theme = "sphinx_rtd_theme"
@@ -46,6 +47,7 @@ def add_gdp_charts(app, pagename, templatename, context, doctree):
 def setup(app):
     app.connect("html-page-context", add_gdp_charts)
     app.connect("html-page-context", add_macro_charts)
+    app.add_css_file("macro-overview.css")
 
 
 def add_macro_charts(app, pagename, templatename, context, doctree):

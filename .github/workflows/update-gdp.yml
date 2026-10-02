@@ -23,6 +23,7 @@ on:
       - 'tests/test_*history.py'
       - 'tests/fixtures/**'
       - 'tests/test_macro.py'
+      - 'tests/test_overview.py'
       - 'docs/conf.py'
       - 'docs/_static/**'
       - 'tests/browser/**'
@@ -67,6 +68,7 @@ jobs:
           else
             python scripts/sync_macro.py
           fi
+          python scripts/macro_overview.py
       - name: Test data validation
         run: python -m unittest discover -s tests -v
       - name: Verify documentation
@@ -92,10 +94,12 @@ jobs:
           trap 'kill "$gdp_server_pid"' EXIT
           node tests/browser/gdp.cjs
           node tests/browser/macro.cjs
+          node tests/browser/overview.cjs
       - name: Publish only validated changes
         run: |
           git add data/gdp.csv data/gdp.metadata.json docs/data/gdp.md docs/images/data/gdp-*.svg
           git add data/macro docs/data/prices.md docs/data/money-credit.md docs/data/rates.md docs/data/activity.md docs/data/employment-income.md docs/data/trade-fx.md docs/images/data/macro-*.svg
+          git add docs/data/overview.md
           if git diff --cached --quiet; then
             echo "Macro snapshots unchanged."
             exit 0
