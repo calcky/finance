@@ -2,7 +2,7 @@
 const {chromium} = require("playwright");
 const assert = require("node:assert/strict");
 const base = process.env.MACRO_TEST_URL || "http://127.0.0.1:8767";
-const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
+const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-structure": 6, property: 6, fiscal: 10, rates: 3, activity: 3, "employment-income": 2, "trade-fx": 3, population: 5, "shanghai-population": 2, "housing-prices": 4, "housing-wealth": 2};
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: process.env.GDP_BROWSER_CHANNEL || undefined});
@@ -146,6 +146,16 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
           .evaluate(node => echarts.getInstanceByDom(node).getOption().series);
         assert.equal(lines[1].lineStyle.type, "dashed");
       }
+      if (slug === "fiscal") {
+        const annual = page.locator("#interactive-fiscal-annual");
+        await annual.locator("select").selectOption("1950");
+        assert.match(await annual.locator(".gdp-readout").innerText(), /62\.17/);
+        assert.equal(specs.find(s => s.id === "fiscal-annual").frequency, "A");
+        const funds = page.locator("#interactive-fiscal-funds");
+        await funds.locator("select").selectOption("2013-04");
+        assert.match(await funds.locator(".gdp-readout").innerText(), /缺失/);
+        if (process.env.FISCAL_SCREENSHOT) await annual.screenshot({path: process.env.FISCAL_SCREENSHOT});
+      }
       await page.emulateMedia({media: "print"});
       assert.equal(await page.locator(".macro-interactive:visible").count(), 0);
       assert.equal(await page.locator(".gdp-static-fallback:visible").count(), count);
@@ -155,6 +165,13 @@ const topics = {"quarterly-gdp": 4, prices: 4, "money-credit": 4, "credit-struct
     assert.deepEqual(errors, []);
     assert.deepEqual(remote, []);
     const mobile = await browser.newPage({viewport: {width: 390, height: 844}, isMobile: true, hasTouch: true});
+    await mobile.goto(`${base}/data/fiscal.html`);
+    const fiscal = mobile.locator("#interactive-fiscal-annual");
+    await fiscal.locator("select").selectOption("1950");
+    assert.match(await fiscal.locator(".gdp-readout").innerText(), /62\.17/);
+    await fiscal.locator(".gdp-row-link").tap();
+    assert(await mobile.locator("#macro-fiscal-annual-1950").isVisible());
+    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
     await mobile.goto(`${base}/data/prices.html`);
     const widget = mobile.locator("#interactive-cpi-core");
     await widget.locator("select").selectOption("2026-03");

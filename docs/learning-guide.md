@@ -16,7 +16,7 @@
 
 一共 15 个学习单元。可以分多次完成，不必按固定天数打卡。[术语速查](glossary.md)用于回查，[指标目录](indicators/index.md)用于找定义和来源。
 
-第三阶段之后，可沿[社融与信贷结构](credit-structure.md) → [房地产如何影响经济](property-and-economy.md) → [房价、人口与住房需求](housing-population.md)继续阅读：先分清融资渠道和借款人，再观察销售、建设、住房资产与家庭结构。这些是专题延伸，不要求先掌握复杂模型。
+第三阶段之后，可沿[社融与信贷结构](credit-structure.md) → [房地产如何影响经济](property-and-economy.md) → [房价、人口与住房需求](housing-population.md) → [财政政策与政府债务](fiscal-policy-and-debt.md)继续阅读：先分清融资渠道和借款人，再观察销售、建设、住房资产与家庭结构，最后理解土地收入、财政支出和债务融资。这些专题延伸不要求先掌握复杂模型。
 
 ## 为什么不从 M2 或选基金开始
 

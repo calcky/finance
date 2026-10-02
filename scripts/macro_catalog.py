@@ -300,5 +300,9 @@ TOPICS = {
 }
 
 
+from macro_fiscal_catalog import register as register_fiscal
+register_fiscal(define, chart, TOPICS)
+
+
 def topic_series(topic):
     return list(dict.fromkeys([s for c in topic["charts"] for s in c["series"]] + topic.get("extra", [])))
