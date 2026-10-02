@@ -20,6 +20,7 @@
 
 - [术语速查](glossary.md)：不必先背缩写，遇到再查。
 - [指标目录](indicators/index.md)：定义、单位、频率和数据来源。
+- [AMD 个股案例](investing/amd.md)：结合公司沿革、股价历史与估值情景，练习区分事实和假设。
 - [宏观经济总览](data/overview.md)：六个观察维度、最新数据与历史范围，结合传导图理解指标之间的联系。
 - [GDP 数据专题](data/gdp.md)：中国历年 GDP、实际增速、人均 GDP 与中美对照，提供四张趋势图和 CSV 下载。
 - [中国宏观数据](data/index.md)：季度 GDP、物价、货币与社融、信贷结构、房地产、利率、经济活动、就业与收入、进出口与汇率；58 张交互图支持选点、缩放与逐期查表。
@@ -65,6 +66,14 @@ investing/bonds
 investing/stocks
 investing/funds
 investing/portfolio
+```
+
+```{toctree}
+:hidden:
+:caption: 个股案例
+:maxdepth: 1
+
+investing/amd
 ```
 
 ```{toctree}
