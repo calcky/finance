@@ -189,7 +189,8 @@ class StatusReporting(unittest.TestCase):
                 (directory / "macro.json").write_text(json.dumps({k: dict(state="ok") for k in sync_data.TOPICS}))
                 return 0
             with patch.object(sync_data, "run", side_effect=fake_run) as run, \
-                 patch.object(sync_data, "update_status") as status, patch.dict(sync_data.os.environ, {}, clear=True):
+                 patch.object(sync_data, "update_status") as status, patch.dict(sync_data.os.environ, {}, clear=True), \
+                 patch("builtins.print"):
                 self.assertEqual(sync_data.attempt(directory, False), 1)
             self.assertEqual(run.call_count, 2)
             outcomes = status.call_args.args[0]
