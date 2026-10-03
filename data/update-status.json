@@ -18,10 +18,10 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "fiscal": {
-    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/index.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/index.htm]",
+    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm]",
     "snapshot_at": "2026-10-02T15:57:34+00:00",
     "state": "failed",
-    "state_since": "2026-10-02T21:21:04+00:00"
+    "state_since": "2026-10-03T00:05:02+00:00"
   },
   "gdp": {
     "error": "",
