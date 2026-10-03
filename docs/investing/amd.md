@@ -33,6 +33,10 @@ AMD 对 2026 Q3 的**公司指引**是收入约 $13.0B，允许上下浮动 $0.3
 
 下图由 TradingView 提供 AMD 美元计价行情，初始展示其**全部可用历史**；长期概览会自动聚合为月线，近期范围可查看日线与最近交易日。行情由供应商更新，不是本站每日保存的收盘价快照；交易时段内的当日日线尚未收盘，收盘后数据也可能延迟或修订。供应商可显示的最早日期**不一定是 AMD 1972 年成为公众公司的日期**，也不能将图中可见起点称为 IPO 起点。[2025 年 10-K](https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm)
 
+[![AMD 全部可用历史股价趋势，TradingView 月线静态快照](../images/investing/amd-price-history-tradingview.png)](../images/investing/amd-price-history-tradingview.png)
+
+上图是 **2026 年 10 月 2 日美股收盘后的静态快照**，供 GitHub 等不运行嵌入脚本的页面预览，不会自行更新；最新行情和时间缩放请使用下方交互图或文末的 TradingView 链接。
+
 <div style="width:100%;height:560px">
   <div class="tradingview-widget-container" style="width:100%;height:100%">
     <div class="tradingview-widget-container__widget" style="width:100%;height:calc(100% - 32px)"></div>

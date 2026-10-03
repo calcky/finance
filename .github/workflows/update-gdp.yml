@@ -107,6 +107,7 @@ jobs:
           node tests/browser/gdp.cjs
           node tests/browser/macro.cjs
           node tests/browser/overview.cjs
+          node tests/browser/amd.cjs
       - name: Publish only validated changes
         run: |
           git add data/gdp.csv data/gdp.metadata.json docs/data/gdp.md docs/images/data/gdp-*.svg
