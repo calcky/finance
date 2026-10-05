@@ -18,10 +18,10 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "fiscal": {
-    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202604/t20260424_3988324.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202604/t20260424_3988324.htm]",
+    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm]",
     "snapshot_at": "2026-10-02T15:57:34+00:00",
     "state": "failed",
-    "state_since": "2026-10-04T00:49:57+00:00"
+    "state_since": "2026-10-05T01:06:53+00:00"
   },
   "gdp": {
     "error": "",
@@ -36,10 +36,10 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "housing-wealth": {
-    "error": "",
+    "error": "macro_housing_wealth: ValueError: WID housing definition missing/changed",
     "snapshot_at": "2026-10-02T15:21:39+00:00",
-    "state": "ok",
-    "state_since": "2026-10-02T21:07:56+00:00"
+    "state": "failed",
+    "state_since": "2026-10-05T01:06:53+00:00"
   },
   "money-credit": {
     "error": "",
@@ -91,8 +91,8 @@
   },
   "us-rates": {
     "error": "",
-    "snapshot_at": "2026-10-04T00:49:56+00:00",
+    "snapshot_at": "2026-10-05T01:06:52+00:00",
     "state": "ok",
-    "state_since": "2026-10-04T00:49:57+00:00"
+    "state_since": "2026-10-05T01:06:53+00:00"
   }
 }

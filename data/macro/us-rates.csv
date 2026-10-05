@@ -54352,6 +54352,7 @@ us_target_lower,USA,2026-09-30,3.75,%,D,,https://fred.stlouisfed.org/series/DFED
 us_target_lower,USA,2026-10-01,3.75,%,D,,https://fred.stlouisfed.org/series/DFEDTARL,FRED官方分发的美国利率；按来源保留每日观测
 us_target_lower,USA,2026-10-02,3.75,%,D,,https://fred.stlouisfed.org/series/DFEDTARL,FRED官方分发的美国利率；按来源保留每日观测
 us_target_lower,USA,2026-10-03,3.75,%,D,,https://fred.stlouisfed.org/series/DFEDTARL,FRED官方分发的美国利率；按来源保留每日观测
+us_target_lower,USA,2026-10-04,3.75,%,D,,https://fred.stlouisfed.org/series/DFEDTARL,FRED官方分发的美国利率；按来源保留每日观测
 us_target_upper,USA,2008-12-16,0.25,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
 us_target_upper,USA,2008-12-17,0.25,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
 us_target_upper,USA,2008-12-18,0.25,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
@@ -60853,6 +60854,7 @@ us_target_upper,USA,2026-09-30,4.00,%,D,,https://fred.stlouisfed.org/series/DFED
 us_target_upper,USA,2026-10-01,4.00,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
 us_target_upper,USA,2026-10-02,4.00,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
 us_target_upper,USA,2026-10-03,4.00,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
+us_target_upper,USA,2026-10-04,4.00,%,D,,https://fred.stlouisfed.org/series/DFEDTARU,FRED官方分发的美国利率；按来源保留每日观测
 us_term_spread,USA,1976-06-01,0.68,百分点,D,,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01,本项目计算 DGS10 - DGS2；同一观测日；单位百分点；参考利差核对及历史差异见元数据
 us_term_spread,USA,1976-06-02,0.71,百分点,D,,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01,本项目计算 DGS10 - DGS2；同一观测日；单位百分点；参考利差核对及历史差异见元数据
 us_term_spread,USA,1976-06-03,0.70,百分点,D,,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01,本项目计算 DGS10 - DGS2；同一观测日；单位百分点；参考利差核对及历史差异见元数据

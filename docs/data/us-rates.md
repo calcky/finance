@@ -5,7 +5,7 @@
 
 美国数据独立标识为USA。保留目标制度转换、EFFR统计方法变化，以及月度和日度历史的不同起点；不拿月均值填补早期日值。所有收益率为年率报价，利差单位为百分点。数据原始来源为美联储理事会H.15及圣路易斯联储，经FRED分发；所选系列标注Public Domain: Citation requested，本项目不代表来源机构背书。
 
-本页快照获取时间：**2026-10-04T00:49:56+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-05T01:06:52+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/us-rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/us-rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -21,8 +21,8 @@
 |---|---|---:|---|---|---:|---|
 | 有效联邦基金利率 EFFR | 2026-10-01 | 3.88 | % | 1954-07-01 | 26391 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFF) |
 | 联邦基金单点目标（旧） | 2008-12-15 | 1 | % | 1982-09-27 | 9577 | [圣路易斯联储，FRED](https://fred.stlouisfed.org/series/DFEDTAR) |
-| 联邦基金目标区间下限 | 2026-10-03 | 3.75 | % | 2008-12-16 | 6501 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
-| 联邦基金目标区间上限 | 2026-10-03 | 4 | % | 2008-12-16 | 6501 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
+| 联邦基金目标区间下限 | 2026-10-04 | 3.75 | % | 2008-12-16 | 6502 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
+| 联邦基金目标区间上限 | 2026-10-04 | 4 | % | 2008-12-16 | 6502 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
 | 美国 2 年期国债收益率（月均） | 2026-09 | 4.65 | % | 1976-06 | 604 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS2) |
 | 美国 10 年期国债收益率（月均） | 2026-09 | 4.99 | % | 1953-04 | 882 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS10) |
 | 美国 2 年期国债收益率 | 2026-10-01 | 4.78 | % | 1976-06-01 | 12581 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS2) |
@@ -44,6 +44,7 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-policy-rates">
 <summary>联邦基金：实际利率与政策目标：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>有效联邦基金利率 EFFR</th><th>联邦基金单点目标（旧）</th><th>联邦基金目标区间下限</th><th>联邦基金目标区间上限</th></tr></thead><tbody>
+<tr id="macro-us-policy-rates-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
@@ -103,7 +104,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-policy-rates-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-08-06" tabindex="-1"><td>2026-08-06</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-05" tabindex="-1"><td>2026-08-05</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
