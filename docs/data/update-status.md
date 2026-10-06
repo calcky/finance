@@ -15,7 +15,7 @@
 | [中国人口、生育与家庭](population.md) | 通过 | 2026-10-02<br>15:21:37 | 2026-10-02<br>21:07:56 |
 | [上海人口与生育](shanghai-population.md) | 失败，保留快照 | 2026-10-02<br>15:21:38 | 2026-10-02<br>21:21:04 |
 | [中国与上海房价](housing-prices.md) | 通过 | 2026-10-02<br>15:33:59 | 2026-10-02<br>21:07:56 |
-| [中国住宅资产总值：研究估算](housing-wealth.md) | 失败，保留快照 | 2026-10-02<br>15:21:39 | 2026-10-05<br>01:06:53 |
+| [中国住宅资产总值：研究估算](housing-wealth.md) | 通过 | 2026-10-02<br>15:21:39 | 2026-10-06<br>02:30:56 |
 | [房地产：销售、资金与建设](property.md) | 通过 | 2026-10-02<br>14:19:42 | 2026-10-02<br>21:07:56 |
 | [社融与信贷结构](credit-structure.md) | 通过 | 2026-10-02<br>13:43:15 | 2026-10-02<br>21:07:56 |
 | [中国季度 GDP](quarterly-gdp.md) | 通过 | 2026-10-02<br>12:42:00 | 2026-10-02<br>21:07:56 |
@@ -25,8 +25,8 @@
 | [景气、生产、消费与投资](activity.md) | 通过 | 2026-10-02<br>10:37:58 | 2026-10-02<br>21:07:56 |
 | [就业与居民收入](employment-income.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
 | [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
-| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-05<br>01:06:53 |
-| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-05<br>01:06:52 | 2026-10-05<br>01:06:53 |
+| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-06<br>02:30:56 |
+| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-06<br>02:30:54 | 2026-10-06<br>02:30:56 |
 
 ## 未解决的同步失败
 
@@ -34,13 +34,9 @@
 
 <pre>macro_shanghai: URLError: &lt;urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)&gt; [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]</pre>
 
-### 中国住宅资产总值：研究估算
-
-<pre>macro_housing_wealth: ValueError: WID housing definition missing/changed</pre>
-
 ### 财政政策与政府债务
 
-<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm]</pre>
+<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm]</pre>
 
 
 各专题独立更新；同一专题必须完成全部来源与数据校验后才替换 CSV、元数据和图表。共享来源失败时，依赖它的多个专题都会保留原快照。部分成功不会让整次运行显示成功。

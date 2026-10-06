@@ -1,8 +1,8 @@
 {
   "acquisition": {
     "us_breakeven_10y": {
-      "audit_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE&cosd=1900-01-01&coed=2026-10-05",
-      "audited_common_dates": 5942,
+      "audit_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE&cosd=1900-01-01&coed=2026-10-06",
+      "audited_common_dates": 5943,
       "coverage_note": "仅两个输入都存在的同日计算；原始利率为百分比报价，差值为百分点。核对参考利差的重叠日期，公开已核验差异；参考序列可能更早更新，不拿它补齐输入缺口。",
       "first_returned_date": "2003-01-02",
       "formula": "DGS10 - DFII10",
@@ -14,43 +14,43 @@
         "us_treasury_10y",
         "us_real_10y"
       ],
-      "last_returned_date": "2026-10-02",
+      "last_returned_date": "2026-10-05",
       "missing_observations": 254,
       "reference_differences": [],
-      "reference_last_observation": "2026-10-02",
+      "reference_last_observation": "2026-10-05",
       "reference_only_dates": 1,
       "reference_url": "https://fred.stlouisfed.org/series/T10YIE",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "2003-01-02"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 6197,
+      "returned_dates": 6198,
       "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDFII10&cosd=1900-01-01"
     },
     "us_effr": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1954-07-01",
       "first_returned_date": "1954-07-01",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-01",
-      "last_returned_date": "2026-10-01",
+      "last_observation": "2026-10-02",
+      "last_returned_date": "2026-10-02",
       "missing_observations": 0,
-      "observation_count": 26391,
+      "observation_count": 26392,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "1954-07-01"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 26391,
+      "returned_dates": 26392,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DFF",
       "source_url": "https://fred.stlouisfed.org/series/DFF",
@@ -66,24 +66,24 @@
     "us_real_10y": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "2003-01-02",
       "first_returned_date": "2003-01-02",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-01",
-      "last_returned_date": "2026-10-01",
+      "last_observation": "2026-10-02",
+      "last_returned_date": "2026-10-02",
       "missing_observations": 254,
-      "observation_count": 5942,
+      "observation_count": 5943,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "2003-01-02"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 6196,
+      "returned_dates": 6197,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DFII10",
       "source_url": "https://fred.stlouisfed.org/series/DFII10",
@@ -103,7 +103,7 @@
     "us_target": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTAR&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTAR&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1982-09-27",
       "first_returned_date": "1982-09-27",
       "frequency": "D",
@@ -115,7 +115,7 @@
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "1982-09-27"
         }
       ],
@@ -130,24 +130,24 @@
     "us_target_lower": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARL&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARL&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "2008-12-16",
       "first_returned_date": "2008-12-16",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-04",
-      "last_returned_date": "2026-10-04",
+      "last_observation": "2026-10-05",
+      "last_returned_date": "2026-10-05",
       "missing_observations": 0,
-      "observation_count": 6502,
+      "observation_count": 6503,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "2008-12-16"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 6502,
+      "returned_dates": 6503,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DFEDTARL",
       "source_url": "https://fred.stlouisfed.org/series/DFEDTARL",
@@ -157,24 +157,24 @@
     "us_target_upper": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "2008-12-16",
       "first_returned_date": "2008-12-16",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-04",
-      "last_returned_date": "2026-10-04",
+      "last_observation": "2026-10-05",
+      "last_returned_date": "2026-10-05",
       "missing_observations": 0,
-      "observation_count": 6502,
+      "observation_count": 6503,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "2008-12-16"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 6502,
+      "returned_dates": 6503,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DFEDTARU",
       "source_url": "https://fred.stlouisfed.org/series/DFEDTARU",
@@ -182,8 +182,8 @@
       "unit": "percent per annum"
     },
     "us_term_spread": {
-      "audit_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=1900-01-01&coed=2026-10-05",
-      "audited_common_dates": 12581,
+      "audit_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=1900-01-01&coed=2026-10-06",
+      "audited_common_dates": 12582,
       "coverage_note": "仅两个输入都存在的同日计算；原始利率为百分比报价，差值为百分点。核对参考利差的重叠日期，公开已核验差异；参考序列可能更早更新，不拿它补齐输入缺口。",
       "first_returned_date": "1976-06-01",
       "formula": "DGS10 - DGS2",
@@ -195,7 +195,7 @@
         "us_treasury_10y",
         "us_treasury_2y"
       ],
-      "last_returned_date": "2026-10-02",
+      "last_returned_date": "2026-10-05",
       "missing_observations": 552,
       "reference_differences": [
         {
@@ -214,40 +214,40 @@
           "reference": "0.42"
         }
       ],
-      "reference_last_observation": "2026-10-02",
+      "reference_last_observation": "2026-10-05",
       "reference_only_dates": 1,
       "reference_url": "https://fred.stlouisfed.org/series/T10Y2Y",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "1976-06-01"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 13134,
+      "returned_dates": 13135,
       "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01"
     },
     "us_treasury_10y": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1962-01-02",
       "first_returned_date": "1962-01-02",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-01",
-      "last_returned_date": "2026-10-01",
+      "last_observation": "2026-10-02",
+      "last_returned_date": "2026-10-02",
       "missing_observations": 720,
-      "observation_count": 16173,
+      "observation_count": 16174,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "1962-01-02"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 16893,
+      "returned_dates": 16894,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DGS10",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
@@ -263,7 +263,7 @@
     "us_treasury_10y_monthly": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS10&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS10&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1953-04",
       "first_returned_date": "1953-04-01",
       "frequency": "M",
@@ -296,24 +296,24 @@
     "us_treasury_2y": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1976-06-01",
       "first_returned_date": "1976-06-01",
       "frequency": "D",
       "full_equals_split": null,
-      "last_observation": "2026-10-01",
-      "last_returned_date": "2026-10-01",
+      "last_observation": "2026-10-02",
+      "last_returned_date": "2026-10-02",
       "missing_observations": 552,
-      "observation_count": 12581,
+      "observation_count": 12582,
       "recommended_distribution": "https://www.federalreserve.gov/data/data-download-fred-information.htm",
       "refresh_ranges": [
         {
-          "end": "2026-10-05",
+          "end": "2026-10-06",
           "start": "1976-06-01"
         }
       ],
       "requested_window_complete": true,
-      "returned_dates": 13133,
+      "returned_dates": 13134,
       "seasonal_adjustment": "not seasonally adjusted",
       "source_series": "DGS2",
       "source_url": "https://fred.stlouisfed.org/series/DGS2",
@@ -329,7 +329,7 @@
     "us_treasury_2y_monthly": {
       "country": "USA",
       "coverage_note": "每次读取1900年至当前的完整可用文件；最早观测按序列分别核验。来源中的缺失留空，不跨假期补值，也不将月均扩展成日值。",
-      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS2&cosd=1900-01-01&coed=2026-10-05",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS2&cosd=1900-01-01&coed=2026-10-06",
       "first_observation": "1976-06",
       "first_returned_date": "1976-06-01",
       "frequency": "M",
@@ -362,19 +362,19 @@
   },
   "coverage": {
     "us_breakeven_10y": {
-      "count": 5942,
+      "count": 5943,
       "first": "2003-01-02",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_effr": {
-      "count": 26391,
+      "count": 26392,
       "first": "1954-07-01",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_real_10y": {
-      "count": 5942,
+      "count": 5943,
       "first": "2003-01-02",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_target": {
       "count": 9577,
@@ -382,24 +382,24 @@
       "last": "2008-12-15"
     },
     "us_target_lower": {
-      "count": 6502,
+      "count": 6503,
       "first": "2008-12-16",
-      "last": "2026-10-04"
+      "last": "2026-10-05"
     },
     "us_target_upper": {
-      "count": 6502,
+      "count": 6503,
       "first": "2008-12-16",
-      "last": "2026-10-04"
+      "last": "2026-10-05"
     },
     "us_term_spread": {
-      "count": 12581,
+      "count": 12582,
       "first": "1976-06-01",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_treasury_10y": {
-      "count": 16173,
+      "count": 16174,
       "first": "1962-01-02",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_treasury_10y_monthly": {
       "count": 882,
@@ -407,9 +407,9 @@
       "last": "2026-09"
     },
     "us_treasury_2y": {
-      "count": 12581,
+      "count": 12582,
       "first": "1976-06-01",
-      "last": "2026-10-01"
+      "last": "2026-10-02"
     },
     "us_treasury_2y_monthly": {
       "count": 604,
@@ -806,7 +806,7 @@
     }
   },
   "history_checked_at": "2026-10-02T23:31:31+00:00",
-  "retrieved_at": "2026-10-05T01:06:52+00:00",
+  "retrieved_at": "2026-10-06T02:30:54+00:00",
   "schema_version": 2,
   "series": {
     "us_breakeven_10y": {
