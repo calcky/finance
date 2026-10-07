@@ -5,7 +5,7 @@
 
 美国数据独立标识为USA。保留目标制度转换、EFFR统计方法变化，以及月度和日度历史的不同起点；不拿月均值填补早期日值。所有收益率为年率报价，利差单位为百分点。数据原始来源为美联储理事会H.15及圣路易斯联储，经FRED分发；所选系列标注Public Domain: Citation requested，本项目不代表来源机构背书。
 
-本页快照获取时间：**2026-10-06T02:30:54+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-07T01:43:34+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/us-rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/us-rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,17 +19,17 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 有效联邦基金利率 EFFR | 2026-10-02 | 3.88 | % | 1954-07-01 | 26392 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFF) |
+| 有效联邦基金利率 EFFR | 2026-10-05 | 3.88 | % | 1954-07-01 | 26395 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFF) |
 | 联邦基金单点目标（旧） | 2008-12-15 | 1 | % | 1982-09-27 | 9577 | [圣路易斯联储，FRED](https://fred.stlouisfed.org/series/DFEDTAR) |
-| 联邦基金目标区间下限 | 2026-10-05 | 3.75 | % | 2008-12-16 | 6503 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
-| 联邦基金目标区间上限 | 2026-10-05 | 4 | % | 2008-12-16 | 6503 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
+| 联邦基金目标区间下限 | 2026-10-06 | 3.75 | % | 2008-12-16 | 6504 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
+| 联邦基金目标区间上限 | 2026-10-06 | 4 | % | 2008-12-16 | 6504 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
 | 美国 2 年期国债收益率（月均） | 2026-09 | 4.65 | % | 1976-06 | 604 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS2) |
 | 美国 10 年期国债收益率（月均） | 2026-09 | 4.99 | % | 1953-04 | 882 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS10) |
-| 美国 2 年期国债收益率 | 2026-10-02 | 4.83 | % | 1976-06-01 | 12582 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS2) |
-| 美国 10 年期国债收益率 | 2026-10-02 | 5.28 | % | 1962-01-02 | 16174 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS10) |
-| 10 年减 2 年期限利差 | 2026-10-02 | 0.45 | 百分点 | 1976-06-01 | 12582 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01) |
-| 美国 10 年期 TIPS 实际收益率 | 2026-10-02 | 2.92 | % | 2003-01-02 | 5943 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFII10) |
-| 10 年盈亏平衡通胀差值 | 2026-10-02 | 2.36 | 百分点 | 2003-01-02 | 5943 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDFII10&cosd=1900-01-01) |
+| 美国 2 年期国债收益率 | 2026-10-05 | 4.84 | % | 1976-06-01 | 12583 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS2) |
+| 美国 10 年期国债收益率 | 2026-10-05 | 5.31 | % | 1962-01-02 | 16175 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS10) |
+| 10 年减 2 年期限利差 | 2026-10-05 | 0.47 | 百分点 | 1976-06-01 | 12583 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01) |
+| 美国 10 年期 TIPS 实际收益率 | 2026-10-05 | 2.95 | % | 2003-01-02 | 5944 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFII10) |
+| 10 年盈亏平衡通胀差值 | 2026-10-05 | 2.36 | 百分点 | 2003-01-02 | 5944 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDFII10&cosd=1900-01-01) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -44,9 +44,10 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-policy-rates">
 <summary>联邦基金：实际利率与政策目标：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>有效联邦基金利率 EFFR</th><th>联邦基金单点目标（旧）</th><th>联邦基金目标区间下限</th><th>联邦基金目标区间上限</th></tr></thead><tbody>
-<tr id="macro-us-policy-rates-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
-<tr id="macro-us-policy-rates-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
-<tr id="macro-us-policy-rates-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-06" tabindex="-1"><td>2026-10-06</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
@@ -103,7 +104,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-policy-rates-2026-08-10" tabindex="-1"><td>2026-08-10</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-08-09" tabindex="-1"><td>2026-08-09</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -190,6 +190,9 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-treasury-daily">
 <summary>美国国债：2 年与 10 年日度收益率：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美国 2 年期国债收益率</th><th>美国 10 年期国债收益率</th></tr></thead><tbody>
+<tr id="macro-us-treasury-daily-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>4.84</td><td>5.31</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-treasury-daily-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>4.83</td><td>5.28</td></tr>
 <tr id="macro-us-treasury-daily-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>4.78</td><td>5.24</td></tr>
 <tr id="macro-us-treasury-daily-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>4.88</td><td>5.29</td></tr>
@@ -247,9 +250,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-treasury-daily-2026-08-09" tabindex="-1"><td>2026-08-09</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-treasury-daily-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-treasury-daily-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>4.19</td><td>4.65</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-06" tabindex="-1"><td>2026-08-06</td><td>4.25</td><td>4.69</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-05" tabindex="-1"><td>2026-08-05</td><td>4.18</td><td>4.63</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-04" tabindex="-1"><td>2026-08-04</td><td>4.2</td><td>4.63</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -263,6 +263,9 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-term-spread">
 <summary>10 年减 2 年：期限利差与倒挂：分页数据表（百分点）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>10 年减 2 年期限利差</th></tr></thead><tbody>
+<tr id="macro-us-term-spread-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>0.47</td></tr>
+<tr id="macro-us-term-spread-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td></tr>
 <tr id="macro-us-term-spread-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>0.45</td></tr>
 <tr id="macro-us-term-spread-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>0.46</td></tr>
 <tr id="macro-us-term-spread-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>0.41</td></tr>
@@ -320,9 +323,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-term-spread-2026-08-09" tabindex="-1"><td>2026-08-09</td><td>缺失</td></tr>
 <tr id="macro-us-term-spread-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>缺失</td></tr>
 <tr id="macro-us-term-spread-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>0.46</td></tr>
-<tr id="macro-us-term-spread-2026-08-06" tabindex="-1"><td>2026-08-06</td><td>0.44</td></tr>
-<tr id="macro-us-term-spread-2026-08-05" tabindex="-1"><td>2026-08-05</td><td>0.45</td></tr>
-<tr id="macro-us-term-spread-2026-08-04" tabindex="-1"><td>2026-08-04</td><td>0.43</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -336,6 +336,9 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <details class="macro-details" id="details-us-real-nominal">
 <summary>10 年期：名义与 TIPS 实际收益率：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美国 10 年期国债收益率</th><th>美国 10 年期 TIPS 实际收益率</th></tr></thead><tbody>
+<tr id="macro-us-real-nominal-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>5.31</td><td>2.95</td></tr>
+<tr id="macro-us-real-nominal-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-real-nominal-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>5.28</td><td>2.92</td></tr>
 <tr id="macro-us-real-nominal-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>5.24</td><td>2.88</td></tr>
 <tr id="macro-us-real-nominal-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>5.29</td><td>2.93</td></tr>
@@ -393,9 +396,6 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <tr id="macro-us-real-nominal-2026-08-09" tabindex="-1"><td>2026-08-09</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-real-nominal-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-real-nominal-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>4.65</td><td>2.4</td></tr>
-<tr id="macro-us-real-nominal-2026-08-06" tabindex="-1"><td>2026-08-06</td><td>4.69</td><td>2.43</td></tr>
-<tr id="macro-us-real-nominal-2026-08-05" tabindex="-1"><td>2026-08-05</td><td>4.63</td><td>2.41</td></tr>
-<tr id="macro-us-real-nominal-2026-08-04" tabindex="-1"><td>2026-08-04</td><td>4.63</td><td>2.4</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -409,6 +409,9 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <details class="macro-details" id="details-us-breakeven">
 <summary>10 年盈亏平衡通胀：同日收益率差：分页数据表（百分点）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>10 年盈亏平衡通胀差值</th></tr></thead><tbody>
+<tr id="macro-us-breakeven-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>2.36</td></tr>
+<tr id="macro-us-breakeven-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td></tr>
 <tr id="macro-us-breakeven-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>2.36</td></tr>
 <tr id="macro-us-breakeven-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>2.36</td></tr>
 <tr id="macro-us-breakeven-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>2.36</td></tr>
@@ -466,9 +469,6 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <tr id="macro-us-breakeven-2026-08-09" tabindex="-1"><td>2026-08-09</td><td>缺失</td></tr>
 <tr id="macro-us-breakeven-2026-08-08" tabindex="-1"><td>2026-08-08</td><td>缺失</td></tr>
 <tr id="macro-us-breakeven-2026-08-07" tabindex="-1"><td>2026-08-07</td><td>2.25</td></tr>
-<tr id="macro-us-breakeven-2026-08-06" tabindex="-1"><td>2026-08-06</td><td>2.26</td></tr>
-<tr id="macro-us-breakeven-2026-08-05" tabindex="-1"><td>2026-08-05</td><td>2.22</td></tr>
-<tr id="macro-us-breakeven-2026-08-04" tabindex="-1"><td>2026-08-04</td><td>2.23</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
