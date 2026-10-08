@@ -12,9 +12,9 @@
 | 专题 | 同步状态 | 快照获取 | 状态变更 |
 |---|---|---|---|
 | [GDP 历史数据](gdp.md) | 通过 | 2026-10-01<br>15:44:06 | 2026-10-02<br>21:07:56 |
-| [中国人口、生育与家庭](population.md) | 通过 | 2026-10-02<br>15:21:37 | 2026-10-02<br>21:07:56 |
-| [上海人口与生育](shanghai-population.md) | 失败，保留快照 | 2026-10-02<br>15:21:38 | 2026-10-02<br>21:21:04 |
-| [中国与上海房价](housing-prices.md) | 通过 | 2026-10-02<br>15:33:59 | 2026-10-02<br>21:07:56 |
+| [中国人口、生育与家庭](population.md) | 失败，保留快照 | 2026-10-02<br>15:21:37 | 2026-10-08<br>02:12:39 |
+| [上海人口与生育](shanghai-population.md) | 失败，保留快照 | 2026-10-02<br>15:21:38 | 2026-10-08<br>02:12:39 |
+| [中国与上海房价](housing-prices.md) | 失败，保留快照 | 2026-10-02<br>15:33:59 | 2026-10-08<br>02:12:39 |
 | [中国住宅资产总值：研究估算](housing-wealth.md) | 通过 | 2026-10-02<br>15:21:39 | 2026-10-06<br>02:30:56 |
 | [房地产：销售、资金与建设](property.md) | 通过 | 2026-10-02<br>14:19:42 | 2026-10-02<br>21:07:56 |
 | [社融与信贷结构](credit-structure.md) | 通过 | 2026-10-02<br>13:43:15 | 2026-10-02<br>21:07:56 |
@@ -24,15 +24,23 @@
 | [利率与融资成本](rates.md) | 通过 | 2026-10-02<br>10:37:58 | 2026-10-02<br>21:07:56 |
 | [景气、生产、消费与投资](activity.md) | 通过 | 2026-10-02<br>10:37:58 | 2026-10-02<br>21:07:56 |
 | [就业与居民收入](employment-income.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
-| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
+| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-08<br>02:12:34 | 2026-10-08<br>02:12:39 |
 | [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-07<br>01:43:35 |
-| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-07<br>01:43:34 | 2026-10-07<br>01:43:35 |
+| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-08<br>02:12:38 | 2026-10-08<br>02:12:39 |
 
 ## 未解决的同步失败
 
+### 中国人口、生育与家庭
+
+<pre>macro_population: URLError: &lt;urlopen error [Errno -3] Temporary failure in name resolution&gt; [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=6331ad868e8b4f55b8e9b6e765609ce1]</pre>
+
 ### 上海人口与生育
 
-<pre>macro_shanghai: URLError: &lt;urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)&gt; [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]</pre>
+<pre>macro_shanghai: URLError: &lt;urlopen error [Errno -3] Temporary failure in name resolution&gt; [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=755d5f6efbcf41a6a411ad819aa93c17]</pre>
+
+### 中国与上海房价
+
+<pre>macro_housing: HTTPError: HTTP Error 502: Bad Gateway [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f]</pre>
 
 ### 财政政策与政府债务
 

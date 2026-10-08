@@ -5,7 +5,7 @@
 
 货物贸易以单月美元金额展示，汇率单独使用日度人民币中间价。金额变化包含数量和价格因素，中间价不是市场即期成交价。顺差和汇率之间还隔着资本流动、利差、预期与政策等条件。
 
-本页快照获取时间：**2026-10-02T10:37:59+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-08T02:12:34+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/trade-fx.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/trade-fx.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -22,7 +22,7 @@
 | 当月出口 | 2026-07 | 3,978.51708 | 亿美元 | 1995-01 | 375 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 当月进口 | 2026-07 | 2,855.14272 | 亿美元 | 1995-01 | 371 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 当月货物贸易差额 | 2026-07 | 1,123.37436 | 亿美元 | 1998-01 | 343 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 美元兑人民币中间价 | 2026-09-30 | 6.7351 | 人民币/美元 | 2006-01-04 | 5043 | [中国货币网](https://www.chinamoney.com.cn/chinese/bkccpr/) |
+| 美元兑人民币中间价 | 2026-10-08 | 6.7367 | 人民币/美元 | 2006-01-04 | 5044 | [中国货币网](https://www.chinamoney.com.cn/chinese/bkccpr/) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -781,6 +781,14 @@
 <details class="macro-details">
 <summary>USD/CNY 人民币中间价：展开完整数据表（人民币/美元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美元兑人民币中间价</th></tr></thead><tbody>
+<tr id="macro-exchange-midpoint-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>6.7367</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-06" tabindex="-1"><td>2026-10-06</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-05" tabindex="-1"><td>2026-10-05</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-04" tabindex="-1"><td>2026-10-04</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-03" tabindex="-1"><td>2026-10-03</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-02" tabindex="-1"><td>2026-10-02</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-01" tabindex="-1"><td>2026-10-01</td><td>缺失</td></tr>
 <tr id="macro-exchange-midpoint-2026-09-30" tabindex="-1"><td>2026-09-30</td><td>6.7351</td></tr>
 <tr id="macro-exchange-midpoint-2026-09-29" tabindex="-1"><td>2026-09-29</td><td>6.7411</td></tr>
 <tr id="macro-exchange-midpoint-2026-09-28" tabindex="-1"><td>2026-09-28</td><td>6.7399</td></tr>
