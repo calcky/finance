@@ -1,9 +1,9 @@
 {
   "activity": {
     "error": "",
-    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "snapshot_at": "2026-10-09T02:25:56+00:00",
     "state": "ok",
-    "state_since": "2026-10-02T21:07:56+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "credit-structure": {
     "error": "",
@@ -18,22 +18,22 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "fiscal": {
-    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/index.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/index.htm]",
+    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm]",
     "snapshot_at": "2026-10-02T15:57:34+00:00",
     "state": "failed",
-    "state_since": "2026-10-07T01:43:35+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "gdp": {
     "error": "",
-    "snapshot_at": "2026-10-01T15:44:06+00:00",
+    "snapshot_at": "2026-10-09T02:11:13+00:00",
     "state": "ok",
-    "state_since": "2026-10-02T21:07:56+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "housing-prices": {
-    "error": "macro_housing: HTTPError: HTTP Error 502: Bad Gateway [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=302cec9f9b354cb3a82670d8747bea2f]",
+    "error": "",
     "snapshot_at": "2026-10-02T15:33:59+00:00",
-    "state": "failed",
-    "state_since": "2026-10-08T02:12:39+00:00"
+    "state": "ok",
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "housing-wealth": {
     "error": "",
@@ -48,10 +48,10 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "population": {
-    "error": "macro_population: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=6331ad868e8b4f55b8e9b6e765609ce1]",
+    "error": "",
     "snapshot_at": "2026-10-02T15:21:37+00:00",
-    "state": "failed",
-    "state_since": "2026-10-08T02:12:39+00:00"
+    "state": "ok",
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "prices": {
     "error": "",
@@ -73,26 +73,26 @@
   },
   "rates": {
     "error": "",
-    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "snapshot_at": "2026-10-09T02:25:55+00:00",
     "state": "ok",
-    "state_since": "2026-10-02T21:07:56+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "shanghai-population": {
-    "error": "macro_shanghai: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> [source: https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=755d5f6efbcf41a6a411ad819aa93c17]",
+    "error": "macro_shanghai: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)> [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]",
     "snapshot_at": "2026-10-02T15:21:38+00:00",
     "state": "failed",
-    "state_since": "2026-10-08T02:12:39+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "trade-fx": {
     "error": "",
-    "snapshot_at": "2026-10-08T02:12:34+00:00",
+    "snapshot_at": "2026-10-09T02:25:57+00:00",
     "state": "ok",
-    "state_since": "2026-10-08T02:12:39+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   },
   "us-rates": {
     "error": "",
-    "snapshot_at": "2026-10-08T02:12:38+00:00",
+    "snapshot_at": "2026-10-09T02:26:00+00:00",
     "state": "ok",
-    "state_since": "2026-10-08T02:12:39+00:00"
+    "state_since": "2026-10-09T02:26:02+00:00"
   }
 }

@@ -2439,6 +2439,7 @@ repo_7d,CHN,2026-09-23,1.40,%,D,2026-09-23,https://www.pbc.gov.cn/zhengcehuobisi
 repo_7d,CHN,2026-09-24,1.40,%,D,2026-09-24,https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026092408454713496/index.html,人民银行公告中的7天逆回购实际操作利率；不填充无操作日；保留原表利率口径
 repo_7d,CHN,2026-09-28,1.40,%,D,2026-09-28,https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026092808454683233/index.html,人民银行公告中的7天逆回购实际操作利率；不填充无操作日；保留原表利率口径
 repo_7d,CHN,2026-09-29,1.40,%,D,2026-09-29,https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026092908461628271/index.html,人民银行公告中的7天逆回购实际操作利率；不填充无操作日；保留原表利率口径
+repo_7d,CHN,2026-10-09,1.40,%,D,2026-10-09,https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026100908472888323/index.html,人民银行公告中的7天逆回购实际操作利率；不填充无操作日；保留原表利率口径
 yield_10y,CHN,2006-03-01,2.9000,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-01&endDate=2006-03-01&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_10y,CHN,2006-03-02,2.9000,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-02&endDate=2006-03-02&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_10y,CHN,2006-03-03,2.8700,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-03&endDate=2006-03-03&gjqx=0&qxId=hzsylqx&locale=zh_CN,
@@ -7589,6 +7590,7 @@ yield_10y,CHN,2026-09-24,1.6738,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-we
 yield_10y,CHN,2026-09-28,1.6790,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-28&endDate=2026-09-28&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_10y,CHN,2026-09-29,1.6670,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-29&endDate=2026-09-29&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_10y,CHN,2026-09-30,1.6822,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-30&endDate=2026-09-30&gjqx=0&qxId=hzsylqx&locale=zh_CN,
+yield_10y,CHN,2026-10-08,1.6899,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-08&endDate=2026-10-08&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_1y,CHN,2006-03-01,1.6800,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-01&endDate=2006-03-01&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_1y,CHN,2006-03-02,1.6900,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-02&endDate=2006-03-02&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_1y,CHN,2006-03-03,1.6800,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2006-03-03&endDate=2006-03-03&gjqx=0&qxId=hzsylqx&locale=zh_CN,
@@ -12739,3 +12741,4 @@ yield_1y,CHN,2026-09-24,1.2327,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web
 yield_1y,CHN,2026-09-28,1.2257,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-28&endDate=2026-09-28&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_1y,CHN,2026-09-29,1.2197,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-29&endDate=2026-09-29&gjqx=0&qxId=hzsylqx&locale=zh_CN,
 yield_1y,CHN,2026-09-30,1.2197,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-09-30&endDate=2026-09-30&gjqx=0&qxId=hzsylqx&locale=zh_CN,
+yield_1y,CHN,2026-10-08,1.2282,%,D,,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-08&endDate=2026-10-08&gjqx=0&qxId=hzsylqx&locale=zh_CN,

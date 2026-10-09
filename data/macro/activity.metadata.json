@@ -277,14 +277,14 @@
       "last": "2026-08"
     },
     "pmi_manufacturing": {
-      "count": 260,
+      "count": 261,
       "first": "2005-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "pmi_nonmanufacturing": {
-      "count": 236,
+      "count": 237,
       "first": "2007-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "retail_janfeb_yoy": {
       "count": 27,
@@ -554,7 +554,7 @@
     }
   },
   "history_checked_at": "2026-10-02T10:37:58+00:00",
-  "retrieved_at": "2026-10-02T10:37:58+00:00",
+  "retrieved_at": "2026-10-09T02:25:56+00:00",
   "schema_version": 2,
   "series": {
     "industry_janfeb_yoy": {

@@ -100,16 +100,16 @@
       "coverage": "官方历史查询起点2006-01-04；按月分页核对总条数，不填充非交易日；日常刷新最近三个日历月",
       "earliest_verified": "2006-01-04",
       "first_observation": "2026-08-03",
-      "last_observation": "2026-10-08",
-      "observation_count": 43,
+      "last_observation": "2026-10-09",
+      "observation_count": 44,
       "query_urls": [
         "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-08-01&endDate=2026-08-31&currency=USD/CNY&pageNum=1&pageSize=30",
         "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-09-01&endDate=2026-09-30&currency=USD/CNY&pageNum=1&pageSize=30",
-        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-10-01&endDate=2026-10-08&currency=USD/CNY&pageNum=1&pageSize=30"
+        "https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?startDate=2026-10-01&endDate=2026-10-09&currency=USD/CNY&pageNum=1&pageSize=30"
       ],
       "refresh_ranges": [
         {
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "start": "2026-08-01"
         }
       ],
@@ -118,24 +118,24 @@
   },
   "coverage": {
     "exports": {
-      "count": 375,
+      "count": 376,
       "first": "1995-01",
-      "last": "2026-07"
+      "last": "2026-08"
     },
     "imports": {
-      "count": 371,
+      "count": 372,
       "first": "1995-01",
-      "last": "2026-07"
+      "last": "2026-08"
     },
     "trade_balance": {
-      "count": 343,
+      "count": 344,
       "first": "1998-01",
-      "last": "2026-07"
+      "last": "2026-08"
     },
     "usdcny_mid": {
-      "count": 5044,
+      "count": 5045,
       "first": "2006-01-04",
-      "last": "2026-10-08"
+      "last": "2026-10-09"
     }
   },
   "history": {
@@ -784,7 +784,7 @@
       "unit": "亿美元"
     }
   ],
-  "retrieved_at": "2026-10-08T02:12:34+00:00",
+  "retrieved_at": "2026-10-09T02:25:57+00:00",
   "schema_version": 2,
   "series": {
     "exports": {

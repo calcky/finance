@@ -3161,7 +3161,7 @@ z
    </g>
   </g>
   <g id="text_20">
-   <!-- 来源库更新：2026-07-13；快照：2026-10-01（UTC） -->
+   <!-- 来源库更新：2026-10-08；快照：2026-10-09（UTC） -->
    <g style="fill: #203047" transform="translate(51.84 451.62) scale(0.12 -0.12)">
     <defs>
      <path id="DroidSansFallback-5e93" d="M 3450 5200
@@ -3339,38 +3339,6 @@ L 1997 2009
 L 1997 1497
 L 313 1497
 L 313 2009
-z
-" transform="scale(0.015625)"/>
-     <path id="DejaVuSans-33" d="M 2597 2516
-Q 3050 2419 3304 2112
-Q 3559 1806 3559 1356
-Q 3559 666 3084 287
-Q 2609 -91 1734 -91
-Q 1441 -91 1130 -33
-Q 819 25 488 141
-L 488 750
-Q 750 597 1062 519
-Q 1375 441 1716 441
-Q 2309 441 2620 675
-Q 2931 909 2931 1356
-Q 2931 1769 2642 2001
-Q 2353 2234 1838 2234
-L 1294 2234
-L 1294 2753
-L 1863 2753
-Q 2328 2753 2575 2939
-Q 2822 3125 2822 3475
-Q 2822 3834 2567 4026
-Q 2313 4219 1838 4219
-Q 1578 4219 1281 4162
-Q 984 4106 628 3988
-L 628 4550
-Q 988 4650 1302 4700
-Q 1616 4750 1894 4750
-Q 2613 4750 3031 4423
-Q 3450 4097 3450 3541
-Q 3450 3153 3228 2886
-Q 3006 2619 2597 2516
 z
 " transform="scale(0.015625)"/>
      <path id="DroidSansFallback-5feb" d="M 2175 2325
@@ -3573,11 +3541,11 @@ z
     <use xlink:href="#DejaVuSans-32" transform="translate(727.246094 0)"/>
     <use xlink:href="#DejaVuSans-36" transform="translate(790.869141 0)"/>
     <use xlink:href="#DejaVuSans-2d" transform="translate(854.492188 0)"/>
-    <use xlink:href="#DejaVuSans-30" transform="translate(890.576172 0)"/>
-    <use xlink:href="#DejaVuSans-37" transform="translate(954.199219 0)"/>
+    <use xlink:href="#DejaVuSans-31" transform="translate(890.576172 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(954.199219 0)"/>
     <use xlink:href="#DejaVuSans-2d" transform="translate(1017.822266 0)"/>
-    <use xlink:href="#DejaVuSans-31" transform="translate(1053.90625 0)"/>
-    <use xlink:href="#DejaVuSans-33" transform="translate(1117.529297 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(1053.90625 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(1117.529297 0)"/>
     <use xlink:href="#DroidSansFallback-ff1b" transform="translate(1181.152344 0)"/>
     <use xlink:href="#DroidSansFallback-5feb" transform="translate(1281.152344 0)"/>
     <use xlink:href="#DroidSansFallback-7167" transform="translate(1381.152344 0)"/>
@@ -3591,7 +3559,7 @@ z
     <use xlink:href="#DejaVuSans-30" transform="translate(1935.351562 0)"/>
     <use xlink:href="#DejaVuSans-2d" transform="translate(1998.974609 0)"/>
     <use xlink:href="#DejaVuSans-30" transform="translate(2035.058594 0)"/>
-    <use xlink:href="#DejaVuSans-31" transform="translate(2098.681641 0)"/>
+    <use xlink:href="#DejaVuSans-39" transform="translate(2098.681641 0)"/>
     <use xlink:href="#DroidSansFallback-ff08" transform="translate(2162.304688 0)"/>
     <use xlink:href="#DejaVuSans-55" transform="translate(2262.304688 0)"/>
     <use xlink:href="#DejaVuSans-54" transform="translate(2335.498047 0)"/>

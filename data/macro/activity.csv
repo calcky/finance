@@ -898,6 +898,7 @@ pmi_manufacturing,CHN,2026-05,50.0,指数点,M,,https://data.stats.gov.cn/dg/web
 pmi_manufacturing,CHN,2026-06,50.3,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 50.3；目录 93ffbb1aa85740d3aa2618371508b606
 pmi_manufacturing,CHN,2026-07,49.2,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 49.2；目录 93ffbb1aa85740d3aa2618371508b606
 pmi_manufacturing,CHN,2026-08,49.8,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 49.8；目录 93ffbb1aa85740d3aa2618371508b606
+pmi_manufacturing,CHN,2026-09,50.1,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 50.1；目录 93ffbb1aa85740d3aa2618371508b606
 pmi_nonmanufacturing,CHN,2007-01,60.4,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 60.4；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
 pmi_nonmanufacturing,CHN,2007-02,60.6,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 60.6；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
 pmi_nonmanufacturing,CHN,2007-03,58.2,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 58.2；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
@@ -1134,6 +1135,7 @@ pmi_nonmanufacturing,CHN,2026-05,50.1,指数点,M,,https://data.stats.gov.cn/dg/
 pmi_nonmanufacturing,CHN,2026-06,50.2,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 50.2；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
 pmi_nonmanufacturing,CHN,2026-07,49.0,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 49.0；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
 pmi_nonmanufacturing,CHN,2026-08,49.0,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 49.0；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
+pmi_nonmanufacturing,CHN,2026-09,50.2,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非制造业商务活动指数 (%)；原始值 50.2；目录 7a64a6e25aec4a8e9dde044ecd9e2cce
 retail_janfeb_yoy,CHN,2000-02,10.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额累计增长 (%)；原始值 10.9；目录 d0cb882c7f27443ab6b3ef9421901961；YYYY-02表示当年1—2月累计同比，不是2月单月
 retail_janfeb_yoy,CHN,2001-02,10.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额累计增长 (%)；原始值 10.6；目录 d0cb882c7f27443ab6b3ef9421901961；YYYY-02表示当年1—2月累计同比，不是2月单月
 retail_janfeb_yoy,CHN,2002-02,8.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额累计增长 (%)；原始值 8.5；目录 d0cb882c7f27443ab6b3ef9421901961；YYYY-02表示当年1—2月累计同比，不是2月单月
