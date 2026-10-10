@@ -664,6 +664,7 @@ m1_yoy,CHN,2026-04,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/w
 m1_yoy,CHN,2026-05,5.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 5.5；目录 82130c6621a745cda3d64b090e733383
 m1_yoy,CHN,2026-06,4.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.0；目录 82130c6621a745cda3d64b090e733383
 m1_yoy,CHN,2026-07,4.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.0；目录 82130c6621a745cda3d64b090e733383
+m1_yoy,CHN,2026-08,4.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币 (M1) 供应量_同比增长 (%)；原始值 4.1；目录 82130c6621a745cda3d64b090e733383
 m2,CHN,1999-12,11.76381,万亿元,M,,https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm,人民银行年度统计表；月末余额，亿元÷10000=万亿元
 m2,CHN,2000-01,11.89078,万亿元,M,,https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm,人民银行年度统计表；月末余额，亿元÷10000=万亿元
 m2,CHN,2000-02,11.93536,万亿元,M,,https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2000-S3c.htm,人民银行年度统计表；月末余额，亿元÷10000=万亿元
@@ -1305,6 +1306,7 @@ m2_yoy,CHN,2026-04,8.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/w
 m2_yoy,CHN,2026-05,8.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.6；目录 82130c6621a745cda3d64b090e733383
 m2_yoy,CHN,2026-06,8.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 8.0；目录 82130c6621a745cda3d64b090e733383
 m2_yoy,CHN,2026-07,7.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.7；目录 82130c6621a745cda3d64b090e733383
+m2_yoy,CHN,2026-08,7.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：货币和准货币 (M2) 供应量_同比增长 (%)；原始值 7.5；目录 82130c6621a745cda3d64b090e733383
 tsf_flow,CHN,2002-01,-472,亿元,M,2012-09-13,https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html,人民银行公布的 2002 年起历史单月社融增量；当时统计范围，亿元
 tsf_flow,CHN,2002-02,289,亿元,M,2012-09-13,https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html,人民银行公布的 2002 年起历史单月社融增量；当时统计范围，亿元
 tsf_flow,CHN,2002-03,3136,亿元,M,2012-09-13,https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2863562/index.html,人民银行公布的 2002 年起历史单月社融增量；当时统计范围，亿元

@@ -5,7 +5,7 @@
 
 逆回购操作利率、LPR 和国债收益率对应不同环节。图中纵轴都是年化百分比，但经济含义不同；变动 0.10 个百分点等于 10 个基点。不同图的日度、月度频率不混用。
 
-本页快照获取时间：**2026-10-09T02:25:55+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-10T01:58:30+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -23,8 +23,8 @@
 | 1 年期 LPR | 2026-09 | 3 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
 | 5 年期以上 LPR | 2026-09 | 3.5 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
 | 1 年期 LPR（改革前） | 2019-07 | 4.31 | % | 2013-10 | 70 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
-| 1 年期国债收益率 | 2026-10-08 | 1.2282 | % | 2006-03-01 | 5151 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-08&endDate=2026-10-08&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
-| 10 年期国债收益率 | 2026-10-08 | 1.6899 | % | 2006-03-01 | 5151 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-08&endDate=2026-10-08&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
+| 1 年期国债收益率 | 2026-10-09 | 1.2172 | % | 2006-03-01 | 5152 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-09&endDate=2026-10-09&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
+| 10 年期国债收益率 | 2026-10-09 | 1.6864 | % | 2006-03-01 | 5152 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-09&endDate=2026-10-09&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -5490,6 +5490,7 @@
 <details class="macro-details">
 <summary>国债收益率：1 年与 10 年：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>1 年期国债收益率</th><th>10 年期国债收益率</th></tr></thead><tbody>
+<tr id="macro-bond-yields-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>1.2172</td><td>1.6864</td></tr>
 <tr id="macro-bond-yields-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>1.2282</td><td>1.6899</td></tr>
 <tr id="macro-bond-yields-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2026-10-06" tabindex="-1"><td>2026-10-06</td><td>缺失</td><td>缺失</td></tr>

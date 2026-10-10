@@ -20,13 +20,13 @@
 | [社融与信贷结构](credit-structure.md) | 通过 | 2026-10-02<br>13:43:15 | 2026-10-02<br>21:07:56 |
 | [中国季度 GDP](quarterly-gdp.md) | 通过 | 2026-10-02<br>12:42:00 | 2026-10-02<br>21:07:56 |
 | [物价与通胀](prices.md) | 通过 | 2026-10-02<br>10:37:57 | 2026-10-02<br>21:07:56 |
-| [货币与社会融资](money-credit.md) | 通过 | 2026-10-02<br>10:37:58 | 2026-10-02<br>21:07:56 |
-| [利率与融资成本](rates.md) | 通过 | 2026-10-09<br>02:25:55 | 2026-10-09<br>02:26:02 |
+| [货币与社会融资](money-credit.md) | 通过 | 2026-10-10<br>01:58:29 | 2026-10-10<br>01:58:35 |
+| [利率与融资成本](rates.md) | 通过 | 2026-10-10<br>01:58:30 | 2026-10-10<br>01:58:35 |
 | [景气、生产、消费与投资](activity.md) | 通过 | 2026-10-09<br>02:25:56 | 2026-10-09<br>02:26:02 |
 | [就业与居民收入](employment-income.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
 | [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-09<br>02:25:57 | 2026-10-09<br>02:26:02 |
-| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-09<br>02:26:02 |
-| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-09<br>02:26:00 | 2026-10-09<br>02:26:02 |
+| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-10<br>01:58:35 |
+| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-10<br>01:58:34 | 2026-10-10<br>01:58:35 |
 
 ## 未解决的同步失败
 
@@ -36,7 +36,7 @@
 
 ### 财政政策与政府债务
 
-<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm]</pre>
+<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/index.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/index.htm]</pre>
 
 
 各专题独立更新；同一专题必须完成全部来源与数据校验后才替换 CSV、元数据和图表。共享来源失败时，依赖它的多个专题都会保留原快照。部分成功不会让整次运行显示成功。

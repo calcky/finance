@@ -5,7 +5,7 @@
 
 M1、M2 是月末货币存量，社融从实体经济获得融资的角度统计。2025 年起 M1 增加个人活期存款和非银行支付机构客户备付金。本专题分别保留旧定义历史、新定义以及官方回溯的 2024 年新定义数据，不能把两种余额直接拼接。
 
-本页快照获取时间：**2026-10-02T10:37:58+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-10T01:58:29+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/money-credit.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/money-credit.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -22,8 +22,8 @@ M1、M2 是月末货币存量，社融从实体经济获得融资的角度统计
 | M1 余额（新定义） | 2026-08 | 115.774143 | 万亿元 | 2024-01 | 32 | [中国人民银行](https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx) |
 | M2 余额 | 2026-08 | 356.80836 | 万亿元 | 1999-12 | 321 | [中国人民银行](https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418181718462.xlsx) |
 | M1 余额（旧定义） | 2024-12 | 67.095941 | 万亿元 | 1999-12 | 301 | [中国人民银行](https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416485162540.xlsx) |
-| M1 同比（新定义） | 2026-07 | 4 | % | 2024-01 | 31 | [中国人民银行、国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| M2 同比 | 2026-07 | 7.7 | % | 1999-12 | 320 | [国家统计局（央行数据）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| M1 同比（新定义） | 2026-08 | 4.1 | % | 2024-01 | 32 | [中国人民银行、国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| M2 同比 | 2026-08 | 7.5 | % | 1999-12 | 321 | [国家统计局（央行数据）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | M1 同比（旧定义） | 2024-12 | -1.4 | % | 1999-12 | 301 | [国家统计局（央行数据）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 社融存量同比 | 2026-08 | 7.2 | % | 2014-12 | 133 | [中国人民银行](https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418132334323.xlsx) |
 | 社融当月增量 | 2026-08 | 16,577 | 亿元 | 2002-01 | 296 | [中国人民银行](https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091418125322850.xlsx) |
@@ -374,6 +374,7 @@ M1 包含在 M2 中，不能相加。新旧 M1 分列，2024 年重叠部分展�
 <details class="macro-details">
 <summary>M1 与 M2 官方同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>M1 同比（新定义）</th><th>M2 同比</th><th>M1 同比（旧定义）</th></tr></thead><tbody>
+<tr id="macro-money-growth-2026-08" tabindex="-1"><td>2026-08</td><td>4.1</td><td>7.5</td><td>缺失</td></tr>
 <tr id="macro-money-growth-2026-07" tabindex="-1"><td>2026-07</td><td>4</td><td>7.7</td><td>缺失</td></tr>
 <tr id="macro-money-growth-2026-06" tabindex="-1"><td>2026-06</td><td>4</td><td>8</td><td>缺失</td></tr>
 <tr id="macro-money-growth-2026-05" tabindex="-1"><td>2026-05</td><td>5.5</td><td>8.6</td><td>缺失</td></tr>
@@ -1321,6 +1322,7 @@ M1 包含在 M2 中，不能相加。新旧 M1 分列，2024 年重叠部分展�
 - 2019 年 9 月企业债券纳入交易所企业资产支持证券；2019 年 12 月纳入国债与地方政府一般债券，采用官方回溯至 2017 年的数据。
 - 2023 年 1 月纳入消费金融公司、理财公司、金融资产投资公司等三类机构；贷款及核销调整，旧历史金额不强行回算。
 - 已核验最早 2014 年末单点、2015 年季度末、2016 年起月末；2015 年首次发布说明提及 2002 年存量研究，但未提供可逐期提取的早期存量表，未反推余额。
+- 刷新本年与上年年度表，保留更早历史。
 
 日度图保留日历缺口：节假日、没有操作或上游缺失的日期均无观测，不能仅从空白判断原因。图线在缺失处断开；月度与季度图也不插值。
 

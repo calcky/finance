@@ -2719,7 +2719,7 @@ z
    </g>
   </g>
   <g id="text_20">
-   <!-- 来源：中国人民银行；缺失处断线。快照 2026-10-02（UTC） -->
+   <!-- 来源：中国人民银行；缺失处断线。快照 2026-10-10（UTC） -->
    <g style="fill: #203047" transform="translate(47.52 370.944) scale(0.1 -0.1)">
     <defs>
      <path id="DroidSansFallback-6765" d="M 625 4575
@@ -3534,8 +3534,8 @@ z
     <use xlink:href="#DejaVuSans-31" transform="translate(2116.748047 0)"/>
     <use xlink:href="#DejaVuSans-30" transform="translate(2180.371094 0)"/>
     <use xlink:href="#DejaVuSans-2d" transform="translate(2243.994141 0)"/>
-    <use xlink:href="#DejaVuSans-30" transform="translate(2280.078125 0)"/>
-    <use xlink:href="#DejaVuSans-32" transform="translate(2343.701172 0)"/>
+    <use xlink:href="#DejaVuSans-31" transform="translate(2280.078125 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(2343.701172 0)"/>
     <use xlink:href="#DroidSansFallback-ff08" transform="translate(2407.324219 0)"/>
     <use xlink:href="#DejaVuSans-55" transform="translate(2507.324219 0)"/>
     <use xlink:href="#DejaVuSans-54" transform="translate(2580.517578 0)"/>

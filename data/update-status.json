@@ -18,10 +18,10 @@
     "state_since": "2026-10-02T21:07:56+00:00"
   },
   "fiscal": {
-    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm]",
+    "error": "macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/index.htm <- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/index.htm]",
     "snapshot_at": "2026-10-02T15:57:34+00:00",
     "state": "failed",
-    "state_since": "2026-10-09T02:26:02+00:00"
+    "state_since": "2026-10-10T01:58:35+00:00"
   },
   "gdp": {
     "error": "",
@@ -43,9 +43,9 @@
   },
   "money-credit": {
     "error": "",
-    "snapshot_at": "2026-10-02T10:37:58+00:00",
+    "snapshot_at": "2026-10-10T01:58:29+00:00",
     "state": "ok",
-    "state_since": "2026-10-02T21:07:56+00:00"
+    "state_since": "2026-10-10T01:58:35+00:00"
   },
   "population": {
     "error": "",
@@ -73,9 +73,9 @@
   },
   "rates": {
     "error": "",
-    "snapshot_at": "2026-10-09T02:25:55+00:00",
+    "snapshot_at": "2026-10-10T01:58:30+00:00",
     "state": "ok",
-    "state_since": "2026-10-09T02:26:02+00:00"
+    "state_since": "2026-10-10T01:58:35+00:00"
   },
   "shanghai-population": {
     "error": "macro_shanghai: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)> [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]",
@@ -91,8 +91,8 @@
   },
   "us-rates": {
     "error": "",
-    "snapshot_at": "2026-10-09T02:26:00+00:00",
+    "snapshot_at": "2026-10-10T01:58:34+00:00",
     "state": "ok",
-    "state_since": "2026-10-09T02:26:02+00:00"
+    "state_since": "2026-10-10T01:58:35+00:00"
   }
 }
