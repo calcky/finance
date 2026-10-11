@@ -66,7 +66,7 @@
       "processed_documents": 80,
       "refresh_ranges": [
         {
-          "end": "2026-10-10",
+          "end": "2026-10-11",
           "start": "2026-06-18"
         }
       ],
@@ -81,14 +81,14 @@
       "curve": "中债国债收益率曲线",
       "earliest_verified": "2006-03-01",
       "first_observation": "2026-08-03",
-      "last_observation": "2026-10-09",
-      "observation_count": 45,
+      "last_observation": "2026-10-10",
+      "observation_count": 46,
       "query_urls": [
-        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-10&gjqx=0&qxId=hzsylqx&locale=zh_CN"
+        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-11&gjqx=0&qxId=hzsylqx&locale=zh_CN"
       ],
       "refresh_ranges": [
         {
-          "end": "2026-10-10",
+          "end": "2026-10-11",
           "start": "2026-08-01"
         }
       ]
@@ -98,14 +98,14 @@
       "curve": "中债国债收益率曲线",
       "earliest_verified": "2006-03-01",
       "first_observation": "2026-08-03",
-      "last_observation": "2026-10-09",
-      "observation_count": 45,
+      "last_observation": "2026-10-10",
+      "observation_count": 46,
       "query_urls": [
-        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-10&gjqx=0&qxId=hzsylqx&locale=zh_CN"
+        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-11&gjqx=0&qxId=hzsylqx&locale=zh_CN"
       ],
       "refresh_ranges": [
         {
-          "end": "2026-10-10",
+          "end": "2026-10-11",
           "start": "2026-08-01"
         }
       ]
@@ -133,14 +133,14 @@
       "last": "2026-10-09"
     },
     "yield_10y": {
-      "count": 5152,
+      "count": 5153,
       "first": "2006-03-01",
-      "last": "2026-10-09"
+      "last": "2026-10-10"
     },
     "yield_1y": {
-      "count": 5152,
+      "count": 5153,
       "first": "2006-03-01",
-      "last": "2026-10-09"
+      "last": "2026-10-10"
     }
   },
   "history": {
@@ -298,7 +298,7 @@
     }
   },
   "history_checked_at": "2026-10-02T10:37:58+00:00",
-  "retrieved_at": "2026-10-10T01:58:30+00:00",
+  "retrieved_at": "2026-10-11T01:11:35+00:00",
   "schema_version": 2,
   "series": {
     "lpr_1y": {
