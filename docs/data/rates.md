@@ -5,7 +5,7 @@
 
 逆回购操作利率、LPR 和国债收益率对应不同环节。图中纵轴都是年化百分比，但经济含义不同；变动 0.10 个百分点等于 10 个基点。不同图的日度、月度频率不混用。
 
-本页快照获取时间：**2026-10-11T01:11:35+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-10-12T01:31:57+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,7 +19,7 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 7 天逆回购操作利率 | 2026-10-09 | 1.4 | % | 2012-05-03 | 2199 | [中国人民银行](https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026100908472888323/index.html) |
+| 7 天逆回购操作利率 | 2026-10-12 | 1.4 | % | 2012-05-03 | 2200 | [中国人民银行](https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026101208533774222/index.html) |
 | 1 年期 LPR | 2026-09 | 3 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
 | 5 年期以上 LPR | 2026-09 | 3.5 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
 | 1 年期 LPR（改革前） | 2019-07 | 4.31 | % | 2013-10 | 70 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
@@ -39,6 +39,9 @@
 <details class="macro-details">
 <summary>7 天逆回购操作利率：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>7 天逆回购操作利率</th></tr></thead><tbody>
+<tr id="macro-policy-repo-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>缺失</td></tr>
 <tr id="macro-policy-repo-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>1.4</td></tr>
 <tr id="macro-policy-repo-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>缺失</td></tr>
 <tr id="macro-policy-repo-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>缺失</td></tr>

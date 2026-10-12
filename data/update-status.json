@@ -73,9 +73,9 @@
   },
   "rates": {
     "error": "",
-    "snapshot_at": "2026-10-11T01:11:35+00:00",
+    "snapshot_at": "2026-10-12T01:31:57+00:00",
     "state": "ok",
-    "state_since": "2026-10-11T01:11:41+00:00"
+    "state_since": "2026-10-12T01:32:04+00:00"
   },
   "shanghai-population": {
     "error": "macro_shanghai: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)> [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]",
@@ -85,14 +85,14 @@
   },
   "trade-fx": {
     "error": "",
-    "snapshot_at": "2026-10-09T02:25:57+00:00",
+    "snapshot_at": "2026-10-12T01:31:58+00:00",
     "state": "ok",
-    "state_since": "2026-10-09T02:26:02+00:00"
+    "state_since": "2026-10-12T01:32:04+00:00"
   },
   "us-rates": {
     "error": "",
-    "snapshot_at": "2026-10-11T01:11:39+00:00",
+    "snapshot_at": "2026-10-12T01:32:02+00:00",
     "state": "ok",
-    "state_since": "2026-10-11T01:11:41+00:00"
+    "state_since": "2026-10-12T01:32:04+00:00"
   }
 }
