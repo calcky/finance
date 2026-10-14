@@ -2137,7 +2137,7 @@ z
    </g>
   </g>
   <g id="text_18">
-   <!-- 来源：国家统计局（海关统计）；缺失处断线。快照 2026-10-13（UTC） -->
+   <!-- 来源：国家统计局（海关统计）；缺失处断线。快照 2026-10-14（UTC） -->
    <g style="fill: #203047" transform="translate(47.52 370.944) scale(0.1 -0.1)">
     <defs>
      <path id="DroidSansFallback-6765" d="M 625 4575
@@ -3003,6 +3003,25 @@ Q 2375 0 2075 475
 L 2575 625
 z
 " transform="scale(0.015625)"/>
+     <path id="DejaVuSans-34" d="M 2419 4116
+L 825 1625
+L 2419 1625
+L 2419 4116
+z
+M 2253 4666
+L 3047 4666
+L 3047 1625
+L 3713 1625
+L 3713 1100
+L 3047 1100
+L 3047 0
+L 2419 0
+L 2419 1100
+L 313 1100
+L 313 1709
+L 2253 4666
+z
+" transform="scale(0.015625)"/>
      <path id="DejaVuSans-55" d="M 556 4666
 L 1191 4666
 L 1191 1831
@@ -3086,7 +3105,7 @@ z
     <use xlink:href="#DejaVuSans-30" transform="translate(2680.371094 0)"/>
     <use xlink:href="#DejaVuSans-2d" transform="translate(2743.994141 0)"/>
     <use xlink:href="#DejaVuSans-31" transform="translate(2780.078125 0)"/>
-    <use xlink:href="#DejaVuSans-33" transform="translate(2843.701172 0)"/>
+    <use xlink:href="#DejaVuSans-34" transform="translate(2843.701172 0)"/>
     <use xlink:href="#DroidSansFallback-ff08" transform="translate(2907.324219 0)"/>
     <use xlink:href="#DejaVuSans-55" transform="translate(3007.324219 0)"/>
     <use xlink:href="#DejaVuSans-54" transform="translate(3080.517578 0)"/>

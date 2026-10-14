@@ -51,29 +51,29 @@
     "repo_7d": {
       "archive": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/",
       "archive_documents": 80,
-      "archive_first_publication": "2026-06-22",
-      "archive_last_publication": "2026-10-12",
+      "archive_first_publication": "2026-06-23",
+      "archive_last_publication": "2026-10-14",
       "complete_archive": false,
       "counts": {
         "no_operation": 17,
-        "no_reverse": 3,
-        "observed": 60
+        "no_reverse": 2,
+        "observed": 61
       },
       "coverage": "逐页核对人民银行公开市场公告档案；只提取有明确利率的实际7天逆回购，非连续政策利率；未操作/其他期限/无显式利率不造数",
       "failed_urls": [],
-      "first_observation": "2026-06-22",
-      "last_observation": "2026-10-12",
+      "first_observation": "2026-06-23",
+      "last_observation": "2026-10-14",
       "processed_documents": 80,
       "refresh_ranges": [
         {
-          "end": "2026-10-12",
-          "start": "2026-06-22"
+          "end": "2026-10-14",
+          "start": "2026-06-23"
         }
       ],
       "requested_window_complete": true,
       "skipped": {
         "no_operation": 17,
-        "no_reverse": 3
+        "no_reverse": 2
       }
     },
     "yield_10y": {
@@ -81,14 +81,14 @@
       "curve": "中债国债收益率曲线",
       "earliest_verified": "2006-03-01",
       "first_observation": "2026-08-03",
-      "last_observation": "2026-10-10",
-      "observation_count": 46,
+      "last_observation": "2026-10-13",
+      "observation_count": 48,
       "query_urls": [
-        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-12&gjqx=0&qxId=hzsylqx&locale=zh_CN"
+        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-14&gjqx=0&qxId=hzsylqx&locale=zh_CN"
       ],
       "refresh_ranges": [
         {
-          "end": "2026-10-12",
+          "end": "2026-10-14",
           "start": "2026-08-01"
         }
       ]
@@ -98,14 +98,14 @@
       "curve": "中债国债收益率曲线",
       "earliest_verified": "2006-03-01",
       "first_observation": "2026-08-03",
-      "last_observation": "2026-10-10",
-      "observation_count": 46,
+      "last_observation": "2026-10-13",
+      "observation_count": 48,
       "query_urls": [
-        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-12&gjqx=0&qxId=hzsylqx&locale=zh_CN"
+        "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-08-01&endDate=2026-10-14&gjqx=0&qxId=hzsylqx&locale=zh_CN"
       ],
       "refresh_ranges": [
         {
-          "end": "2026-10-12",
+          "end": "2026-10-14",
           "start": "2026-08-01"
         }
       ]
@@ -128,19 +128,19 @@
       "last": "2026-09"
     },
     "repo_7d": {
-      "count": 2200,
+      "count": 2202,
       "first": "2012-05-03",
-      "last": "2026-10-12"
+      "last": "2026-10-14"
     },
     "yield_10y": {
-      "count": 5153,
+      "count": 5155,
       "first": "2006-03-01",
-      "last": "2026-10-10"
+      "last": "2026-10-13"
     },
     "yield_1y": {
-      "count": 5153,
+      "count": 5155,
       "first": "2006-03-01",
-      "last": "2026-10-10"
+      "last": "2026-10-13"
     }
   },
   "history": {
@@ -298,7 +298,7 @@
     }
   },
   "history_checked_at": "2026-10-02T10:37:58+00:00",
-  "retrieved_at": "2026-10-12T01:31:57+00:00",
+  "retrieved_at": "2026-10-14T01:27:17+00:00",
   "schema_version": 2,
   "series": {
     "lpr_1y": {

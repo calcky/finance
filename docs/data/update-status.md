@@ -21,12 +21,12 @@
 | [中国季度 GDP](quarterly-gdp.md) | 通过 | 2026-10-02<br>12:42:00 | 2026-10-02<br>21:07:56 |
 | [物价与通胀](prices.md) | 通过 | 2026-10-02<br>10:37:57 | 2026-10-02<br>21:07:56 |
 | [货币与社会融资](money-credit.md) | 通过 | 2026-10-10<br>01:58:29 | 2026-10-10<br>01:58:35 |
-| [利率与融资成本](rates.md) | 失败，保留快照 | 2026-10-12<br>01:31:57 | 2026-10-13<br>03:15:29 |
+| [利率与融资成本](rates.md) | 通过 | 2026-10-14<br>01:27:17 | 2026-10-14<br>01:27:24 |
 | [景气、生产、消费与投资](activity.md) | 通过 | 2026-10-09<br>02:25:56 | 2026-10-09<br>02:26:02 |
 | [就业与居民收入](employment-income.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
-| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-13<br>03:15:26 | 2026-10-13<br>03:15:29 |
-| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-13<br>03:15:29 |
-| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-13<br>03:15:28 | 2026-10-13<br>03:15:29 |
+| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-14<br>01:27:18 | 2026-10-14<br>01:27:24 |
+| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-14<br>01:27:24 |
+| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-14<br>01:27:22 | 2026-10-14<br>01:27:24 |
 
 ## 未解决的同步失败
 
@@ -34,13 +34,9 @@
 
 <pre>macro_shanghai: URLError: &lt;urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)&gt; [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]</pre>
 
-### 利率与融资成本
-
-<pre>ValueError: Source withdrew known observation repo_7d/2026-06-22</pre>
-
 ### 财政政策与政府债务
 
-<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm]</pre>
+<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm]</pre>
 
 
 各专题独立更新；同一专题必须完成全部来源与数据校验后才替换 CSV、元数据和图表。共享来源失败时，依赖它的多个专题都会保留原快照。部分成功不会让整次运行显示成功。
