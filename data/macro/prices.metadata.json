@@ -5,7 +5,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -28,7 +28,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -49,7 +49,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -87,9 +87,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -103,24 +103,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -343,7 +343,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -370,7 +370,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "f3904a1f5a384d54a3944ec6e2df3d1c"
@@ -388,7 +388,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "384ddbda2edc47969caa98263f16231b"
@@ -406,7 +406,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "0dc091b5194c46afaf10369d5c55676a"
@@ -424,7 +424,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "e437d965279d41ceb9ace591b62f6ffc"
@@ -439,7 +439,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -466,7 +466,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -487,7 +487,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4c1065dd4e984b25a21190c843551697"
@@ -505,7 +505,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "e5c318ffdbbc4d38898e52b52267eb25"
@@ -523,7 +523,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -556,7 +556,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "09373c3f8fdd428fa1b289925da6d590"
@@ -571,7 +571,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2001-01"
         }
       ],
@@ -586,7 +586,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "09373c3f8fdd428fa1b289925da6d590"
@@ -601,7 +601,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -624,7 +624,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -645,7 +645,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -683,9 +683,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -699,24 +699,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -939,7 +939,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -954,7 +954,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "150633e52b9a470a9a9fd1b296dd6c5b"
@@ -969,7 +969,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -992,7 +992,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -1013,7 +1013,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -1051,9 +1051,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -1067,24 +1067,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -1305,19 +1305,19 @@
   },
   "coverage": {
     "core_cpi_yoy": {
-      "count": 164,
+      "count": 165,
       "first": "2013-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "cpi_mom": {
-      "count": 320,
+      "count": 321,
       "first": "2000-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "cpi_yoy": {
-      "count": 344,
+      "count": 345,
       "first": "1998-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "food_cpi_legacy_yoy": {
       "count": 36,
@@ -1325,24 +1325,24 @@
       "last": "2000-12"
     },
     "food_cpi_yoy": {
-      "count": 308,
+      "count": 309,
       "first": "2001-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "nonfood_cpi_yoy": {
-      "count": 280,
+      "count": 281,
       "first": "2002-03",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "ppi_yoy": {
-      "count": 404,
+      "count": 405,
       "first": "1993-01",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "services_cpi_yoy": {
-      "count": 289,
+      "count": 290,
       "first": "2001-10",
-      "last": "2026-08"
+      "last": "2026-09"
     }
   },
   "history": {
@@ -1351,7 +1351,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -1374,7 +1374,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -1395,7 +1395,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -1433,9 +1433,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -1449,24 +1449,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -1689,7 +1689,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -1716,7 +1716,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "f3904a1f5a384d54a3944ec6e2df3d1c"
@@ -1734,7 +1734,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "384ddbda2edc47969caa98263f16231b"
@@ -1752,7 +1752,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "0dc091b5194c46afaf10369d5c55676a"
@@ -1770,7 +1770,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "e437d965279d41ceb9ace591b62f6ffc"
@@ -1785,7 +1785,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -1812,7 +1812,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -1833,7 +1833,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4c1065dd4e984b25a21190c843551697"
@@ -1851,7 +1851,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "e5c318ffdbbc4d38898e52b52267eb25"
@@ -1869,7 +1869,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -1902,7 +1902,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "09373c3f8fdd428fa1b289925da6d590"
@@ -1917,7 +1917,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2001-01"
         }
       ],
@@ -1932,7 +1932,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "09373c3f8fdd428fa1b289925da6d590"
@@ -1947,7 +1947,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -1970,7 +1970,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -1991,7 +1991,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -2029,9 +2029,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -2045,24 +2045,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -2285,7 +2285,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2300,7 +2300,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "150633e52b9a470a9a9fd1b296dd6c5b"
@@ -2315,7 +2315,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。此JSON目录提供2021年起数据；独立历史公告采集器补充2021年前可核验的月度记录，未找到的早期分项保留缺口，不宣称2021为官方首次发布。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2026-01"
         },
         {
@@ -2338,7 +2338,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "53180dfb9c14411ba4b762307c85920c",
@@ -2359,7 +2359,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "4ae9047687934a6390984c21d6ddab96",
@@ -2397,9 +2397,9 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920229.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920244.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920272.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920257.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920257.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920296.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919965.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919965.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919993.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920043.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1920072.html",
@@ -2413,24 +2413,24 @@
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919907.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919923.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919931.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919942.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919942.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919575.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919592.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919592.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919625.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919662.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919691.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919691.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919703.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919731.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919731.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919360.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919388.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919401.html",
             "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919430.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919460.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919460.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919491.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919494.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919505.html",
-            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919538.html",
-            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919164.html",
+            "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919538.html",
+            "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919164.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919179.html",
             "https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919243.html"
           ],
@@ -2649,8 +2649,8 @@
       ]
     }
   },
-  "history_checked_at": "2026-10-02T10:37:57+00:00",
-  "retrieved_at": "2026-10-02T10:37:57+00:00",
+  "history_checked_at": "2026-11-01T03:19:42+00:00",
+  "retrieved_at": "2026-11-01T03:19:42+00:00",
   "schema_version": 2,
   "series": {
     "core_cpi_yoy": {

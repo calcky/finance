@@ -5,7 +5,7 @@
 
 调查失业率是月度比例，居民收入按季度发布、以年内累计为主。本专题不把季度值复制成三个月的数值，也不将调查失业率、登记失业率或不同青年失业率口径拼成一条线。
 
-本页快照获取时间：**2026-10-02T10:37:59+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:43+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/employment-income.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/employment-income.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,10 +19,10 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 城镇调查失业率 | 2026-08 | 5.3 | % | 2018-01 | 104 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 可支配收入名义累计同比 | 2026-Q2 | 5.2 | % | 2013-Q4 | 51 | [国家统计局](https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html) |
-| 可支配收入实际累计同比 | 2026-Q2 | 4.2 | % | 2013-Q4 | 51 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 人均可支配收入累计金额 | 2026-Q2 | 22,981 | 元/人 | 2013-Q1 | 54 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 城镇调查失业率 | 2026-09 | 5.2 | % | 2018-01 | 105 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 可支配收入名义累计同比 | 2026-Q3 | 5.3 | % | 2013-Q4 | 52 | [国家统计局](https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965612.html) |
+| 可支配收入实际累计同比 | 2026-Q3 | 4.4 | % | 2013-Q4 | 52 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 人均可支配收入累计金额 | 2026-Q3 | 34,230 | 元/人 | 2013-Q1 | 55 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -37,6 +37,7 @@
 <details class="macro-details">
 <summary>全国城镇调查失业率：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>城镇调查失业率</th></tr></thead><tbody>
+<tr id="macro-unemployment-2026-09" tabindex="-1"><td>2026-09</td><td>5.2</td></tr>
 <tr id="macro-unemployment-2026-08" tabindex="-1"><td>2026-08</td><td>5.3</td></tr>
 <tr id="macro-unemployment-2026-07" tabindex="-1"><td>2026-07</td><td>5.2</td></tr>
 <tr id="macro-unemployment-2026-06" tabindex="-1"><td>2026-06</td><td>5</td></tr>
@@ -152,6 +153,7 @@
 <details class="macro-details">
 <summary>居民可支配收入：名义与实际累计增速：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>可支配收入名义累计同比</th><th>可支配收入实际累计同比</th></tr></thead><tbody>
+<tr id="macro-income-growth-2026-Q3" tabindex="-1"><td>2026-Q3</td><td>5.3</td><td>4.4</td></tr>
 <tr id="macro-income-growth-2026-Q2" tabindex="-1"><td>2026-Q2</td><td>5.2</td><td>4.2</td></tr>
 <tr id="macro-income-growth-2026-Q1" tabindex="-1"><td>2026-Q1</td><td>4.9</td><td>4</td></tr>
 <tr id="macro-income-growth-2025-Q4" tabindex="-1"><td>2025-Q4</td><td>5</td><td>5</td></tr>
@@ -212,6 +214,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（元/人）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-Q3</td><td>34,230</td></tr>
 <tr><td>2026-Q2</td><td>22,981</td></tr>
 <tr><td>2026-Q1</td><td>12,782</td></tr>
 <tr><td>2025-Q4</td><td>43,377</td></tr>

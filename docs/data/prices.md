@@ -5,7 +5,7 @@
 
 CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工业生产者出厂价格。同比看相对上年同月，环比看相对上月，不能把同比序列连乘成价格水平。历史涨跌幅按官方发布保留；各期权重、分类变化和确实缺失的时期另作说明。
 
-本页快照获取时间：**2026-10-02T10:37:57+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:42+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/prices.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/prices.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,13 +19,13 @@ CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工�
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| CPI 同比 | 2026-08 | 0.8 | % | 1998-01 | 344 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 核心 CPI 同比 | 2026-08 | 1 | % | 2013-01 | 164 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| CPI 环比 | 2026-08 | 0.4 | % | 2000-01 | 320 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| PPI 同比 | 2026-08 | 3.8 | % | 1993-01 | 404 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 食品价格同比 | 2026-08 | -1.4 | % | 2001-01 | 308 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 非食品价格同比 | 2026-08 | 1.2 | % | 2002-03 | 280 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 服务价格同比 | 2026-08 | 0.8 | % | 2001-10 | 289 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| CPI 同比 | 2026-09 | 0.9 | % | 1998-01 | 345 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 核心 CPI 同比 | 2026-09 | 1 | % | 2013-01 | 165 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| CPI 环比 | 2026-09 | 0.2 | % | 2000-01 | 321 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| PPI 同比 | 2026-09 | 5 | % | 1993-01 | 405 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 食品价格同比 | 2026-09 | -1.7 | % | 2001-01 | 309 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 非食品价格同比 | 2026-09 | 1.5 | % | 2002-03 | 281 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 服务价格同比 | 2026-09 | 0.8 | % | 2001-10 | 290 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 食品价格同比（2001 年前旧分类） | 2000-12 | -0.1 | % | 1998-01 | 36 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
@@ -41,6 +41,7 @@ CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工�
 <details class="macro-details">
 <summary>CPI 与核心 CPI 同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>CPI 同比</th><th>核心 CPI 同比</th></tr></thead><tbody>
+<tr id="macro-cpi-core-2026-09" tabindex="-1"><td>2026-09</td><td>0.9</td><td>1</td></tr>
 <tr id="macro-cpi-core-2026-08" tabindex="-1"><td>2026-08</td><td>0.8</td><td>1</td></tr>
 <tr id="macro-cpi-core-2026-07" tabindex="-1"><td>2026-07</td><td>0.5</td><td>0.9</td></tr>
 <tr id="macro-cpi-core-2026-06" tabindex="-1"><td>2026-06</td><td>1</td><td>1</td></tr>
@@ -396,6 +397,7 @@ CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工�
 <details class="macro-details">
 <summary>CPI 环比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>CPI 环比</th></tr></thead><tbody>
+<tr id="macro-cpi-monthly-2026-09" tabindex="-1"><td>2026-09</td><td>0.2</td></tr>
 <tr id="macro-cpi-monthly-2026-08" tabindex="-1"><td>2026-08</td><td>0.4</td></tr>
 <tr id="macro-cpi-monthly-2026-07" tabindex="-1"><td>2026-07</td><td>-0.1</td></tr>
 <tr id="macro-cpi-monthly-2026-06" tabindex="-1"><td>2026-06</td><td>-0.3</td></tr>
@@ -727,6 +729,7 @@ CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工�
 <details class="macro-details">
 <summary>生产端价格：PPI 同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>PPI 同比</th></tr></thead><tbody>
+<tr id="macro-ppi-2026-09" tabindex="-1"><td>2026-09</td><td>5</td></tr>
 <tr id="macro-ppi-2026-08" tabindex="-1"><td>2026-08</td><td>3.8</td></tr>
 <tr id="macro-ppi-2026-07" tabindex="-1"><td>2026-07</td><td>3.5</td></tr>
 <tr id="macro-ppi-2026-06" tabindex="-1"><td>2026-06</td><td>4.1</td></tr>
@@ -1142,6 +1145,7 @@ CPI 描述居民消费价格，核心 CPI 扣除食品和能源，PPI 描述工�
 <details class="macro-details">
 <summary>食品、非食品与服务价格：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>食品价格同比</th><th>非食品价格同比</th><th>服务价格同比</th></tr></thead><tbody>
+<tr id="macro-cpi-components-2026-09" tabindex="-1"><td>2026-09</td><td>-1.7</td><td>1.5</td><td>0.8</td></tr>
 <tr id="macro-cpi-components-2026-08" tabindex="-1"><td>2026-08</td><td>-1.4</td><td>1.2</td><td>0.8</td></tr>
 <tr id="macro-cpi-components-2026-07" tabindex="-1"><td>2026-07</td><td>-1.5</td><td>0.9</td><td>0.7</td></tr>
 <tr id="macro-cpi-components-2026-06" tabindex="-1"><td>2026-06</td><td>-1.6</td><td>1.5</td><td>0.8</td></tr>

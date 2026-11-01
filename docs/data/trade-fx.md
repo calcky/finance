@@ -5,7 +5,7 @@
 
 货物贸易以单月美元金额展示，汇率单独使用日度人民币中间价。金额变化包含数量和价格因素，中间价不是市场即期成交价。顺差和汇率之间还隔着资本流动、利差、预期与政策等条件。
 
-本页快照获取时间：**2026-10-14T01:27:18+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:43+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/trade-fx.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/trade-fx.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,10 +19,10 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 当月出口 | 2026-08 | 4,014.40957 | 亿美元 | 1995-01 | 376 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 当月进口 | 2026-08 | 2,823.55763 | 亿美元 | 1995-01 | 372 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 当月货物贸易差额 | 2026-08 | 1,190.85194 | 亿美元 | 1998-01 | 344 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 美元兑人民币中间价 | 2026-10-14 | 6.7249 | 人民币/美元 | 2006-01-04 | 5048 | [中国货币网](https://www.chinamoney.com.cn/chinese/bkccpr/) |
+| 当月出口 | 2026-09 | 4,471.8426 | 亿美元 | 1995-01 | 377 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 当月进口 | 2026-09 | 3,136.52171 | 亿美元 | 1995-01 | 373 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 当月货物贸易差额 | 2026-09 | 1,335.32089 | 亿美元 | 1998-01 | 345 | [国家统计局（海关统计）](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 美元兑人民币中间价 | 2026-10-30 | 6.7138 | 人民币/美元 | 2006-01-04 | 5060 | [中国货币网](https://www.chinamoney.com.cn/chinese/bkccpr/) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -37,6 +37,7 @@
 <details class="macro-details">
 <summary>货物出口与进口：当月美元金额：展开完整数据表（亿美元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>当月出口</th><th>当月进口</th></tr></thead><tbody>
+<tr id="macro-trade-2026-09" tabindex="-1"><td>2026-09</td><td>4,471.8426</td><td>3,136.52171</td></tr>
 <tr id="macro-trade-2026-08" tabindex="-1"><td>2026-08</td><td>4,014.40957</td><td>2,823.55763</td></tr>
 <tr id="macro-trade-2026-07" tabindex="-1"><td>2026-07</td><td>3,978.51708</td><td>2,855.14272</td></tr>
 <tr id="macro-trade-2026-06" tabindex="-1"><td>2026-06</td><td>4,123.87125</td><td>2,867.64038</td></tr>
@@ -428,6 +429,7 @@
 <details class="macro-details">
 <summary>当月货物贸易差额：展开完整数据表（亿美元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>当月货物贸易差额</th></tr></thead><tbody>
+<tr id="macro-trade-balance-2026-09" tabindex="-1"><td>2026-09</td><td>1,335.32089</td></tr>
 <tr id="macro-trade-balance-2026-08" tabindex="-1"><td>2026-08</td><td>1,190.85194</td></tr>
 <tr id="macro-trade-balance-2026-07" tabindex="-1"><td>2026-07</td><td>1,123.37436</td></tr>
 <tr id="macro-trade-balance-2026-06" tabindex="-1"><td>2026-06</td><td>1,256.23087</td></tr>
@@ -783,6 +785,22 @@
 <details class="macro-details">
 <summary>USD/CNY 人民币中间价：展开完整数据表（人民币/美元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美元兑人民币中间价</th></tr></thead><tbody>
+<tr id="macro-exchange-midpoint-2026-10-30" tabindex="-1"><td>2026-10-30</td><td>6.7138</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>6.7147</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>6.7165</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>6.7171</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>6.7162</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>6.718</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>6.7195</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>6.7192</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>6.72</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>6.7208</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>6.722</td></tr>
+<tr id="macro-exchange-midpoint-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>6.7253</td></tr>
 <tr id="macro-exchange-midpoint-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>6.7249</td></tr>
 <tr id="macro-exchange-midpoint-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>6.7298</td></tr>
 <tr id="macro-exchange-midpoint-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>6.7313</td></tr>

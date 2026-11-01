@@ -5,7 +5,7 @@
 
 逆回购操作利率、LPR 和国债收益率对应不同环节。图中纵轴都是年化百分比，但经济含义不同；变动 0.10 个百分点等于 10 个基点。不同图的日度、月度频率不混用。
 
-本页快照获取时间：**2026-10-14T01:27:17+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:42+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,12 +19,12 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 7 天逆回购操作利率 | 2026-10-14 | 1.4 | % | 2012-05-03 | 2202 | [中国人民银行](https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026101408462382153/index.html) |
-| 1 年期 LPR | 2026-09 | 3 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
-| 5 年期以上 LPR | 2026-09 | 3.5 | % | 2019-08 | 86 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
+| 7 天逆回购操作利率 | 2026-10-30 | 1.4 | % | 2012-05-03 | 2210 | [中国人民银行](https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026103008462393538/index.html) |
+| 1 年期 LPR | 2026-10 | 3 | % | 2019-08 | 87 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
+| 5 年期以上 LPR | 2026-10 | 3.5 | % | 2019-08 | 87 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
 | 1 年期 LPR（改革前） | 2019-07 | 4.31 | % | 2013-10 | 70 | [中国货币网](https://www.chinamoney.com.cn/ags/ms/cm-u-bk-currency/LprChrtCSV?startDate=2013-01-01) |
-| 1 年期国债收益率 | 2026-10-13 | 1.1947 | % | 2006-03-01 | 5155 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-13&endDate=2026-10-13&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
-| 10 年期国债收益率 | 2026-10-13 | 1.6654 | % | 2006-03-01 | 5155 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-13&endDate=2026-10-13&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
+| 1 年期国债收益率 | 2026-10-30 | 1.1714 | % | 2006-03-01 | 5168 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-30&endDate=2026-10-30&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
+| 10 年期国债收益率 | 2026-10-30 | 1.65 | % | 2006-03-01 | 5168 | [中央国债登记结算有限责任公司](https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2026-10-30&endDate=2026-10-30&gjqx=0&qxId=hzsylqx&locale=zh_CN) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -39,6 +39,22 @@
 <details class="macro-details">
 <summary>7 天逆回购操作利率：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>7 天逆回购操作利率</th></tr></thead><tbody>
+<tr id="macro-policy-repo-2026-10-30" tabindex="-1"><td>2026-10-30</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td></tr>
+<tr id="macro-policy-repo-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>1.4</td></tr>
+<tr id="macro-policy-repo-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>1.4</td></tr>
 <tr id="macro-policy-repo-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>1.4</td></tr>
 <tr id="macro-policy-repo-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>1.4</td></tr>
 <tr id="macro-policy-repo-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>1.4</td></tr>
@@ -5328,6 +5344,7 @@
 <details class="macro-details">
 <summary>LPR：1 年期与 5 年期以上：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>1 年期 LPR</th><th>5 年期以上 LPR</th><th>1 年期 LPR（改革前）</th></tr></thead><tbody>
+<tr id="macro-lpr-2026-10" tabindex="-1"><td>2026-10</td><td>3</td><td>3.5</td><td>缺失</td></tr>
 <tr id="macro-lpr-2026-09" tabindex="-1"><td>2026-09</td><td>3</td><td>3.5</td><td>缺失</td></tr>
 <tr id="macro-lpr-2026-08" tabindex="-1"><td>2026-08</td><td>3</td><td>3.5</td><td>缺失</td></tr>
 <tr id="macro-lpr-2026-07" tabindex="-1"><td>2026-07</td><td>3</td><td>3.5</td><td>缺失</td></tr>
@@ -5495,6 +5512,23 @@
 <details class="macro-details">
 <summary>国债收益率：1 年与 10 年：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>1 年期国债收益率</th><th>10 年期国债收益率</th></tr></thead><tbody>
+<tr id="macro-bond-yields-2026-10-30" tabindex="-1"><td>2026-10-30</td><td>1.1714</td><td>1.65</td></tr>
+<tr id="macro-bond-yields-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>1.1649</td><td>1.6233</td></tr>
+<tr id="macro-bond-yields-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>1.1693</td><td>1.6345</td></tr>
+<tr id="macro-bond-yields-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>1.1799</td><td>1.6258</td></tr>
+<tr id="macro-bond-yields-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>1.1804</td><td>1.6376</td></tr>
+<tr id="macro-bond-yields-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-bond-yields-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-bond-yields-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>1.1797</td><td>1.64</td></tr>
+<tr id="macro-bond-yields-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>1.1794</td><td>1.6414</td></tr>
+<tr id="macro-bond-yields-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>1.1793</td><td>1.6412</td></tr>
+<tr id="macro-bond-yields-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>1.1765</td><td>1.6354</td></tr>
+<tr id="macro-bond-yields-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>1.1813</td><td>1.6497</td></tr>
+<tr id="macro-bond-yields-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-bond-yields-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-bond-yields-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>1.1703</td><td>1.648</td></tr>
+<tr id="macro-bond-yields-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>1.1803</td><td>1.6601</td></tr>
+<tr id="macro-bond-yields-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>1.1872</td><td>1.6516</td></tr>
 <tr id="macro-bond-yields-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>1.1947</td><td>1.6654</td></tr>
 <tr id="macro-bond-yields-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>1.2047</td><td>1.6722</td></tr>
 <tr id="macro-bond-yields-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td><td>缺失</td></tr>
@@ -5520,8 +5554,8 @@
 <tr id="macro-bond-yields-2026-09-21" tabindex="-1"><td>2026-09-21</td><td>1.2317</td><td>1.6829</td></tr>
 <tr id="macro-bond-yields-2026-09-20" tabindex="-1"><td>2026-09-20</td><td>1.2298</td><td>1.6818</td></tr>
 <tr id="macro-bond-yields-2026-09-19" tabindex="-1"><td>2026-09-19</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2026-09-18" tabindex="-1"><td>2026-09-18</td><td>1.2298</td><td>1.682</td></tr>
-<tr id="macro-bond-yields-2026-09-17" tabindex="-1"><td>2026-09-17</td><td>1.2303</td><td>1.6862</td></tr>
+<tr id="macro-bond-yields-2026-09-18" tabindex="-1"><td>2026-09-18</td><td>1.2297</td><td>1.682</td></tr>
+<tr id="macro-bond-yields-2026-09-17" tabindex="-1"><td>2026-09-17</td><td>1.2302</td><td>1.6862</td></tr>
 <tr id="macro-bond-yields-2026-09-16" tabindex="-1"><td>2026-09-16</td><td>1.2302</td><td>1.6858</td></tr>
 <tr id="macro-bond-yields-2026-09-15" tabindex="-1"><td>2026-09-15</td><td>1.2302</td><td>1.6865</td></tr>
 <tr id="macro-bond-yields-2026-09-14" tabindex="-1"><td>2026-09-14</td><td>1.2312</td><td>1.6888</td></tr>
@@ -6508,7 +6542,7 @@
 <tr id="macro-bond-yields-2024-01-07" tabindex="-1"><td>2024-01-07</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2024-01-06" tabindex="-1"><td>2024-01-06</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2024-01-05" tabindex="-1"><td>2024-01-05</td><td>2.1091</td><td>2.5175</td></tr>
-<tr id="macro-bond-yields-2024-01-04" tabindex="-1"><td>2024-01-04</td><td>2.1541</td><td>2.5368</td></tr>
+<tr id="macro-bond-yields-2024-01-04" tabindex="-1"><td>2024-01-04</td><td>2.1541</td><td>2.5367</td></tr>
 <tr id="macro-bond-yields-2024-01-03" tabindex="-1"><td>2024-01-03</td><td>2.1416</td><td>2.5531</td></tr>
 <tr id="macro-bond-yields-2024-01-02" tabindex="-1"><td>2024-01-02</td><td>2.1166</td><td>2.5601</td></tr>
 <tr id="macro-bond-yields-2024-01-01" tabindex="-1"><td>2024-01-01</td><td>缺失</td><td>缺失</td></tr>
@@ -8077,7 +8111,7 @@
 <tr id="macro-bond-yields-2019-09-21" tabindex="-1"><td>2019-09-21</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-09-20" tabindex="-1"><td>2019-09-20</td><td>2.5718</td><td>3.098</td></tr>
 <tr id="macro-bond-yields-2019-09-19" tabindex="-1"><td>2019-09-19</td><td>2.5507</td><td>3.1053</td></tr>
-<tr id="macro-bond-yields-2019-09-18" tabindex="-1"><td>2019-09-18</td><td>2.5503</td><td>3.1277</td></tr>
+<tr id="macro-bond-yields-2019-09-18" tabindex="-1"><td>2019-09-18</td><td>2.5503</td><td>3.1278</td></tr>
 <tr id="macro-bond-yields-2019-09-17" tabindex="-1"><td>2019-09-17</td><td>2.5963</td><td>3.1076</td></tr>
 <tr id="macro-bond-yields-2019-09-16" tabindex="-1"><td>2019-09-16</td><td>2.5961</td><td>3.0926</td></tr>
 <tr id="macro-bond-yields-2019-09-15" tabindex="-1"><td>2019-09-15</td><td>缺失</td><td>缺失</td></tr>
@@ -8093,10 +8127,10 @@
 <tr id="macro-bond-yields-2019-09-05" tabindex="-1"><td>2019-09-05</td><td>2.6129</td><td>3.0173</td></tr>
 <tr id="macro-bond-yields-2019-09-04" tabindex="-1"><td>2019-09-04</td><td>2.63</td><td>3.0473</td></tr>
 <tr id="macro-bond-yields-2019-09-03" tabindex="-1"><td>2019-09-03</td><td>2.6235</td><td>3.0624</td></tr>
-<tr id="macro-bond-yields-2019-09-02" tabindex="-1"><td>2019-09-02</td><td>2.6206</td><td>3.0723</td></tr>
+<tr id="macro-bond-yields-2019-09-02" tabindex="-1"><td>2019-09-02</td><td>2.6205</td><td>3.0723</td></tr>
 <tr id="macro-bond-yields-2019-09-01" tabindex="-1"><td>2019-09-01</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-08-31" tabindex="-1"><td>2019-08-31</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2019-08-30" tabindex="-1"><td>2019-08-30</td><td>2.618</td><td>3.0573</td></tr>
+<tr id="macro-bond-yields-2019-08-30" tabindex="-1"><td>2019-08-30</td><td>2.6179</td><td>3.0573</td></tr>
 <tr id="macro-bond-yields-2019-08-29" tabindex="-1"><td>2019-08-29</td><td>2.6311</td><td>3.0321</td></tr>
 <tr id="macro-bond-yields-2019-08-28" tabindex="-1"><td>2019-08-28</td><td>2.626</td><td>3.052</td></tr>
 <tr id="macro-bond-yields-2019-08-27" tabindex="-1"><td>2019-08-27</td><td>2.6258</td><td>3.052</td></tr>
@@ -8104,7 +8138,7 @@
 <tr id="macro-bond-yields-2019-08-25" tabindex="-1"><td>2019-08-25</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-08-24" tabindex="-1"><td>2019-08-24</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-08-23" tabindex="-1"><td>2019-08-23</td><td>2.6195</td><td>3.0644</td></tr>
-<tr id="macro-bond-yields-2019-08-22" tabindex="-1"><td>2019-08-22</td><td>2.6236</td><td>3.0543</td></tr>
+<tr id="macro-bond-yields-2019-08-22" tabindex="-1"><td>2019-08-22</td><td>2.6235</td><td>3.0543</td></tr>
 <tr id="macro-bond-yields-2019-08-21" tabindex="-1"><td>2019-08-21</td><td>2.628</td><td>3.0567</td></tr>
 <tr id="macro-bond-yields-2019-08-20" tabindex="-1"><td>2019-08-20</td><td>2.6012</td><td>3.0317</td></tr>
 <tr id="macro-bond-yields-2019-08-19" tabindex="-1"><td>2019-08-19</td><td>2.5969</td><td>3.0191</td></tr>
@@ -8117,14 +8151,14 @@
 <tr id="macro-bond-yields-2019-08-12" tabindex="-1"><td>2019-08-12</td><td>2.5906</td><td>3.0391</td></tr>
 <tr id="macro-bond-yields-2019-08-11" tabindex="-1"><td>2019-08-11</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-08-10" tabindex="-1"><td>2019-08-10</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2019-08-09" tabindex="-1"><td>2019-08-09</td><td>2.5695</td><td>3.0216</td></tr>
+<tr id="macro-bond-yields-2019-08-09" tabindex="-1"><td>2019-08-09</td><td>2.5694</td><td>3.0216</td></tr>
 <tr id="macro-bond-yields-2019-08-08" tabindex="-1"><td>2019-08-08</td><td>2.5752</td><td>3.0465</td></tr>
 <tr id="macro-bond-yields-2019-08-07" tabindex="-1"><td>2019-08-07</td><td>2.572</td><td>3.0514</td></tr>
 <tr id="macro-bond-yields-2019-08-06" tabindex="-1"><td>2019-08-06</td><td>2.5724</td><td>3.0613</td></tr>
 <tr id="macro-bond-yields-2019-08-05" tabindex="-1"><td>2019-08-05</td><td>2.5875</td><td>3.0563</td></tr>
 <tr id="macro-bond-yields-2019-08-04" tabindex="-1"><td>2019-08-04</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-08-03" tabindex="-1"><td>2019-08-03</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2019-08-02" tabindex="-1"><td>2019-08-02</td><td>2.5974</td><td>3.0914</td></tr>
+<tr id="macro-bond-yields-2019-08-02" tabindex="-1"><td>2019-08-02</td><td>2.5973</td><td>3.0914</td></tr>
 <tr id="macro-bond-yields-2019-08-01" tabindex="-1"><td>2019-08-01</td><td>2.6155</td><td>3.1487</td></tr>
 <tr id="macro-bond-yields-2019-07-31" tabindex="-1"><td>2019-07-31</td><td>2.6183</td><td>3.1552</td></tr>
 <tr id="macro-bond-yields-2019-07-30" tabindex="-1"><td>2019-07-30</td><td>2.6285</td><td>3.1761</td></tr>
@@ -8219,10 +8253,10 @@
 <tr id="macro-bond-yields-2019-05-02" tabindex="-1"><td>2019-05-02</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-05-01" tabindex="-1"><td>2019-05-01</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2019-04-30" tabindex="-1"><td>2019-04-30</td><td>2.6902</td><td>3.3869</td></tr>
-<tr id="macro-bond-yields-2019-04-29" tabindex="-1"><td>2019-04-29</td><td>2.7224</td><td>3.4268</td></tr>
-<tr id="macro-bond-yields-2019-04-28" tabindex="-1"><td>2019-04-28</td><td>2.6989</td><td>3.4043</td></tr>
+<tr id="macro-bond-yields-2019-04-29" tabindex="-1"><td>2019-04-29</td><td>2.7223</td><td>3.4268</td></tr>
+<tr id="macro-bond-yields-2019-04-28" tabindex="-1"><td>2019-04-28</td><td>2.6988</td><td>3.4043</td></tr>
 <tr id="macro-bond-yields-2019-04-27" tabindex="-1"><td>2019-04-27</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2019-04-26" tabindex="-1"><td>2019-04-26</td><td>2.6743</td><td>3.4043</td></tr>
+<tr id="macro-bond-yields-2019-04-26" tabindex="-1"><td>2019-04-26</td><td>2.6742</td><td>3.4043</td></tr>
 <tr id="macro-bond-yields-2019-04-25" tabindex="-1"><td>2019-04-25</td><td>2.6902</td><td>3.4193</td></tr>
 <tr id="macro-bond-yields-2019-04-24" tabindex="-1"><td>2019-04-24</td><td>2.6968</td><td>3.4343</td></tr>
 <tr id="macro-bond-yields-2019-04-23" tabindex="-1"><td>2019-04-23</td><td>2.702</td><td>3.3993</td></tr>
@@ -8432,7 +8466,7 @@
 <tr id="macro-bond-yields-2018-10-01" tabindex="-1"><td>2018-10-01</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2018-09-30" tabindex="-1"><td>2018-09-30</td><td>2.9657</td><td>3.6103</td></tr>
 <tr id="macro-bond-yields-2018-09-29" tabindex="-1"><td>2018-09-29</td><td>2.99</td><td>3.6104</td></tr>
-<tr id="macro-bond-yields-2018-09-28" tabindex="-1"><td>2018-09-28</td><td>3.0038</td><td>3.6154</td></tr>
+<tr id="macro-bond-yields-2018-09-28" tabindex="-1"><td>2018-09-28</td><td>3.0038</td><td>3.6153</td></tr>
 <tr id="macro-bond-yields-2018-09-27" tabindex="-1"><td>2018-09-27</td><td>3.0177</td><td>3.6253</td></tr>
 <tr id="macro-bond-yields-2018-09-26" tabindex="-1"><td>2018-09-26</td><td>3.0251</td><td>3.6503</td></tr>
 <tr id="macro-bond-yields-2018-09-25" tabindex="-1"><td>2018-09-25</td><td>3.0271</td><td>3.6754</td></tr>
@@ -8447,7 +8481,7 @@
 <tr id="macro-bond-yields-2018-09-16" tabindex="-1"><td>2018-09-16</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2018-09-15" tabindex="-1"><td>2018-09-15</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2018-09-14" tabindex="-1"><td>2018-09-14</td><td>2.8623</td><td>3.6351</td></tr>
-<tr id="macro-bond-yields-2018-09-13" tabindex="-1"><td>2018-09-13</td><td>2.8593</td><td>3.6526</td></tr>
+<tr id="macro-bond-yields-2018-09-13" tabindex="-1"><td>2018-09-13</td><td>2.8592</td><td>3.6526</td></tr>
 <tr id="macro-bond-yields-2018-09-12" tabindex="-1"><td>2018-09-12</td><td>2.849</td><td>3.6551</td></tr>
 <tr id="macro-bond-yields-2018-09-11" tabindex="-1"><td>2018-09-11</td><td>2.8457</td><td>3.6751</td></tr>
 <tr id="macro-bond-yields-2018-09-10" tabindex="-1"><td>2018-09-10</td><td>2.8407</td><td>3.6551</td></tr>
@@ -8671,7 +8705,7 @@
 <tr id="macro-bond-yields-2018-02-04" tabindex="-1"><td>2018-02-04</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2018-02-03" tabindex="-1"><td>2018-02-03</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2018-02-02" tabindex="-1"><td>2018-02-02</td><td>3.4404</td><td>3.9092</td></tr>
-<tr id="macro-bond-yields-2018-02-01" tabindex="-1"><td>2018-02-01</td><td>3.4301</td><td>3.9066</td></tr>
+<tr id="macro-bond-yields-2018-02-01" tabindex="-1"><td>2018-02-01</td><td>3.43</td><td>3.9066</td></tr>
 <tr id="macro-bond-yields-2018-01-31" tabindex="-1"><td>2018-01-31</td><td>3.4701</td><td>3.914</td></tr>
 <tr id="macro-bond-yields-2018-01-30" tabindex="-1"><td>2018-01-30</td><td>3.5101</td><td>3.9292</td></tr>
 <tr id="macro-bond-yields-2018-01-29" tabindex="-1"><td>2018-01-29</td><td>3.5101</td><td>3.9368</td></tr>
@@ -8763,7 +8797,7 @@
 <tr id="macro-bond-yields-2017-11-04" tabindex="-1"><td>2017-11-04</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2017-11-03" tabindex="-1"><td>2017-11-03</td><td>3.576</td><td>3.8816</td></tr>
 <tr id="macro-bond-yields-2017-11-02" tabindex="-1"><td>2017-11-02</td><td>3.5791</td><td>3.8718</td></tr>
-<tr id="macro-bond-yields-2017-11-01" tabindex="-1"><td>2017-11-01</td><td>3.5792</td><td>3.863</td></tr>
+<tr id="macro-bond-yields-2017-11-01" tabindex="-1"><td>2017-11-01</td><td>3.5791</td><td>3.863</td></tr>
 <tr id="macro-bond-yields-2017-10-31" tabindex="-1"><td>2017-10-31</td><td>3.5683</td><td>3.8917</td></tr>
 <tr id="macro-bond-yields-2017-10-30" tabindex="-1"><td>2017-10-30</td><td>3.5532</td><td>3.9115</td></tr>
 <tr id="macro-bond-yields-2017-10-29" tabindex="-1"><td>2017-10-29</td><td>缺失</td><td>缺失</td></tr>
@@ -8854,7 +8888,7 @@
 <tr id="macro-bond-yields-2017-08-05" tabindex="-1"><td>2017-08-05</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2017-08-04" tabindex="-1"><td>2017-08-04</td><td>3.3303</td><td>3.6262</td></tr>
 <tr id="macro-bond-yields-2017-08-03" tabindex="-1"><td>2017-08-03</td><td>3.38</td><td>3.6262</td></tr>
-<tr id="macro-bond-yields-2017-08-02" tabindex="-1"><td>2017-08-02</td><td>3.3964</td><td>3.6311</td></tr>
+<tr id="macro-bond-yields-2017-08-02" tabindex="-1"><td>2017-08-02</td><td>3.3963</td><td>3.6311</td></tr>
 <tr id="macro-bond-yields-2017-08-01" tabindex="-1"><td>2017-08-01</td><td>3.4127</td><td>3.6373</td></tr>
 <tr id="macro-bond-yields-2017-07-31" tabindex="-1"><td>2017-07-31</td><td>3.3974</td><td>3.626</td></tr>
 <tr id="macro-bond-yields-2017-07-30" tabindex="-1"><td>2017-07-30</td><td>缺失</td><td>缺失</td></tr>
@@ -9009,7 +9043,7 @@
 <tr id="macro-bond-yields-2017-03-03" tabindex="-1"><td>2017-03-03</td><td>2.8002</td><td>3.3573</td></tr>
 <tr id="macro-bond-yields-2017-03-02" tabindex="-1"><td>2017-03-02</td><td>2.7617</td><td>3.3483</td></tr>
 <tr id="macro-bond-yields-2017-03-01" tabindex="-1"><td>2017-03-01</td><td>2.7144</td><td>3.3252</td></tr>
-<tr id="macro-bond-yields-2017-02-28" tabindex="-1"><td>2017-02-28</td><td>2.7121</td><td>3.292</td></tr>
+<tr id="macro-bond-yields-2017-02-28" tabindex="-1"><td>2017-02-28</td><td>2.7121</td><td>3.2921</td></tr>
 <tr id="macro-bond-yields-2017-02-27" tabindex="-1"><td>2017-02-27</td><td>2.7106</td><td>3.2871</td></tr>
 <tr id="macro-bond-yields-2017-02-26" tabindex="-1"><td>2017-02-26</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2017-02-25" tabindex="-1"><td>2017-02-25</td><td>缺失</td><td>缺失</td></tr>
@@ -9129,7 +9163,7 @@
 <tr id="macro-bond-yields-2016-11-03" tabindex="-1"><td>2016-11-03</td><td>2.15</td><td>2.7301</td></tr>
 <tr id="macro-bond-yields-2016-11-02" tabindex="-1"><td>2016-11-02</td><td>2.1621</td><td>2.7372</td></tr>
 <tr id="macro-bond-yields-2016-11-01" tabindex="-1"><td>2016-11-01</td><td>2.1741</td><td>2.7375</td></tr>
-<tr id="macro-bond-yields-2016-10-31" tabindex="-1"><td>2016-10-31</td><td>2.1712</td><td>2.7425</td></tr>
+<tr id="macro-bond-yields-2016-10-31" tabindex="-1"><td>2016-10-31</td><td>2.1711</td><td>2.7425</td></tr>
 <tr id="macro-bond-yields-2016-10-30" tabindex="-1"><td>2016-10-30</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-29" tabindex="-1"><td>2016-10-29</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-28" tabindex="-1"><td>2016-10-28</td><td>2.1751</td><td>2.7027</td></tr>
@@ -9142,8 +9176,8 @@
 <tr id="macro-bond-yields-2016-10-21" tabindex="-1"><td>2016-10-21</td><td>2.1461</td><td>2.6451</td></tr>
 <tr id="macro-bond-yields-2016-10-20" tabindex="-1"><td>2016-10-20</td><td>2.1361</td><td>2.6518</td></tr>
 <tr id="macro-bond-yields-2016-10-19" tabindex="-1"><td>2016-10-19</td><td>2.1361</td><td>2.6664</td></tr>
-<tr id="macro-bond-yields-2016-10-18" tabindex="-1"><td>2016-10-18</td><td>2.1447</td><td>2.6965</td></tr>
-<tr id="macro-bond-yields-2016-10-17" tabindex="-1"><td>2016-10-17</td><td>2.1496</td><td>2.6904</td></tr>
+<tr id="macro-bond-yields-2016-10-18" tabindex="-1"><td>2016-10-18</td><td>2.1446</td><td>2.6965</td></tr>
+<tr id="macro-bond-yields-2016-10-17" tabindex="-1"><td>2016-10-17</td><td>2.1495</td><td>2.6904</td></tr>
 <tr id="macro-bond-yields-2016-10-16" tabindex="-1"><td>2016-10-16</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-15" tabindex="-1"><td>2016-10-15</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-14" tabindex="-1"><td>2016-10-14</td><td>2.1381</td><td>2.6952</td></tr>
@@ -9152,7 +9186,7 @@
 <tr id="macro-bond-yields-2016-10-11" tabindex="-1"><td>2016-10-11</td><td>2.1513</td><td>2.6835</td></tr>
 <tr id="macro-bond-yields-2016-10-10" tabindex="-1"><td>2016-10-10</td><td>2.1487</td><td>2.6735</td></tr>
 <tr id="macro-bond-yields-2016-10-09" tabindex="-1"><td>2016-10-09</td><td>2.16</td><td>2.676</td></tr>
-<tr id="macro-bond-yields-2016-10-08" tabindex="-1"><td>2016-10-08</td><td>2.1508</td><td>2.7047</td></tr>
+<tr id="macro-bond-yields-2016-10-08" tabindex="-1"><td>2016-10-08</td><td>2.1507</td><td>2.7047</td></tr>
 <tr id="macro-bond-yields-2016-10-07" tabindex="-1"><td>2016-10-07</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-06" tabindex="-1"><td>2016-10-06</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-10-05" tabindex="-1"><td>2016-10-05</td><td>缺失</td><td>缺失</td></tr>
@@ -9220,13 +9254,13 @@
 <tr id="macro-bond-yields-2016-08-04" tabindex="-1"><td>2016-08-04</td><td>2.196</td><td>2.7694</td></tr>
 <tr id="macro-bond-yields-2016-08-03" tabindex="-1"><td>2016-08-03</td><td>2.2157</td><td>2.7718</td></tr>
 <tr id="macro-bond-yields-2016-08-02" tabindex="-1"><td>2016-08-02</td><td>2.2454</td><td>2.7792</td></tr>
-<tr id="macro-bond-yields-2016-08-01" tabindex="-1"><td>2016-08-01</td><td>2.2368</td><td>2.783</td></tr>
+<tr id="macro-bond-yields-2016-08-01" tabindex="-1"><td>2016-08-01</td><td>2.2369</td><td>2.783</td></tr>
 <tr id="macro-bond-yields-2016-07-31" tabindex="-1"><td>2016-07-31</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-07-30" tabindex="-1"><td>2016-07-30</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-07-29" tabindex="-1"><td>2016-07-29</td><td>2.2394</td><td>2.7768</td></tr>
 <tr id="macro-bond-yields-2016-07-28" tabindex="-1"><td>2016-07-28</td><td>2.2383</td><td>2.7867</td></tr>
 <tr id="macro-bond-yields-2016-07-27" tabindex="-1"><td>2016-07-27</td><td>2.2423</td><td>2.7967</td></tr>
-<tr id="macro-bond-yields-2016-07-26" tabindex="-1"><td>2016-07-26</td><td>2.2663</td><td>2.7914</td></tr>
+<tr id="macro-bond-yields-2016-07-26" tabindex="-1"><td>2016-07-26</td><td>2.2663</td><td>2.7913</td></tr>
 <tr id="macro-bond-yields-2016-07-25" tabindex="-1"><td>2016-07-25</td><td>2.2629</td><td>2.8068</td></tr>
 <tr id="macro-bond-yields-2016-07-24" tabindex="-1"><td>2016-07-24</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-07-23" tabindex="-1"><td>2016-07-23</td><td>缺失</td><td>缺失</td></tr>
@@ -9239,7 +9273,7 @@
 <tr id="macro-bond-yields-2016-07-16" tabindex="-1"><td>2016-07-16</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-07-15" tabindex="-1"><td>2016-07-15</td><td>2.3187</td><td>2.8271</td></tr>
 <tr id="macro-bond-yields-2016-07-14" tabindex="-1"><td>2016-07-14</td><td>2.3191</td><td>2.8395</td></tr>
-<tr id="macro-bond-yields-2016-07-13" tabindex="-1"><td>2016-07-13</td><td>2.3295</td><td>2.8493</td></tr>
+<tr id="macro-bond-yields-2016-07-13" tabindex="-1"><td>2016-07-13</td><td>2.3295</td><td>2.8494</td></tr>
 <tr id="macro-bond-yields-2016-07-12" tabindex="-1"><td>2016-07-12</td><td>2.3131</td><td>2.8368</td></tr>
 <tr id="macro-bond-yields-2016-07-11" tabindex="-1"><td>2016-07-11</td><td>2.3039</td><td>2.8268</td></tr>
 <tr id="macro-bond-yields-2016-07-10" tabindex="-1"><td>2016-07-10</td><td>缺失</td><td>缺失</td></tr>
@@ -9290,7 +9324,7 @@
 <tr id="macro-bond-yields-2016-05-26" tabindex="-1"><td>2016-05-26</td><td>2.3194</td><td>2.9401</td></tr>
 <tr id="macro-bond-yields-2016-05-25" tabindex="-1"><td>2016-05-25</td><td>2.313</td><td>2.9401</td></tr>
 <tr id="macro-bond-yields-2016-05-24" tabindex="-1"><td>2016-05-24</td><td>2.3187</td><td>2.935</td></tr>
-<tr id="macro-bond-yields-2016-05-23" tabindex="-1"><td>2016-05-23</td><td>2.3005</td><td>2.955</td></tr>
+<tr id="macro-bond-yields-2016-05-23" tabindex="-1"><td>2016-05-23</td><td>2.3004</td><td>2.955</td></tr>
 <tr id="macro-bond-yields-2016-05-22" tabindex="-1"><td>2016-05-22</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-05-21" tabindex="-1"><td>2016-05-21</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2016-05-20" tabindex="-1"><td>2016-05-20</td><td>2.3064</td><td>2.95</td></tr>
@@ -9531,7 +9565,7 @@
 <tr id="macro-bond-yields-2015-09-28" tabindex="-1"><td>2015-09-28</td><td>2.4032</td><td>3.2906</td></tr>
 <tr id="macro-bond-yields-2015-09-27" tabindex="-1"><td>2015-09-27</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2015-09-26" tabindex="-1"><td>2015-09-26</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2015-09-25" tabindex="-1"><td>2015-09-25</td><td>2.3626</td><td>3.3101</td></tr>
+<tr id="macro-bond-yields-2015-09-25" tabindex="-1"><td>2015-09-25</td><td>2.3625</td><td>3.3101</td></tr>
 <tr id="macro-bond-yields-2015-09-24" tabindex="-1"><td>2015-09-24</td><td>2.2893</td><td>3.318</td></tr>
 <tr id="macro-bond-yields-2015-09-23" tabindex="-1"><td>2015-09-23</td><td>2.3086</td><td>3.3354</td></tr>
 <tr id="macro-bond-yields-2015-09-22" tabindex="-1"><td>2015-09-22</td><td>2.3078</td><td>3.3255</td></tr>
@@ -10396,7 +10430,7 @@
 <tr id="macro-bond-yields-2013-05-16" tabindex="-1"><td>2013-05-16</td><td>2.8459</td><td>3.4219</td></tr>
 <tr id="macro-bond-yields-2013-05-15" tabindex="-1"><td>2013-05-15</td><td>2.8298</td><td>3.4218</td></tr>
 <tr id="macro-bond-yields-2013-05-14" tabindex="-1"><td>2013-05-14</td><td>2.8412</td><td>3.4248</td></tr>
-<tr id="macro-bond-yields-2013-05-13" tabindex="-1"><td>2013-05-13</td><td>2.8415</td><td>3.4238</td></tr>
+<tr id="macro-bond-yields-2013-05-13" tabindex="-1"><td>2013-05-13</td><td>2.8416</td><td>3.4238</td></tr>
 <tr id="macro-bond-yields-2013-05-12" tabindex="-1"><td>2013-05-12</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2013-05-11" tabindex="-1"><td>2013-05-11</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2013-05-10" tabindex="-1"><td>2013-05-10</td><td>2.8305</td><td>3.4212</td></tr>
@@ -10844,7 +10878,7 @@
 <tr id="macro-bond-yields-2012-02-23" tabindex="-1"><td>2012-02-23</td><td>2.9412</td><td>3.5254</td></tr>
 <tr id="macro-bond-yields-2012-02-22" tabindex="-1"><td>2012-02-22</td><td>2.9395</td><td>3.5276</td></tr>
 <tr id="macro-bond-yields-2012-02-21" tabindex="-1"><td>2012-02-21</td><td>2.936</td><td>3.5164</td></tr>
-<tr id="macro-bond-yields-2012-02-20" tabindex="-1"><td>2012-02-20</td><td>2.9218</td><td>3.5116</td></tr>
+<tr id="macro-bond-yields-2012-02-20" tabindex="-1"><td>2012-02-20</td><td>2.9219</td><td>3.5116</td></tr>
 <tr id="macro-bond-yields-2012-02-19" tabindex="-1"><td>2012-02-19</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-02-18" tabindex="-1"><td>2012-02-18</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-02-17" tabindex="-1"><td>2012-02-17</td><td>2.9856</td><td>3.5361</td></tr>
@@ -10878,19 +10912,19 @@
 <tr id="macro-bond-yields-2012-01-20" tabindex="-1"><td>2012-01-20</td><td>2.8155</td><td>3.3808</td></tr>
 <tr id="macro-bond-yields-2012-01-19" tabindex="-1"><td>2012-01-19</td><td>2.8439</td><td>3.3758</td></tr>
 <tr id="macro-bond-yields-2012-01-18" tabindex="-1"><td>2012-01-18</td><td>2.8614</td><td>3.3957</td></tr>
-<tr id="macro-bond-yields-2012-01-17" tabindex="-1"><td>2012-01-17</td><td>2.8209</td><td>3.4045</td></tr>
+<tr id="macro-bond-yields-2012-01-17" tabindex="-1"><td>2012-01-17</td><td>2.8208</td><td>3.4045</td></tr>
 <tr id="macro-bond-yields-2012-01-16" tabindex="-1"><td>2012-01-16</td><td>2.8251</td><td>3.4233</td></tr>
 <tr id="macro-bond-yields-2012-01-15" tabindex="-1"><td>2012-01-15</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-01-14" tabindex="-1"><td>2012-01-14</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-01-13" tabindex="-1"><td>2012-01-13</td><td>2.7938</td><td>3.4108</td></tr>
-<tr id="macro-bond-yields-2012-01-12" tabindex="-1"><td>2012-01-12</td><td>2.7842</td><td>3.402</td></tr>
+<tr id="macro-bond-yields-2012-01-12" tabindex="-1"><td>2012-01-12</td><td>2.7841</td><td>3.402</td></tr>
 <tr id="macro-bond-yields-2012-01-11" tabindex="-1"><td>2012-01-11</td><td>2.7884</td><td>3.4208</td></tr>
-<tr id="macro-bond-yields-2012-01-10" tabindex="-1"><td>2012-01-10</td><td>2.7284</td><td>3.403</td></tr>
-<tr id="macro-bond-yields-2012-01-09" tabindex="-1"><td>2012-01-09</td><td>2.7309</td><td>3.3806</td></tr>
+<tr id="macro-bond-yields-2012-01-10" tabindex="-1"><td>2012-01-10</td><td>2.7283</td><td>3.403</td></tr>
+<tr id="macro-bond-yields-2012-01-09" tabindex="-1"><td>2012-01-09</td><td>2.7308</td><td>3.3806</td></tr>
 <tr id="macro-bond-yields-2012-01-08" tabindex="-1"><td>2012-01-08</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-01-07" tabindex="-1"><td>2012-01-07</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-01-06" tabindex="-1"><td>2012-01-06</td><td>2.7391</td><td>3.397</td></tr>
-<tr id="macro-bond-yields-2012-01-05" tabindex="-1"><td>2012-01-05</td><td>2.7405</td><td>3.4304</td></tr>
+<tr id="macro-bond-yields-2012-01-05" tabindex="-1"><td>2012-01-05</td><td>2.7404</td><td>3.4304</td></tr>
 <tr id="macro-bond-yields-2012-01-04" tabindex="-1"><td>2012-01-04</td><td>2.7278</td><td>3.4395</td></tr>
 <tr id="macro-bond-yields-2012-01-03" tabindex="-1"><td>2012-01-03</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2012-01-02" tabindex="-1"><td>2012-01-02</td><td>缺失</td><td>缺失</td></tr>
@@ -10900,7 +10934,7 @@
 <tr id="macro-bond-yields-2011-12-29" tabindex="-1"><td>2011-12-29</td><td>2.7369</td><td>3.4453</td></tr>
 <tr id="macro-bond-yields-2011-12-28" tabindex="-1"><td>2011-12-28</td><td>2.7342</td><td>3.4603</td></tr>
 <tr id="macro-bond-yields-2011-12-27" tabindex="-1"><td>2011-12-27</td><td>2.7316</td><td>3.4603</td></tr>
-<tr id="macro-bond-yields-2011-12-26" tabindex="-1"><td>2011-12-26</td><td>2.7315</td><td>3.4652</td></tr>
+<tr id="macro-bond-yields-2011-12-26" tabindex="-1"><td>2011-12-26</td><td>2.7315</td><td>3.4653</td></tr>
 <tr id="macro-bond-yields-2011-12-25" tabindex="-1"><td>2011-12-25</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2011-12-24" tabindex="-1"><td>2011-12-24</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2011-12-23" tabindex="-1"><td>2011-12-23</td><td>2.7341</td><td>3.4803</td></tr>
@@ -11081,7 +11115,7 @@
 <tr id="macro-bond-yields-2011-07-01" tabindex="-1"><td>2011-07-01</td><td>3.432</td><td>3.8775</td></tr>
 <tr id="macro-bond-yields-2011-06-30" tabindex="-1"><td>2011-06-30</td><td>3.4742</td><td>3.8857</td></tr>
 <tr id="macro-bond-yields-2011-06-29" tabindex="-1"><td>2011-06-29</td><td>3.4915</td><td>3.8833</td></tr>
-<tr id="macro-bond-yields-2011-06-28" tabindex="-1"><td>2011-06-28</td><td>3.5007</td><td>3.8801</td></tr>
+<tr id="macro-bond-yields-2011-06-28" tabindex="-1"><td>2011-06-28</td><td>3.5007</td><td>3.88</td></tr>
 <tr id="macro-bond-yields-2011-06-27" tabindex="-1"><td>2011-06-27</td><td>3.4957</td><td>3.8703</td></tr>
 <tr id="macro-bond-yields-2011-06-26" tabindex="-1"><td>2011-06-26</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2011-06-25" tabindex="-1"><td>2011-06-25</td><td>缺失</td><td>缺失</td></tr>
@@ -11220,7 +11254,7 @@
 <tr id="macro-bond-yields-2011-02-12" tabindex="-1"><td>2011-02-12</td><td>3.2</td><td>4.1087</td></tr>
 <tr id="macro-bond-yields-2011-02-11" tabindex="-1"><td>2011-02-11</td><td>3.2</td><td>4.1062</td></tr>
 <tr id="macro-bond-yields-2011-02-10" tabindex="-1"><td>2011-02-10</td><td>3.2</td><td>4.1158</td></tr>
-<tr id="macro-bond-yields-2011-02-09" tabindex="-1"><td>2011-02-09</td><td>3.1996</td><td>4.1006</td></tr>
+<tr id="macro-bond-yields-2011-02-09" tabindex="-1"><td>2011-02-09</td><td>3.1995</td><td>4.1006</td></tr>
 <tr id="macro-bond-yields-2011-02-08" tabindex="-1"><td>2011-02-08</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2011-02-07" tabindex="-1"><td>2011-02-07</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2011-02-06" tabindex="-1"><td>2011-02-06</td><td>缺失</td><td>缺失</td></tr>
@@ -11282,7 +11316,7 @@
 <tr id="macro-bond-yields-2010-12-12" tabindex="-1"><td>2010-12-12</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2010-12-11" tabindex="-1"><td>2010-12-11</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2010-12-10" tabindex="-1"><td>2010-12-10</td><td>2.88</td><td>3.8888</td></tr>
-<tr id="macro-bond-yields-2010-12-09" tabindex="-1"><td>2010-12-09</td><td>2.8</td><td>3.9024</td></tr>
+<tr id="macro-bond-yields-2010-12-09" tabindex="-1"><td>2010-12-09</td><td>2.8</td><td>3.9023</td></tr>
 <tr id="macro-bond-yields-2010-12-08" tabindex="-1"><td>2010-12-08</td><td>2.7609</td><td>3.8609</td></tr>
 <tr id="macro-bond-yields-2010-12-07" tabindex="-1"><td>2010-12-07</td><td>2.731</td><td>3.8435</td></tr>
 <tr id="macro-bond-yields-2010-12-06" tabindex="-1"><td>2010-12-06</td><td>2.7591</td><td>3.8696</td></tr>
@@ -11341,7 +11375,7 @@
 <tr id="macro-bond-yields-2010-10-14" tabindex="-1"><td>2010-10-14</td><td>1.9389</td><td>3.4275</td></tr>
 <tr id="macro-bond-yields-2010-10-13" tabindex="-1"><td>2010-10-13</td><td>1.9386</td><td>3.4271</td></tr>
 <tr id="macro-bond-yields-2010-10-12" tabindex="-1"><td>2010-10-12</td><td>1.9397</td><td>3.4179</td></tr>
-<tr id="macro-bond-yields-2010-10-11" tabindex="-1"><td>2010-10-11</td><td>1.9371</td><td>3.404</td></tr>
+<tr id="macro-bond-yields-2010-10-11" tabindex="-1"><td>2010-10-11</td><td>1.937</td><td>3.404</td></tr>
 <tr id="macro-bond-yields-2010-10-10" tabindex="-1"><td>2010-10-10</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2010-10-09" tabindex="-1"><td>2010-10-09</td><td>1.9498</td><td>3.3584</td></tr>
 <tr id="macro-bond-yields-2010-10-08" tabindex="-1"><td>2010-10-08</td><td>1.9493</td><td>3.3342</td></tr>
@@ -11920,7 +11954,7 @@
 <tr id="macro-bond-yields-2009-03-14" tabindex="-1"><td>2009-03-14</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2009-03-13" tabindex="-1"><td>2009-03-13</td><td>0.9062</td><td>3.148</td></tr>
 <tr id="macro-bond-yields-2009-03-12" tabindex="-1"><td>2009-03-12</td><td>0.8871</td><td>3.1524</td></tr>
-<tr id="macro-bond-yields-2009-03-11" tabindex="-1"><td>2009-03-11</td><td>0.8882</td><td>3.1331</td></tr>
+<tr id="macro-bond-yields-2009-03-11" tabindex="-1"><td>2009-03-11</td><td>0.8881</td><td>3.1331</td></tr>
 <tr id="macro-bond-yields-2009-03-10" tabindex="-1"><td>2009-03-10</td><td>0.9132</td><td>3.178</td></tr>
 <tr id="macro-bond-yields-2009-03-09" tabindex="-1"><td>2009-03-09</td><td>0.9376</td><td>3.2036</td></tr>
 <tr id="macro-bond-yields-2009-03-08" tabindex="-1"><td>2009-03-08</td><td>缺失</td><td>缺失</td></tr>
@@ -12744,7 +12778,7 @@
 <tr id="macro-bond-yields-2006-12-11" tabindex="-1"><td>2006-12-11</td><td>2.065</td><td>3.0527</td></tr>
 <tr id="macro-bond-yields-2006-12-10" tabindex="-1"><td>2006-12-10</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-bond-yields-2006-12-09" tabindex="-1"><td>2006-12-09</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-bond-yields-2006-12-08" tabindex="-1"><td>2006-12-08</td><td>2.067</td><td>3.0351</td></tr>
+<tr id="macro-bond-yields-2006-12-08" tabindex="-1"><td>2006-12-08</td><td>2.0669</td><td>3.0351</td></tr>
 <tr id="macro-bond-yields-2006-12-07" tabindex="-1"><td>2006-12-07</td><td>2.064</td><td>2.9947</td></tr>
 <tr id="macro-bond-yields-2006-12-06" tabindex="-1"><td>2006-12-06</td><td>2.0617</td><td>2.9851</td></tr>
 <tr id="macro-bond-yields-2006-12-05" tabindex="-1"><td>2006-12-05</td><td>2.0611</td><td>2.9912</td></tr>

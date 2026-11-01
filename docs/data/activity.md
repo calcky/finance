@@ -5,7 +5,7 @@
 
 PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它们观察对象不同，发布时间也不同。规模以上工业是实际增速，社零和投资是名义增速，不能因为单位相同就当成同一种量。
 
-本页快照获取时间：**2026-10-09T02:25:56+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:43+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/activity.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/activity.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -21,9 +21,9 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 |---|---|---:|---|---|---:|---|
 | 制造业 PMI | 2026-09 | 50.1 | 指数点 | 2005-01 | 261 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 非制造业商务活动指数 | 2026-09 | 50.2 | 指数点 | 2007-01 | 237 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 工业增加值实际同比 | 2026-08 | 5.2 | % | 1998-07 | 296 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 社零名义同比 | 2026-08 | 0.4 | % | 2000-01 | 290 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 固定资产投资累计同比 | 2026-08 | -7.2 | % | 2011-02 | 172 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 工业增加值实际同比 | 2026-09 | 5.5 | % | 1998-07 | 297 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 社零名义同比 | 2026-09 | 1.1 | % | 2000-01 | 291 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 固定资产投资累计同比 | 2026-09 | -7.2 | % | 2011-02 | 173 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 投资累计同比（2011 年前旧口径） | 2010-12 | 24.5 | % | 1998-02 | 143 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 工业 1—2 月合计实际同比 | 2026-02 | 6.3 | % | 1999-02 | 28 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 社零 1—2 月合计名义同比 | 2026-02 | 2.8 | % | 2000-02 | 27 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
@@ -313,6 +313,7 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 <details class="macro-details">
 <summary>工业生产与消费零售同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>工业增加值实际同比</th><th>社零名义同比</th></tr></thead><tbody>
+<tr id="macro-production-retail-2026-09" tabindex="-1"><td>2026-09</td><td>5.5</td><td>1.1</td></tr>
 <tr id="macro-production-retail-2026-08" tabindex="-1"><td>2026-08</td><td>5.2</td><td>0.4</td></tr>
 <tr id="macro-production-retail-2026-07" tabindex="-1"><td>2026-07</td><td>4.5</td><td>0.6</td></tr>
 <tr id="macro-production-retail-2026-06" tabindex="-1"><td>2026-06</td><td>5.3</td><td>1</td></tr>
@@ -662,6 +663,7 @@ PMI 是调查扩散指数；工业、零售和投资是实际经营统计。它�
 <details class="macro-details">
 <summary>固定资产投资累计同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>固定资产投资累计同比</th><th>投资累计同比（2011 年前旧口径）</th></tr></thead><tbody>
+<tr id="macro-investment-2026-09" tabindex="-1"><td>2026-09</td><td>-7.2</td><td>缺失</td></tr>
 <tr id="macro-investment-2026-08" tabindex="-1"><td>2026-08</td><td>-7.2</td><td>缺失</td></tr>
 <tr id="macro-investment-2026-07" tabindex="-1"><td>2026-07</td><td>-6.7</td><td>缺失</td></tr>
 <tr id="macro-investment-2026-06" tabindex="-1"><td>2026-06</td><td>-5.7</td><td>缺失</td></tr>

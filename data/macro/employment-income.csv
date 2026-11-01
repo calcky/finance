@@ -5,10 +5,10 @@ income_nominal_ytd_yoy,CHN,2014-Q2,10.8,%,Q,2014-07-16,https://www.stats.gov.cn/
 income_nominal_ytd_yoy,CHN,2014-Q3,10.5,%,Q,2014-10-21,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898606.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2014-Q4,10.1,%,Q,2015-02-26,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898704.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2015-Q1,9.4,%,Q,2015-04-15,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1898753.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
-income_nominal_ytd_yoy,CHN,2015-Q2,9.0,%,Q,2015-07-15,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1898843.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
+income_nominal_ytd_yoy,CHN,2015-Q2,9.0,%,Q,2015-07-15,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898843.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2015-Q3,9.2,%,Q,2015-10-19,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898931.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2015-Q4,8.9,%,Q,2016-02-29,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899041.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
-income_nominal_ytd_yoy,CHN,2016-Q1,8.7,%,Q,2016-04-15,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1899089.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
+income_nominal_ytd_yoy,CHN,2016-Q1,8.7,%,Q,2016-04-15,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899089.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2016-Q2,8.7,%,Q,2016-07-17,https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1897041.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2016-Q3,8.4,%,Q,2016-10-20,https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1895783.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2016-Q4,8.4,%,Q,2017-01-20,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1899395.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
@@ -50,6 +50,7 @@ income_nominal_ytd_yoy,CHN,2025-Q3,5.1,%,Q,2025-10-20,https://www.stats.gov.cn/s
 income_nominal_ytd_yoy,CHN,2025-Q4,5.0,%,Q,2026-01-19,https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962321.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2026-Q1,4.9,%,Q,2026-04-16,https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963323.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_nominal_ytd_yoy,CHN,2026-Q2,5.2,%,Q,2026-07-15,https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
+income_nominal_ytd_yoy,CHN,2026-Q3,5.3,%,Q,2026-10-19,https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965612.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_real_ytd_yoy,CHN,2013-Q4,8.1,%,Q,2014-02-24,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html,官方发布正文明确的全国居民年内累计值；非独立单季；发布日期来自统计局检索索引
 income_real_ytd_yoy,CHN,2014-Q1,8.6,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_real_ytd_yoy,CHN,2014-Q2,8.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
@@ -101,6 +102,7 @@ income_real_ytd_yoy,CHN,2025-Q3,5.2,%,Q,,https://data.stats.gov.cn/dg/website/pu
 income_real_ytd_yoy,CHN,2025-Q4,5.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_real_ytd_yoy,CHN,2026-Q1,4.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_real_ytd_yoy,CHN,2026-Q2,4.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
+income_real_ytd_yoy,CHN,2026-Q3,4.4,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_ytd,CHN,2013-Q1,5006,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_ytd,CHN,2013-Q2,9049,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_ytd,CHN,2013-Q3,13557,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
@@ -155,6 +157,7 @@ income_ytd,CHN,2025-Q3,32509,元/人,Q,,https://data.stats.gov.cn/dg/website/pub
 income_ytd,CHN,2025-Q4,43377,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_ytd,CHN,2026-Q1,12782,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 income_ytd,CHN,2026-Q2,22981,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
+income_ytd,CHN,2026-Q3,34230,元/人,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,季度末年内累计；实际增速由目录注释明确，不从金额机械推算
 unemployment,CHN,2018-01,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0；目录 ee3b7046b390415b9b7745e3d16f6052
 unemployment,CHN,2018-02,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0；目录 ee3b7046b390415b9b7745e3d16f6052
 unemployment,CHN,2018-03,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.1；目录 ee3b7046b390415b9b7745e3d16f6052
@@ -259,3 +262,4 @@ unemployment,CHN,2026-05,5.1,%,M,,https://data.stats.gov.cn/dg/website/publicrel
 unemployment,CHN,2026-06,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.0；目录 ee3b7046b390415b9b7745e3d16f6052
 unemployment,CHN,2026-07,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2；目录 ee3b7046b390415b9b7745e3d16f6052
 unemployment,CHN,2026-08,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.3；目录 ee3b7046b390415b9b7745e3d16f6052
+unemployment,CHN,2026-09,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：全国城镇调查失业率 (%)；原始值 5.2；目录 ee3b7046b390415b9b7745e3d16f6052

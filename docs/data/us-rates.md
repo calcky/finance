@@ -5,7 +5,7 @@
 
 美国数据独立标识为USA。保留目标制度转换、EFFR统计方法变化，以及月度和日度历史的不同起点；不拿月均值填补早期日值。所有收益率为年率报价，利差单位为百分点。数据原始来源为美联储理事会H.15及圣路易斯联储，经FRED分发；所选系列标注Public Domain: Citation requested，本项目不代表来源机构背书。
 
-本页快照获取时间：**2026-10-14T01:27:22+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:45+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/us-rates.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/us-rates.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,17 +19,17 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 有效联邦基金利率 EFFR | 2026-10-12 | 3.88 | % | 1954-07-01 | 26402 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFF) |
+| 有效联邦基金利率 EFFR | 2026-10-29 | 3.88 | % | 1954-07-01 | 26419 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFF) |
 | 联邦基金单点目标（旧） | 2008-12-15 | 1 | % | 1982-09-27 | 9577 | [圣路易斯联储，FRED](https://fred.stlouisfed.org/series/DFEDTAR) |
-| 联邦基金目标区间下限 | 2026-10-13 | 3.75 | % | 2008-12-16 | 6511 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
-| 联邦基金目标区间上限 | 2026-10-13 | 4 | % | 2008-12-16 | 6511 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
+| 联邦基金目标区间下限 | 2026-10-31 | 3.75 | % | 2008-12-16 | 6529 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARL) |
+| 联邦基金目标区间上限 | 2026-10-31 | 4 | % | 2008-12-16 | 6529 | [美联储理事会，经 FRED 分发](https://fred.stlouisfed.org/series/DFEDTARU) |
 | 美国 2 年期国债收益率（月均） | 2026-09 | 4.65 | % | 1976-06 | 604 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS2) |
 | 美国 10 年期国债收益率（月均） | 2026-09 | 4.99 | % | 1953-04 | 882 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/GS10) |
-| 美国 2 年期国债收益率 | 2026-10-09 | 4.8 | % | 1976-06-01 | 12587 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS2) |
-| 美国 10 年期国债收益率 | 2026-10-09 | 5.24 | % | 1962-01-02 | 16179 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS10) |
-| 10 年减 2 年期限利差 | 2026-10-09 | 0.44 | 百分点 | 1976-06-01 | 12587 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01) |
-| 美国 10 年期 TIPS 实际收益率 | 2026-10-09 | 2.91 | % | 2003-01-02 | 5948 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFII10) |
-| 10 年盈亏平衡通胀差值 | 2026-10-09 | 2.33 | 百分点 | 2003-01-02 | 5948 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDFII10&cosd=1900-01-01) |
+| 美国 2 年期国债收益率 | 2026-10-29 | 4.61 | % | 1976-06-01 | 12600 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS2) |
+| 美国 10 年期国债收益率 | 2026-10-29 | 4.98 | % | 1962-01-02 | 16192 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DGS10) |
+| 10 年减 2 年期限利差 | 2026-10-29 | 0.37 | 百分点 | 1976-06-01 | 12600 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDGS2&cosd=1900-01-01) |
+| 美国 10 年期 TIPS 实际收益率 | 2026-10-29 | 2.63 | % | 2003-01-02 | 5961 | [美联储 H.15，经 FRED 分发](https://fred.stlouisfed.org/series/DFII10) |
+| 10 年盈亏平衡通胀差值 | 2026-10-29 | 2.35 | 百分点 | 2003-01-02 | 5961 | [美联储 H.15；本项目计算](https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10%2CDFII10&cosd=1900-01-01) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -44,7 +44,25 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-policy-rates">
 <summary>联邦基金：实际利率与政策目标：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>有效联邦基金利率 EFFR</th><th>联邦基金单点目标（旧）</th><th>联邦基金目标区间下限</th><th>联邦基金目标区间上限</th></tr></thead><tbody>
-<tr id="macro-us-policy-rates-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-31" tabindex="-1"><td>2026-10-31</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-30" tabindex="-1"><td>2026-10-30</td><td>缺失</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
+<tr id="macro-us-policy-rates-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
 <tr id="macro-us-policy-rates-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>3.88</td><td>缺失</td><td>3.75</td><td>4</td></tr>
@@ -86,24 +104,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-policy-rates-2026-09-04" tabindex="-1"><td>2026-09-04</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-09-03" tabindex="-1"><td>2026-09-03</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 <tr id="macro-us-policy-rates-2026-09-02" tabindex="-1"><td>2026-09-02</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-09-01" tabindex="-1"><td>2026-09-01</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-31" tabindex="-1"><td>2026-08-31</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-30" tabindex="-1"><td>2026-08-30</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-29" tabindex="-1"><td>2026-08-29</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-28" tabindex="-1"><td>2026-08-28</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-27" tabindex="-1"><td>2026-08-27</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-26" tabindex="-1"><td>2026-08-26</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-25" tabindex="-1"><td>2026-08-25</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-24" tabindex="-1"><td>2026-08-24</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-23" tabindex="-1"><td>2026-08-23</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-22" tabindex="-1"><td>2026-08-22</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-21" tabindex="-1"><td>2026-08-21</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-20" tabindex="-1"><td>2026-08-20</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-19" tabindex="-1"><td>2026-08-19</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-18" tabindex="-1"><td>2026-08-18</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-17" tabindex="-1"><td>2026-08-17</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-16" tabindex="-1"><td>2026-08-16</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
-<tr id="macro-us-policy-rates-2026-08-15" tabindex="-1"><td>2026-08-15</td><td>3.63</td><td>缺失</td><td>3.5</td><td>3.75</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -190,6 +190,26 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-treasury-daily">
 <summary>美国国债：2 年与 10 年日度收益率：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美国 2 年期国债收益率</th><th>美国 10 年期国债收益率</th></tr></thead><tbody>
+<tr id="macro-us-treasury-daily-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>4.61</td><td>4.98</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>4.67</td><td>5.05</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>4.7</td><td>4.99</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>4.68</td><td>5</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>4.69</td><td>5</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>4.65</td><td>4.96</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>4.81</td><td>5.13</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>4.79</td><td>5.12</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>4.77</td><td>5.15</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>4.74</td><td>5.09</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>4.77</td><td>5.1</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>4.82</td><td>5.19</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>4.79</td><td>5.21</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-treasury-daily-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-treasury-daily-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>4.8</td><td>5.24</td></tr>
 <tr id="macro-us-treasury-daily-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>4.75</td><td>5.22</td></tr>
 <tr id="macro-us-treasury-daily-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>4.77</td><td>5.28</td></tr>
@@ -230,26 +250,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-treasury-daily-2026-09-02" tabindex="-1"><td>2026-09-02</td><td>4.39</td><td>4.79</td></tr>
 <tr id="macro-us-treasury-daily-2026-09-01" tabindex="-1"><td>2026-09-01</td><td>4.39</td><td>4.79</td></tr>
 <tr id="macro-us-treasury-daily-2026-08-31" tabindex="-1"><td>2026-08-31</td><td>4.34</td><td>4.75</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-30" tabindex="-1"><td>2026-08-30</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-29" tabindex="-1"><td>2026-08-29</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-28" tabindex="-1"><td>2026-08-28</td><td>4.34</td><td>4.73</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-27" tabindex="-1"><td>2026-08-27</td><td>4.2</td><td>4.67</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-26" tabindex="-1"><td>2026-08-26</td><td>4.19</td><td>4.66</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-25" tabindex="-1"><td>2026-08-25</td><td>4.17</td><td>4.64</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-24" tabindex="-1"><td>2026-08-24</td><td>4.24</td><td>4.7</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-23" tabindex="-1"><td>2026-08-23</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-22" tabindex="-1"><td>2026-08-22</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-21" tabindex="-1"><td>2026-08-21</td><td>4.24</td><td>4.74</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-20" tabindex="-1"><td>2026-08-20</td><td>4.19</td><td>4.69</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-19" tabindex="-1"><td>2026-08-19</td><td>4.19</td><td>4.65</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-18" tabindex="-1"><td>2026-08-18</td><td>4.19</td><td>4.71</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-17" tabindex="-1"><td>2026-08-17</td><td>4.19</td><td>4.72</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-16" tabindex="-1"><td>2026-08-16</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-15" tabindex="-1"><td>2026-08-15</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-14" tabindex="-1"><td>2026-08-14</td><td>4.17</td><td>4.68</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-13" tabindex="-1"><td>2026-08-13</td><td>4.15</td><td>4.63</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-12" tabindex="-1"><td>2026-08-12</td><td>4.2</td><td>4.68</td></tr>
-<tr id="macro-us-treasury-daily-2026-08-11" tabindex="-1"><td>2026-08-11</td><td>4.22</td><td>4.7</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -263,6 +263,26 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <details class="macro-details" id="details-us-term-spread">
 <summary>10 年减 2 年：期限利差与倒挂：分页数据表（百分点）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>10 年减 2 年期限利差</th></tr></thead><tbody>
+<tr id="macro-us-term-spread-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>0.37</td></tr>
+<tr id="macro-us-term-spread-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>0.38</td></tr>
+<tr id="macro-us-term-spread-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>0.29</td></tr>
+<tr id="macro-us-term-spread-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>0.32</td></tr>
+<tr id="macro-us-term-spread-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>0.31</td></tr>
+<tr id="macro-us-term-spread-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>0.31</td></tr>
+<tr id="macro-us-term-spread-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>0.32</td></tr>
+<tr id="macro-us-term-spread-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>0.33</td></tr>
+<tr id="macro-us-term-spread-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>0.38</td></tr>
+<tr id="macro-us-term-spread-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>0.35</td></tr>
+<tr id="macro-us-term-spread-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>0.33</td></tr>
+<tr id="macro-us-term-spread-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>0.37</td></tr>
+<tr id="macro-us-term-spread-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>0.42</td></tr>
+<tr id="macro-us-term-spread-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td></tr>
+<tr id="macro-us-term-spread-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>缺失</td></tr>
 <tr id="macro-us-term-spread-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>0.44</td></tr>
 <tr id="macro-us-term-spread-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>0.47</td></tr>
 <tr id="macro-us-term-spread-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>0.51</td></tr>
@@ -303,26 +323,6 @@ EFFR自1954年起，旧单点目标自1982年起，2008年12月16日改为上下
 <tr id="macro-us-term-spread-2026-09-02" tabindex="-1"><td>2026-09-02</td><td>0.4</td></tr>
 <tr id="macro-us-term-spread-2026-09-01" tabindex="-1"><td>2026-09-01</td><td>0.4</td></tr>
 <tr id="macro-us-term-spread-2026-08-31" tabindex="-1"><td>2026-08-31</td><td>0.41</td></tr>
-<tr id="macro-us-term-spread-2026-08-30" tabindex="-1"><td>2026-08-30</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-29" tabindex="-1"><td>2026-08-29</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-28" tabindex="-1"><td>2026-08-28</td><td>0.39</td></tr>
-<tr id="macro-us-term-spread-2026-08-27" tabindex="-1"><td>2026-08-27</td><td>0.47</td></tr>
-<tr id="macro-us-term-spread-2026-08-26" tabindex="-1"><td>2026-08-26</td><td>0.47</td></tr>
-<tr id="macro-us-term-spread-2026-08-25" tabindex="-1"><td>2026-08-25</td><td>0.47</td></tr>
-<tr id="macro-us-term-spread-2026-08-24" tabindex="-1"><td>2026-08-24</td><td>0.46</td></tr>
-<tr id="macro-us-term-spread-2026-08-23" tabindex="-1"><td>2026-08-23</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-22" tabindex="-1"><td>2026-08-22</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-21" tabindex="-1"><td>2026-08-21</td><td>0.5</td></tr>
-<tr id="macro-us-term-spread-2026-08-20" tabindex="-1"><td>2026-08-20</td><td>0.5</td></tr>
-<tr id="macro-us-term-spread-2026-08-19" tabindex="-1"><td>2026-08-19</td><td>0.46</td></tr>
-<tr id="macro-us-term-spread-2026-08-18" tabindex="-1"><td>2026-08-18</td><td>0.52</td></tr>
-<tr id="macro-us-term-spread-2026-08-17" tabindex="-1"><td>2026-08-17</td><td>0.53</td></tr>
-<tr id="macro-us-term-spread-2026-08-16" tabindex="-1"><td>2026-08-16</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-15" tabindex="-1"><td>2026-08-15</td><td>缺失</td></tr>
-<tr id="macro-us-term-spread-2026-08-14" tabindex="-1"><td>2026-08-14</td><td>0.51</td></tr>
-<tr id="macro-us-term-spread-2026-08-13" tabindex="-1"><td>2026-08-13</td><td>0.48</td></tr>
-<tr id="macro-us-term-spread-2026-08-12" tabindex="-1"><td>2026-08-12</td><td>0.48</td></tr>
-<tr id="macro-us-term-spread-2026-08-11" tabindex="-1"><td>2026-08-11</td><td>0.48</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -336,6 +336,26 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <details class="macro-details" id="details-us-real-nominal">
 <summary>10 年期：名义与 TIPS 实际收益率：分页数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>美国 10 年期国债收益率</th><th>美国 10 年期 TIPS 实际收益率</th></tr></thead><tbody>
+<tr id="macro-us-real-nominal-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>4.98</td><td>2.63</td></tr>
+<tr id="macro-us-real-nominal-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>5.05</td><td>2.67</td></tr>
+<tr id="macro-us-real-nominal-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>4.99</td><td>2.64</td></tr>
+<tr id="macro-us-real-nominal-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>5</td><td>2.66</td></tr>
+<tr id="macro-us-real-nominal-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>5</td><td>2.66</td></tr>
+<tr id="macro-us-real-nominal-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>4.96</td><td>2.64</td></tr>
+<tr id="macro-us-real-nominal-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>5.13</td><td>2.76</td></tr>
+<tr id="macro-us-real-nominal-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>5.12</td><td>2.77</td></tr>
+<tr id="macro-us-real-nominal-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>5.15</td><td>2.8</td></tr>
+<tr id="macro-us-real-nominal-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>5.09</td><td>2.74</td></tr>
+<tr id="macro-us-real-nominal-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>5.1</td><td>2.78</td></tr>
+<tr id="macro-us-real-nominal-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>5.19</td><td>2.84</td></tr>
+<tr id="macro-us-real-nominal-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>5.21</td><td>2.88</td></tr>
+<tr id="macro-us-real-nominal-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td><td>缺失</td></tr>
+<tr id="macro-us-real-nominal-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-us-real-nominal-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>5.24</td><td>2.91</td></tr>
 <tr id="macro-us-real-nominal-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>5.22</td><td>2.87</td></tr>
 <tr id="macro-us-real-nominal-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>5.28</td><td>2.92</td></tr>
@@ -376,26 +396,6 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <tr id="macro-us-real-nominal-2026-09-02" tabindex="-1"><td>2026-09-02</td><td>4.79</td><td>2.45</td></tr>
 <tr id="macro-us-real-nominal-2026-09-01" tabindex="-1"><td>2026-09-01</td><td>4.79</td><td>2.44</td></tr>
 <tr id="macro-us-real-nominal-2026-08-31" tabindex="-1"><td>2026-08-31</td><td>4.75</td><td>2.44</td></tr>
-<tr id="macro-us-real-nominal-2026-08-30" tabindex="-1"><td>2026-08-30</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-29" tabindex="-1"><td>2026-08-29</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-28" tabindex="-1"><td>2026-08-28</td><td>4.73</td><td>2.42</td></tr>
-<tr id="macro-us-real-nominal-2026-08-27" tabindex="-1"><td>2026-08-27</td><td>4.67</td><td>2.34</td></tr>
-<tr id="macro-us-real-nominal-2026-08-26" tabindex="-1"><td>2026-08-26</td><td>4.66</td><td>2.34</td></tr>
-<tr id="macro-us-real-nominal-2026-08-25" tabindex="-1"><td>2026-08-25</td><td>4.64</td><td>2.32</td></tr>
-<tr id="macro-us-real-nominal-2026-08-24" tabindex="-1"><td>2026-08-24</td><td>4.7</td><td>2.38</td></tr>
-<tr id="macro-us-real-nominal-2026-08-23" tabindex="-1"><td>2026-08-23</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-22" tabindex="-1"><td>2026-08-22</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-21" tabindex="-1"><td>2026-08-21</td><td>4.74</td><td>2.4</td></tr>
-<tr id="macro-us-real-nominal-2026-08-20" tabindex="-1"><td>2026-08-20</td><td>4.69</td><td>2.35</td></tr>
-<tr id="macro-us-real-nominal-2026-08-19" tabindex="-1"><td>2026-08-19</td><td>4.65</td><td>2.35</td></tr>
-<tr id="macro-us-real-nominal-2026-08-18" tabindex="-1"><td>2026-08-18</td><td>4.71</td><td>2.41</td></tr>
-<tr id="macro-us-real-nominal-2026-08-17" tabindex="-1"><td>2026-08-17</td><td>4.72</td><td>2.44</td></tr>
-<tr id="macro-us-real-nominal-2026-08-16" tabindex="-1"><td>2026-08-16</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-15" tabindex="-1"><td>2026-08-15</td><td>缺失</td><td>缺失</td></tr>
-<tr id="macro-us-real-nominal-2026-08-14" tabindex="-1"><td>2026-08-14</td><td>4.68</td><td>2.41</td></tr>
-<tr id="macro-us-real-nominal-2026-08-13" tabindex="-1"><td>2026-08-13</td><td>4.63</td><td>2.39</td></tr>
-<tr id="macro-us-real-nominal-2026-08-12" tabindex="-1"><td>2026-08-12</td><td>4.68</td><td>2.42</td></tr>
-<tr id="macro-us-real-nominal-2026-08-11" tabindex="-1"><td>2026-08-11</td><td>4.7</td><td>2.43</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。
@@ -409,6 +409,26 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <details class="macro-details" id="details-us-breakeven">
 <summary>10 年盈亏平衡通胀：同日收益率差：分页数据表（百分点）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>10 年盈亏平衡通胀差值</th></tr></thead><tbody>
+<tr id="macro-us-breakeven-2026-10-29" tabindex="-1"><td>2026-10-29</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-28" tabindex="-1"><td>2026-10-28</td><td>2.38</td></tr>
+<tr id="macro-us-breakeven-2026-10-27" tabindex="-1"><td>2026-10-27</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-26" tabindex="-1"><td>2026-10-26</td><td>2.34</td></tr>
+<tr id="macro-us-breakeven-2026-10-25" tabindex="-1"><td>2026-10-25</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-24" tabindex="-1"><td>2026-10-24</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-23" tabindex="-1"><td>2026-10-23</td><td>2.34</td></tr>
+<tr id="macro-us-breakeven-2026-10-22" tabindex="-1"><td>2026-10-22</td><td>2.32</td></tr>
+<tr id="macro-us-breakeven-2026-10-21" tabindex="-1"><td>2026-10-21</td><td>2.37</td></tr>
+<tr id="macro-us-breakeven-2026-10-20" tabindex="-1"><td>2026-10-20</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-19" tabindex="-1"><td>2026-10-19</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-18" tabindex="-1"><td>2026-10-18</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-17" tabindex="-1"><td>2026-10-17</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-16" tabindex="-1"><td>2026-10-16</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-15" tabindex="-1"><td>2026-10-15</td><td>2.32</td></tr>
+<tr id="macro-us-breakeven-2026-10-14" tabindex="-1"><td>2026-10-14</td><td>2.35</td></tr>
+<tr id="macro-us-breakeven-2026-10-13" tabindex="-1"><td>2026-10-13</td><td>2.33</td></tr>
+<tr id="macro-us-breakeven-2026-10-12" tabindex="-1"><td>2026-10-12</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-11" tabindex="-1"><td>2026-10-11</td><td>缺失</td></tr>
+<tr id="macro-us-breakeven-2026-10-10" tabindex="-1"><td>2026-10-10</td><td>缺失</td></tr>
 <tr id="macro-us-breakeven-2026-10-09" tabindex="-1"><td>2026-10-09</td><td>2.33</td></tr>
 <tr id="macro-us-breakeven-2026-10-08" tabindex="-1"><td>2026-10-08</td><td>2.35</td></tr>
 <tr id="macro-us-breakeven-2026-10-07" tabindex="-1"><td>2026-10-07</td><td>2.36</td></tr>
@@ -449,26 +469,6 @@ TIPS实际收益率从2003年起。名义收益率相同也可能对应不同实
 <tr id="macro-us-breakeven-2026-09-02" tabindex="-1"><td>2026-09-02</td><td>2.34</td></tr>
 <tr id="macro-us-breakeven-2026-09-01" tabindex="-1"><td>2026-09-01</td><td>2.35</td></tr>
 <tr id="macro-us-breakeven-2026-08-31" tabindex="-1"><td>2026-08-31</td><td>2.31</td></tr>
-<tr id="macro-us-breakeven-2026-08-30" tabindex="-1"><td>2026-08-30</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-29" tabindex="-1"><td>2026-08-29</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-28" tabindex="-1"><td>2026-08-28</td><td>2.31</td></tr>
-<tr id="macro-us-breakeven-2026-08-27" tabindex="-1"><td>2026-08-27</td><td>2.33</td></tr>
-<tr id="macro-us-breakeven-2026-08-26" tabindex="-1"><td>2026-08-26</td><td>2.32</td></tr>
-<tr id="macro-us-breakeven-2026-08-25" tabindex="-1"><td>2026-08-25</td><td>2.32</td></tr>
-<tr id="macro-us-breakeven-2026-08-24" tabindex="-1"><td>2026-08-24</td><td>2.32</td></tr>
-<tr id="macro-us-breakeven-2026-08-23" tabindex="-1"><td>2026-08-23</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-22" tabindex="-1"><td>2026-08-22</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-21" tabindex="-1"><td>2026-08-21</td><td>2.34</td></tr>
-<tr id="macro-us-breakeven-2026-08-20" tabindex="-1"><td>2026-08-20</td><td>2.34</td></tr>
-<tr id="macro-us-breakeven-2026-08-19" tabindex="-1"><td>2026-08-19</td><td>2.3</td></tr>
-<tr id="macro-us-breakeven-2026-08-18" tabindex="-1"><td>2026-08-18</td><td>2.3</td></tr>
-<tr id="macro-us-breakeven-2026-08-17" tabindex="-1"><td>2026-08-17</td><td>2.28</td></tr>
-<tr id="macro-us-breakeven-2026-08-16" tabindex="-1"><td>2026-08-16</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-15" tabindex="-1"><td>2026-08-15</td><td>缺失</td></tr>
-<tr id="macro-us-breakeven-2026-08-14" tabindex="-1"><td>2026-08-14</td><td>2.27</td></tr>
-<tr id="macro-us-breakeven-2026-08-13" tabindex="-1"><td>2026-08-13</td><td>2.24</td></tr>
-<tr id="macro-us-breakeven-2026-08-12" tabindex="-1"><td>2026-08-12</td><td>2.26</td></tr>
-<tr id="macro-us-breakeven-2026-08-11" tabindex="-1"><td>2026-08-11</td><td>2.27</td></tr>
 </tbody></table></div></details>
 
 明细默认显示最近60期；启用交互后可按期间定位或翻页读取全部历史。禁用JavaScript时，可下载页首完整CSV。

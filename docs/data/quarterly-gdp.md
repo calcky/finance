@@ -5,7 +5,7 @@
 
 使用国家统计局修订后的季度历史，分别展示当季、年内累计和季调环比。现价金额包含价格变化，实际增速剔除价格影响。季度资料与 World Bank 年度 GDP 独立保留，不混接。
 
-本页快照获取时间：**2026-10-02T12:42:00+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:42+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/quarterly-gdp.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/quarterly-gdp.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,17 +19,17 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| GDP当季实际同比 | 2026-Q2 | 4.3 | % | 1993-Q1 | 134 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| GDP 年内累计实际同比 | 2026-Q2 | 4.7 | % | 1993-Q1 | 134 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| GDP 季调实际环比 | 2026-Q2 | 0.9 | % | 2011-Q1 | 62 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| GDP当季现价金额 | 2026-Q2 | 361,511.1 | 亿元 | 1992-Q1 | 138 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第一产业增加值当季实际同比 | 2026-Q2 | 3.7 | % | 1993-Q1 | 134 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第二产业增加值当季实际同比 | 2026-Q2 | 3 | % | 1993-Q1 | 134 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第三产业增加值当季实际同比 | 2026-Q2 | 5.1 | % | 1993-Q1 | 134 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| GDP 年内累计现价金额 | 2026-Q2 | 695,704 | 亿元 | 1992-Q1 | 138 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第一产业增加值当季现价金额 | 2026-Q2 | 19,581 | 亿元 | 1992-Q1 | 138 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第二产业增加值当季现价金额 | 2026-Q2 | 134,338 | 亿元 | 1992-Q1 | 138 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
-| 第三产业增加值当季现价金额 | 2026-Q2 | 207,592 | 亿元 | 1992-Q1 | 138 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| GDP当季实际同比 | 2026-Q3 | 4.5 | % | 1993-Q1 | 135 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| GDP 年内累计实际同比 | 2026-Q3 | 4.6 | % | 1993-Q1 | 135 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| GDP 季调实际环比 | 2026-Q3 | 1.2 | % | 2011-Q1 | 63 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| GDP当季现价金额 | 2026-Q3 | 375,367.2 | 亿元 | 1992-Q1 | 139 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第一产业增加值当季实际同比 | 2026-Q3 | 3.6 | % | 1993-Q1 | 135 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第二产业增加值当季实际同比 | 2026-Q3 | 3.4 | % | 1993-Q1 | 135 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第三产业增加值当季实际同比 | 2026-Q3 | 5.2 | % | 1993-Q1 | 135 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| GDP 年内累计现价金额 | 2026-Q3 | 1,071,071.2 | 亿元 | 1992-Q1 | 139 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第一产业增加值当季现价金额 | 2026-Q3 | 27,472.1 | 亿元 | 1992-Q1 | 139 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第二产业增加值当季现价金额 | 2026-Q3 | 133,349.3 | 亿元 | 1992-Q1 | 139 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
+| 第三产业增加值当季现价金额 | 2026-Q3 | 214,545.8 | 亿元 | 1992-Q1 | 139 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/quarterData) |
 
 起点表示本项目当前覆盖范围，不代表该指标从此时才开始发布。旧定义序列的最后一期也不代表来源停止更新。各来源可能存在发布或入库滞后；空白不补零、不插值。发布日期未知的观测在 CSV 中留空。
 
@@ -44,6 +44,7 @@
 <details class="macro-details">
 <summary>GDP：当季与累计实际同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>GDP当季实际同比</th><th>GDP 年内累计实际同比</th></tr></thead><tbody>
+<tr id="macro-gdp-quarter-yoy-2026-Q3" tabindex="-1"><td>2026-Q3</td><td>4.5</td><td>4.6</td></tr>
 <tr id="macro-gdp-quarter-yoy-2026-Q2" tabindex="-1"><td>2026-Q2</td><td>4.3</td><td>4.7</td></tr>
 <tr id="macro-gdp-quarter-yoy-2026-Q1" tabindex="-1"><td>2026-Q1</td><td>5</td><td>5</td></tr>
 <tr id="macro-gdp-quarter-yoy-2025-Q4" tabindex="-1"><td>2025-Q4</td><td>4.5</td><td>5</td></tr>
@@ -189,6 +190,7 @@
 <details class="macro-details">
 <summary>GDP：季调实际环比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>GDP 季调实际环比</th></tr></thead><tbody>
+<tr id="macro-gdp-quarter-qoq-2026-Q3" tabindex="-1"><td>2026-Q3</td><td>1.2</td></tr>
 <tr id="macro-gdp-quarter-qoq-2026-Q2" tabindex="-1"><td>2026-Q2</td><td>0.9</td></tr>
 <tr id="macro-gdp-quarter-qoq-2026-Q1" tabindex="-1"><td>2026-Q1</td><td>1.3</td></tr>
 <tr id="macro-gdp-quarter-qoq-2025-Q4" tabindex="-1"><td>2025-Q4</td><td>1.1</td></tr>
@@ -262,6 +264,7 @@
 <details class="macro-details">
 <summary>GDP：当季现价金额：展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>GDP当季现价金额</th></tr></thead><tbody>
+<tr id="macro-gdp-quarter-nominal-2026-Q3" tabindex="-1"><td>2026-Q3</td><td>375,367.2</td></tr>
 <tr id="macro-gdp-quarter-nominal-2026-Q2" tabindex="-1"><td>2026-Q2</td><td>361,511.1</td></tr>
 <tr id="macro-gdp-quarter-nominal-2026-Q1" tabindex="-1"><td>2026-Q1</td><td>334,192.9</td></tr>
 <tr id="macro-gdp-quarter-nominal-2025-Q4" tabindex="-1"><td>2025-Q4</td><td>387,911.3</td></tr>
@@ -411,6 +414,7 @@
 <details class="macro-details">
 <summary>三次产业：当季实际同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>第一产业增加值当季实际同比</th><th>第二产业增加值当季实际同比</th><th>第三产业增加值当季实际同比</th></tr></thead><tbody>
+<tr id="macro-gdp-quarter-sectors-2026-Q3" tabindex="-1"><td>2026-Q3</td><td>3.6</td><td>3.4</td><td>5.2</td></tr>
 <tr id="macro-gdp-quarter-sectors-2026-Q2" tabindex="-1"><td>2026-Q2</td><td>3.7</td><td>3</td><td>5.1</td></tr>
 <tr id="macro-gdp-quarter-sectors-2026-Q1" tabindex="-1"><td>2026-Q1</td><td>3.8</td><td>4.9</td><td>5.2</td></tr>
 <tr id="macro-gdp-quarter-sectors-2025-Q4" tabindex="-1"><td>2025-Q4</td><td>4.2</td><td>3.4</td><td>5.2</td></tr>
@@ -554,6 +558,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-Q3</td><td>1,071,071.2</td></tr>
 <tr><td>2026-Q2</td><td>695,704</td></tr>
 <tr><td>2026-Q1</td><td>334,192.9</td></tr>
 <tr><td>2025-Q4</td><td>1,401,879.2</td></tr>
@@ -701,6 +706,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-Q3</td><td>27,472.1</td></tr>
 <tr><td>2026-Q2</td><td>19,581</td></tr>
 <tr><td>2026-Q1</td><td>11,940.8</td></tr>
 <tr><td>2025-Q4</td><td>35,159.7</td></tr>
@@ -848,6 +854,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-Q3</td><td>133,349.3</td></tr>
 <tr><td>2026-Q2</td><td>134,338</td></tr>
 <tr><td>2026-Q1</td><td>116,134.9</td></tr>
 <tr><td>2025-Q4</td><td>136,803.3</td></tr>
@@ -995,6 +1002,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-Q3</td><td>214,545.8</td></tr>
 <tr><td>2026-Q2</td><td>207,592</td></tr>
 <tr><td>2026-Q1</td><td>206,117.2</td></tr>
 <tr><td>2025-Q4</td><td>215,948.3</td></tr>

@@ -323,6 +323,7 @@ industry_yoy,CHN,2026-05,4.5,%,M,,https://data.stats.gov.cn/dg/website/publicrel
 industry_yoy,CHN,2026-06,5.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：规上工业增加值同比增长 (%)；原始值 5.3；目录 3f2e14f0542348ed9fe02476eca3450b；2011年规上起点从500万元提高至2000万元；2013年起1—2月合并调查
 industry_yoy,CHN,2026-07,4.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：规上工业增加值同比增长 (%)；原始值 4.5；目录 3f2e14f0542348ed9fe02476eca3450b；2011年规上起点从500万元提高至2000万元；2013年起1—2月合并调查
 industry_yoy,CHN,2026-08,5.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：规上工业增加值同比增长 (%)；原始值 5.2；目录 3f2e14f0542348ed9fe02476eca3450b；2011年规上起点从500万元提高至2000万元；2013年起1—2月合并调查
+industry_yoy,CHN,2026-09,5.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：规上工业增加值同比增长 (%)；原始值 5.5；目录 3f2e14f0542348ed9fe02476eca3450b；2011年规上起点从500万元提高至2000万元；2013年起1—2月合并调查
 investment_legacy_ytd_yoy,CHN,1998-02,10.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 10.2；目录 5129067b149d4ddfbec1ffc478d35bfb；2011年前旧范围/起报点，与现行口径分列
 investment_legacy_ytd_yoy,CHN,1998-03,10.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 10.3；目录 5129067b149d4ddfbec1ffc478d35bfb；2011年前旧范围/起报点，与现行口径分列
 investment_legacy_ytd_yoy,CHN,1998-04,12.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 12.2；目录 5129067b149d4ddfbec1ffc478d35bfb；2011年前旧范围/起报点，与现行口径分列
@@ -638,6 +639,7 @@ investment_ytd_yoy,CHN,2026-05,-4.1,%,M,,https://data.stats.gov.cn/dg/website/pu
 investment_ytd_yoy,CHN,2026-06,-5.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 -5.7；目录 5129067b149d4ddfbec1ffc478d35bfb
 investment_ytd_yoy,CHN,2026-07,-6.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 -6.7；目录 5129067b149d4ddfbec1ffc478d35bfb
 investment_ytd_yoy,CHN,2026-08,-7.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 -7.2；目录 5129067b149d4ddfbec1ffc478d35bfb
+investment_ytd_yoy,CHN,2026-09,-7.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：固定资产投资额累计增长 (%)；原始值 -7.2；目录 5129067b149d4ddfbec1ffc478d35bfb
 pmi_manufacturing,CHN,2005-01,54.7,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 54.7；目录 93ffbb1aa85740d3aa2618371508b606
 pmi_manufacturing,CHN,2005-02,54.5,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 54.5；目录 93ffbb1aa85740d3aa2618371508b606
 pmi_manufacturing,CHN,2005-03,57.9,指数点,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：制造业采购经理指数 (%)；原始值 57.9；目录 93ffbb1aa85740d3aa2618371508b606
@@ -1453,3 +1455,4 @@ retail_yoy,CHN,2026-05,-0.6,%,M,,https://data.stats.gov.cn/dg/website/publicrele
 retail_yoy,CHN,2026-06,1.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额同比增长 (%)；原始值 1.0；目录 d0cb882c7f27443ab6b3ef9421901961
 retail_yoy,CHN,2026-07,0.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额同比增长 (%)；原始值 0.6；目录 d0cb882c7f27443ab6b3ef9421901961
 retail_yoy,CHN,2026-08,0.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额同比增长 (%)；原始值 0.4；目录 d0cb882c7f27443ab6b3ef9421901961
+retail_yoy,CHN,2026-09,1.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：社会消费品零售总额同比增长 (%)；原始值 1.1；目录 d0cb882c7f27443ab6b3ef9421901961

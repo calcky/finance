@@ -292,6 +292,7 @@ property_completions_ytd,CHN,2026-05,14086.61,万平方米,M,,https://data.stats
 property_completions_ytd,CHN,2026-06,17221.11,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_completions_ytd,CHN,2026-07,19195.35,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_completions_ytd,CHN,2026-08,21097.40,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
+property_completions_ytd,CHN,2026-09,23271.28,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_completions_ytd_yoy,CHN,2000-02,27.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_completions_ytd_yoy,CHN,2000-03,13.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_completions_ytd_yoy,CHN,2000-04,10.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
@@ -585,6 +586,7 @@ property_completions_ytd_yoy,CHN,2026-05,-23.4,%,M,,https://data.stats.gov.cn/dg
 property_completions_ytd_yoy,CHN,2026-06,-23.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_completions_ytd_yoy,CHN,2026-07,-23.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_completions_ytd_yoy,CHN,2026-08,-23.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_completions_ytd_yoy,CHN,2026-09,-25.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产竣工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_construction_ytd,CHN,2000-02,19169.33,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_construction_ytd,CHN,2000-03,27754.92,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_construction_ytd,CHN,2000-04,32351.10,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
@@ -878,6 +880,7 @@ property_construction_ytd,CHN,2026-05,548774.82,万平方米,M,,https://data.sta
 property_construction_ytd,CHN,2026-06,554049.01,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_construction_ytd,CHN,2026-07,557572.46,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_construction_ytd,CHN,2026-08,560769.71,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
+property_construction_ytd,CHN,2026-09,565221.20,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_construction_ytd_yoy,CHN,2000-02,10.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_construction_ytd_yoy,CHN,2000-03,7.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_construction_ytd_yoy,CHN,2000-04,8.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
@@ -1171,6 +1174,7 @@ property_construction_ytd_yoy,CHN,2026-05,-12.3,%,M,,https://data.stats.gov.cn/d
 property_construction_ytd_yoy,CHN,2026-06,-12.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_construction_ytd_yoy,CHN,2026-07,-12.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_construction_ytd_yoy,CHN,2026-08,-12.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_construction_ytd_yoy,CHN,2026-09,-12.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_domestic_loans_ytd,CHN,2000-02,141.56,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_domestic_loans_ytd,CHN,2000-03,273.29,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_domestic_loans_ytd,CHN,2000-04,366.52,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
@@ -1464,6 +1468,7 @@ property_domestic_loans_ytd,CHN,2026-05,4875.42,亿元,M,,https://data.stats.gov
 property_domestic_loans_ytd,CHN,2026-06,5716.03,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_domestic_loans_ytd,CHN,2026-07,6299.80,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_domestic_loans_ytd,CHN,2026-08,6880.28,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_domestic_loans_ytd,CHN,2026-09,7623.99,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_domestic_loans_ytd_yoy,CHN,2000-08,21.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_domestic_loans_ytd_yoy,CHN,2000-12,24.9,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920162.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
 property_domestic_loans_ytd_yoy,CHN,2001-04,28.5,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920191.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
@@ -1733,6 +1738,7 @@ property_domestic_loans_ytd_yoy,CHN,2026-05,-28.7,%,M,,https://data.stats.gov.cn
 property_domestic_loans_ytd_yoy,CHN,2026-06,-31.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_domestic_loans_ytd_yoy,CHN,2026-07,-32.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_domestic_loans_ytd_yoy,CHN,2026-08,-33.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_domestic_loans_ytd_yoy,CHN,2026-09,-33.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资国内贷款累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_funds_ytd,CHN,2000-02,512.37,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_funds_ytd,CHN,2000-03,933.79,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_funds_ytd,CHN,2000-04,1295.67,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
@@ -2026,6 +2032,7 @@ property_funds_ytd,CHN,2026-05,32756.14,亿元,M,,https://data.stats.gov.cn/dg/w
 property_funds_ytd,CHN,2026-06,40233.35,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_funds_ytd,CHN,2026-07,45747.95,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_funds_ytd,CHN,2026-08,50892.64,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_funds_ytd,CHN,2026-09,56812.72,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_funds_ytd_yoy,CHN,2000-12,26.1,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920162.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
 property_funds_ytd_yoy,CHN,2001-04,38.0,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920191.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
 property_funds_ytd_yoy,CHN,2001-05,41.3,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920199.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
@@ -2298,6 +2305,7 @@ property_funds_ytd_yoy,CHN,2026-05,-19.0,%,M,,https://data.stats.gov.cn/dg/websi
 property_funds_ytd_yoy,CHN,2026-06,-20.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_funds_ytd_yoy,CHN,2026-07,-20.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_funds_ytd_yoy,CHN,2026-08,-21.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_funds_ytd_yoy,CHN,2026-09,-21.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资本年资金来源小计累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_investment_ytd,CHN,2000-02,246.04,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_investment_ytd,CHN,2000-03,534.50,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_investment_ytd,CHN,2000-04,834.81,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
@@ -2591,6 +2599,7 @@ property_investment_ytd,CHN,2026-05,30355.68,亿元,M,,https://data.stats.gov.cn
 property_investment_ytd,CHN,2026-06,38073.70,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_investment_ytd,CHN,2026-07,43008.95,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_investment_ytd,CHN,2026-08,47978.85,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_investment_ytd,CHN,2026-09,53363.52,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_investment_ytd_yoy,CHN,2000-02,19.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_investment_ytd_yoy,CHN,2000-03,20.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_investment_ytd_yoy,CHN,2000-04,20.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
@@ -2884,6 +2893,7 @@ property_investment_ytd_yoy,CHN,2026-05,-16.2,%,M,,https://data.stats.gov.cn/dg/
 property_investment_ytd_yoy,CHN,2026-06,-18.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_investment_ytd_yoy,CHN,2026-07,-19.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_investment_ytd_yoy,CHN,2026-08,-19.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_investment_ytd_yoy,CHN,2026-09,-20.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_residential_investment_ytd,CHN,2000-02,165.39,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_residential_investment_ytd,CHN,2000-03,358.75,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_residential_investment_ytd,CHN,2000-04,567.12,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
@@ -3177,6 +3187,7 @@ property_residential_investment_ytd,CHN,2026-05,23426.26,亿元,M,,https://data.
 property_residential_investment_ytd,CHN,2026-06,29300.19,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_residential_investment_ytd,CHN,2026-07,33172.31,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_residential_investment_ytd,CHN,2026-08,37016.61,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_residential_investment_ytd,CHN,2026-09,41124.92,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_residential_investment_ytd_yoy,CHN,2000-02,33.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_residential_investment_ytd_yoy,CHN,2000-03,23.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_residential_investment_ytd_yoy,CHN,2000-04,24.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
@@ -3470,6 +3481,7 @@ property_residential_investment_ytd_yoy,CHN,2026-05,-15.6,%,M,,https://data.stat
 property_residential_investment_ytd_yoy,CHN,2026-06,-17.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_residential_investment_ytd_yoy,CHN,2026-07,-19.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_residential_investment_ytd_yoy,CHN,2026-08,-19.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_residential_investment_ytd_yoy,CHN,2026-09,-20.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产住宅投资_累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_area_ytd,CHN,2006-02,5343.89,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_sales_area_ytd,CHN,2006-03,9458.71,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_sales_area_ytd,CHN,2006-04,13560.87,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
@@ -3697,6 +3709,7 @@ property_sales_area_ytd,CHN,2026-05,31319.91,万平方米,M,,https://data.stats.
 property_sales_area_ytd,CHN,2026-06,40139.62,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_sales_area_ytd,CHN,2026-07,45020.81,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_sales_area_ytd,CHN,2026-08,49879.77,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
+property_sales_area_ytd,CHN,2026-09,56482.90,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_sales_area_ytd_legacy,CHN,2000-02,636.10,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
 property_sales_area_ytd_legacy,CHN,2000-03,1391.55,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
 property_sales_area_ytd_legacy,CHN,2000-04,2153.90,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
@@ -3990,6 +4003,7 @@ property_sales_area_ytd_yoy,CHN,2026-05,-10.8,%,M,,https://data.stats.gov.cn/dg/
 property_sales_area_ytd_yoy,CHN,2026-06,-11.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_area_ytd_yoy,CHN,2026-07,-11.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_area_ytd_yoy,CHN,2026-08,-12.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_sales_area_ytd_yoy,CHN,2026-09,-13.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_area_ytd_yoy_legacy,CHN,2000-02,53.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
 property_sales_area_ytd_yoy_legacy,CHN,2000-03,35.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
 property_sales_area_ytd_yoy_legacy,CHN,2000-04,35.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
@@ -4283,6 +4297,7 @@ property_sales_value_ytd,CHN,2026-05,29365.71,亿元,M,,https://data.stats.gov.c
 property_sales_value_ytd,CHN,2026-06,37944.58,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_sales_value_ytd,CHN,2026-07,42718.18,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_sales_value_ytd,CHN,2026-08,47470.45,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_sales_value_ytd,CHN,2026-09,53798.77,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_sales_value_ytd_legacy,CHN,2000-02,144.39,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
 property_sales_value_ytd_legacy,CHN,2000-03,295.97,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
 property_sales_value_ytd_legacy,CHN,2000-04,450.31,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计值 (亿元)；年内累计，2月表示1—2月；不是单月；2004年及以前实际销售口径，独立保留
@@ -4576,6 +4591,7 @@ property_sales_value_ytd_yoy,CHN,2026-05,-13.5,%,M,,https://data.stats.gov.cn/dg
 property_sales_value_ytd_yoy,CHN,2026-06,-13.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_value_ytd_yoy,CHN,2026-07,-13.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_value_ytd_yoy,CHN,2026-08,-13.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_sales_value_ytd_yoy,CHN,2026-09,-13.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_sales_value_ytd_yoy_legacy,CHN,2000-02,60.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
 property_sales_value_ytd_yoy_legacy,CHN,2000-03,42.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
 property_sales_value_ytd_yoy_legacy,CHN,2000-04,40.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：新建商品房销售额累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算；2004年及以前实际销售口径，独立保留
@@ -4935,6 +4951,7 @@ property_self_funding_ytd,CHN,2026-05,11984.68,亿元,M,,https://data.stats.gov.
 property_self_funding_ytd,CHN,2026-06,14739.86,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_self_funding_ytd,CHN,2026-07,16543.63,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_self_funding_ytd,CHN,2026-08,18432.33,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计值 (亿元)；年内累计，2月表示1—2月；不是单月
+property_self_funding_ytd,CHN,2026-09,20571.80,亿元,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计值 (亿元)；年内累计，2月表示1—2月；不是单月
 property_self_funding_ytd_yoy,CHN,2000-12,20.9,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920162.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
 property_self_funding_ytd_yoy,CHN,2001-04,34.0,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920191.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
 property_self_funding_ytd_yoy,CHN,2001-05,38.2,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920199.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
@@ -5202,6 +5219,7 @@ property_self_funding_ytd_yoy,CHN,2026-05,-13.0,%,M,,https://data.stats.gov.cn/d
 property_self_funding_ytd_yoy,CHN,2026-06,-16.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_self_funding_ytd_yoy,CHN,2026-07,-18.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_self_funding_ytd_yoy,CHN,2026-08,-20.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_self_funding_ytd_yoy,CHN,2026-09,-21.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产投资自筹资金累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_starts_ytd,CHN,2000-02,2206.23,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_starts_ytd,CHN,2000-03,4747.18,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_starts_ytd,CHN,2000-12,28300,万平方米,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920162.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；原文为2.83亿平方米，换算为28300万平方米；保留原文四舍五入精度，不代表精确到万平方米。全年累计，不是12月单月。
@@ -5487,6 +5505,7 @@ property_starts_ytd,CHN,2026-05,17928.60,万平方米,M,,https://data.stats.gov.
 property_starts_ytd,CHN,2026-06,23238.94,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_starts_ytd,CHN,2026-07,26700.19,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_starts_ytd,CHN,2026-08,29894.06,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
+property_starts_ytd,CHN,2026-09,34031.30,万平方米,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计值 (万平方米)；年内累计，2月表示1—2月；不是单月
 property_starts_ytd_yoy,CHN,2000-02,43.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_starts_ytd_yoy,CHN,2000-03,34.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_starts_ytd_yoy,CHN,2000-12,30.6,%,M,,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920162.html,国家统计局原始公告补充数据库缺口；年内累计/全年，不是单月；保留当时公布口径和精度；直接采用官方累计同比，不从金额推算
@@ -5772,3 +5791,4 @@ property_starts_ytd_yoy,CHN,2026-05,-22.6,%,M,,https://data.stats.gov.cn/dg/webs
 property_starts_ytd_yoy,CHN,2026-06,-23.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_starts_ytd_yoy,CHN,2026-07,-24.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
 property_starts_ytd_yoy,CHN,2026-08,-24.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算
+property_starts_ytd_yoy,CHN,2026-09,-24.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：房地产新开工施工面积累计增长 (%)；年内累计，2月表示1—2月；不是单月；官方可比口径增速，不从历史金额反算

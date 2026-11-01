@@ -5,7 +5,7 @@
 
 全国开发企业的新建商品房与开发建设统计，不是二手房市场或房价指数。以下全部是年内累计值或累计同比：2月代表1—2月，1月不发布，不能把每个月的累计金额相加。官方可比增速独立保存，不从历史金额反算。
 
-本页快照获取时间：**2026-10-02T14:19:42+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:42+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/property.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/property.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -19,26 +19,26 @@
 
 | 指标 | 最新期间 | 数值 | 单位 | 本项目起点 | 观测数 | 来源 |
 |---|---|---:|---|---|---:|---|
-| 新建商品房销售面积累计同比 | 2026-08 | -12.1 | % | 2006-02 | 227 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 新建商品房销售额累计同比 | 2026-08 | -13 | % | 2006-02 | 227 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房地产开发投资累计同比 | 2026-08 | -19.9 | % | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 住宅开发投资累计同比 | 2026-08 | -19.7 | % | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋新开工面积累计同比 | 2026-08 | -24.8 | % | 2000-02 | 285 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋施工面积累计同比 | 2026-08 | -12.8 | % | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋竣工面积累计同比 | 2026-08 | -23.7 | % | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 开发企业到位资金累计同比 | 2026-08 | -21 | % | 2000-12 | 272 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 到位资金：国内贷款累计同比 | 2026-08 | -33.3 | % | 2000-08 | 269 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 到位资金：自筹资金累计同比 | 2026-08 | -20 | % | 2000-12 | 267 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋新开工面积累计值 | 2026-08 | 29,894.06 | 万平方米 | 2000-02 | 285 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋竣工面积累计值 | 2026-08 | 21,097.4 | 万平方米 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房地产开发投资累计值 | 2026-08 | 47,978.85 | 亿元 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 住宅开发投资累计值 | 2026-08 | 37,016.61 | 亿元 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 开发企业到位资金累计值 | 2026-08 | 50,892.64 | 亿元 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 到位资金：国内贷款累计值 | 2026-08 | 6,880.28 | 亿元 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 到位资金：自筹资金累计值 | 2026-08 | 18,432.33 | 亿元 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 房屋施工面积累计值 | 2026-08 | 560,769.71 | 万平方米 | 2000-02 | 293 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 新建商品房销售面积累计值 | 2026-08 | 49,879.77 | 万平方米 | 2006-02 | 227 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
-| 新建商品房销售额累计值 | 2026-08 | 47,470.45 | 亿元 | 2006-02 | 227 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 新建商品房销售面积累计同比 | 2026-09 | -13.2 | % | 2006-02 | 228 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 新建商品房销售额累计同比 | 2026-09 | -13.9 | % | 2006-02 | 228 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房地产开发投资累计同比 | 2026-09 | -20.6 | % | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 住宅开发投资累计同比 | 2026-09 | -20.5 | % | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋新开工面积累计同比 | 2026-09 | -24.9 | % | 2000-02 | 286 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋施工面积累计同比 | 2026-09 | -12.8 | % | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋竣工面积累计同比 | 2026-09 | -25.1 | % | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 开发企业到位资金累计同比 | 2026-09 | -21.6 | % | 2000-12 | 273 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 到位资金：国内贷款累计同比 | 2026-09 | -33.1 | % | 2000-08 | 270 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 到位资金：自筹资金累计同比 | 2026-09 | -21.4 | % | 2000-12 | 268 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋新开工面积累计值 | 2026-09 | 34,031.3 | 万平方米 | 2000-02 | 286 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋竣工面积累计值 | 2026-09 | 23,271.28 | 万平方米 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房地产开发投资累计值 | 2026-09 | 53,363.52 | 亿元 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 住宅开发投资累计值 | 2026-09 | 41,124.92 | 亿元 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 开发企业到位资金累计值 | 2026-09 | 56,812.72 | 亿元 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 到位资金：国内贷款累计值 | 2026-09 | 7,623.99 | 亿元 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 到位资金：自筹资金累计值 | 2026-09 | 20,571.8 | 亿元 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 房屋施工面积累计值 | 2026-09 | 565,221.2 | 万平方米 | 2000-02 | 294 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 新建商品房销售面积累计值 | 2026-09 | 56,482.9 | 万平方米 | 2006-02 | 228 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
+| 新建商品房销售额累计值 | 2026-09 | 53,798.77 | 亿元 | 2006-02 | 228 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 新建商品房销售面积累计值（2004年及以前实际销售口径） | 2004-12 | 38,231.64 | 万平方米 | 2000-02 | 55 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 新建商品房销售面积累计同比（2004年及以前实际销售口径） | 2004-12 | 13.7 | % | 2000-02 | 55 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
 | 新建商品房销售额累计值（2004年及以前实际销售口径） | 2004-12 | 10,375.71 | 亿元 | 2000-02 | 55 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/monthData) |
@@ -61,6 +61,7 @@
 <details class="macro-details">
 <summary>新建商品房销售：面积与金额累计同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>新建商品房销售面积累计同比</th><th>新建商品房销售额累计同比</th></tr></thead><tbody>
+<tr id="macro-property-sales-growth-2026-09" tabindex="-1"><td>2026-09</td><td>-13.2</td><td>-13.9</td></tr>
 <tr id="macro-property-sales-growth-2026-08" tabindex="-1"><td>2026-08</td><td>-12.1</td><td>-13</td></tr>
 <tr id="macro-property-sales-growth-2026-07" tabindex="-1"><td>2026-07</td><td>-11.8</td><td>-13.1</td></tr>
 <tr id="macro-property-sales-growth-2026-06" tabindex="-1"><td>2026-06</td><td>-11.6</td><td>-13.6</td></tr>
@@ -319,6 +320,7 @@
 <details class="macro-details">
 <summary>开发投资：全部与住宅累计同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>房地产开发投资累计同比</th><th>住宅开发投资累计同比</th></tr></thead><tbody>
+<tr id="macro-property-investment-growth-2026-09" tabindex="-1"><td>2026-09</td><td>-20.6</td><td>-20.5</td></tr>
 <tr id="macro-property-investment-growth-2026-08" tabindex="-1"><td>2026-08</td><td>-19.9</td><td>-19.7</td></tr>
 <tr id="macro-property-investment-growth-2026-07" tabindex="-1"><td>2026-07</td><td>-19.2</td><td>-19.1</td></tr>
 <tr id="macro-property-investment-growth-2026-06" tabindex="-1"><td>2026-06</td><td>-18</td><td>-17.8</td></tr>
@@ -649,6 +651,7 @@
 <details class="macro-details">
 <summary>建设进度：开工、施工与竣工累计同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>房屋新开工面积累计同比</th><th>房屋施工面积累计同比</th><th>房屋竣工面积累计同比</th></tr></thead><tbody>
+<tr id="macro-property-building-growth-2026-09" tabindex="-1"><td>2026-09</td><td>-24.9</td><td>-12.8</td><td>-25.1</td></tr>
 <tr id="macro-property-building-growth-2026-08" tabindex="-1"><td>2026-08</td><td>-24.8</td><td>-12.8</td><td>-23.7</td></tr>
 <tr id="macro-property-building-growth-2026-07" tabindex="-1"><td>2026-07</td><td>-24</td><td>-12.7</td><td>-23.2</td></tr>
 <tr id="macro-property-building-growth-2026-06" tabindex="-1"><td>2026-06</td><td>-23.4</td><td>-12.5</td><td>-23.7</td></tr>
@@ -979,6 +982,7 @@
 <details class="macro-details">
 <summary>到位资金：总量、国内贷款与自筹累计同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>开发企业到位资金累计同比</th><th>到位资金：国内贷款累计同比</th><th>到位资金：自筹资金累计同比</th></tr></thead><tbody>
+<tr id="macro-property-funding-growth-2026-09" tabindex="-1"><td>2026-09</td><td>-21.6</td><td>-33.1</td><td>-21.4</td></tr>
 <tr id="macro-property-funding-growth-2026-08" tabindex="-1"><td>2026-08</td><td>-21</td><td>-33.3</td><td>-20</td></tr>
 <tr id="macro-property-funding-growth-2026-07" tabindex="-1"><td>2026-07</td><td>-20.3</td><td>-32.1</td><td>-18.5</td></tr>
 <tr id="macro-property-funding-growth-2026-06" tabindex="-1"><td>2026-06</td><td>-20.2</td><td>-31.7</td><td>-16.4</td></tr>
@@ -1303,6 +1307,7 @@
 <details class="macro-details">
 <summary>新开工与竣工：年内累计面积：展开完整数据表（万平方米）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>房屋新开工面积累计值</th><th>房屋竣工面积累计值</th></tr></thead><tbody>
+<tr id="macro-property-building-area-2026-09" tabindex="-1"><td>2026-09</td><td>34,031.3</td><td>23,271.28</td></tr>
 <tr id="macro-property-building-area-2026-08" tabindex="-1"><td>2026-08</td><td>29,894.06</td><td>21,097.4</td></tr>
 <tr id="macro-property-building-area-2026-07" tabindex="-1"><td>2026-07</td><td>26,700.19</td><td>19,195.35</td></tr>
 <tr id="macro-property-building-area-2026-06" tabindex="-1"><td>2026-06</td><td>23,238.94</td><td>17,221.11</td></tr>
@@ -1633,6 +1638,7 @@
 <details class="macro-details">
 <summary>开发投资：年内累计金额：展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>房地产开发投资累计值</th><th>住宅开发投资累计值</th></tr></thead><tbody>
+<tr id="macro-property-investment-level-2026-09" tabindex="-1"><td>2026-09</td><td>53,363.52</td><td>41,124.92</td></tr>
 <tr id="macro-property-investment-level-2026-08" tabindex="-1"><td>2026-08</td><td>47,978.85</td><td>37,016.61</td></tr>
 <tr id="macro-property-investment-level-2026-07" tabindex="-1"><td>2026-07</td><td>43,008.95</td><td>33,172.31</td></tr>
 <tr id="macro-property-investment-level-2026-06" tabindex="-1"><td>2026-06</td><td>38,073.7</td><td>29,300.19</td></tr>
@@ -1961,6 +1967,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>56,812.72</td></tr>
 <tr><td>2026-08</td><td>50,892.64</td></tr>
 <tr><td>2026-07</td><td>45,747.95</td></tr>
 <tr><td>2026-06</td><td>40,233.35</td></tr>
@@ -2263,6 +2270,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>7,623.99</td></tr>
 <tr><td>2026-08</td><td>6,880.28</td></tr>
 <tr><td>2026-07</td><td>6,299.8</td></tr>
 <tr><td>2026-06</td><td>5,716.03</td></tr>
@@ -2565,6 +2573,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>20,571.8</td></tr>
 <tr><td>2026-08</td><td>18,432.33</td></tr>
 <tr><td>2026-07</td><td>16,543.63</td></tr>
 <tr><td>2026-06</td><td>14,739.86</td></tr>
@@ -2867,6 +2876,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（万平方米）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>565,221.2</td></tr>
 <tr><td>2026-08</td><td>560,769.71</td></tr>
 <tr><td>2026-07</td><td>557,572.46</td></tr>
 <tr><td>2026-06</td><td>554,049.01</td></tr>
@@ -3169,6 +3179,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（万平方米）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>56,482.9</td></tr>
 <tr><td>2026-08</td><td>49,879.77</td></tr>
 <tr><td>2026-07</td><td>45,020.81</td></tr>
 <tr><td>2026-06</td><td>40,139.62</td></tr>
@@ -3405,6 +3416,7 @@
 <details class="macro-details">
 <summary>展开完整数据表（亿元）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>数值</th></tr></thead><tbody>
+<tr><td>2026-09</td><td>53,798.77</td></tr>
 <tr><td>2026-08</td><td>47,470.45</td></tr>
 <tr><td>2026-07</td><td>42,718.18</td></tr>
 <tr><td>2026-06</td><td>37,944.58</td></tr>

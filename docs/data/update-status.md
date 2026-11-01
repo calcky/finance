@@ -12,21 +12,21 @@
 | 专题 | 同步状态 | 快照获取 | 状态变更 |
 |---|---|---|---|
 | [GDP 历史数据](gdp.md) | 通过 | 2026-10-09<br>02:11:13 | 2026-10-09<br>02:26:02 |
-| [中国人口、生育与家庭](population.md) | 通过 | 2026-10-02<br>15:21:37 | 2026-10-09<br>02:26:02 |
+| [中国人口、生育与家庭](population.md) | 通过 | 2026-11-01<br>03:19:40 | 2026-11-01<br>03:19:47 |
 | [上海人口与生育](shanghai-population.md) | 失败，保留快照 | 2026-10-02<br>15:21:38 | 2026-10-09<br>02:26:02 |
-| [中国与上海房价](housing-prices.md) | 通过 | 2026-10-02<br>15:33:59 | 2026-10-09<br>02:26:02 |
-| [中国住宅资产总值：研究估算](housing-wealth.md) | 通过 | 2026-10-02<br>15:21:39 | 2026-10-06<br>02:30:56 |
-| [房地产：销售、资金与建设](property.md) | 通过 | 2026-10-02<br>14:19:42 | 2026-10-02<br>21:07:56 |
-| [社融与信贷结构](credit-structure.md) | 通过 | 2026-10-02<br>13:43:15 | 2026-10-02<br>21:07:56 |
-| [中国季度 GDP](quarterly-gdp.md) | 通过 | 2026-10-02<br>12:42:00 | 2026-10-02<br>21:07:56 |
-| [物价与通胀](prices.md) | 通过 | 2026-10-02<br>10:37:57 | 2026-10-02<br>21:07:56 |
-| [货币与社会融资](money-credit.md) | 通过 | 2026-10-10<br>01:58:29 | 2026-10-10<br>01:58:35 |
-| [利率与融资成本](rates.md) | 通过 | 2026-10-14<br>01:27:17 | 2026-10-14<br>01:27:24 |
-| [景气、生产、消费与投资](activity.md) | 通过 | 2026-10-09<br>02:25:56 | 2026-10-09<br>02:26:02 |
-| [就业与居民收入](employment-income.md) | 通过 | 2026-10-02<br>10:37:59 | 2026-10-02<br>21:07:56 |
-| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-10-14<br>01:27:18 | 2026-10-14<br>01:27:24 |
-| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-10-14<br>01:27:24 |
-| [美联储与美国利率](us-rates.md) | 通过 | 2026-10-14<br>01:27:22 | 2026-10-14<br>01:27:24 |
+| [中国与上海房价](housing-prices.md) | 通过 | 2026-11-01<br>03:19:41 | 2026-11-01<br>03:19:47 |
+| [中国住宅资产总值：研究估算](housing-wealth.md) | 失败，保留快照 | 2026-10-02<br>15:21:39 | 2026-11-01<br>03:19:47 |
+| [房地产：销售、资金与建设](property.md) | 通过 | 2026-11-01<br>03:19:42 | 2026-11-01<br>03:19:47 |
+| [社融与信贷结构](credit-structure.md) | 失败，保留快照 | 2026-10-02<br>13:43:15 | 2026-11-01<br>03:19:47 |
+| [中国季度 GDP](quarterly-gdp.md) | 通过 | 2026-11-01<br>03:19:42 | 2026-11-01<br>03:19:47 |
+| [物价与通胀](prices.md) | 通过 | 2026-11-01<br>03:19:42 | 2026-11-01<br>03:19:47 |
+| [货币与社会融资](money-credit.md) | 失败，保留快照 | 2026-10-10<br>01:58:29 | 2026-11-01<br>03:19:47 |
+| [利率与融资成本](rates.md) | 通过 | 2026-11-01<br>03:19:42 | 2026-11-01<br>03:19:47 |
+| [景气、生产、消费与投资](activity.md) | 通过 | 2026-11-01<br>03:19:43 | 2026-11-01<br>03:19:47 |
+| [就业与居民收入](employment-income.md) | 通过 | 2026-11-01<br>03:19:43 | 2026-11-01<br>03:19:47 |
+| [进出口与人民币汇率](trade-fx.md) | 通过 | 2026-11-01<br>03:19:43 | 2026-11-01<br>03:19:47 |
+| [财政政策与政府债务](fiscal.md) | 失败，保留快照 | 2026-10-02<br>15:57:34 | 2026-11-01<br>03:19:47 |
+| [美联储与美国利率](us-rates.md) | 通过 | 2026-11-01<br>03:19:45 | 2026-11-01<br>03:19:47 |
 
 ## 未解决的同步失败
 
@@ -34,9 +34,21 @@
 
 <pre>macro_shanghai: URLError: &lt;urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)&gt; [source: https://wsjkw.sh.gov.cn/tjsj2/index.html]</pre>
 
+### 中国住宅资产总值：研究估算
+
+<pre>macro_housing_wealth: ValueError: WID housing definition missing/changed</pre>
+
+### 社融与信贷结构
+
+<pre>macro_tsf_components: HTTPError: HTTP Error 404: Not Found [source: https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2014s18.htm]; macro_loan_history: HTTPError: HTTP Error 404: Not Found [source: https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/2007S03a.htm]</pre>
+
+### 货币与社会融资
+
+<pre>macro_money_history: HTTPError: HTTP Error 404: Not Found [source: https://www.pbc.gov.cn/eportal/fileDir/defaultCurSite/resource/cms/2015/07/1999-S3c.htm]</pre>
+
 ### 财政政策与政府债务
 
-<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm]</pre>
+<pre>macro_fiscal: RuntimeError: Fiscal source unavailable: https://gks.mof.gov.cn/tongjishuju/index_5.htm &lt;- HTTPError: HTTP Error 502: Bad Gateway [source: https://gks.mof.gov.cn/tongjishuju/index_5.htm]</pre>
 
 
 各专题独立更新；同一专题必须完成全部来源与数据校验后才替换 CSV、元数据和图表。共享来源失败时，依赖它的多个专题都会保留原快照。部分成功不会让整次运行显示成功。

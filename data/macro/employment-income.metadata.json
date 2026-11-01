@@ -105,7 +105,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -120,7 +120,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "3888eac6062945a79c8a27e5f13d4953"
@@ -133,24 +133,24 @@
   },
   "coverage": {
     "income_nominal_ytd_yoy": {
-      "count": 51,
+      "count": 52,
       "first": "2013-Q4",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "income_real_ytd_yoy": {
-      "count": 51,
+      "count": 52,
       "first": "2013-Q4",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "income_ytd": {
-      "count": 54,
+      "count": 55,
       "first": "2013-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "unemployment": {
-      "count": 104,
+      "count": 105,
       "first": "2018-01",
-      "last": "2026-08"
+      "last": "2026-09"
     }
   },
   "history": {
@@ -259,7 +259,7 @@
       "coverage_note": "查询1949年至当前期间的全部可用非缺失值；最早观测不等于官方统计创始日期；缺失不填零。",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -274,7 +274,7 @@
             }
           ],
           "dts": [
-            "194901MM-202610MM"
+            "194901MM-202611MM"
           ],
           "indicatorIds": [
             "3888eac6062945a79c8a27e5f13d4953"
@@ -285,8 +285,8 @@
       ]
     }
   },
-  "history_checked_at": "2026-10-02T10:37:59+00:00",
-  "retrieved_at": "2026-10-02T10:37:59+00:00",
+  "history_checked_at": "2026-11-01T03:19:43+00:00",
+  "retrieved_at": "2026-11-01T03:19:43+00:00",
   "schema_version": 2,
   "series": {
     "income_nominal_ytd_yoy": {

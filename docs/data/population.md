@@ -5,7 +5,7 @@
 
 人口是人数，家庭户是共同居住生活的单位，出生率与总和生育率的分母也不同。普查和1%调查只画真实调查年份，不制造年度插值。联合国总和生育率采用历史估计，排除预测期。
 
-本页快照获取时间：**2026-10-02T15:21:37+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:40+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/population.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/population.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 

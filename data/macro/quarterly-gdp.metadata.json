@@ -428,59 +428,59 @@
   },
   "coverage": {
     "gdp_primary_q_nominal": {
-      "count": 138,
+      "count": 139,
       "first": "1992-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_primary_q_yoy": {
-      "count": 134,
+      "count": 135,
       "first": "1993-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_q_nominal": {
-      "count": 138,
+      "count": 139,
       "first": "1992-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_q_yoy": {
-      "count": 134,
+      "count": 135,
       "first": "1993-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_qoq_sa": {
-      "count": 62,
+      "count": 63,
       "first": "2011-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_secondary_q_nominal": {
-      "count": 138,
+      "count": 139,
       "first": "1992-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_secondary_q_yoy": {
-      "count": 134,
+      "count": 135,
       "first": "1993-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_tertiary_q_nominal": {
-      "count": 138,
+      "count": 139,
       "first": "1992-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_tertiary_q_yoy": {
-      "count": 134,
+      "count": 135,
       "first": "1993-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_ytd_nominal": {
-      "count": 138,
+      "count": 139,
       "first": "1992-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     },
     "gdp_ytd_yoy": {
-      "count": 134,
+      "count": 135,
       "first": "1993-Q1",
-      "last": "2026-Q2"
+      "last": "2026-Q3"
     }
   },
   "history": {
@@ -910,8 +910,8 @@
       "requested_window_complete": true
     }
   },
-  "history_checked_at": "2026-10-02T12:42:00+00:00",
-  "retrieved_at": "2026-10-02T12:42:00+00:00",
+  "history_checked_at": "2026-11-01T03:19:42+00:00",
+  "retrieved_at": "2026-11-01T03:19:42+00:00",
   "schema_version": 2,
   "series": {
     "gdp_primary_q_nominal": {

@@ -163,6 +163,7 @@ core_cpi_yoy,CHN,2026-05,1.1,%,M,,https://data.stats.gov.cn/dg/website/publicrel
 core_cpi_yoy,CHN,2026-06,1.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：不包括食品和能源居民消费价格指数 (上年同月=100)；原始值 101.0；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 core_cpi_yoy,CHN,2026-07,0.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：不包括食品和能源居民消费价格指数 (上年同月=100)；原始值 100.9；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 core_cpi_yoy,CHN,2026-08,1.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：不包括食品和能源居民消费价格指数 (上年同月=100)；原始值 101.0；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
+core_cpi_yoy,CHN,2026-09,1.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：不包括食品和能源居民消费价格指数 (上年同月=100)；原始值 101.0；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_mom,CHN,2000-01,-0.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 99.8；目录 bc985d1741a94451880c606022a8fe00；分类版本 2000–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_mom,CHN,2000-02,0.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 100.7；目录 bc985d1741a94451880c606022a8fe00；分类版本 2000–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_mom,CHN,2000-03,-0.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 99.8；目录 bc985d1741a94451880c606022a8fe00；分类版本 2000–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
@@ -483,6 +484,7 @@ cpi_mom,CHN,2026-05,-0.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease
 cpi_mom,CHN,2026-06,-0.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 99.7；目录 b4fad2cf9e0e4af7815b7e9e2e95c5c7；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_mom,CHN,2026-07,-0.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 99.9；目录 b4fad2cf9e0e4af7815b7e9e2e95c5c7；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_mom,CHN,2026-08,0.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 100.4；目录 b4fad2cf9e0e4af7815b7e9e2e95c5c7；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
+cpi_mom,CHN,2026-09,0.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上月=100)；原始值 100.2；目录 b4fad2cf9e0e4af7815b7e9e2e95c5c7；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_yoy,CHN,1998-01,0.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 100.3；目录 954cfd7597e34b919ec71caf6aeead51；分类版本 1998–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_yoy,CHN,1998-02,-0.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 99.9；目录 954cfd7597e34b919ec71caf6aeead51；分类版本 1998–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_yoy,CHN,1998-03,0.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 100.7；目录 954cfd7597e34b919ec71caf6aeead51；分类版本 1998–2015；比较指数减100得到涨跌幅，保留官方各期权重/分类
@@ -827,6 +829,7 @@ cpi_yoy,CHN,2026-05,1.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/
 cpi_yoy,CHN,2026-06,1.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 101.0；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_yoy,CHN,2026-07,0.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 100.5；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 cpi_yoy,CHN,2026-08,0.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 100.8；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
+cpi_yoy,CHN,2026-09,0.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：居民消费价格指数 (上年同月=100)；原始值 100.9；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 food_cpi_legacy_yoy,CHN,1998-01,-2.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 97.7；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类；2000年及以前食品中含烟酒，与后期食品范围分列
 food_cpi_legacy_yoy,CHN,1998-02,-2.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 97.1；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类；2000年及以前食品中含烟酒，与后期食品范围分列
 food_cpi_legacy_yoy,CHN,1998-03,-0.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 99.2；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类；2000年及以前食品中含烟酒，与后期食品范围分列
@@ -1171,6 +1174,7 @@ food_cpi_yoy,CHN,2026-05,-1.7,%,M,,https://data.stats.gov.cn/dg/website/publicre
 food_cpi_yoy,CHN,2026-06,-1.6,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 98.4；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类
 food_cpi_yoy,CHN,2026-07,-1.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 98.5；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类
 food_cpi_yoy,CHN,2026-08,-1.4,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 98.6；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类
+food_cpi_yoy,CHN,2026-09,-1.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：食品类居民消费价格指数 (上年同月=100)；原始值 98.3；目录 deccae3d6ecb4967809ab21a3c679c7f；比较指数减100得到涨跌幅，保留官方各期权重/分类
 nonfood_cpi_yoy,CHN,2002-03,-0.8,%,M,2002-04-19,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920262.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2002-04,-0.9,%,M,2002-05-16,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920282.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2002-05,-0.9,%,M,2002-06-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920292.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
@@ -1268,7 +1272,7 @@ nonfood_cpi_yoy,CHN,2011-02,2.3,%,M,2011-03-11,https://www.stats.gov.cn/sj/zxfb/
 nonfood_cpi_yoy,CHN,2011-03,2.7,%,M,2011-04-15,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2011-04,2.7,%,M,2011-05-11,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919261.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2011-05,2.9,%,M,2011-06-14,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919265.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
-nonfood_cpi_yoy,CHN,2011-06,3.0,%,M,2011-07-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919274.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+nonfood_cpi_yoy,CHN,2011-06,3.0,%,M,2011-07-13,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919274.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2011-07,2.9,%,M,2011-08-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919278.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2011-08,3.0,%,M,2011-09-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919286.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2011-09,2.9,%,M,2011-10-18,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919298.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
@@ -1283,10 +1287,10 @@ nonfood_cpi_yoy,CHN,2012-05,1.4,%,M,2012-06-09,https://www.stats.gov.cn/sj/zxfb/
 nonfood_cpi_yoy,CHN,2012-06,1.4,%,M,2012-07-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919087.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2012-07,1.5,%,M,2012-08-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919101.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2012-08,1.4,%,M,2012-09-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919113.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
-nonfood_cpi_yoy,CHN,2012-09,1.7,%,M,2012-10-18,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919127.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+nonfood_cpi_yoy,CHN,2012-09,1.7,%,M,2012-10-18,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919127.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2012-10,1.7,%,M,2012-11-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919139.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2012-11,1.6,%,M,2012-12-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919150.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
-nonfood_cpi_yoy,CHN,2012-12,1.7,%,M,2013-01-18,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1898251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+nonfood_cpi_yoy,CHN,2012-12,1.7,%,M,2013-01-18,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 nonfood_cpi_yoy,CHN,2013-01,1.6,%,M,2013-02-08,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898263.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2013-02,1.9,%,M,2013-03-09,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898268.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 nonfood_cpi_yoy,CHN,2013-03,1.8,%,M,2013-04-09,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898280.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
@@ -1451,6 +1455,7 @@ nonfood_cpi_yoy,CHN,2026-05,1.9,%,M,,https://data.stats.gov.cn/dg/website/public
 nonfood_cpi_yoy,CHN,2026-06,1.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非食品居民消费价格指数 (上年同月=100)；原始值 101.5；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 nonfood_cpi_yoy,CHN,2026-07,0.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非食品居民消费价格指数 (上年同月=100)；原始值 100.9；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 nonfood_cpi_yoy,CHN,2026-08,1.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非食品居民消费价格指数 (上年同月=100)；原始值 101.2；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
+nonfood_cpi_yoy,CHN,2026-09,1.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：非食品居民消费价格指数 (上年同月=100)；原始值 101.5；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 ppi_yoy,CHN,1993-01,17.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 117.9；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
 ppi_yoy,CHN,1993-02,18.2,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 118.2；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
 ppi_yoy,CHN,1993-03,21.3,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 121.3；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
@@ -1855,6 +1860,7 @@ ppi_yoy,CHN,2026-05,3.9,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/
 ppi_yoy,CHN,2026-06,4.1,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 104.1；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
 ppi_yoy,CHN,2026-07,3.5,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 103.5；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
 ppi_yoy,CHN,2026-08,3.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 103.8；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
+ppi_yoy,CHN,2026-09,5.0,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：工业生产者出厂价格指数 (上年同月=100)；原始值 105.0；目录 60e8b361f11c4a878c652a6487a25561；比较指数减100得到涨跌幅，保留官方各期权重/分类
 services_cpi_yoy,CHN,2001-10,4.2,%,M,2001-11-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920237.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2001-12,3.8,%,M,2002-01-16,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920251.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2002-01,3.1,%,M,2002-02-22,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1920266.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
@@ -1961,7 +1967,7 @@ services_cpi_yoy,CHN,2011-02,3.8,%,M,2011-03-11,https://www.stats.gov.cn/sj/zxfb
 services_cpi_yoy,CHN,2011-03,4.2,%,M,2011-04-15,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2011-04,3.9,%,M,2011-05-11,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919261.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2011-05,3.9,%,M,2011-06-14,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919265.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
-services_cpi_yoy,CHN,2011-06,4.0,%,M,2011-07-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919274.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+services_cpi_yoy,CHN,2011-06,4.0,%,M,2011-07-13,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919274.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2011-07,3.7,%,M,2011-08-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919278.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2011-08,3.4,%,M,2011-09-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919286.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2011-09,3.0,%,M,2011-10-18,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919298.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
@@ -1976,10 +1982,10 @@ services_cpi_yoy,CHN,2012-05,1.7,%,M,2012-06-09,https://www.stats.gov.cn/sj/zxfb
 services_cpi_yoy,CHN,2012-06,1.9,%,M,2012-07-13,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919087.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2012-07,2.0,%,M,2012-08-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919101.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2012-08,2.0,%,M,2012-09-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919113.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
-services_cpi_yoy,CHN,2012-09,2.3,%,M,2012-10-18,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919127.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+services_cpi_yoy,CHN,2012-09,2.3,%,M,2012-10-18,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202303/t20230301_1919127.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2012-10,2.3,%,M,2012-11-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919139.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2012-11,2.3,%,M,2012-12-09,https://www.stats.gov.cn/sj/zxfb/202303/t20230301_1919150.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
-services_cpi_yoy,CHN,2012-12,2.5,%,M,2013-01-18,https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1898251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
+services_cpi_yoy,CHN,2012-12,2.5,%,M,2013-01-18,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898251.html,国家统计局经济运行公告附表；明确选取单月列的CPI分项同比，未使用季度或年内累计列
 services_cpi_yoy,CHN,2013-01,2.2,%,M,2013-02-08,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898263.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2013-02,3.1,%,M,2013-03-09,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898268.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
 services_cpi_yoy,CHN,2013-03,3.1,%,M,2013-04-09,https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898280.html,国家统计局原始月度CPI公告；同比涨跌幅直接使用；补充旧JSON分类目录未列出的分项
@@ -2144,3 +2150,4 @@ services_cpi_yoy,CHN,2026-05,0.8,%,M,,https://data.stats.gov.cn/dg/website/publi
 services_cpi_yoy,CHN,2026-06,0.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：服务居民消费价格指数 (上年同月=100)；原始值 100.8；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 services_cpi_yoy,CHN,2026-07,0.7,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：服务居民消费价格指数 (上年同月=100)；原始值 100.7；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
 services_cpi_yoy,CHN,2026-08,0.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：服务居民消费价格指数 (上年同月=100)；原始值 100.8；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类
+services_cpi_yoy,CHN,2026-09,0.8,%,M,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：服务居民消费价格指数 (上年同月=100)；原始值 100.8；目录 5c7452825c7c4dcba391db5ca7f335c5；分类版本 2026–；比较指数减100得到涨跌幅，保留官方各期权重/分类

@@ -5,7 +5,7 @@
 
 房价不存在一个可以代表所有房屋的单一数字。全国新建住宅成交均价用元/平方米，BIS70城代表序列用指数，上海新房与二手房用同比、环比；不混成一条曲线。真实口径转换分段保留，旧数据仍在图表或补充明细中。
 
-本页快照获取时间：**2026-10-02T15:33:59+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
+本页快照获取时间：**2026-11-01T03:19:41+00:00**。这是获取时间，不是所有数据的发布日期。每日检查上游；最新统计期以每个指标为准。
 
 [CSV 下载](https://raw.githubusercontent.com/calcky/finance/main/data/macro/housing-prices.csv) · [来源与采集参数](https://github.com/calcky/finance/blob/main/data/macro/housing-prices.metadata.json) · [最近同步状态](https://github.com/calcky/finance/actions/workflows/update-gdp.yml)
 
@@ -24,12 +24,12 @@
 | 新建住宅成交均价（2006年起） | 2024 | 10,419 | 元/平方米 | 2006 | 19 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/yearData) |
 | 名义指数（2016年前新房） | 2015-Q4 | 108.8422 | 指数点（2010年=100） | 2005-Q2 | 43 | [BIS](https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv) |
 | 名义指数（2016起二手房） | 2026-Q2 | 112.9201 | 指数点（2010年=100） | 2016-Q1 | 42 | [BIS](https://stats.bis.org/api/v1/data/WS_SPP/Q.CN.N.628?format=csv) |
-| 新房同比（2011起） | 2026-08 | 3 | % | 2011-01 | 188 | [国家统计局](https://data.stats.gov.cn/) |
-| 二手房同比（2011起） | 2026-08 | -0.8 | % | 2011-01 | 188 | [国家统计局](https://data.stats.gov.cn/) |
+| 新房同比（2011起） | 2026-09 | 2.8 | % | 2011-01 | 189 | [国家统计局](https://data.stats.gov.cn/) |
+| 二手房同比（2011起） | 2026-09 | 0.8 | % | 2011-01 | 189 | [国家统计局](https://data.stats.gov.cn/) |
 | 新房同比（旧法2006—2010） | 2010-12 | 1.3 | % | 2006-01 | 60 | [国家统计局](https://data.stats.gov.cn/) |
 | 二手房同比（旧法2006—2010） | 2010-12 | 3.3 | % | 2006-01 | 60 | [国家统计局](https://data.stats.gov.cn/) |
-| 新房环比（2011起） | 2026-08 | 0.4 | % | 2011-01 | 188 | [国家统计局](https://data.stats.gov.cn/) |
-| 二手房环比（2011起） | 2026-08 | 0.3 | % | 2011-01 | 188 | [国家统计局](https://data.stats.gov.cn/) |
+| 新房环比（2011起） | 2026-09 | 0.2 | % | 2011-01 | 189 | [国家统计局](https://data.stats.gov.cn/) |
+| 二手房环比（2011起） | 2026-09 | 0.5 | % | 2011-01 | 189 | [国家统计局](https://data.stats.gov.cn/) |
 | 新房环比（旧法2006—2010） | 2010-12 | 0.3 | % | 2006-01 | 60 | [国家统计局](https://data.stats.gov.cn/) |
 | 二手房环比（旧法2006—2010） | 2010-12 | 0.6 | % | 2006-01 | 60 | [国家统计局](https://data.stats.gov.cn/) |
 | 商品房成交均价（2004年及以前） | 2004 | 2,778 | 元/平方米 | 1991 | 14 | [国家统计局](https://data.stats.gov.cn/dg/website/page.html#/pc/national/yearData) |
@@ -192,6 +192,7 @@
 <details class="macro-details">
 <summary>上海新房与二手房：同比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>新房同比（2011起）</th><th>二手房同比（2011起）</th><th>新房同比（旧法2006—2010）</th><th>二手房同比（旧法2006—2010）</th></tr></thead><tbody>
+<tr id="macro-housing-shanghai-yoy-2026-09" tabindex="-1"><td>2026-09</td><td>2.8</td><td>0.8</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-yoy-2026-08" tabindex="-1"><td>2026-08</td><td>3</td><td>-0.8</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-yoy-2026-07" tabindex="-1"><td>2026-07</td><td>3</td><td>-2</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-yoy-2026-06" tabindex="-1"><td>2026-06</td><td>3.1</td><td>-3.2</td><td>缺失</td><td>缺失</td></tr>
@@ -451,6 +452,7 @@
 <details class="macro-details">
 <summary>上海新房与二手房：环比：展开完整数据表（%）</summary>
 <div class="macro-table-wrap"><table><thead><tr><th>期间</th><th>新房环比（2011起）</th><th>二手房环比（2011起）</th><th>新房环比（旧法2006—2010）</th><th>二手房环比（旧法2006—2010）</th></tr></thead><tbody>
+<tr id="macro-housing-shanghai-mom-2026-09" tabindex="-1"><td>2026-09</td><td>0.2</td><td>0.5</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-mom-2026-08" tabindex="-1"><td>2026-08</td><td>0.4</td><td>0.3</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-mom-2026-07" tabindex="-1"><td>2026-07</td><td>0.2</td><td>0.3</td><td>缺失</td><td>缺失</td></tr>
 <tr id="macro-housing-shanghai-mom-2026-06" tabindex="-1"><td>2026-06</td><td>0.3</td><td>0.4</td><td>缺失</td><td>缺失</td></tr>

@@ -15,7 +15,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -29,7 +29,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -59,7 +59,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -73,7 +73,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -103,7 +103,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -117,7 +117,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -147,7 +147,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -161,7 +161,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -191,7 +191,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -205,7 +205,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -235,7 +235,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -249,7 +249,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -337,7 +337,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -351,7 +351,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -381,7 +381,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -395,7 +395,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -511,7 +511,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -525,7 +525,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -553,7 +553,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -567,7 +567,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -595,7 +595,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -609,7 +609,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -637,7 +637,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -651,7 +651,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -679,7 +679,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=0ae633cdb85f4a8397650831b2b27e50",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -693,7 +693,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -733,7 +733,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -773,7 +773,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -799,7 +799,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=0ae633cdb85f4a8397650831b2b27e50",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -813,7 +813,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -853,7 +853,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -893,7 +893,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -919,7 +919,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5530aa75038249fab2e5e10a9997c18b",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -933,7 +933,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -973,7 +973,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -1013,7 +1013,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -1039,7 +1039,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5530aa75038249fab2e5e10a9997c18b",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -1053,7 +1053,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -1093,7 +1093,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -1133,7 +1133,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -1159,7 +1159,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1173,7 +1173,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -1203,7 +1203,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1217,7 +1217,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -1298,7 +1298,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1312,7 +1312,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1355,7 +1355,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1369,7 +1369,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1396,69 +1396,69 @@
   },
   "coverage": {
     "property_completions_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_completions_ytd_yoy": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_construction_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_construction_ytd_yoy": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_domestic_loans_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_domestic_loans_ytd_yoy": {
-      "count": 269,
+      "count": 270,
       "first": "2000-08",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_funds_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_funds_ytd_yoy": {
-      "count": 272,
+      "count": 273,
       "first": "2000-12",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_investment_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_investment_ytd_yoy": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_residential_investment_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_residential_investment_ytd_yoy": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_sales_area_ytd": {
-      "count": 227,
+      "count": 228,
       "first": "2006-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_sales_area_ytd_legacy": {
       "count": 55,
@@ -1471,9 +1471,9 @@
       "last": "2005-12"
     },
     "property_sales_area_ytd_yoy": {
-      "count": 227,
+      "count": 228,
       "first": "2006-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_sales_area_ytd_yoy_legacy": {
       "count": 55,
@@ -1486,9 +1486,9 @@
       "last": "2005-12"
     },
     "property_sales_value_ytd": {
-      "count": 227,
+      "count": 228,
       "first": "2006-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_sales_value_ytd_legacy": {
       "count": 55,
@@ -1501,9 +1501,9 @@
       "last": "2005-12"
     },
     "property_sales_value_ytd_yoy": {
-      "count": 227,
+      "count": 228,
       "first": "2006-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_sales_value_ytd_yoy_legacy": {
       "count": 55,
@@ -1516,24 +1516,24 @@
       "last": "2005-12"
     },
     "property_self_funding_ytd": {
-      "count": 293,
+      "count": 294,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_self_funding_ytd_yoy": {
-      "count": 267,
+      "count": 268,
       "first": "2000-12",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_starts_ytd": {
-      "count": 285,
+      "count": 286,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     },
     "property_starts_ytd_yoy": {
-      "count": 285,
+      "count": 286,
       "first": "2000-02",
-      "last": "2026-08"
+      "last": "2026-09"
     }
   },
   "history": {
@@ -1552,7 +1552,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1566,7 +1566,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1596,7 +1596,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1610,7 +1610,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1640,7 +1640,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1654,7 +1654,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1684,7 +1684,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1698,7 +1698,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -1728,7 +1728,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1742,7 +1742,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -1772,7 +1772,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1786,7 +1786,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -1874,7 +1874,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1888,7 +1888,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -1918,7 +1918,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -1932,7 +1932,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -2048,7 +2048,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2062,7 +2062,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -2090,7 +2090,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2104,7 +2104,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -2132,7 +2132,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2146,7 +2146,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -2174,7 +2174,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=9206137ccf03460daa74b7799e0f3c31",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2188,7 +2188,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "bfb626c0dfa04afab67937c452ca9f50",
@@ -2216,7 +2216,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=0ae633cdb85f4a8397650831b2b27e50",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -2230,7 +2230,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2270,7 +2270,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2310,7 +2310,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2336,7 +2336,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=0ae633cdb85f4a8397650831b2b27e50",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -2350,7 +2350,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2390,7 +2390,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2430,7 +2430,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d353226cf0434c929b6299f8d4987754",
@@ -2456,7 +2456,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5530aa75038249fab2e5e10a9997c18b",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -2470,7 +2470,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2510,7 +2510,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2550,7 +2550,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2576,7 +2576,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5530aa75038249fab2e5e10a9997c18b",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "2006-01"
         }
       ],
@@ -2590,7 +2590,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2630,7 +2630,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2670,7 +2670,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "090ed0c087024014a7fe903e409958df",
@@ -2696,7 +2696,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2710,7 +2710,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -2740,7 +2740,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=4c5a2c305155451f99abf94e42305ba2",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2754,7 +2754,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "d43adb048a744b60bdc1621c967a5331",
@@ -2835,7 +2835,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2849,7 +2849,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -2892,7 +2892,7 @@
       "metadata_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cac0766314e045ea82f69886aabd31b0",
       "refresh_ranges": [
         {
-          "end": "2026-10",
+          "end": "2026-11",
           "start": "1949-01"
         }
       ],
@@ -2906,7 +2906,7 @@
           }
         ],
         "dts": [
-          "194901MM-202610MM"
+          "194901MM-202611MM"
         ],
         "indicatorIds": [
           "9ed8eb38cd5a4dbc8bc340883fb8754d",
@@ -2931,8 +2931,8 @@
       ]
     }
   },
-  "history_checked_at": "2026-10-02T14:19:42+00:00",
-  "retrieved_at": "2026-10-02T14:19:42+00:00",
+  "history_checked_at": "2026-11-01T03:19:42+00:00",
+  "retrieved_at": "2026-11-01T03:19:42+00:00",
   "schema_version": 2,
   "series": {
     "property_completions_ytd": {

@@ -137,6 +137,7 @@ gdp_primary_q_nominal,CHN,2025-Q3,26952.3,亿元,Q,,https://data.stats.gov.cn/dg
 gdp_primary_q_nominal,CHN,2025-Q4,35159.7,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值当季值 (亿元)；原始值 35159.7；直接采用官方值
 gdp_primary_q_nominal,CHN,2026-Q1,11940.8,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值当季值 (亿元)；原始值 11940.8；直接采用官方值
 gdp_primary_q_nominal,CHN,2026-Q2,19581.0,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值当季值 (亿元)；原始值 19581.0；直接采用官方值
+gdp_primary_q_nominal,CHN,2026-Q3,27472.1,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值当季值 (亿元)；原始值 27472.1；直接采用官方值
 gdp_primary_q_yoy,CHN,1993-Q1,5.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 105.0；不变价同比指数减100得到增长率
 gdp_primary_q_yoy,CHN,1993-Q2,4.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 104.0；不变价同比指数减100得到增长率
 gdp_primary_q_yoy,CHN,1993-Q3,4.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 104.2；不变价同比指数减100得到增长率
@@ -271,6 +272,7 @@ gdp_primary_q_yoy,CHN,2025-Q3,4.0,%,Q,,https://data.stats.gov.cn/dg/website/publ
 gdp_primary_q_yoy,CHN,2025-Q4,4.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 104.2；不变价同比指数减100得到增长率
 gdp_primary_q_yoy,CHN,2026-Q1,3.8,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 103.8；不变价同比指数减100得到增长率
 gdp_primary_q_yoy,CHN,2026-Q2,3.7,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 103.7；不变价同比指数减100得到增长率
+gdp_primary_q_yoy,CHN,2026-Q3,3.6,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第一产业增加值指数 (上年同期=100) 当季值；原始值 103.6；不变价同比指数减100得到增长率
 gdp_q_nominal,CHN,1992-Q1,5284.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 5284.9；直接采用官方值
 gdp_q_nominal,CHN,1992-Q2,6507.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 6507.9；直接采用官方值
 gdp_q_nominal,CHN,1992-Q3,7218.4,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 7218.4；直接采用官方值
@@ -409,6 +411,7 @@ gdp_q_nominal,CHN,2025-Q3,354106.2,亿元,Q,,https://data.stats.gov.cn/dg/websit
 gdp_q_nominal,CHN,2025-Q4,387911.3,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 387911.3；直接采用官方值
 gdp_q_nominal,CHN,2026-Q1,334192.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 334192.9；直接采用官方值
 gdp_q_nominal,CHN,2026-Q2,361511.1,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 361511.1；直接采用官方值
+gdp_q_nominal,CHN,2026-Q3,375367.2,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值当季值 (亿元)；原始值 375367.2；直接采用官方值
 gdp_q_yoy,CHN,1993-Q1,15.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 115.3；不变价同比指数减100得到增长率
 gdp_q_yoy,CHN,1993-Q2,13.5,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 113.5；不变价同比指数减100得到增长率
 gdp_q_yoy,CHN,1993-Q3,13.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 113.0；不变价同比指数减100得到增长率
@@ -543,6 +546,7 @@ gdp_q_yoy,CHN,2025-Q3,4.8,%,Q,,https://data.stats.gov.cn/dg/website/publicreleas
 gdp_q_yoy,CHN,2025-Q4,4.5,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 104.5；不变价同比指数减100得到增长率
 gdp_q_yoy,CHN,2026-Q1,5.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 105.0；不变价同比指数减100得到增长率
 gdp_q_yoy,CHN,2026-Q2,4.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 104.3；不变价同比指数减100得到增长率
+gdp_q_yoy,CHN,2026-Q3,4.5,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 当季值；原始值 104.5；不变价同比指数减100得到增长率
 gdp_qoq_sa,CHN,2011-Q1,2.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 2.3；直接采用官方值
 gdp_qoq_sa,CHN,2011-Q2,2.4,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 2.4；直接采用官方值
 gdp_qoq_sa,CHN,2011-Q3,1.9,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 1.9；直接采用官方值
@@ -605,6 +609,7 @@ gdp_qoq_sa,CHN,2025-Q3,1.1,%,Q,,https://data.stats.gov.cn/dg/website/publicrelea
 gdp_qoq_sa,CHN,2025-Q4,1.1,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 1.1；直接采用官方值
 gdp_qoq_sa,CHN,2026-Q1,1.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 1.3；直接采用官方值
 gdp_qoq_sa,CHN,2026-Q2,0.9,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 0.9；直接采用官方值
+gdp_qoq_sa,CHN,2026-Q3,1.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值环比增长速度 (%)；原始值 1.2；直接采用官方值
 gdp_secondary_q_nominal,CHN,1992-Q1,2400.8,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 2400.8；直接采用官方值
 gdp_secondary_q_nominal,CHN,1992-Q2,2799.1,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 2799.1；直接采用官方值
 gdp_secondary_q_nominal,CHN,1992-Q3,3141.1,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 3141.1；直接采用官方值
@@ -743,6 +748,7 @@ gdp_secondary_q_nominal,CHN,2025-Q3,124587.1,亿元,Q,,https://data.stats.gov.cn
 gdp_secondary_q_nominal,CHN,2025-Q4,136803.3,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 136803.3；直接采用官方值
 gdp_secondary_q_nominal,CHN,2026-Q1,116134.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 116134.9；直接采用官方值
 gdp_secondary_q_nominal,CHN,2026-Q2,134338.0,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 134338.0；直接采用官方值
+gdp_secondary_q_nominal,CHN,2026-Q3,133349.3,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值当季值 (亿元)；原始值 133349.3；直接采用官方值
 gdp_secondary_q_yoy,CHN,1993-Q1,20.9,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 120.9；不变价同比指数减100得到增长率
 gdp_secondary_q_yoy,CHN,1993-Q2,20.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 120.0；不变价同比指数减100得到增长率
 gdp_secondary_q_yoy,CHN,1993-Q3,18.4,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 118.4；不变价同比指数减100得到增长率
@@ -877,6 +883,7 @@ gdp_secondary_q_yoy,CHN,2025-Q3,4.2,%,Q,,https://data.stats.gov.cn/dg/website/pu
 gdp_secondary_q_yoy,CHN,2025-Q4,3.4,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 103.4；不变价同比指数减100得到增长率
 gdp_secondary_q_yoy,CHN,2026-Q1,4.9,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 104.9；不变价同比指数减100得到增长率
 gdp_secondary_q_yoy,CHN,2026-Q2,3.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 103.0；不变价同比指数减100得到增长率
+gdp_secondary_q_yoy,CHN,2026-Q3,3.4,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第二产业增加值指数 (上年同期=100) 当季值；原始值 103.4；不变价同比指数减100得到增长率
 gdp_tertiary_q_nominal,CHN,1992-Q1,2234.8,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 2234.8；直接采用官方值
 gdp_tertiary_q_nominal,CHN,1992-Q2,2450.8,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 2450.8；直接采用官方值
 gdp_tertiary_q_nominal,CHN,1992-Q3,2368.2,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 2368.2；直接采用官方值
@@ -1015,6 +1022,7 @@ gdp_tertiary_q_nominal,CHN,2025-Q3,202566.8,亿元,Q,,https://data.stats.gov.cn/
 gdp_tertiary_q_nominal,CHN,2025-Q4,215948.3,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 215948.3；直接采用官方值
 gdp_tertiary_q_nominal,CHN,2026-Q1,206117.2,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 206117.2；直接采用官方值
 gdp_tertiary_q_nominal,CHN,2026-Q2,207592.0,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 207592.0；直接采用官方值
+gdp_tertiary_q_nominal,CHN,2026-Q3,214545.8,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值当季值 (亿元)；原始值 214545.8；直接采用官方值
 gdp_tertiary_q_yoy,CHN,1993-Q1,12.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 112.0；不变价同比指数减100得到增长率
 gdp_tertiary_q_yoy,CHN,1993-Q2,10.6,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 110.6；不变价同比指数减100得到增长率
 gdp_tertiary_q_yoy,CHN,1993-Q3,12.1,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 112.1；不变价同比指数减100得到增长率
@@ -1149,6 +1157,7 @@ gdp_tertiary_q_yoy,CHN,2025-Q3,5.4,%,Q,,https://data.stats.gov.cn/dg/website/pub
 gdp_tertiary_q_yoy,CHN,2025-Q4,5.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 105.2；不变价同比指数减100得到增长率
 gdp_tertiary_q_yoy,CHN,2026-Q1,5.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 105.2；不变价同比指数减100得到增长率
 gdp_tertiary_q_yoy,CHN,2026-Q2,5.1,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 105.1；不变价同比指数减100得到增长率
+gdp_tertiary_q_yoy,CHN,2026-Q3,5.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：第三产业增加值指数 (上年同期=100) 当季值；原始值 105.2；不变价同比指数减100得到增长率
 gdp_ytd_nominal,CHN,1992-Q1,5284.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 5284.9；直接采用官方值
 gdp_ytd_nominal,CHN,1992-Q2,11792.7,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 11792.7；直接采用官方值
 gdp_ytd_nominal,CHN,1992-Q3,19011.1,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 19011.1；直接采用官方值
@@ -1287,6 +1296,7 @@ gdp_ytd_nominal,CHN,2025-Q3,1013967.9,亿元,Q,,https://data.stats.gov.cn/dg/web
 gdp_ytd_nominal,CHN,2025-Q4,1401879.2,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 1401879.2；直接采用官方值
 gdp_ytd_nominal,CHN,2026-Q1,334192.9,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 334192.9；直接采用官方值
 gdp_ytd_nominal,CHN,2026-Q2,695704.0,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 695704.0；直接采用官方值
+gdp_ytd_nominal,CHN,2026-Q3,1071071.2,亿元,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值累计值 (亿元)；原始值 1071071.2；直接采用官方值
 gdp_ytd_yoy,CHN,1993-Q1,15.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 115.3；不变价同比指数减100得到增长率
 gdp_ytd_yoy,CHN,1993-Q2,14.3,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 114.3；不变价同比指数减100得到增长率
 gdp_ytd_yoy,CHN,1993-Q3,13.8,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 113.8；不变价同比指数减100得到增长率
@@ -1421,3 +1431,4 @@ gdp_ytd_yoy,CHN,2025-Q3,5.2,%,Q,,https://data.stats.gov.cn/dg/website/publicrele
 gdp_ytd_yoy,CHN,2025-Q4,5.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 105.0；不变价同比指数减100得到增长率
 gdp_ytd_yoy,CHN,2026-Q1,5.0,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 105.0；不变价同比指数减100得到增长率
 gdp_ytd_yoy,CHN,2026-Q2,4.7,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 104.7；不变价同比指数减100得到增长率
+gdp_ytd_yoy,CHN,2026-Q3,4.6,%,Q,,https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData,来源指标：国内生产总值指数 (上年同期=100) 累计值；原始值 104.6；不变价同比指数减100得到增长率
